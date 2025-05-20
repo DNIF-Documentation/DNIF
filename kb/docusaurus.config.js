@@ -7,11 +7,11 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://dnif-documentation.github.io',
+  baseUrl: '/DNIF/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'dnif-documentation',
+  projectName: 'DNIF',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
