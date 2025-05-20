@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+}
+
+.hero {
+  background: linear-gradient(135deg, #cc0066 0%, #330066 100%);
+  color: white;
+  padding: 8rem 2rem 6rem;
+  text-align: center;
+  border-bottom: 4px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  letter-spacing: -1px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  color: #333;
+}
+
+.searchButton {
+  background-color: #cc0066;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #b3005a;
+}
+
+.cardsSection {
+  padding: 5rem 2rem;
+  background-color: #fff;
+  text-align: center;
+  min-height: 200px;
+}
+
+.sectionTitle {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #330066;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  min-height: 270px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  min-height: 270px   ;
+}
+
+.card:hover .cardIcon {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cardIcon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  color: #cc0066;
+}
+
+.zoom:hover { transform: scale(1.3); }
+
+.pulse:hover { transform: scale(1.1); }
+
+.wiggle:hover {
+  animation: wiggle 0.3s ease-in-out;
+}
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+}
+
+.glow:hover {
+  text-shadow: 0 0 8px #aaa;
+}
+
+.bounce:hover {
+  animation: bounce 0.4s ease;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.float:hover {
+  transform: translateY(-5px);
+}
+
+.rotate:hover {
+  transform: rotate(15deg);
+}
+
+.shake:hover {
+  animation: shake 0.4s ease-in-out;
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
+
+.rock:hover {
+  animation: rock 0.3s ease-in-out;
+}
+@keyframes rock {
+  0%, 100% { transform: rotate(0); }
+  50% { transform: rotate(10deg); }
+}
+
+.tilt:hover {
+  transform: rotate(-5deg);
+}
+
+.roll:hover {
+  transform: rotate(1turn);
+}
+
+.flip:hover {
+  transform: rotateY(180deg);
+}
+
+.twinkle:hover {
+  animation: twinkle 1s infinite alternate;
+}
+@keyframes twinkle {
+  from { opacity: 0.7; }
+  to { opacity: 1; }
+}
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #330066;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.cardFooter {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.contactButtonWrapper {
+  margin-top: 3rem;
+}
+
+.contactButton {
+  background-color: #cc0066;
+  color: white;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: #b3005a;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .searchBar {
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: visible;
+  }
+
+  .searchInput,
+  .searchButton {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0.3rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+/* Specific styles for Knowledge Base and Release Notes nav items */
+.navbar .navbar__items .navbar__link[label="Knowledge Base"],
+.navbar .navbar__items .navbar__link[label="Release Notes"] {
+  position: relative;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.navbar .navbar__items .navbar__link[label="Knowledge Base"]::after,
+.navbar .navbar__items .navbar__link[label="Release Notes"]::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--ifm-color-primary);
+  transition: all 0.3s ease;
+}
+
+.navbar .navbar__items .navbar__link[label="Knowledge Base"]:hover,
+.navbar .navbar__items .navbar__link[label="Release Notes"]:hover {
+  color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+}
+
+.navbar .navbar__items .navbar__link[label="Knowledge Base"]:hover::after,
+.navbar .navbar__items .navbar__link[label="Release Notes"]:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Knowledge Base"]:hover,
+[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Release Notes"]:hover {
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Knowledge Base"]::after,
+[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Release Notes"]::after {
+  background-color: var(--ifm-color-primary-lighter);
+}
