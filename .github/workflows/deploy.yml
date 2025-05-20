@@ -26,7 +26,7 @@ jobs:
 
       - name: Build Docusaurus site
         run: |
-          cd "DNIF DOCS"
+          cd "kb"
           export NODE_OPTIONS="--max-old-space-size=8192"
           npm install
           npm run build
