@@ -32,7 +32,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./kb/build
           publish_branch: gh-pages
           commit_message: "Deploy documentation from ${{ github.sha }}"
 
