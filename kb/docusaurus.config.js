@@ -68,7 +68,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'release-notes',
+            docId: 'documents/Release-Notes/april-17-2025-content-update',
             position: 'left',
             label: 'Release Notes',
           },
@@ -80,6 +80,8 @@ const config = {
             label: ' Switch to Hyperscale',
             to: '#',
             position: 'right',
+            type: 'docSidebar',
+            sidebarId: 'sidebarForOnPrem',
             className: 'navbar-hyperscale-btn',
           },
         ],
