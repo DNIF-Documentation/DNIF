@@ -156,9 +156,9 @@ const config = {
         appId: 'YY0TIP6BF9',
         apiKey: '201e3bd2346e3a0caf9868f6f16d3bbb',
         indexName: 'dnif-umentationio', // TODO: Replace with your actual index name
-        contextualSearch: true,
-        searchParameters: {},
-        searchPagePath: 'search',
+        contextualSearch: false,
+        // searchParameters: {},
+        // searchPagePath: 'search',
       },
     }),
 };
