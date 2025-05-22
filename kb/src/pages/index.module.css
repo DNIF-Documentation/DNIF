@@ -1,9 +1,4 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fafafa;
-  color: #222;
-}
+/* index.module.css */
 
 .hero {
   background: linear-gradient(135deg, #cc0066 0%, #330066 100%);
@@ -94,7 +89,7 @@ body {
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  min-height: 270px   ;
+  min-height: 270px;
 }
 
 .card:hover .cardIcon {
@@ -113,6 +108,8 @@ body {
   display: inline-block;
   color: #cc0066;
 }
+
+/* Animations on hover */
 
 .zoom:hover { transform: scale(1.3); }
 
@@ -183,6 +180,8 @@ body {
   from { opacity: 0.7; }
   to { opacity: 1; }
 }
+
+
 .cardTitle {
   font-size: 1.5rem;
   font-weight: 600;
@@ -242,47 +241,4 @@ body {
   .sectionTitle {
     font-size: 2rem;
   }
-}
-
-/* Specific styles for Knowledge Base and Release Notes nav items */
-.navbar .navbar__items .navbar__link[label="Knowledge Base"],
-.navbar .navbar__items .navbar__link[label="Release Notes"] {
-  position: relative;
-  padding: 8px 16px;
-  transition: all 0.3s ease;
-}
-
-.navbar .navbar__items .navbar__link[label="Knowledge Base"]::after,
-.navbar .navbar__items .navbar__link[label="Release Notes"]::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 50%;
-  background-color: var(--ifm-color-primary);
-  transition: all 0.3s ease;
-}
-
-.navbar .navbar__items .navbar__link[label="Knowledge Base"]:hover,
-.navbar .navbar__items .navbar__link[label="Release Notes"]:hover {
-  color: var(--ifm-color-primary);
-  transform: translateY(-2px);
-}
-
-.navbar .navbar__items .navbar__link[label="Knowledge Base"]:hover::after,
-.navbar .navbar__items .navbar__link[label="Release Notes"]:hover::after {
-  width: 100%;
-  left: 0;
-}
-
-/* Dark theme adjustments */
-[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Knowledge Base"]:hover,
-[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Release Notes"]:hover {
-  color: var(--ifm-color-primary-lighter);
-}
-
-[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Knowledge Base"]::after,
-[data-theme='dark'] .navbar .navbar__items .navbar__link[label="Release Notes"]::after {
-  background-color: var(--ifm-color-primary-lighter);
 }
