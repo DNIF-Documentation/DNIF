@@ -155,7 +155,7 @@ const config = {
       algolia: {
         appId: 'YY0TIP6BF9',
         apiKey: '201e3bd2346e3a0caf9868f6f16d3bbb',
-        indexName: 'YOUR_INDEX_NAME', // TODO: Replace with your actual index name
+        indexName: 'dnif-umentationio', // TODO: Replace with your actual index name
         contextualSearch: true,
         searchParameters: {},
         searchPagePath: 'search',
