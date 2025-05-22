@@ -76,18 +76,7 @@ const config = {
             type: 'search',
             position: 'right',
           },
-          {
-    type: 'html',
-    position: 'right',
-    value: `
-      <input 
-        type="text" 
-        placeholder="Search Hyperscale..." 
-        class="custom-navbar-search"
-        onkeydown="if(event.key==='Enter'){window.location.href='/docs/search?q='+this.value;}"
-      />
-    `,
-  },
+
           {
             label: ' Switch to Hyperscale',
             to: '#',
