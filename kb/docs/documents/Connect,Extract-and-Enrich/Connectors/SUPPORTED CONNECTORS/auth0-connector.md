@@ -4,7 +4,7 @@ date: 2025-01-20
 type: "epkb_post_type_1"
 ---
 
-Select the **Settings** ta
+Select the **Settings** tab
 
 Auth0 connector utilizes the pull method to retrieve Auth0 Logs through the Auth0 Management API.
 

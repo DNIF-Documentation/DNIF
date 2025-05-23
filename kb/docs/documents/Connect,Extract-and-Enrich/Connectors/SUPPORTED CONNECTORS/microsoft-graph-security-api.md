@@ -50,7 +50,9 @@ The Microsoft Graph Security API (Graph API) Connector provides a secure endpoin
 You need to find and select the permissions.
 
 ```
-SecurityAlert.Read.All, SecurityAlert.ReadWrite.All,SecurityIncident.Read.All,SecurityIncident.ReadWrite.All, Directory.Read.All,AuditLog.Read.All, SecurityEvents.Read.All
+SecurityAlert.Read.All, 
+SecurityAlert.ReadWrite.All,SecurityIncident.Read.All,SecurityIncident.ReadWrite.All, 
+Directory.Read.All,AuditLog.Read.All, SecurityEvents.Read.All
 ```
 
 See [this list](https://docs.microsoft.com/en-us/graph/permissions-reference#security-permissions) to view all available security permissions.

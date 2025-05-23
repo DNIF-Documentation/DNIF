@@ -173,13 +173,13 @@ To enable and configure event notifications for the target S3 bucket
 
 1. Sign in to the AWS Management Console and open the Amazon S3 console at [https://console.aws.amazon.com/s3/](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fs3%2F%3Fregion%3Dus-east-1%26state%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fs3&forceMobileApp=0&code_challenge=zeckpQi9kn0dIyjalsIXjX3c5fAIv1MfrhaNmbJpDIU&code_challenge_method=SHA-256).
 
-2. In the Buckets list, choose the name of the bucket you want to enable events for.
+3. In the Buckets list, choose the name of the bucket you want to enable events for.
 
-3. Choose Properties.
+5. Choose Properties.
 
-4. Navigate to the Event Notifications section and choose Create event notification.
+7. Navigate to the Event Notifications section and choose Create event notification.
 
-5. In the General configuration section, specify a descriptive event name for your event notification. Optionally, you can specify a prefix and a suffix to limit the notifications to objects with keys ending in the specified characters.
+9. In the General configuration section, specify a descriptive event name for your event notification. Optionally, you can specify a prefix and a suffix to limit the notifications to objects with keys ending in the specified characters.
     1. Enter a description for the Event name: If you don't enter a name, a globally unique identifier (GUID) is generated and used for the name.
     
     3. To optionally filter event notifications by prefix, enter a Prefix. For example, you can set up a prefix filter so that you receive notifications only when files are added to a specific folder (for example, images/).
@@ -195,7 +195,7 @@ To enable and configure event notifications for the target S3 bucket
 
 15. Choose **Save** changes, and Amazon S3 sends a test message to the event notification destination.
 
-###### **Configurations**
+## **Configurations**
 
 The following are the configurations to forward AWS S3 Optimized Cross Account Connector logs to DNIF.‌
 

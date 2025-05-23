@@ -42,10 +42,13 @@ We are happy to introduce new features and enhancements to improve your experien
     - Upon successful validation, the new extractor seamlessly replaces the previous version.  
         
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f3WyLytX_rQ?si=h_Ss8zr32Zh3x5mt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<!-- https://videopress.com/v/ITWeXwOo?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true
+
+
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wNhsJQUasgY?si=HMTZaWgUsQ8bU5oz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<!-- https://videopress.com/v/tt03QEFr?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true --> -->
+
 
 - **Creating a New Extractor/AI-Powered Extractor Generation**
     - New extractors can be created using YAML configurations and log samples; these are stored as a draft variant.

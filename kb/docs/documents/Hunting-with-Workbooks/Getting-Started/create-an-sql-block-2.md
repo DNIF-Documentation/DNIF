@@ -43,8 +43,7 @@ In the above example, the query result is displaying all the details of Stream= 
 
 - Click **Copy** icon, to copy the details to clipboard.
 
-## **SQL Block Functions  
-**
+## **SQL Block Functions**
 
 | **Icons** | **Functionality** |
 | --- | --- |

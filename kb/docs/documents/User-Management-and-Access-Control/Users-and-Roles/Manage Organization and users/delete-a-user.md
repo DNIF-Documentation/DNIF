@@ -18,7 +18,5 @@ type: "epkb_post_type_1"
 
 13. On the confirmation box click on **Delete**. The selected user will be permanently deleted.  
     
-<video width="100%" height="auto" controls>
-  <source src="./Delete-a-User-video/Delete-a-User-1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vyaYI-ro8Z8?si=KJG6XQeIeF6-Ev4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+

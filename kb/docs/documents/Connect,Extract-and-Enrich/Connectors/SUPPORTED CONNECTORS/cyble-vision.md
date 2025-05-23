@@ -20,37 +20,36 @@ Admin user access is required for creating the API Access Key.
 **URL :** https://cyble.ai  
     Sign in to your Cyble Vision account using admin credentials.
 
-### 3. **Navigate to Utilities Section:**
+### 2. **Navigate to Utilities Section:**
  After logging in, go to the \`Utilities\` section of the platform, which provides options for API access management.  
       
       
-    ![](./images-Cyble%20Vision/Cyble-Vision-1.png)  
+    ![](./images-CybleVision/Cyble-Vision-1.png)  
       
     
 
-### 5. **Access API Key Generation:**    
+### 3. **Access API Key Generation:**    
     Navigate to \`Utilities > Access API\`.  
       
       
-    ![](./images-Cyble%20Vision/Cyble-Vision-2.png)  
+    ![](./images-CybleVision/Cyble-Vision-2.png)  
       
     
 
-### 7. **Create Access Key (Alias Name):**
+### 4. **Create Access Key (Alias Name):**
   A window will appear prompting you to provide an alias name for the API key.This name helps to identify the key's purpose or user.Once an alias is entered, click "Generate."  
       
       
-    ![](./images-Cyble%20Vision/Cyble-Vision-3.png)  
+![](./images-CybleVision/Cyble-Vision-3.png)  
       
     
 
-### 9. **Access Key Generation:**  
+### 5. **Access Key Generation:**  
 After clicking "Generate," a new window will pop up displaying the access key. Copy the key immediately and store it securely, as this access key will used in the connector configuration.
 
 ## **Configurations:**
 
-<!-- TODO: Fix broken image link below. Original path: ./images-Cyble%20Vision/Cyble-Vision-4.png -->
-<!-- ![](./images-Cyble%20Vision/Cyble-Vision-4.png) -->
+![image 1-Dec-20-2023-05-11-10-6240-AM](./images-CybleVision/Cyble-Vision-4.webp)
 
 The following are the configurations to forward Cyble Vision Alerts logs to DNIF.‌
 

@@ -211,7 +211,7 @@ cd 'C:\Program Files\Winlogbeat'
 .\install-service-winlogbeat.psl
 ```
 
-![image 2-Nov-16-2023-09-58-58-2239-AM](./images-Azure%20NSG/Azure-NSG-2.webp)
+![image 2-Nov-16-2023-09-58-58-2239-AM](./images-Beats/Beats-2.png)
 
 ```
 output.elasticsearch:  # Array of hosts to connect to.    	hosts: ["https://&lt;adapter_ip_address&gt;:&lt;port&gt;"]  #Protocol - either `http` (default) or `https`.  #protocol: "https"    	ssl.enable: true    	ssl.verification_mode: none  # Authentication credentials - either API key or username/password.  #api_key: "id:api_key"    	username: ""    	password: ""

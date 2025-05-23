@@ -15,21 +15,21 @@ DNIF uses its own Query Language known as DQL, a primary form of interaction wit
 
 - Click the **plus** icon at the top right corner of the Workbooks list page or click the find icon on the navigation bar to create a new workbook, the following screen is displayed.
 
-![image 2-Dec-21-2023-04-36-46-4206-AM](./images-%20Create%20an%20SQL%20Block/Create-a-SQL-Block-2.png)
+![image 2-Dec-21-2023-04-36-46-4206-AM](./images-Create%20a%20DQL%20Block/Create-a-DQL-Block-10.png)
 
 - Click the **plus** icon on the Workbook page and select DQL Block from the list.
 
-### **DQL Block**
+## **DQL Block**
 
-![image 3-Dec-21-2023-04-37-17-4167-AM](./images-%20Create%20an%20SQL%20Block/Create-a-SQL-Block-3.png)
+![image 3-Dec-21-2023-04-37-17-4167-AM](./images-Create%20a%20DQL%20Block/Create-a-DQL-Block-2.png)
 
 - Enter the required query and click **Run**, a progress bar will be displayed showing that the query is being processed.
 
-![image 4-Dec-21-2023-04-37-37-0705-AM](./images-%20Create%20an%20SQL%20Block/Create-a-SQL-Block-4.webp)
+![image 4-Dec-21-2023-04-37-37-0705-AM](./images-Create%20a%20DQL%20Block/Create-a-DQL-Block-4.png)
 
 - Once the query is successfully processed, the results will be displayed as below.
 
-![image 5-Dec-21-2023-04-39-34-5841-AM](./images-%20Create%20an%20SQL%20Block/Create-a-SQL-Block-5.webp)
+![image 5-Dec-21-2023-04-39-34-5841-AM](./images-Create%20a%20DQL%20Block/Create-a-DQL-Block-5.png)
 
 - To edit the workbook name click **/drafts/ Untitled Workbook** and enter a name of your preference.
 
@@ -37,12 +37,11 @@ DNIF uses its own Query Language known as DQL, a primary form of interaction wit
 
 - Click **Information** icon, to view log details. You can view the log details in JSON and TABLE format.
 
-![image 6-Dec-21-2023-04-40-20-1248-AM](./images-%20Create%20an%20SQL%20Block/Create-a-SQL-Block-6.webp)
+![image 6-Dec-21-2023-04-40-20-1248-AM](./images-Create%20a%20DQL%20Block/Create-a-DQL-Block-6.webp)
 
 - Click **Copy** icon, to copy the details to clipboard.
 
-#### DQL Block Functions  
-**
+## **DQL Block Functions**
 
 | **Icons** | **Functionality** |
 | --- | --- |

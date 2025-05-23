@@ -15,10 +15,6 @@ The lifecycle of a case in DNIF describes the stages it undergoes from creation 
     \- On-Hold  
     \- Closed  
     
-<video width="100%" height="auto" controls>
-  <source src="/videos/Screen Recording 2025-03-11 183142.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>  
 
 3. Case In-Progress:  
     Users can change the status of a Case to **In-Progress** either from **Open** or **On-Hold** if the Case is being actively worked on. Assigning a Handler is mandatory to move a Case to the **In-Progress** status. When the status changes from **Open** to **In-Progress**, the Time to Respond (TTR) calculation remains unaffected. However, if the status changes from **On-Hold** to **In-Progress**, the TTR calculation resumes.  

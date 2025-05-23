@@ -66,12 +66,13 @@ const config = {
             position: 'left',
             label: 'Knowledge Base',
           },
-          {
-            type: 'doc',
-            docId: 'documents/Release-Notes/april-17-2025-content-update',
-            position: 'left',
-            label: 'Release Notes',
-          },
+         {
+  type: 'doc',
+  docId: 'documents/Release-Notes/april-17-2025-content-update',
+  position: 'left',
+  label: 'Release Notes'
+},
+
           {
             type: 'search',
             position: 'right',

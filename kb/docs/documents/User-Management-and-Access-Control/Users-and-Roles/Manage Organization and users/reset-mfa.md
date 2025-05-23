@@ -19,7 +19,4 @@ type: "epkb_post_type_1"
 13. The user will receive a reset MFA QR and authentication code in their inbox on the registered email ID.  
     
 
-<video width="100%" height="auto" controls>
-  <source src="./reset-mfa-video/Reset MFA of a User-1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GL1b2GKsY0s?si=2wtcPGHrrFISxFb2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -15,17 +15,17 @@ Active Directory (AD) is a directory service that Microsoft developed for Window
 
 - Click the edit icon to add details.
 
-| **Field** | **Description** |322
-| --- | --- |
-| Configuration Name | Enter the configuration name |
-| Server IP Address | Enter IP Address of Active Directory Server |
-| Server Port | Enter Port of Active Directory Server |
-| Login User Name | Enter the username with Administrative rights |
-| Login User Password | Enter a valid password of the above username |
-| Domain name | Enter the Domain name of the Active Directory |
-| Base Distinguished Name | Enter a base distinguished name |
+| **Field**                 | **Description**                                            |
+|---------------------------|------------------------------------------------------------|
+| Configuration Name        | Enter the configuration name                               |
+| Server IP Address         | Enter IP Address of Active Directory Server                |
+| Server Port               | Enter Port of Active Directory Server                      |
+| Login User Name           | Enter the username with Administrative rights              |
+| Login User Password       | Enter a valid password of the above username               |
+| Domain name               | Enter the Domain name of the Active Directory              |
+| Base Distinguished Name   | Enter a base distinguished name                            |
 
-- Enter the above details and click **Save**.
+Enter the above details and click **Save**.
 
 ## **Active Directory plugin functions**
 

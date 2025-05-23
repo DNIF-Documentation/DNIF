@@ -12,7 +12,7 @@ DNIF HYPERCLOUD Console's latest update, released on 04th September 2024.
 
 ## **Enhancements** 
 
-- ### **Comprehensive error messages by DQL Query Validator**
+- **Comprehensive error messages by DQL Query Validator**
 
 The DQL Query Validator now provides more precise error messages to help identify query syntax issues.
 

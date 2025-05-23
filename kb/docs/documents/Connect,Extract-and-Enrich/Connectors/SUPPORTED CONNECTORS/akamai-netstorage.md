@@ -9,11 +9,8 @@ Akamai connector is intended to read and ingest content from your NetStorage Acc
 ## **Prerequisites**
 
 - Netstorage Domain Name
-
 - Netstorage Key Name
-
 - Netstorage Key
-
 - Netstorage CP Code
 
 ## **How to derive the prerequisites?**

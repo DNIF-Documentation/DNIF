@@ -9,7 +9,6 @@ Atlassian provides team collaboration software that helps teams organize, discus
 ## **Pre-requisites**
 
 - Atlassian organization ID
-
 - Atlassian API Key
 
 ## **Steps to derive prerequisites**

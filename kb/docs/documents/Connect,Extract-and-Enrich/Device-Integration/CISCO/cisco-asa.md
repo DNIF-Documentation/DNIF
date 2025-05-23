@@ -37,7 +37,7 @@ $ logging console warning$ logging trap warning$ logging asdm warning
 - Execute the following command to configure logging to DNIF Adapter:
 
 ```
-$ logging host &lt;interface&gt; &lt;IP address&gt;
+$ logging host <interface> <IP address>
 ```
 
 - **Interface** is the name of the Cisco adaptive security appliance interface.

@@ -18,14 +18,14 @@ To configure script block logging via group policy, either on the local machine 
 
 Open the **Local Group Policy Editor** and navigate to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Windows PowerShell** > **Turn on PowerShell Script Block Logging**. 
 
-![Windows Powershell Logging Policy](./Images/Windows20Powershell20Logging20Policy.webp)
+![Windows Powershell Logging Policy](./AdvancedTelemetryforWindows1.webp)
 
-![Enable Powershell script block logging](./Images/Enable20Powershell20script20block20logging.webp)
+![Enable Powershell script block logging](./AdvancedTelemetryforWindows2.webp)
 
   
 Select the checkbox to log start and stop events. Similarly configure for **Turn on PowerShell Transcription** policy setting, this lets you capture the input and output of PowerShell commands into text-based transcripts.  
 
-![Powershell Transcription Logging](./Images/Powershell20 Transcription20 Logging.webp)
+![Powershell Transcription Logging](./AdvancedTelemetryforWindows3.webp)
 
   
 For more information on the above policies and latest updates, kindly refer the Windows OEM documentation - [Group Policy Settings](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_group_policy_settings?view=powershell-7.4#long-description)
@@ -53,7 +53,7 @@ _Note: This configuration is optional and applies only to environments with Acti
     
     - Advanced Audit Policy Configuration
     
-    - Audit Policies![](./Images/unnamed.png)
+    - Audit Policies![](./AdvancedTelemetryforWindows4.webp)
 
 - Configure the following settings:
     - Account Logon: Set both success and failure auditing for all subcategories.
@@ -125,8 +125,7 @@ _Note: This configuration is optional and applies only to environments with Acti
 - Navigate to **Computer Configuration ➔ Windows Settings ➔ Security Settings ➔ Local Policies ➔ Audit Policy**.
 
 - The Audit Policy lists all of its sub-policies in the right panel, as shown in the figure below.  
-      
-    ![](./Images/unnamed.jpg)  
+       
       
     [](https://www.manageengine.com/products/active-directory-audit/how-to/images/how-to-audit-windows-registry-changes-1.png)
 
@@ -180,8 +179,9 @@ _Note: In the above configuration, replace the text \`DNIF-PICO-IP\` with the De
 
 - To apply changes made on nxlog.conf, you have to restart the service again. Go to **Control Panel > Services** and locate the **nxlog** service.  
     Right click on **nxlog** and **restart**  
-    **  
-    ![](./Images/Powershell20Transcription20Logging.webp)
+    
+    ![](./AdvancedTelemetryforWindows5.webp)
+    
 
 In addition to the default logging options provided by Windows, we now have advanced telemetry features such as command-line activity tracking, module logging, PowerShell transcription, and script block logging enabled. With these enhancements, your Windows event logs are now seamlessly streamed to your DNIF HYPERCLOUD environment for comprehensive threat detection and analysis.
 

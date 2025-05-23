@@ -6,10 +6,13 @@ type: "epkb_post_type_1"
 
 This article describes the steps to configure McAfee Web Gateway
 
-1. Configure the syslog daemon.  
+1. Configure the syslog daemon. 
+ 
     a. In File Editor, open the syslog daemon configuration file.  
+
     b. Locate the line similar to: info:mail.none; authpriv.none;cron.none /var/log/messages and replace it with ".info;daemon.!=info;mail.none; authpriv.none; cron.none-/var/log/messages. This prevents messages  
-    from being written to the /var/log/messages file, which could fill the /var partition.  
+    from being written to the /var/log/messages file, which could fill the /var partition.
+
     c. At the end of the file, add a line: [daemon.info](http://daemon.info);auth. info @&lt;syslog server IP address&gt;:514. 
       
     

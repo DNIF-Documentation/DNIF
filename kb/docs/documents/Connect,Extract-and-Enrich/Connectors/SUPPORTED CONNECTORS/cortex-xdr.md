@@ -1,5 +1,5 @@
 ---
-title: " XDR"
+title: "Cortex XDR"
 date: 2025-01-20
 type: "epkb_post_type_1"
 ---

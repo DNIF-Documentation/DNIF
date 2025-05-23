@@ -20,10 +20,7 @@ type: "epkb_post_type_1"
 
 13. Click **Save**.  
     
-<video width="100%" height="auto" controls>
-  <source src="./videos/Add a Tenant User-1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T1MUedjeSqU?si=UcLu-x2lomezlMrf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Disconnect a Tenant User**
 
@@ -42,7 +39,4 @@ type: "epkb_post_type_1"
 13. On the confirmation box click on **Disconnect**. The selected User will no longer have access to the given tenant.  
     
 
-<video width="100%" height="auto" controls>
-  <source src="./videos/Disconnect Tenant User-1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QLaGLecVTbE?si=vn-pK7R7-Zr7WNrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

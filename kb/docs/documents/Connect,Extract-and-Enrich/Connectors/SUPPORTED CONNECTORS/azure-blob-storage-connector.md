@@ -88,9 +88,8 @@ On the **Infrastructure & Configuration** page, you'll create required Azure inf
 
 1. In the top search bar, search for "Microsoft Entra ID" and click on **Microsoft Entra ID**.
 
-2. **Click +Add,** and in the dropdown menu that populates, **App registration.  
+2. **Click +Add,** and in the dropdown menu that populates, **App** registration.  
       
-    **
     - Enter a **Name**.
     
     - Click **Register**.

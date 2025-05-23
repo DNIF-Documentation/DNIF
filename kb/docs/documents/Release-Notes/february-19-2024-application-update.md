@@ -6,9 +6,9 @@ type: "epkb_post_type_1"
 
 We are excited to announce new feature updates on our DNIF Console. Explore the latest  updates below:
 
-## **WHAT’S NEW**
+### **WHAT’S NEW**
 
-## **CREATE ONCE, USE ANYWHERE: LEVERAGE THE POWER OF RE-USABILITY: USING CALL AND RETURN BLOCKS**
+### **CREATE ONCE, USE ANYWHERE: LEVERAGE THE POWER OF RE-USABILITY: USING CALL AND RETURN BLOCKS**
 
 ### **Call Block** 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k28OeDpipq8?si=MVhVyYdp4IOn3nxp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   

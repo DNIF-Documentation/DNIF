@@ -52,7 +52,7 @@ end
 - Select the facility as **local7**
 - Click **Apply**
 
-###### **Configuring Rule Sets for Logging Traffic**
+### **Configuring Rule Sets for Logging Traffic**
 
 Follow the steps below to configure rule-sets for logging all traffic from or to the FortiGate firewall:
 

@@ -12,9 +12,9 @@ Ensure you have the following details before using the DNIF Search API:
 
 - Console IP address  
 - Cluster ID  
-- API Token (Generated from DNIF Console. Visit **Manage Token** to generate)
+- API Token 
 
----
+The API Token can be generated from the DNIF Console. To generate the token you can visit **Manage Token**.
 
 ## API Overview
 
@@ -40,33 +40,45 @@ Ensure you have the following details before using the DNIF Search API:
 
 ## Query Parameters
 
-### Invoke
+| **Field** | **Value** |
+|-----------|-----------|
+| **Invoke**    | You can retrieve the `task_id` for a particular search by sending an HTTP POST request to its URL. You pass in the details of the search request as the query body. |
+| **Call**      | `/invoke` |
 
-You can retrieve the `task_id` for a particular search by sending an HTTP POST request to its URL. Pass the search details in the query body.
 
-### **Endpoint:**  
-```
-POST https://<ipaddress>/<cluster_id>/wrk/api/job/invoke
-```
+## URL
 
-### Request Header
+
+| **Field** | **Value** | **Description** |
+|-----------|-----------|-----------------|
+| URL | `https://<ipaddress>/<cluster_id>/wrk/api/job/invoke` | URL should include the following parameters:
+
+**ipaddress:** IP address of DNIF Console
+
+**cluster_id:** Cluster id of the cluster you want to query data
+
+
+
+## Request Header
 
 | Field        | Value                      |
 |--------------|----------------------------|
-| **Token**    | Token from DNIF Console    |
+| **Token**    | Specify the token generated from DNIF Console
+    |
 | **Content-Type** | application/json       |
 
-### Request Body
+## Request Body
 
 | Field             | Value | Description |
 |------------------|-------|-------------|
-| `query_timezone` | `Asia/Kolkata` | Time zone of execution |
-| `scope_id`       | `default`      | Scope of data retrieval |
-| `job_type`       | `dql`          | Type of job (only DQL supported) |
-| `job_execution`  | `on-demand`    | Execution type (only on_demand supported) |
-| `query`          | `_fetch * from event where $Stream=FIREWALL AND $StartTime=2021-09-14T17:42:00 AND $EndTime=2021-09-14T18:13:32 limit 10` | DQL Query |
+| `query_timezone (string)` | `Asia/Kolkata` | Specify the time_zone in which you are executing the query |
+| `scope_id`       | `default`      | Specify the scope from where you want to retrieve data|
+| `job_type`       | `dql`          | Specify the type of job you want to execute. Note: Only DQL is supported |
+| `job_execution`  | `on-demand`    | Specify the supported execution type Note: Only on_demand executions are supported. |
+| `query(string)`          | `_fetch * from event where $Stream=FIREWALL AND $StartTime=2021-09-14T17:42:00 AND $EndTime=2021-09-14T18:13:32 limit 10` | Specify the DQL (DNIF Query Language) query to retrieve data |
 
-> All fields are mandatory.
+> All the above parameters fields are editable and are mandatory to invoke the call
+
 
 ### Curl Command
 
@@ -85,44 +97,63 @@ curl -k --location --request POST 'https://<ipaddress>/<cluster_id>/wrk/api/job/
 
 ---
 
-## Response - Invoke
+**Response**
+
+| **Field**     | **Value** | **Description**                                                                                      |
+|---------------|-----------|------------------------------------------------------------------------------------------------------|
+| Status_code   | 200       | This status indicates that the call invoked was successfully completed and the search results are displayed as per the query. |
+| Status        | Success   | This status indicates that the call invoked was successfully completed and the search results are displayed as per the query..                                                              |
+## Response Value
+
+Response contains all the details related to the invoked call, namely the status of the invoked call, the response results can be used to monitor progress, retrieve results, and/or delete it. Response will indicate whether the search is still being executed or it has completed or there was some error/failure.
 
 ### Success
 
 | Field        | Value | Description |
 |--------------|-------|-------------|
-| `status_code` | 200 | Search invoked successfully |
-| `status`      | success | Indicates success |
+| `status_code` | 200 | This status indicates that the call invoked could not be completed due to some syntax error in the query parameter. |
+| `status`      | Success |This status indicates that the call invoked could not be completed due to some syntax error in the query parameter.  |
 
-### **Response JSON**
-```json
+
+ **Response Value**
+```
 {
-  "data": [
-    {
-      "id": "e646af00-66da-456f-a606-ca2b0a3dd19a-id-0",
-      "status": "PENDING"
-    }
-  ],
-  "status": "success"
+   "data": [
+       {
+           "id": "e646af00-66da-456f-a606-ca2b0a3dd19a-id-0",
+           "status": "PENDING"
+       }
+   ],
+   "status": "success"
 }
 ```
 
-### Error (Syntax Error)
+## Error 
 
-| Field        | Value |
-|--------------|-------|
-| `status_code` | 200 |
-| `status`      | error |
+| Field        | Value | Description |
+|--------------|-------|-------------|
+| `status_code` | 200 | This status indicates that the call invoked could not be completed due to some syntax error in the query parameter. |
+| `status`      | Error |This status indicates that the call invoked could not be completed due to some syntax error in the query parameter.  |
 
-### Failure (Parameter Error)
+## Response Value 
 
-| Field        | Value |
-|--------------|-------|
-| `status_code` | 200 |
-| `status`      | failed |
+```
+{
+   "message": "query --> _fetch * from event limit | Error --> SyntaxError in _fetch query must end with limit / first / last and a valid number",
+   "status": "error"
+}
+```
 
-### **Response JSON**
-```json
+
+### Failure 
+
+| Field        | Value | Description |
+|--------------|-------|-------------|
+| `status_code` | 200 | This status indicates that the call invoked could not be completed due to some syntax error in the query parameter. |
+| `status`      | Failed |This status indicates that the call invoked could not be completed due to some syntax error in the query parameter.  |
+
+### **Response Value**
+```
 {
   "message": "Incorrect job_execution type",
   "status": "failed"
@@ -132,17 +163,45 @@ curl -k --location --request POST 'https://<ipaddress>/<cluster_id>/wrk/api/job/
 ---
 
 ## Get Status
+### Method details
 
-### Endpoint
-```
-GET https://<ipaddress>/<cluster_id>/wrk/api/dispatcher/task/state/<task_id>
-```
+| Field              | Description        |
+|--------------------|--------------------|
+| **HTTP Method**    | GET               |
+| **Response Format**| JSON               |
+| **Authentication** | Yes                |
 
-### Request Header
+| **Parameter** | **Description/Value** |
+|---------------|------------------------|
+| `/state`      | To get the status of the invoke call, you need to send an HTTP GET request to its URL. You pass the ID received from the invoke call as the query parameter. |
+
+
+## URL
+
+
+| **Field** | **Value** | **Description** |
+|-----------|-----------|-----------------|
+| URL | `https://<ipaddress>/<cluster_id>/wrk/api/job/invoke` | URL should include the following parameters:
+
+**ipaddress:** IP address of DNIF Console
+
+**cluster_id:** Cluster id of the cluster you want to query data
+
+
+### Header
 
 | Field | Value |
 |-------|-------|
-| Token | Token from DNIF Console |
+| Token | Specify the token generated from DNIF Console
+ |
+
+## Query Parameters
+
+| **Field** | **Value** |
+|-----------|-----------|
+|`task_id`|Specify the id received from the invoke call
+
+
 
 ### Curl Command
 
@@ -151,7 +210,7 @@ curl -k --location --request GET 'https://<ipaddress>/<cluster_id>/wrk/api/dispa
 --header 'Token: <token>'
 ```
 
-### Response Codes
+## Response Status Codes
 
 | Code | Task Stage | Task State         |
 |------|------------|--------------------|
@@ -161,48 +220,73 @@ curl -k --location --request GET 'https://<ipaddress>/<cluster_id>/wrk/api/dispa
 | 200  | PENDING    | QUERY_WORKERS_DOWN |
 | 200  | FAILURE    | FAILED             |
 
-### **Success Response**
-```json
+## **Response**
+| **Field**      | **Value** | **Description**                                                                 |
+|----------------|-----------|---------------------------------------------------------------------------------|
+| Status_code    | 200       | This status indicates that the call invoked was successfully completed and the search results are displayed as per the query. |
+| Status | Success | This status indicates that the call invoked was successfully completed and the search results are displayed as per the query. |                                                                                |
+
+
+### **Response Value**
+```
 {
   "status": "success",
   "task_stage": "EXECUTED",
   "task_state": "SUCCESS"
 }
 ```
-
-> Wait for `"task_state": "SUCCESS"` before calling Get Result API.
-
----
+Check for the task_state result as success. When you get success as the result, execute the Get Result api to get the desired result.
 
 ## Get Result
+### Method details
 
-### Endpoint
-```
-GET https://<ipaddress>/<cluster_id>/wrk/api/dispatcher/task/result/<task_id>?pagesize=<limit>&pageno=<page_no>
-```
+| Field              | Description        |
+|--------------------|--------------------|
+| **HTTP Method**    | GET               |
+| **Response Format**| JSON               |
+| **Authentication** | Yes                |
 
-### Request Header
+| **Parameter** | **Description/Value** |
+|---------------|------------------------|
+| `/result`      | You retrieve the result for the invoke call by sending an HTTP GET request to its URL. You pass the id received from the invoke call as the query parameter. |
+
+
+## URL
+
+
+| **Field** | **Value** | **Description** |
+|-----------|-----------|-----------------|
+| URL | `https://<ipaddress>/<cluster_id>/wrk/api/job/invoke` | URL should include the following parameters:
+
+**ipaddress:** IP address of DNIF Console
+
+**cluster_id:** Cluster id of the cluster you want to query data
+
+
+### Header
 
 | Field | Value |
 |-------|-------|
-| Token | Token from DNIF Console |
+| Token | Specify the token generated from DNIF Console |
+
+## Query Parameters
+
+| **Field** | **Value** |
+|-----------|-----------|
+| task_id   | Specify the id received from the invoke call |
+| pagesize  | Specify the number of records in one call    |
+| pageno    | Specify the next page number (starts with 1) |
+
+
 
 ### Curl Command
 
 ```bash
-curl -k --location --request GET 'https://<ipaddress>/<cluster_id>/wrk/api/dispatcher/task/result/<task_id>?pagesize=<size>&pageno=<number>' \
---header 'Token: <token>'
+curl -k --location --request GET 'https://<ipaddress>/<cluster_id>/wrk/api/dispatcher/task/result/<task_id>?pagesize=<size>&pageno=<number>' \ --header 'Token: <token>'
 ```
 
-### Response
-
-| Field        | Value | Description |
-|--------------|-------|-------------|
-| `status_code` | 200 | Indicates success |
-| `status`      | success | Status of the task |
-
-### **Example Response**
-```json
+### **Response**
+```
 {
   "apply_hidden": true,
   "execution_time": "1.7275 sec",
@@ -261,3 +345,4 @@ curl -k --location --request GET 'https://<ipaddress>/<cluster_id>/wrk/api/dispa
   "total_count": 1
 }
 ```
+---

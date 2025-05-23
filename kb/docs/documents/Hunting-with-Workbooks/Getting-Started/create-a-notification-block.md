@@ -12,14 +12,14 @@ The Notification block can send data as a consolidated email or as individual em
 ## **How to create a Notification Block?**
 
 - Hover on the Workbook icon on the left navigation bar, it will display the folder-wise view of the existing workbook in the tenant (previously known as cluster).  
-    **  
-    ![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-1.png)**  
+    
+    ![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-1.png) 
       
     
 
 - To create a new workbook, click the plus icon at the top right corner of the Workbook list page or click the find icon on the navigation bar.  
-    **  
-    ![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-2.png)**  
+    
+    ![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-2.png) 
       
     
 

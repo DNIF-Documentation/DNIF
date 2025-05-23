@@ -53,7 +53,7 @@ The Collection Status screen displays the following details:
 
 | **Fields** | **Description** |
 | --- | --- |
-| Edit | Use this to edit the existing connector. |
+| Edit ![](./image/edit.png)  | Use this to edit the existing connector. |
 | Save ![](./image/collection-status-4.png) | Click to save the description. |
 
 ![](./image/collection-status-5.png)   

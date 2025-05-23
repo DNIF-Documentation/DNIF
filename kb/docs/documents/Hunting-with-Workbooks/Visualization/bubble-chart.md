@@ -31,7 +31,7 @@ A bubble chart is a chart in which the data points are displayed as bubbles, and
 | Type  | Select Bubble chart from the drop down |
 | Primary | Select the primary value for the chart to be created |
 | Secondary | Selected the secondary value for the chart to be created. **Note:** You can add multiple secondary values as per requirement.  |
-| Type of chart | **Select the type of chart to be displayed such as:   ****Default:** In default bubble chart, all the bubbles will be displayed in the same color.**Stacked:** In stacked bubble chart, the bubbles will be partitioned into different colors based on the field values. |
+| Type of chart | **Select the type of chart to be displayed such as:**   **Default**: In default bubble chart, all the bubbles will be displayed in the same color.**Stacked:** In stacked bubble chart, the bubbles will be partitioned into different colors based on the field values. |
 
   
 **Default Bubble Chart**
@@ -39,10 +39,9 @@ A bubble chart is a chart in which the data points are displayed as bubbles, and
 ![](./images-Bubble%20Chart/Bubble-Chart-2.webp)
 
   
-**Stacked Bubble Chart  
-**
+**Stacked Bubble Chart**
 
 ![](./images-Bubble%20Chart/Bubble-Chart-3.webp)
 
   
-Hover on the bubble to to view more details**.**
+Hover on the bubble to to view more details

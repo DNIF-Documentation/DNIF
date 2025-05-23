@@ -31,8 +31,8 @@ config system locallog syslogd setting
    set server <IP address> ##Address of DNIF Adapter server
    set severity <emergency | alert | critical | error | warning | notification | information | debug> ##Least severity level to log
    set status <enable | disable>
-   set facility &lt;facility&gt; ##Which facility for remote syslog.
-   set port &lt;port&gt; ##Port that server listens at.
+   set facility <facility> ##Which facility for remote syslog.
+   set port <port> ##Port that server listens at.
 end
 ```
 
@@ -58,8 +58,8 @@ config system locallog syslogd setting
    set syslog-name <Remote syslog server name,defined at previous step>
    set severity <emergency | alert | critical | error | warning | notification | information | debug> ##Least severity level to log
    set status <enable | disable>
-   set facility &lt;facility&gt; ##Which facility for remote syslog.
-   set port &lt;port&gt; ##Port that server listens at (514)
+   set facility <facility> ##Which facility for remote syslog.
+   set port <port> ##Port that server listens at (514)
 end
 ```
 

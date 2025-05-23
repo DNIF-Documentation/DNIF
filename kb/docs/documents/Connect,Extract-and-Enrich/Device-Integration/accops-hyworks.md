@@ -11,9 +11,7 @@ This document is used to configure syslog server in HyWorks management console t
 ## **Prerequisites**  
 
 - HyWorks management console access
-
 - Syslog server IP
-
 - Port must be open from HyWorks controller
 
 ## **Steps to configure syslog server**
@@ -21,16 +19,11 @@ This document is used to configure syslog server in HyWorks management console t
 Follow below steps to configure syslog server for log forwarding:
 
 1. Login into HyWorks Controller Management Console
-
 3. Go to below location: System -> Syslog server
-
 5. Provide following details:
     - Identity: Specify Server name e.g., HWSCTRL1
-    
     - Remote Address: Specify Syslog server IP or
-    
     - Remote Port: Specify port on which the syslog server is configured to receive logs
-    
     - Enable Syslog: Select to send logs to the configured syslog server.
 
 7. Click Update button to save the settings
@@ -89,7 +82,5 @@ HyWorks management console -> Logs -> download logs
 ## **Log format used in HyWorks**
 
 1. Login in HyWorks management console
-
 3. Go to Logs.
-
 5. Download log file compare all logs

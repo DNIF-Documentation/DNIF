@@ -324,6 +324,7 @@ This certificate with -days parameter as 365 is valid for 365 days from date of 
 The command on execution prompts for organisational information:
 
 ![image 1-Dec-04-2023-06-11-55-7845-AM](./images-Palo%20Alto%20Device%20Integration/Palo-Alto-Device%20Integration-1.webp)
+
 These are self signed certificate-key pair which are stored at the location “/dnif/connectors/tls\_connector/”.
 
 ## **Ship certificates from other location**
@@ -344,8 +345,6 @@ If there is a requirement of individual cert-key pair for every TLS Connector pr
 TLS Connector operates in two modes. The following settings need to be applied while spawning the TLS connector:
 
 ![Image 2-Dec-04-2023-06-12-13-3030-AM](./images-Palo%20Alto%20Device%20Integration/Palo-Alto-Device%20Integration-2.webp)
-
-\Palo-Alto-(Device Integration)-1.webp
 
 ## **Mode 1: Client Authentication Enable set to True**
 

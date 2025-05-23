@@ -9,11 +9,8 @@ type: "epkb_post_type_1"
 ## **Prerequisites**
 
 - 1Password Account.
-
 - Base URL
-
 - Log Types
-
 - Access Token
 
 ## **How to derive the prerequisites?**
@@ -77,7 +74,12 @@ The following optional configurations can be done based on requirement
 
 | **Field** | **Description** |
 | --- | --- |
-|   | Set the loglevel   0: DEBUG   1: INFO   4: WARNING   5: ERROR   6: CRITICAL |
+|   | Set the loglevel 
+|   |0: DEBUG   
+|   |1: INFO   
+|   |4: WARNING  
+|   |5: ERROR   
+|   |6: CRITICAL |
 | Number of Threads | Number of threads to publish logs |
 | Size limit  | Size limit for creating bunching of logs to be sent |
 | Wait Time | Max time to wait for log bunching in second |

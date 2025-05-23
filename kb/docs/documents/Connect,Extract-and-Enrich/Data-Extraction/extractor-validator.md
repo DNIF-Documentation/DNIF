@@ -41,8 +41,8 @@ This section provides validation on syntax issues and the presence of certain ke
       
     
 
-### 5. **Syntax: The provided regex \\m is not a valid regex.  
-    **Highlights the issue in compiling the regex pattern defined in the master filter, and first match which shows mf1 as a placeholder for the actual regex pattern for extractor-1. 
+### 5. **Syntax: The provided regex \\m is not a valid regex.**  
+    Highlights the issue in compiling the regex pattern defined in the master filter, and first match which shows mf1 as a placeholder for the actual regex pattern for extractor-1. 
       
     ![](./images-Extractor%20validator/Extractor-validator-6.webp)  
       

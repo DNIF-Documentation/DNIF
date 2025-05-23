@@ -29,7 +29,7 @@ Navigate to the Blocks Section:
 
 - Within the **Return Block** select the workbook that you want to call.  
       
-    ![](./images-Create%20a%20Return%20Block/Create-a-Return-Block-2.png)  
+    ![](./images-Create%20a%20Return%20Block/Create-a-Return-Block-3.png)  
       
     
 
@@ -42,4 +42,4 @@ Navigate to the Blocks Section:
 
 - In the **Workbook** page, click on **Plus icon**. This will take you to a list of available blocks then select the **Return Block** from the list.   
       
-    ![](./images-Create%20a%20Return%20Block/Create-a-Return-Block-3.png)
+    ![](./images-Create%20a%20Return%20Block/Create-a-Return-Block-2.png)

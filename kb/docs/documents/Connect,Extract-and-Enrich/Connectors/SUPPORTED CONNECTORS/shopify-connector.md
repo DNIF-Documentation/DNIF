@@ -45,7 +45,7 @@ Shopify connector reads logs/events that have occurred in your Shopify account. 
 
 The following are the configurations to forward Shopify Connector logs to DNIF.‌  
 
-![](./images-Shopify%20Connector/Shopify-Connector-4.webp)
+![](./images-Shopify%20Connector/Shopify-Connector-5.png)
 
 | **Field Name**  | **Description** |
 | --- | --- |

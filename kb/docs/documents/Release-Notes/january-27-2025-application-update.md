@@ -8,9 +8,9 @@ We are happy to introduce new features and enhancements to improve your experien
 
 ## **What’s New**
 
-- ## **Seamless Case Management**  
+-  **Seamless Case Management**  
       
-    Swiftly mark multiple cases are closed**  
+    **Swiftly mark multiple cases are closed**  
       
     Users can select and close multiple cases at once, streamlining case management and improving efficiency. [Know More](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/manage-cases-2/).  
     

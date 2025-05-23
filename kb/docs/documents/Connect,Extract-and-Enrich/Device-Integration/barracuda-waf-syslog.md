@@ -9,9 +9,7 @@ This article describes the steps to configure Barracuda WAF Syslog with DNIF.
 The following properties are specific to the Barracuda Networks WAF:
 
 - Collection method: Syslog
-
 - Format: Regex
-
 - Functionality: Web Application Firewall
 
 ## **Prerequisites**
@@ -51,13 +49,9 @@ Before you connect Barracuda Networks WAF, obtain the IP address of the Remote S
 
 12. Select the default format from the list box for the following log types in the Log Formats pane:
     - Web Firewall Logs Format
-    
-    - Access Logs Format
-    
-    - Audit Logs Format
-    
-    - Network Firewall Logs Format
-    
+    - Access Logs Format    
+    - Audit Logs Format    
+    - Network Firewall Logs Format    
     - System Logs Format
 
 14. Click **Save Changes**.

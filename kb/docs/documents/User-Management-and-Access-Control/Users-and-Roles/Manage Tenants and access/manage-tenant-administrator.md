@@ -24,10 +24,7 @@ type: "epkb_post_type_1"
       
     
 
-<video width="100%" height="auto" controls>
-  <source src="./video-2/manage-tenant-administrator.webm" type="video/webm"/>
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UZH6LL5AC4M?si=J133PR5cMPtsa9UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Disconnect a Tenant Administrator**  
 
@@ -47,4 +44,4 @@ type: "epkb_post_type_1"
       
     
 
-<!-- https://videopress.com/v/dIV5q4Vg?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true -->
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/iT9mh7s0Nv8?si=-gQWfw3gLa8d6DJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

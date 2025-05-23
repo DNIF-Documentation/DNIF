@@ -17,5 +17,15 @@ Run all commands under EXPERT mode. In CLI, enter Expert, then enter the specifi
 - To add a new target, run the following command on the log server:
 
 ```
-cp_log_export add name &lt;name&gt; [domain-server &lt;domain-server&gt;] target-server <DNIF Adapter IP Address> target-port &lt;(udp|tcp)&gt; protocol &lt;syslog&gt; format &lt;syslog&gt; [optional arguments]
+cp_log_export add name <name> [domain-server <domain-server>] target-server <DNIF Adapter IP Address> target-port <target-port> protocol <(udp|tcp)> format <syslog> [optional arguments]```
+---
 ```
+**Example** :
+```
+cp_log_export add name DNIF target-server x.x.x.x target-port 514 protocol tcp format syslog```
+---
+```
+- To start the new log exporter, execute the following command:```
+---
+```
+cp_log_export restart

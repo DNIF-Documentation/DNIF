@@ -18,20 +18,53 @@ The following Roles can be assigned to users:
 
 | Roles | Permission/Access Rights |
 | --- | --- |
-| Tenant Administrator  | Users with Tenant Administrator access rights will be able to do the following: View Utilization, PICO Administration, Manage Tenants, Manage Data Sources. |
-| Security Engineer  | Users with Security Engineer access rights will be able to do the following: View Collection Status/Manually override and rollback an extractor, View/Define Custom Enrichment Bucket, Upload Custom Event Stores, View/Create Custom Extractors, View Geo Enrichment, Configure Integrations, Manage Signal Suppression Rules, Manage Slow Queries, Manage Token, Machine Learning, Manage Dashboards, Run Interactive Queries, Manage Cases, Manage Signals, Manage Workbooks, Manage Reports, View Mitre Attack, Manage Streams, Analyze EBA. |
-| Security Analyst  | Users with Security Analyst access rights will be able to do the following: View Landing Page, Create Dashboards/Add Widgets to Dashboard, Run Interactive Queries, Manage/Create/View Cases/Kill Chain View, View Signals/Connected Graphs, Add/edit/delete self-created Workbooks, Schedule/Add parameters to Workbook, View/Create/Schedule Reports, Invoke/Revoke Reports, View Mitre Attack, Analyze EBA. |
-| Viewer  | Users with Viewer access rights will be able to do the following: View Dashboards. |
+| Tenant Administrator  | Users with Tenant Administrator access rights will be able to do the following: 
+| |View Utilization
+| |PICO 
+| |Administration
+| |Manage Tenants
+| |Manage Data Sources. |
+| Security Engineer  | Users with Security Engineer access rights will be able to do the following: View Collection Status/Manually override and rollback an extractor, 
+| |View/Define Custom Enrichment Bucket
+| |Upload Custom Event Stores 
+| |View/Create Custom Extractors,
+| |View Geo Enrichment, 
+| |Configure Integrations
+| |Manage Signal Suppression Rules
+| |Manage Slow Queries
+| |Manage Token
+| |Machine Learning
+| |Manage Dashboards
+| |Run Interactive Queries 
+| |Manage Cases
+| |Manage Signals
+| |Manage Workbooks
+| |Manage Reports
+| |View Mitre Attack
+| |Manage Streams
+| |Analyze EBA. |
+| Security Analyst  | Users with Security Analyst access rights will be able to do the following:
+| |View Landing Page,
+| |Create Dashboards/Add Widgets to Dashboard
+| |Run Interactive Queries
+| |Manage/Create/View Cases/Kill Chain View
+| |View Signals/Connected Graphs
+| |Add/edit/delete self-created Workbooks, Schedule/Add parameters to Workbook
+| |View/Create/Schedule Reports, Invoke/Revoke Reports
+| |View Mitre Attack
+| |Analyze EBA. |
+| Viewer  | Users with Viewer access rights will be able to do the following:
+| |View Dashboards. |
 
 6. Click **Save** to confirm the action.
 
 ## **Assign User Access Scope Wise** 
 
-<video width="100%" height="auto" controls><source src="./video/Assign-User-Access-Scope-Wise-1.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fEoq0ZHbXF4?si=sSzmVaREXSpmRVte" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Bulk Assign User Access** 
 
-<video width="100%" height="auto" controls><source src="./video/Bulk-Assign-User-Access.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pK8SZQi8gDo?si=qyH9jdMZOFKZ84Ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Revoke Access rights of a Tenant User** 
 
@@ -42,4 +75,4 @@ The following Roles can be assigned to users:
 5. You can either use Bulk Assign and select No Access for all scopes or customize access rights by individually selecting No Access for each scope as shown in the video below.  
 6. Click **Save** to confirm the action.
 
-<video width="100%" height="auto" controls><source src="./video/User-Revoke-Access-through-Bulk-Assign-No-Access-1.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pK8SZQi8gDo?si=qyH9jdMZOFKZ84Ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

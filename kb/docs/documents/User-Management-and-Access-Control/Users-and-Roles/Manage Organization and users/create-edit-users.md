@@ -1,5 +1,5 @@
 ---
-title: "Create &amp; Edit Users"
+title: "Create & Edit Users"
 date: 2025-01-20
 type: "epkb_post_type_1"
 ---
@@ -26,10 +26,7 @@ type: "epkb_post_type_1"
 
 6\. Click **Save** to add a new user to the organization's **User** list.
 
-<video width="100%" height="auto" controls>
-  <source src="./Create-&-Edit-Users-video/Create New General User-1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yc-_mqXw9VE?si=cYE8nXEU8qx7893Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Edit a User**
 
@@ -55,7 +52,4 @@ type: "epkb_post_type_1"
 
 7\. Validate the user details and click **Save** on the bottom right corner to update user details.
 
-<video width="100%" height="auto" controls>
-  <source src="./Create-&-Edit-Users-video/Edit User Details-1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fMAPI_nRssI?si=XCYtolrmMweXbpUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

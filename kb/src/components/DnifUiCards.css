@@ -1,0 +1,31 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.card {
+  flex: 1 1 30%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #333;
+  font-size: 0.95rem;
+}

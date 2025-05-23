@@ -126,7 +126,7 @@ The Office 365 Management Activity API provides information about various user, 
     
     5. The page displays the details of your Microsoft Office 365 subscription.
 
-###### **Configuration**
+## **Configuration**
 
 The following are the configurations to forward **Office 365 Connector** logs to DNIF.‌
 

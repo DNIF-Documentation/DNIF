@@ -21,12 +21,12 @@ The following fields appear in the workbook list:
 | Stage | Displays the current environment of the workbook (test, beta, dev, prod) |
 | Version | Displays the  current version number of the workbook |
 | Updated | Displays when the workbook was modified |
-| <!-- TODO: Fix broken image link below. Original path: images/Screenshot from 2024-12-03 15-14-42-png.png --> <!-- ![](images/Screenshot%20from%202024-12-03%2015-14-42-png.png) --> | Used to search for an existing workbook |
-| ![Screenshot from 2024-12-03 15-18-50](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-4.webp)  | Used to filter existing workbooks based on the following:   Detection Tactic   Detection Technique   Detection Severity   Detection Score   Enabled   Schedule   Source Stream   Tags   Stage |
-| ![Screenshot from 2024-12-03 15-16-58](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-5.webp) | Used to refresh and display the updated workbook list |
-| ![Screenshot from 2024-12-03 15-20-09](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-6.webp)  | Used to export an existing workbook in the following format.    PDF   XLSX   CSV   ZIP   Select Fields  |
-| ![Screenshot from 2024-12-03 15-21-06](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-7.webp)  | Used to import workbook |
-| ![Screenshot from 2024-12-03 15-22-11](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-8.webp)  | Used to create a new workbook |
-| ![Screenshot from 2024-12-03 15-23-15](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-9.webp)  | Indicated the workbook is streamed |
-| ![Screenshot from 2024-12-03 15-23-47](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-10.webp)  | Click this to delete the specific workbook |
-| ![Screenshot from 2024-12-03 15-24-27](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-11.webp)  | Indicates that the workbook is scheduled |
+| ![](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-4.webp)   | Used to search for an existing workbook |
+| ![Screenshot from 2024-12-03 15-18-50](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-5.webp)  | Used to filter existing workbooks based on the following:   Detection Tactic   Detection Technique   Detection Severity   Detection Score   Enabled   Schedule   Source Stream   Tags   Stage |
+| ![Screenshot from 2024-12-03 15-16-58](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-6.webp) | Used to refresh and display the updated workbook list |
+| ![Screenshot from 2024-12-03 15-20-09](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-7.webp)  | Used to export an existing workbook in the following format.    PDF   XLSX   CSV   ZIP   Select Fields  |
+| ![Screenshot from 2024-12-03 15-21-06](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-8.webp)  | Used to import workbook |
+| ![Screenshot from 2024-12-03 15-22-11](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-9.webp)  | Used to create a new workbook |
+| ![Screenshot from 2024-12-03 15-23-15](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-10.webp)  | Indicated the workbook is streamed |
+| ![Screenshot from 2024-12-03 15-23-47](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-11.webp)  | Click this to delete the specific workbook |
+| ![Screenshot from 2024-12-03 15-24-27](./images-How%20to%20view%20Workbooks/How-to-view-Workbooks-12.webp)  | Indicates that the workbook is scheduled |

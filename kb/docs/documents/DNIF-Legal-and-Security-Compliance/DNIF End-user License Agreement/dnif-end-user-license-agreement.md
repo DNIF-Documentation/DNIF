@@ -10,9 +10,9 @@ This **DNIF** Software as a Service Agreement constitutes the terms and condit
 
 NETMONASTERY is only providing the SaaS Services to the Customer under this Agreement. Nothing in this Agreement will be construed as a sale of the Software and/or creation of any right, title, and interest in the Software in favor of the Customer, save and except as stated in this Agreement.
 
-### **The Customer must carefully read, understand, and accept the terms and conditions set out below prior to availing NETMONASTERY’s SaaS Services and/or using and/or accessing the Software:**
+**The Customer must carefully read, understand, and accept the terms and conditions set out below prior to availing NETMONASTERY’s SaaS Services and/or using and/or accessing the Software:**
 
-### 1. **Acceptance & Applicability**         
+1. **Acceptance & Applicability**         
     1.1. By checking / clicking the box for ‘I agree to the End User License Agreement’, the Customer expressly enters this Agreement.  
     1.2. This Agreement governs the provision of the SaaS Services and grant of the Licence to use the Software.  The Customer confirms that the Customer has carefully read and understood the terms of this Agreement. The Customer must not avail the SaaS Services and / or use and / or access the Software if the Customer does not have the necessary power and authority to execute this Agreement and / or does not unconditionally accept all of the terms of this Agreement.  
     1.3. To be eligible for the subscription to the SaaS Services and grant of the Licence, (i) in a personal capacity: the Customer must be competent to enter into legally binding contracts in accordance with the Applicable Law; and / or (ii) on behalf of a Customer, which is an Entity: the Customer’s representative and / or the Partner executing this Agreement, must be duly authorized to act on behalf of and by the Customer and have the legal power and authority to bind the Customer by the terms of this Agreement. The Customer represents that the Customer is eligible to procure the SaaS Services and the Licence in accordance with this Agreement.  
@@ -20,7 +20,7 @@ NETMONASTERY is only providing the SaaS Services to the Customer under this Agre
       
     
 
-### 2. **Definitions & Interpretations**        
+3. **Definitions & Interpretations**        
     2.1. Capitalized terms outlined in this Agreement and not otherwise defined will have the meaning ascribed to them under this clause:  
     2.1.1. **‘Agreement’** means this DNIF Software as a Service Agreement executed electronically by and between NETMONASTERY and the Customer, and includes all attachments, schedules, annexures, amendments and/or modifications to this Agreement, as may be executed by the parties in writing.  
     2.1.2. **‘Applicable Law’** means any common or customary law, constitutional law, any statute, regulation, resolution, rule, ordinance, enactment, judgment, order, ordinance, decree, directive, notification, clarification issued by a government authority, guideline issued by a government authority, policy, statutory requirement or other governmental restriction or any form or decision of or determination by or interpretation of any of the foregoing by any government authority, now or hereafter in effect, in each case as amended, re-enacted or replaced, in the territory of India and the territory in which the Customer avails the Services and / or downloads and installs the Software, as may be applicable to NETMONASTERY and the Customers severally.                
@@ -56,7 +56,7 @@ NETMONASTERY is only providing the SaaS Services to the Customer under this Agre
       
     
 
-### 3. **SaaS Services and Grant of Licence  
+5. **SaaS Services and Grant of Licence  
     **3.1. NETMONASTERY will provide SaaS Services in accordance with this Agreement and the applicable Purchase Order. The Customer may be required to access the Software to avail the SaaS Services. Accordingly, NETMONASTERY grants the Customer the Licence to use the Software. NETMONASTERY may provide the Customer with infrastructure components and management, as set out in the applicable Purchase Order and subject to payment of applicable costs.  
     3.2. NETMONASTERY may offer additional features, including DNIF AI. If the Customer accesses DNIF AI features, the Customer may submit information, including, log samples, configuration files, event logs,metadata, and other information necessary to access DNIF AI features. DNIF AI features are powered by OpenAI. The Customer must read, understand, and accept the terms and conditions of OpenAI, prior to accessing DNIF AI features. NETMONASTERY will retain log samples and related data. This data will not be used by NETMONASTERY to train any AI models. NETMONASTERY may share information submitted by the Customer while accessing DNIF AI features with OpenAI. The Customer must ensure the following practices before submitting any information: (a) sanitize the information to ensure no personal information is submitted; and (b) pseudonymize (replace) any personal information to ensure it cannot be used to identify any person.    
       
@@ -65,7 +65,7 @@ NETMONASTERY is only providing the SaaS Services to the Customer under this Agre
       
     
 
-### 4. **Conditions for Provision of SaaS Services and Grant of Licence**    
+7. **Conditions for Provision of SaaS Services and Grant of Licence**    
     4.1. The Customer will provide Customer Information necessary for provision of SaaS Services. The Customer will designate an email account for registration for the SaaS Services and a point of contact for all communications under this Agreement.  
     4.2. The Customer may use and otherwise access the Software for its internal deployment only, which may include commercial and non-commercial uses. The Customer may permit its consultants, agents and / or employees to access and use the Software solely for the Customer’s benefit and in accordance with the terms of this Agreement. The Customer may designate one of the Customer’s users as an administrator, who will have control in managing the Customer’s subscription for SaaS Services with NETMONASTERY. The Customer will be provided with controls for technical and organizational measures at both the administrator and user level. Any such access or use will be subject to the same conditions that apply to the Customer under this Agreement, and the Customer will be jointly and severally liable for any actions and / or omissions of the consultants, agents and / or employees in relation to the use of the Software.  
     4.3. The Customer must not rent, lease, sell, transfer, assign, sub-license, distribute, disclose or otherwise create any third party rights in the Software in any form or make the Software available or accessible to third parties in any manner.  
@@ -78,13 +78,13 @@ NETMONASTERY is only providing the SaaS Services to the Customer under this Agre
       
     
 
-### 5. **SaaS Fee**    
+9. **SaaS Fee**    
     5.1. The Customer will pay NETMONASTERY the SaaS Fee, in accordance with the terms that are specifically set out in the applicable Purchase Order. NETMONASTERY will raise invoices upon the Customer for SaaS Fee. The terms for payment of SaaS Fees will be set out more specifically in the applicable invoice.  
     5.2. The SaaS Fee payable by the Customer will be subject to applicable taxes.               
       
     
 
-### 6. **Intellectual Property**        
+11. **Intellectual Property**        
     6.1. NETMONASTERY owns the Copyright in all editions of the Software. The Intellectual Property Rights worldwide will remain with NETMONASTERY. No title to the Intellectual Property in the Software is transferred to the Customer and the Customer will not acquire any rights to the Software, whether by implication, operation of law or otherwise.  
     6.2. The Software is the property of NETMONASTERY and contains valuable assets and proprietary information of NETMONASTERY. The Customer must not undertake any activity that infringes NETMONASTERY’s Intellectual Property Rights.  
     6.3. NETMONASTERY’s Proprietary Marks are registered or registration has been applied for in various jurisdictions and the same is protected under applicable trade mark and other intellectual property laws. Any unauthorized copying, modification, use or publication of these marks is strictly prohibited and will be subject to appropriate legal proceedings.  
@@ -93,7 +93,7 @@ NETMONASTERY is only providing the SaaS Services to the Customer under this Agre
       
     
 
-### 7. **Data Privacy and Confidentiality  
+13. **Data Privacy and Confidentiality  
     **7.1. The Customer is put to notice that during the registration process with NETMONASTERY and / or during the provision of SaaS Services, NETMONASTERY will collect and retain limited Customer Information for the purpose of registration, account creation and to provide access to the Software and/or the SaaS Services. The Customer may submit information other than personal information while accessing DNIF AI features. The information submitted while accessing DNIF AI features is processed in real-time for analysis and validation.The Customer Information will be stored with standard security provisions and encryptions. The ownership of the Customer Information will at all time remain with the Customer. The Customer Information will be accessed only by persons required to access the information and will not be shared with third parties without the Customer’s consent. Any data that is required to be collected by NETMONASTERY will be kept confidential and will be used only for the purpose for which it is provided. The Customer will solely be responsible for maintaining secrecy of its login credentials used to avail the SaaS Services and access the Software.  
     7.2. NETMONASTERY’s commitment to protect Customer Information is subject to NETMONASTERY’s requirements under Applicable Law and NETMONASTERY reserves the right to cooperate with governmental authorities, private investigators and / or injured third parties in the investigation of any suspected criminal or civil wrongdoing.  Further, NETMONASTERY may disclose the Customer Information pursuant to any governmental, judicial, or administrative order, summons or regulatory request, provided that NETMONASTERY discloses only that portion of the Customer Information that NETMONASTERY is compelled to disclose and as specifically stated in the document demanding the disclosure. NETMONASTERY will not be liable for damages or consequences resulting from such disclosure.  
     7.3. The Customer acknowledges that the Confidential Information is proprietary to NETMONASTERY. The Customer will keep all Confidential Information strictly confidential. Save and except as provided under this Agreement, the Customer will not disclose the Confidential Information, under any circumstances, to any person who is not a direct party to this Agreement.  
@@ -105,32 +105,31 @@ NETMONASTERY is only providing the SaaS Services to the Customer under this Agre
       
     
 
-### 8. **Representations and Warranties**     
+15. **Representations and Warranties**     
     8.1. The Customer represents that the Customer and its representative, who is executing this Agreement on behalf of the Customer has the legal power and authority to enter this Agreement. The Customer further represents that the Customer has neither falsely identified itself nor provided any false information to gain access to the Software.  
     8.2. The Customer warrants that the Customer will access the Software in accordance with the terms and conditions set out in this Agreement.     
        
        
 
-### 9. **Disclaimer of Warranties**
-9.1. Except as expressly set forth in this Agreement, the Software is provided “as is” with no warranties whatsoever, express or implied. To the full extent permitted by law, NETMONASTERY disclaims all warranties other than as expressly set forth herein including any implied warranties of merchantability or fitness for particular purpose, non-infringement, or quiet enjoyment, and any warranties arising out of the course of dealing or trade usage. Without limitation of the generality of the foregoing, NETMONASTERY does not warrant that the functioning and / or the use of the Software will be uninterrupted, error free, bug free or secure, or that all defects will be corrected.  
+17. **Disclaimer of Warranties**9.1. Except as expressly set forth in this Agreement, the Software is provided “as is” with no warranties whatsoever, express or implied. To the full extent permitted by law, NETMONASTERY disclaims all warranties other than as expressly set forth herein including any implied warranties of merchantability or fitness for particular purpose, non-infringement, or quiet enjoyment, and any warranties arising out of the course of dealing or trade usage. Without limitation of the generality of the foregoing, NETMONASTERY does not warrant that the functioning and / or the use of the Software will be uninterrupted, error free, bug free or secure, or that all defects will be corrected.  
     9.2. The warranties, if any provided by NETMONASTERY either expressly or by implication do not apply to the Software, if the Software (a) has been altered, except by NETMONASTERY, (b) has not been installed, operated, repaired, updated to the latest version, or maintained in accordance with instructions supplied by NETMONASTERY from time to time, and / or (c) has been subjected to misuse and / or negligence.             
       
      
 
-### 10. **Limitation of Liability**  
+19. **Limitation of Liability**  
     10.1. To the full extent permitted by Applicable Law and notwithstanding any failure of essential purpose of any limited remedy or limitation of liability, NETMONASTERY and its affiliates, subsidiaries, officers, directors, employees will not be liable for any special, indirect, incidental, consequential or punitive damages (including any damages arising from loss of use, loss of data, lost profits or business interruption) arising out of or relating to this Agreement or the subject matter of this Agreement, and NETMONASTERY’s  total cumulative liability arising out of or relating to this Agreement or the subject matter of this Agreement in any case will not exceed the last two months SaaS Fee paid to NETMONASTERY which may be calculated pro rata in case of yearly or multi year contracts, regardless of whether such liability arises from contract, indemnification, warranty, tort (including negligence), strict liability or otherwise, and regardless of whether NETMONASTERY has been advised of the possibility of such loss or damage. In addition, the Customer, and not NETMONASTERY, is solely responsible for the accuracy, quality and security of the Customer’s data and for maintaining a backup of all such data, and for ensuring the security and integrity of the Customer’s data, computers, networks and systems (including with respect to protecting against malware).  
     10.2. NETMONASTERY will not be responsible for any claims arising in connection with any information submitted by the Customer while accessing the DNIF AI features of the Software if the Customer fails to comply with the practices set out in clause 3.2. of this Agreement.  
       
     
 
-### 11. **Indemnity**         
+21. **Indemnity**         
     11.1. The Customer agrees to indemnify, defend and hold harmless NETMONASTERY against any claim, demand, suit or proceeding brought against NETMONASTERY by a third party arising out of or relating to any breach of (i) representations and warranties; and (ii) provisions of this Agreement, and the Customer will pay all damages finally awarded against NETMONASTERY by a court of competent jurisdiction.  
     11.2. NETMONASTERY agrees to indemnify, defend and hold harmless the Customer harmless from and against any claim, demand, suit or proceeding brought against the Customer by a third party for infringement of its rights and / or intellectual property arising out of the Customer’s use of the Software in accordance with this Agreement.  
     11.3. Notwithstanding the above clauses, NETMONASTERY has no obligation to indemnify the Customer with respect to: (a) use of the Software in a manner that is not permitted under this Agreement or that is inconsistent with the terms of the Licence; (b) the combination of the Software with hardware or other enhancement not provided by NETMONASTERY, or with third-party services, processes or materials; (c)  the Customer’s continued use of the Software or other allegedly infringing activity after receiving notice of the alleged infringement; or (d) any version of the Software that is no longer supported by NETMONASTERY.   
       
         
 
-### 12. **Termination**  
+23. **Termination**  
     12.1. This Agreement will remain in force for the term set out under the applicable Purchase Order unless terminated earlier in accordance with the provisions of this Agreement.  
     12.2. NETMONASTERY will be entitled to terminate this Agreement with immediate effect without being obligated to serve a notice and without providing an opportunity to cure if: (i)  the Customer fails to comply with any conditions for provision of SaaS Services and use of the Software as set out under this Agreement; (ii) the Customer is in breach of any representation and warranty made under this Agreement; (iii) the Customer initiates directly or indirectly, or takes a direct financial interest in, any assertion of a patent or copyright in Software; and / or (iv) the Customer becomes insolvent or goes into liquidation, either compulsorily or voluntarily. Notwithstanding the foregoing, if NETMONASTERY files a claim or suit alleging infringement of Intellectual Property against the Customer, this Agreement will automatically terminate.  
     12.3. The parties will be entitled to terminate this Agreement for any breach of provisions of this Agreement that is capable of being cured after providing a 30 (thirty) days notice period to the defaulting Party to cure the breach, failing which the Agreement will stand terminated.  
@@ -139,45 +138,46 @@ NETMONASTERY is only providing the SaaS Services to the Customer under this Agre
       
     
 
-### 13. **Governing Law and Dispute Resolution**         
+25. **Governing Law and Dispute Resolution**         
     13.1. The terms of this Agreement will be governed by the substantive laws of India, without giving effect to the conflicts of law principles of any jurisdiction. For Customers, other than those located in India, this Agreement will not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded.  
     13.2. Any dispute arising out of or in connection with the Terms, including any question regarding its existence, validity, or termination, will, so far as it is possible, be settled amicably by negotiations between the Parties. If the negotiations are inconclusive, the dispute, controversy, or claim will be referred to and finally resolved by arbitration. The seat and venue of the arbitration will be Mumbai, India. The Tribunal will consist of one arbitrator, appointed by the parties mutually. The language of the arbitration will be English. The law governing this arbitration agreement will be the Arbitration and Conciliation Act, 1996 (as amended and re-enacted at the relevant time).        
       
     
 
-### 14. **Relationship between the Parties**             
+27. **Relationship between the Parties**             
     The relationship between the Parties will be on a principal-to-principal basis. No agency, partnership, or joint venture is created as a result of this Agreement.    
       
     
 
-### 15. **Assignment**        
+29. **Assignment**        
     The Customer may not assign, delegate or transfer this Agreement, in whole or in part, by agreement, operation of law or otherwise. NETMONASTERY may assign this Agreement in whole or in part without any reference to the Customer.        
       
     
 
-### 16. **Waiver**         
+31. **Waiver**         
     The failure by either party to enforce any provisions of this Agreement will not constitute a waiver of any other right hereunder or of any subsequent enforcement of that or any other provisions.        
       
     
 
-### 17. **Severability**  
+33. **Severability**  
     If a court of competent jurisdiction holds any provision of this Agreement invalid or unenforceable, the remaining provisions of the Agreement will remain in full force and effect, and the provision affected will be construed so as to be enforceable to the maximum extent permissible by law.      
               
        
 
-### 18. **Force Majeure**  
+35. **Force Majeure**  
     18.1. NETMONASTERY’s obligations under this Agreement will be suspended on the occurrence of a Force Majeure Event and NETMONASTERY will not be liable for any cost, loss, damages, claim or action arising out of non-performance of the obligations under this Agreement.18.2. Force Majeure Event will not include an event that deems the arrangement under this Agreement commercially onerous to either party.               
       
     
-### 19. **Amendment**           
+
+37. **Amendment**           
     No amendment to or modification of this Agreement will be binding unless in writing and signed by NETMONASTERY.      
       
     
 
-### 20. **Notices**  
+39. **Notices**  
     All notices required or permitted under this Agreement will be in writing and delivered by email and in each instance, will be deemed to be served immediately if no delivery failure report is received by the sender. All communications to NETMONASTERY will be addressed to legal@dnif.it. All communications to the Customer will be addressed to the email address provided by the Customer at the time of registration with NETMONASTERY.  
       
     
 
-### 21. **Entire Agreement  
+41. **Entire Agreement  
     **This Agreement and the Purchase Order constitute the entire agreement between NETMONASTERY and the Customer with respect to the SaaS Services and use of the Software under this Agreement and supersedes all prior or contemporaneous understandings regarding such subject matter.

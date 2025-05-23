@@ -11,12 +11,9 @@ Aruba Networks' ClearPass Policy Manager is a robust NAC solution offering authe
 To integrate ClearPass with DNIF, you need to configure DNIF as a Syslog target. Follow these steps:
 
 1. Log in to the ClearPass administrative interface.
-
 3. Navigate to **Administration → External Servers → Syslog Targets**.
-
 5. Add a new Syslog target instance and configure the following parameters:
-    - **Host Address**: Enter the IP address of the DNIF Receiver.
-    
+    - **Host Address**: Enter the IP address of the DNIF Receiver. 
     - **Protocol and Server Port**: While these values can be customized, it is recommended to use the default combination of **UDP** as the protocol and **514** as the port.
 
 **Here**: Host Address can be the DNIF Receiver's IP Address.

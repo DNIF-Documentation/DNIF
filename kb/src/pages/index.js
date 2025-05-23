@@ -23,7 +23,7 @@ export default function Home() {
     { title: "DNIF Legal and Security Compliance", emoji: "📜", animation: "roll", link: "/docs/documents/DNIF-Legal-and-Security-Compliance/Data Privacy Policy/data-privacy-policy" },
     { title: "Policies", emoji: "📘", animation: "flip", link: "/docs/documents/Policies/the-dnif-hyperscale-lifecycle-and-release-cadence" },
     { title: "Best Practices", emoji: "🌟", animation: "twinkle", link: "docs/documents/Best-Practices/advanced-telemetry-for-windows" },
-    { title: "Release Notes", emoji: "📝", animation: "bounce", link: "/docs/documents/Release-Notes/april-17-2025-content-update" },
+    { title: "Release Notes", emoji: "📝", animation: "bounce", link: "/docs/documents/Release-Notes/1 april-17-2025-content-update" },
   ];
 
   return (

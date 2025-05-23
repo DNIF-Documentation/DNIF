@@ -22,24 +22,23 @@ Creating a new case involves adding one or more signals into a case folder. Each
 - Click the icon next to the Signal for which a new case needs to be created.  
       
       
-    **![create a case with one signal](./image/create-new-case-2.png)  
+    ![create a case with one signal](./image/create-new-case-2.png)  
       
-    **
 
-- On the side panel that appears, Click the **plus** icon shown below to create a new Case**.  
+- On the side panel that appears, Click the **plus** icon shown below to create a new Case.  
       
-    ![plus icon](./image/create-new-case-3.png)**  
+    ![plus icon](./image/create-new-case-3.png)  
       
     
 
 - The following screen will be displayed.  
       
-    **  
-    **![Screen](./image/create-new-case-4.png)**  
-    **  
+      
+    ![Screen](./image/create-new-case-4.png) 
+      
     
 
-- Enter the following details****:****
+- **Enter the following details:**
 
 | **Fields** | **Description** |
 | --- | --- |

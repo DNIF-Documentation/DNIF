@@ -22,8 +22,7 @@ For more information and latest updates, kindly refer the Windows OEM guide - [C
 
 ## **Integration of Microsoft Sysmon Logs with DNIF**
 
-**  
-Install and Configure Windows Sysmon**
+### **Install and Configure Windows Sysmon**
 
 Sysmon is a command-line tool; once downloaded from the Microsoft Sysinternals web site the installation is straightforward: Open elevated ("Run as Administrator") command line and execute the following command:
 
@@ -48,7 +47,11 @@ Two basic options are offered:
 - Edit the XML file to include the Rules for Sysmon EventID 7, add the following lines as mentioned below:
 
 ```
-<!-- Event ID 7 == Image Loaded. Log everything except --><ImageLoad onmatch="exclude">   <Image condition="image">Sysmon.exe</Image>   <Image condition="image">nxlog.exe</Image></ImageLoad>
+<!-- Event ID 7 == Image Loaded. Log everything except -->
+<ImageLoad onmatch="exclude"> 
+<Image condition="image">Sysmon.exe</Image>   
+<Image condition="image">nxlog.exe</Image>
+</ImageLoad>
 ```
 
 Reference
@@ -65,7 +68,8 @@ Reference
     - If you have 64 bit Windows:
 
 ```
-$ Sysmon64.exe -accepteula -i -n -l -r $ Sysmon64.exe -c sysmonconfig-export.xml
+$ Sysmon64.exe -accepteula -i -n -l -r
+$ Sysmon64.exe -c sysmonconfig-export.xml
 ```
 
 - If you have 32bit Windows:
@@ -91,25 +95,116 @@ In **32 bit** Windows machines, look in the **C:\\Program Files\\nxlog\\conf** f
 
 - Open the **nxlog.conf** file using a text editor. Replace the entire configuration by copy-pasting the text given for your Windows version.
 
+---
+
 ### **Windows x32 bit OS**
 
-```{'
-#============ Define ROOT here ===================define ROOT C:\Program Files\nxlog#define ROOT C:\Program Files (x86)\nxlog#============ NXLog Machine Log info =============Moduledir %ROOT%\modulesCacheDir %ROOT%\dataPidfile %ROOT%\data\nxlog.pidSpoolDir %ROOT%\dataLogFile %ROOT%\data\nxlog.log#############For Sysmon and windows event logs###############<Extension _json>Module xm_json</Extension><Input in>Module im_msvistalogQuery &lt;QueryList&gt; \&lt;Query Id="0"&gt; \&lt;Select Path="Microsoft-Windows-Sysmon/Operational"&gt;*&lt;/Select&gt; \&lt;Select Path="Application"&gt;*&lt;/Select&gt; \&lt;Select Path="System"&gt;*&lt;/Select&gt; \&lt;Select Path="Security"&gt;*&lt;/Select&gt; \&lt;/Query&gt; \&lt;/QueryList&gt;</Input><Output out>Module om_udpHost DNIF-Adapter-IPPort 514Exec to_json();</Output><Route 1>Path in => out</Route>
-'}```
+```nxlog
+#============ Define ROOT here ===================
+define ROOT C:Program Files\nxlog
+#============ NXLog Machine Log info =============
+Moduledir %ROOT%\modules
+CacheDir %ROOT%\data
+Pidfile %ROOT%\data\nxlog.pid
+SpoolDir %ROOT%\data
+LogFile %ROOT%\data\nxlog.log
 
+############## For mssqldblogs ###############
+
+<Extension syslog>
+    Module xm_syslog
+</Extension>
+
+<Extension _charconv>
+    Module xm_charconv
+    AutodetectCharsets UTF-16LE, UTF-16BE, UTF-32LE, UTF-32BE, UTF-8, euc-jp, iso8859-2
+</Extension>
+
+<Input mssql_db>
+    Module im_file
+    File 'C:Program Files\Microsoft SQL Server\MSSQL10_50.SQLEXPRESS\MSSQL\Log\ERRORLOG*'
+    SavePos TRUE
+    Recursive TRUE
+    PollInterval 1
+    Exec convert_fields("AUTO", "utf-8"); to_syslog_bsd();
+</Input>
+
+<Input mssql_db1>
+    Module im_file
+    File 'C:Program Files\Microsoft SQL Server\MSSQL10_50.SQLEXPRESS\MSSQL\Log\SQLAGENT*'
+    SavePos TRUE
+    Recursive TRUE
+    PollInterval 1
+    Exec convert_fields("AUTO", "utf-8"); to_syslog_bsd();
+</Input>
+
+<Output mssql_db_out>
+    Module om_udp
+    Host DNIF-Adapter-IP
+    Port 514
+</Output>
+
+<Route>
+    Path mssql_db, mssql_db1 => mssql_db_out
+</Route>
+---
+```
 ### **Windows x64 bit OS**
+```nxlog
+#============ Define ROOT here ===================
+define ROOT C:Program Files (x64)\nxlog
+#============ NXLog Machine Log info =============
+Moduledir %ROOT%\modules
+CacheDir %ROOT%\data
+Pidfile %ROOT%\data\nxlog.pid
+SpoolDir %ROOT%\data
+LogFile %ROOT%\data\nxlog.log
 
-```{'
-#============ Define ROOT here ===================#define ROOT C:\Program Files\nxlogdefine ROOT C:\Program Files (x86)\nxlog#============ NXLog Machine Log info =============Moduledir %ROOT%\modulesCacheDir %ROOT%\dataPidfile %ROOT%\data\nxlog.pidSpoolDir %ROOT%\dataLogFile %ROOT%\data\nxlog.log#############For Sysmon and windows event logs###############<Extension _json>Module xm_json</Extension><Input in>Module im_msvistalogQuery &lt;QueryList&gt; \&lt;Query Id="0"&gt; \&lt;Select Path="Microsoft-Windows-Sysmon/Operational"&gt;*&lt;/Select&gt; \&lt;Select Path="Application"&gt;*&lt;/Select&gt; \&lt;Select Path="System"&gt;*&lt;/Select&gt; \&lt;Select Path="Security"&gt;*&lt;/Select&gt; \&lt;/Query&gt; \&lt;/QueryList&gt;</Input><Output out>Module om_udpHost DNIF-Adapter-IPPort 514Exec to_json();</Output><Route 1>Path in => out</Route>
-'}```
+############## For mssqldblogs ###############
 
-- Restart NXLog
+<Extension syslog>
+    Module xm_syslog
+</Extension>
 
+<Extension _charconv>
+    Module xm_charconv
+    AutodetectCharsets UTF-16LE, UTF-16BE, UTF-32LE, UTF-32BE, UTF-8, euc-jp, iso8859-2
+</Extension>
+
+<Input mssql_db>
+    Module im_file
+    File 'C:Program Files\Microsoft SQL Server\MSSQL10_50.SQLEXPRESS\MSSQL\Log\ERRORLOG*'
+    SavePos TRUE
+    Recursive TRUE
+    PollInterval 1
+    Exec convert_fields("AUTO", "utf-8"); to_syslog_bsd();
+</Input>
+
+<Input mssql_db1>
+    Module im_file
+    File 'C:Program Files\Microsoft SQL Server\MSSQL10_50.SQLEXPRESS\MSSQL\Log\SQLAGENT*'
+    SavePos TRUE
+    Recursive TRUE
+    PollInterval 1
+    Exec convert_fields("AUTO", "utf-8"); to_syslog_bsd();
+</Input>
+
+<Output mssql_db_out>
+    Module om_udp
+    Host DNIF-Adapter-IP
+    Port 514
+</Output>
+
+<Route>
+    Path mssql_db, mssql_db1 => mssql_db_out
+</Route>
+---
+```
+
+
+- Restart **NXLog**.
 - To apply changes made on nxlog.conf, you have to restart the service again. Go to **Control Panel > Services** and locate the **nxlog** service.  
     Right click on **nxlog** and **restart**  
-    
+    ![image 2-Dec-04-2023-09-58-11-0177-AM](./IMAGES-MS%20SQL/MS%20SQL-2.webp)
 
-<!-- TODO: Fix broken image link below. Original path: images/image-69.png -->
-<!-- ![](images/image-69.png) -->
-
-Microsoft Sysmon logs are now streamed to DNIF.
+Microsoft SQL logs are now streamed to DNIF.

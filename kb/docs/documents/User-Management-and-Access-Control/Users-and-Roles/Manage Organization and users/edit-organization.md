@@ -24,28 +24,16 @@ type: "epkb_post_type_1"
 6\. Validate the organization details and click **Save** on the bottom right corner to update  organization details.
 
 **Edit Organization Name** 
-<video width="100%" height="auto" controls>
-  <source src="./Edit-Organization-video/Edit User Details-1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kzQcUwvLJPM?si=ql1z6w_gu2VqBwGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Enable MFA for an Organization** 
 
-<video width="100%" height="auto" controls>
-  <source src="./Edit-Organization-video/Enable MFA for Org.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_gHThdJbzbE?si=U-E_TM85PlfgVv85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Enable Authentication Type Standard for an Organization** 
 
-<video width="100%" height="auto" controls>
-  <source src="./Edit-Organization-video/Enable AuthType Standard for Org.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k5c-mrN3IZw?si=_CH84em55L-eT9T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Enable SSO for an Organization** 
 
-<video width="100%" height="auto" controls>
-  <source src="./Edit-Organization-video/Enable SSO for Org.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GCQ9KzOUKrE?si=KFiMIogeRhXGwEKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
