@@ -4,12 +4,12 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-###### **Introduction**  
+## **Introduction**  
   
 
 Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbook Versioning is an exciting new feature that allows you to easily track and manage changes made to your workbooks over time. With this feature, you can confidently make modifications, collaborate with team members, and maintain a comprehensive history of your workbook revisions. This guide will walk you through the steps to effectively utilize Workbook Versioning and leverage its benefits in your workflow. Let's get started!
 
-###### **Benefits of Workbook Versioning**  
+## **Benefits of Workbook Versioning**  
   
 
 - **Track Changes and Revisions**: Workbook Versioning enables you to keep a comprehensive history of changes and revisions made to your workbooks. This allows you to easily track the evolution of your work and understand the modifications made over time.
@@ -22,10 +22,10 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 - **Audit and Compliance**: Workbook Versioning plays a crucial role in audit and compliance scenarios. It allows you to maintain a complete and accurate record of workbook changes, providing transparency and accountability. This can be beneficial for compliance purposes, internal audits, or tracking modifications in regulated environments.
 
-###### **Working with Workbook Versioning**  
+## **Working with Workbook Versioning**  
   
 
-###### **Step 1: Accessing Workbook Versioning**  
+## **Step 1: Accessing Workbook Versioning**  
   
 
 - Log in to your DNIF HYPERCLOUD account.
@@ -36,7 +36,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 <!-- ![](images/Accessing-a-Workbook-1024x576.gif) -->
 
-###### **Step 2: Viewing Workbook Versions**  
+## **Step 2: Viewing Workbook Versions**  
   
 
 - Next to the workbook name, you will see a version number.
@@ -45,7 +45,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 <!-- ![](images/Exploring-Versioning-1024x576.gif) -->
 
-###### **Step 3: Exploring Version Details**  
+## **Step 3: Exploring Version Details**  
   
 
 - In the version history side panel, you can view the date/time of each version, the author who made the changes, and the commit message describing the modifications.
@@ -54,7 +54,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 <!-- ![](images/Exploring-Versioning-1-1024x576.gif) -->
 
-###### **Step 4: Restoring an Earlier Version**  
+## **Step 4: Restoring an Earlier Version**  
   
 
 - If you need to revert to an older version of the workbook, select the desired version from the version history side panel.
@@ -64,7 +64,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 <!-- ![](images/Restoring-a-version-1024x576.gif) -->
 
-###### **Step 5: Working with Restored Versions**  
+## **Step 5: Working with Restored Versions**  
   
 
 - After restoring an earlier version, you can continue working with the restored workbook as usual.

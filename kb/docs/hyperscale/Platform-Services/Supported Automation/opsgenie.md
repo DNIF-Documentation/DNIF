@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 DNIF can send webhook alerts to Opsgenie that acts as a dispatcher and determines the right people to notify.
 
-###### **Configuration**
+## **Configuration**
 
 1. In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 

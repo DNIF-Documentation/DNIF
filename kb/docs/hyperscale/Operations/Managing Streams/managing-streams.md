@@ -4,26 +4,26 @@ date: 2025-01-20
 type: "epkb_post_type_1"
 ---
 
-###### **Overview**
+## **Overview**
 
 Stream Management is management of a specific collection of data that is used as a log. The data is written to and read from the log stream in a specific format so that all the instances of a particular stream are diverted into a single segment.
 
 Data in a log stream can be compressed, replicated, and retained for a specific time period. DNIF allows you to configure customized settings for each stream in the organizational network. It will help you to compress the data without affecting the query speed, and also store data for compliance purposes without occupying much disk space.
 
-###### **Retention**
+## **Retention**
 
 Retention settings can be used to specify how long log events are stored in DNIF. By default, the log data retention period is for 90 days. The log data retention is configurable as per organizational requirements and all the data older than the current retention configurations will be deleted automatically.
 
-###### **Data Compression**
+## **Data Compression**
 
 The growth of big data has created a demand for ever-increasing processing power and efficient storage. Compressing big data can help address these demands by reducing the amount of storage and bandwidth required for data sets.  
 DNIF uses compression algorithms to manage large amounts of data. Compression can also remove irrelevant or redundant data, making analysis and processing easier and faster. It typically reduces the size of a file, which reduces both cost and transfer time.
 
-###### **Replication**
+## **Replication**
 
 DNIF Data Replication is the asynchronous process of storing the same data in multiple locations to improve data availability and accessibility, and to improve system resilience and reliability. One common use of data replication is for disaster recovery, to ensure that an accurate backup exists at all times in case of a catastrophe, hardware failure, or a system breach where data is compromised. By default, the data will be replicated once.
 
-###### **How to configure Streams?**
+## **How to configure Streams?**
 
 - Click **Streams** icon on the left navigation bar of the Home Screen, to view list of all the streams configured
 

@@ -18,7 +18,7 @@ This article lists few examples, these examples will help you to quickly get sta
 
 <!-- (add an internal link)(#Kill-a-suspicious-process) -->
 
-###### **Terminate active sessions**
+## **Terminate active sessions**
 
 The below configuration allows you to connect to host and run any commands:
 
@@ -42,7 +42,7 @@ _trigger api ssh execute_command 'Terminate Session'
 
 - Using _trigger query, an api call is made to the ssh integration (Terminate Session) configuration, which will terminate the active sessions for the suspected user.
 
-###### **Reset Password**
+## **Reset Password**
 
 The below configuration allows you to connect to host and run any commands:
 
@@ -66,7 +66,7 @@ _trigger api ssh execute_command 'Reset Password'
 
 - Using _trigger query, an api call is made to the ssh integration (Reset Password) configuration, which will reset the password for the suspected user
 
-###### **Kill a suspicious process**
+## **Kill a suspicious process**
 
 The below configuration allows user to connect to host and run a command:
 

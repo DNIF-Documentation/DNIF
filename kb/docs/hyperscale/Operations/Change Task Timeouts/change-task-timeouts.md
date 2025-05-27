@@ -10,13 +10,13 @@ To change the default task timeout configuration for celery workers you need to 
 
 3. Restart sheepdog on all datanodes.
 
-###### **Configuration Path**
+## **Configuration Path**
 
 ```
 /dnif/csltuconfig/task_timeout.yml
 ```
 
-###### **Default Configuration**
+## **Default Configuration**
 
 ```
 task_timeout:  analytics: 120  interactive: 3600  reports: 21600

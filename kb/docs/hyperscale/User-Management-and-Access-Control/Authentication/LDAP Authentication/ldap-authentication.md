@@ -14,7 +14,7 @@ In DNIF, users can login to DNIF Console using LDAP authentication and the follo
 
 - **Unencrypted:** This authentication mode uses the ldap:// protocol over unencrypted port (typically 389) or the one specified in configuration.
 
-###### **Prerequisites**
+## **Prerequisites**
 
 - Connectivity between LDAP Server and DNIF console
 
@@ -24,7 +24,7 @@ In DNIF, users can login to DNIF Console using LDAP authentication and the follo
 
 - User must be present in the configured baseDN and matching ldapfilter results
 
-###### **How to Configure LDAP authentication?**
+## **How to Configure LDAP authentication?**
 
 - Navigate to **Administration Panel** **\> Organizations**, the following screen will be displayed.
 

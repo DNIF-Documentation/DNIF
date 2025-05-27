@@ -4,12 +4,12 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-###### **Introduction**  
+## **Introduction**  
   
 
 Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to categorize and organize their signals based on specific criteria or attributes. By assigning tags to signals, users can easily group, filter, and search for relevant alerts, simplifying their alert analysis process.
 
-###### **Benefits of Signal Tagging**  
+## **Benefits of Signal Tagging**  
   
 
 - Improved Organization: Users can categorize signals based on their nature, severity, source, threat actor/campaigns, or any other relevant attribute. This helps in creating a well-organized alert management system.
@@ -20,10 +20,10 @@ Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to catego
 
 - **Enhanced Collaboration**: Signal tagging promotes collaboration among team members by providing a standardized framework for classifying alerts. It enables efficient knowledge sharing, collaboration, and handover between analysts.
 
-###### **Working with Signal Tagging**  
+## **Working with Signal Tagging**  
   
 
-###### **Step 1: Accessing the Signal Tagging Feature**  
+## **Step 1: Accessing the Signal Tagging Feature**  
   
 
 - Log in to your DNIF HYPERCLOUD account.
@@ -34,7 +34,7 @@ Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to catego
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2TdJGna4aiw?si=xo_DpAiAmjOq52D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-###### **Step 2: Adding Tags to Signals**  
+## **Step 2: Adding Tags to Signals**  
   
 
 - Look for the "Tag" or "Add Tag" option in the interface and click on it.
@@ -43,7 +43,7 @@ Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to catego
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ANXQa107ZT4?si=Av57T8GCX0KohxVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-###### **Step 3: Searching and Filtering Signals by Tags**  
+## **Step 3: Searching and Filtering Signals by Tags**  
   
 
 - To search for signals with specific tags, use the filter functionality within the Signals page.

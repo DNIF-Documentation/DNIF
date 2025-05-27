@@ -6,11 +6,11 @@ type: "epkb_post_type_1"
 
 Asset Store integration is used to lookup on custom event stores uploaded to DNIF for various Hosts in an organization.
 
-###### **Pre-requisites**
+## **Pre-requisites**
 
 - The custom [event store](https://dnif.it/kb/operations/event-stores/) must contain a column named **$Host** in the event store data.
 
-###### **Configuration**
+## **Configuration**
 
 The following configuration should be done for Asset Store.
 
@@ -29,20 +29,19 @@ The following configuration should be done for Asset Store.
 - Enter the above details and click **Save**.  
     
 
-##### **Lookup integrated with Asset Store**
+## **Lookup integrated with Asset Store**
 
-###### **Retrieve Host Details**
+### **Retrieve Host Details**
 
 The Host for which you want to retrieve details from the event store.
 
-**  
-Function\_name**
+**Function\_name**
 
 ```
 get_host_info
 ```
 
-###### **Input**
+### **Input**
 
 - The HostDetails is a custom event store created to demonstrate this example.  
     [host\_details.csv](https://m.dnif.it/hubfs/host_details.csv)
@@ -53,7 +52,7 @@ get_host_info
 
 The Search query retrieves the $DevSrcIP field for each event in the HostDetails (custom) eventstore.
 
-###### **Output**
+### **Output**
 
 ```
 _lookup host_store get_host_info $DevSrcIP

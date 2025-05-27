@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Machine learning (ML) is used to analyze the incoming data that matches the set filters, it allows you to apply multiple ML models to a single stream of data. ML models are applied to the incoming stream of data to help us learn, understand user behavior patterns and any deviations. You can analyze and identify anomalies, suspicious activities and investigate threats based on the ML models applied to the streams. You can also view the list of signals raised for anomalies detected.
 
-###### **How to view Machine Learning Models?**
+## **How to view Machine Learning Models?**
 
 - Hover on the **Administration** icon on the left navigation panel and select **Machine Learning**, the following page will be displayed.
 
@@ -22,23 +22,23 @@ The above screen lists Machine Learning models configurations listed in this par
 | ![](./images-MachineLearning/Machine-Learning-Delete-3.webp) | Use this icon to add a new Machine Learning model |
 | ![](./images-MachineLearning/Machine-Learning-Add-4.webp) | Use this icon to refresh the screen |
 
-###### **How to configure ML Models?**
+## **How to configure ML Models?**
 
 To create Machine Learning models click the plus icon on the top right corner of the screen, the following page will be displayed, you can add a model as required.
 
 ![image 6-Dec-08-2023-09-38-35-0999-AM](./images-MachineLearning/Machine-Learning-6.webp)
 
-###### **Achieving Baseline Machine Learning Models**
+## **Achieving Baseline Machine Learning Models**
 
 The baseline machine learning models are created using YAMLs, these YAMLs are simple to understand and allow transparency in operations. Baseline model tracks ‘numeric quantity’ and evokes an anomaly signal when that numeric quantity goes beyond normal observed value.
 
-###### **Example 1: Abnormal login Failure by a User**
+## **Example 1: Abnormal login Failure by a User**
 
 **Context:** The assumption is every user will have a specific pattern associated with their failed login attempts. If this normal behavior is surpassed, it will raise an anomaly signal.
 
 In order to achieve this baseline model, here are the YAML changes one needs to perform.
 
-###### **Key sections from YAML**
+## **Key sections from YAML**
 
 1. Filter  
       
@@ -131,7 +131,7 @@ The signals are raised as follows:
 
 **Learning:** This baseline ML model aggregates every hour and updates the baseline on a nightly basis on the data learnt over the last seven days. The YAML based baseline model for detecting the abnormal failed login attempt by a user is demonstrated here.
 
-###### **Example 2: Abnormal amount of data transmitted from DNS port**
+## **Example 2: Abnormal amount of data transmitted from DNS port**
 
 1. Filter  
       

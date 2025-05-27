@@ -8,13 +8,13 @@ DomainTools helps security analysts turn threat data into threat intelligence. I
 
 DomainTools collects Open Source Intelligence (OSINT) data from many sources, along with historical records, and stores it in a central database. It then indexes and analyzes the OSINT data based on various connection algorithms to deliver actionable intelligence, including domain scoring and forensic mapping.
 
-###### **Pre-requisites**
+## **Pre-requisites**
 
 - You will need a DomainTools Enterprise API username and API key to complete the configuration.
 
 - DomainTools typically provides access to obtain the API credentials by creating an account for the primary point of contact in your organization. For more information, visit [https://www.domaintools.com/](https://www.domaintools.com/)
 
-###### **Configuration**
+## **Configuration**
 
 - Follow the initial configuration steps in [How to Configure Automation](https://dnif.it/kb/uncategorized/configuring-automation/)?  
       
@@ -31,7 +31,7 @@ DomainTools collects Open Source Intelligence (OSINT) data from many sources, al
 - Enter the above details and click **Save**.  
     
 
-###### **DomainTools lookup plugin functions**
+## **DomainTools lookup plugin functions**
 
 **Retrieve parsed information**
 

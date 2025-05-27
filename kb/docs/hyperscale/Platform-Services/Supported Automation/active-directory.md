@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Active Directory (AD) is a directory service that Microsoft developed for Windows domain networks. It is included in most Windows Server operating systems as a set of processes and services.
 
-###### **Configuration**
+## **Configuration**
 
 - Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).  
       
@@ -27,9 +27,9 @@ Active Directory (AD) is a directory service that Microsoft developed for Window
 
 - Enter the above details and click **Save**.
 
-##### **Active Directory plugin functions**
+## **Active Directory plugin functions**
 
-###### **Get User details**
+### **Get User details**
 
 This function allows you to retrieve the user details from the eventstore.
 
@@ -39,7 +39,7 @@ This function allows you to retrieve the user details from the eventstore.
 get_userinfo
 ```
 
-###### **Input**
+### **Input**
 
 .
 
@@ -55,7 +55,7 @@ The UserLookupAD is a custom event store created to demonstrate this example. Th
 
 ![image 2-Dec-26-2023-05-22-20-7615-AM](./images-ActiveDirectory/Active-Directory-2.webp)
 
-###### **Output**
+### **Output**
 
 ```
 _lookup ad get_userinfo 'Active Directory' $User,$DistName
@@ -99,7 +99,7 @@ The Lookup call returns output in the following structure for available data
 | $MemberOf | text | This attribute specifies the group name to which the User belongs. |
 | $UserWorkstations | text | This attribute is used to limit the machines from which a user can log on, by DNS or NetBIOS name |
 
-###### **Add User to Group**
+## **Add User to Group**
 
 This function allows you to add a User in a user pre-defined group in Active Directory.
 
@@ -109,7 +109,7 @@ This function allows you to add a User in a user pre-defined group in Active Dir
 add_to_group
 ```
 
-###### **Input**
+### **Input**
 
 - User to be added in group
 
@@ -133,7 +133,7 @@ In the pipelined query function, the \_trigger directive calls the add\_to\_grou
 
 ![image 5-Dec-26-2023-05-28-07-2870-AM](./images-ActiveDirectory/Active-Directory-5.webp)
 
-###### **Remove User from Group**
+## **Remove User from Group**
 
 This function allows you to remove a User from a user pre-defined group in Active Directory.
 
@@ -167,7 +167,7 @@ In the pipelined query function, the \_trigger directive calls the remove\_from\
 
 ![image 7-Dec-26-2023-07-08-08-4660-AM](./images-ActiveDirectory/Active-Directory-7.webp)
 
-###### **Enable User**
+### **Enable User**
 
 This function allows you to enable a User present in the user pre-defined group in Active Directory.
 
@@ -191,7 +191,7 @@ The UserEnableAD is a custom event store created to demonstrate this example. Th
 
 ![image 8-Dec-26-2023-07-09-27-5429-AM](./images-ActiveDirectory/Active-Directory-8.webp)
 
-###### **Output**
+### **Output**
 
 ```
 _trigger api ad enable_user 'Active Directory' $User
@@ -201,7 +201,7 @@ In the pipelined query function, the \_trigger directive calls the enable\_user 
 
 ![image 9-Dec-26-2023-07-10-55-3188-AM](./images-ActiveDirectory/Active-Directory-9.webp)
 
-###### **Disable User**
+## **Disable User**
 
 This function allows you to disable a User present in the user pre-defined group in Active Directory.
 
@@ -225,7 +225,7 @@ The UserEnableAD is a custom event store created to demonstrate this example. Th
 
 ![image 10-Dec-26-2023-07-27-19-2516-AM](./images-ActiveDirectory/Active-Directory-10.webp)
 
-###### **Output**
+### **Output**
 
 ```
 _trigger api ad disable_user 'Active Directory' $User
@@ -235,7 +235,7 @@ In the pipelined query function, the \_trigger directive calls the disable\_user
 
 ![image 11-Dec-26-2023-07-30-52-9735-AM](./images-ActiveDirectory/Active-Directory-11.webp)
 
-###### **Retrieve User intel data**
+## **Retrieve User intel data**
 
 Retrieve user intel data. Active Directory is a pre-configured integration in DNIF that stores its data as a dataset in an eventstore, this is a scheduled eventstore and can be used to fetch user intel data.
 

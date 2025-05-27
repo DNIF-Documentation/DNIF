@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 SSH, or Secure Shell, integration is used to establish a secure connection to a remote host and execute commands. It allows you to gain access and remotely manage other computers and transfer files.
 
-###### **Configuration**
+## **Configuration**
 
 - Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/)  
       

@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Token management is the process used to authenticate third party applications to access DNIF Integration Services. It is used to secure user access to systems and applications. A token is generated from the DNIF console with all the details of the particular application. Users can access DNIF from an authorized third party application if authenticated using a valid token.
 
-###### **How to generate tokens?**
+## **How to generate tokens?**
 
 - Hover on the **System** icon on the left sidebar of the Home screen, from the option displayed select **Manage Tokens**, the following screen will be displayed.
 

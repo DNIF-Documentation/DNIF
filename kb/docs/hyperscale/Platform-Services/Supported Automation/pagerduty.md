@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 PagerDuty webhook connections allow you to send alert results as a PagerDuty notification. You can learn more about [PagerDuty webhooks](https://developer.pagerduty.com/docs/webhooks/v2-overview/).
 
-###### **Configuration**
+## **Configuration**
 
 - The webhook configuration requires the following fields:
     - Configuration Name
@@ -88,7 +88,7 @@ Additionally, here is the reference link where you can find the escalation **pol
   
 ![image 1-Jul-19-2024-10-00-12-5120-AM](./images-PagerDuty/PagerDuty-1.webp)
 
-###### **Workbook details:**
+## **Workbook details:**
 
 1. **DQL Block:**
 

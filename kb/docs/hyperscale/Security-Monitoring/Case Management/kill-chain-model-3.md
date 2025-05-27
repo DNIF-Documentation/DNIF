@@ -8,12 +8,12 @@ The kill chain model mainly maps to the Mitre attack techniques and tactics and 
 
 ![](./images-KillChainModel/KillChainModel-1.webp)
 
-###### **Significance**  
+### **Significance**  
   
 
 The purpose of the model is to better understand the stages an attacker must have gone through to conduct an attack, and help security teams stop an attack at each stage. Understanding the kill chain model can help IT security teams to put strategies and technologies in place to “kill” or contain the attack at various stages, and secure the IT ecosystem.
 
-###### **Kill Chain View**  
+### **Kill Chain View**  
   
 
 - On the left navigation bar, Click the **Cases** icon  to view the following page.

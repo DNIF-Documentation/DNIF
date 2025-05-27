@@ -4,7 +4,7 @@ date: 2025-01-20
 type: "epkb_post_type_1"
 ---
 
-###### **Definitions and meanings of DNIF entities.**
+## **Definitions and meanings of DNIF entities.**
 
 **Organization -** An Organization represents a real-world entity in DNIF.
 

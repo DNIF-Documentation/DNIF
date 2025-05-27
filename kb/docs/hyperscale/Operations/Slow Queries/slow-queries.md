@@ -16,7 +16,7 @@ There are 3 types of Worker queues viz. Interactive, Analytics, and Reports. Eac
 
 The page is automatically refreshed after 60 seconds.
 
-###### **How to view Slow Queries?**
+## **How to view Slow Queries?**
 
 - Hover on the Administration icon on the left navigation panel and select Slow Queries, the following page will be displayed.
 

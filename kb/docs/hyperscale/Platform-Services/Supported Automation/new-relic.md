@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 New Relic webhook connections allows you to send alert results to New Relic as a custom event. You can learn more about [New Relic](https://docs.newrelic.com/docs/telemetry-data-platform/ingest-apis/introduction-event-api/).
 
-###### **Configuration**
+## **Configuration**
 
 - In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 

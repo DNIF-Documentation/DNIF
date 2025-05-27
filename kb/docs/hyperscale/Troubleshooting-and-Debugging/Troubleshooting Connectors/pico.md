@@ -4,13 +4,13 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-###### **Prerequistes**
+## **Prerequistes**
 
 - Ensure all the conditions mentioned in **[Before your Begin](https://dnif.it/kb/getting-started/before-you-begin/)** are met before proceeding with Installation.
 
 It is mandatory for PICO to have a VPN connectivity to Core private interface i.e. the CORE\_IP mentioned while bringing up the component.
 
-###### **Installation**
+## **Installation**
 
   
 The installation and setup of the Pico is handled by the script which is to be run by using below command:

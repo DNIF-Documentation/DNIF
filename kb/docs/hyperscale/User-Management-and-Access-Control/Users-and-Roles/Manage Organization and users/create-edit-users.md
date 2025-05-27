@@ -4,7 +4,7 @@ date: 2025-01-20
 type: "epkb_post_type_1"
 ---
 
-###### **Create a New User**
+## **Create a New User**
 
 1. Hover on the **Administration** icon on the left navigation bar of the home screen.
 
@@ -28,7 +28,7 @@ type: "epkb_post_type_1"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jbElhyU4SoE?si=dwR4oQ3KAMnvShqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-###### **Edit a User**
+## **Edit a User**
 
 1. Hover on the **Administration** icon on the left navigation bar of the home screen.
 

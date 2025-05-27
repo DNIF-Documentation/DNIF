@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 JiraServiceDesk integration helps you to create Jira issues in Jira Service Desk from alerts.
 
-###### **Configuration**
+## **Configuration**
 
 - In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 

@@ -4,7 +4,7 @@ date: 2025-01-20
 type: "epkb_post_type_1"
 ---
 
-###### **Reset a User's Password**
+## **Reset a User's Password**
 
 1. Hover on the **Administration** icon on the left navigation bar of the home screen.
 

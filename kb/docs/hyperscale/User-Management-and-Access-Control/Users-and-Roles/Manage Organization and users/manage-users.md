@@ -6,18 +6,18 @@ type: "epkb_post_type_1"
 
 User Management is the process of creating and maintaining a user store. User management establishes a user’s authorization to access secure resources, it also serves as a repository of identities and is the source of all identities in an organization. Access control is applied to regulate who can view or use resources in a particular environment.
 
-###### **Cluster Administrator**
+## **Cluster Administrator**
 
 - The user created at the First time UI stage will be the Cluster Administrator.
 - A Cluster Administrator is the Super Administrator and will manage all the scopes that fall under the Cluster.
 - The user roles are assigned and managed by Cluster Administrators across all the scopes.
 
-###### **Example:**
+## **Example:**
 
 - Times Group has multiple subsidiaries that are managed by them such as Times Music, Times Internet, Times Business Solutions etc.
 - In this case, a DNIF Deployment Scenario could be Time Group as a cluster and the various subsidiaries as various scopes within the Times Group cluster.
 
-###### **How to view Managed Users?**
+## **How to view Managed Users?**
 
 Hover on the Administrator (lock) icon on the left navigation panel and select Manage Users, the following page will be displayed.
 

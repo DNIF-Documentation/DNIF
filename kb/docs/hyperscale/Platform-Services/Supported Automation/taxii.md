@@ -8,7 +8,7 @@ TAXII, short for Trusted Automated exchange of Intelligence Information, defines
 
 It is designed specifically to support STIX information, which it does by defining an API that aligns with the common sharing model.
 
-###### **Configuration**
+## **Configuration**
 
 - Follow the initial configuration steps in [How to Configure Soar Integrations?](https://dnif.it/kb/uncategorized/configuring-automation/)  
       
@@ -25,7 +25,7 @@ It is designed specifically to support STIX information, which it does by defini
 | Username | Enter Username of the TAXII server (if any) |
 | Password | Enter Password of the TAXII server (if any) |
 
-###### **Dataset integrated with TAXII**  
+## **Dataset integrated with TAXII**  
 
 **Retrieve threat intel data**
 

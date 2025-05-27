@@ -36,7 +36,7 @@ The following is the list of **Validation** status that would be displayed bas
 
 <!-- (add an internal link)(#Validation-Resource-Not-Found) -->
 
-###### **Not Validated**  
+## **Not Validated**  
   
 
 This is the default status when the Integration is in an un-configured state. The status will be displayed as **Not Validated** only when the integration is in an **un-configured** state. If the integration is configured and still the status is displayed as **Not Validated**, perform the following checks:
@@ -45,7 +45,7 @@ This is the default status when the Integration is in an un-configured state. Th
 
 - Check if the specific endpoint/host is reachable from CORE.
 
-###### **Validation in Progress**  
+### **Validation in Progress**  
   
 
 On saving the configurations the **Validation** status is changed to **Validation in Progress**. If the **Validation** status is not changed to **Validation in Progress**, perform the following checks:
@@ -56,40 +56,40 @@ On saving the configurations the **Validation** status is changed to **Valida
 
 - If after **refresh** the validation status changes to some other status except **Validated**, perform the checks specified for that particular **Validation** status.
 
-###### **Validated**  
+### **Validated**  
   
 
 This **Validation** status signifies that the Integrations have been configured successfully.
 
-###### **Validation Forbidden**  
+### **Validation Forbidden**  
   
 
 This **Validation** status indicates that the configured values are unauthorized i.e, the user credentials do not have access to the endpoint/Host, perform the following check:
 
 - Check if the credentials entered during configuration are correct.
 
-###### **Credentials not Authorized**  
+### **Credentials not Authorized**  
   
 
 This **Validation** status indicates that the credentials are incorrect, perform the following check:
 
 - Check if the credentials entered during configuration are correct.
 
-###### **Validation Failed**  
+### **Validation Failed**  
   
 
 This **Validation** status signifies there is a failure in the endpoint/host request, perform the following check:
 
 - Check if the credentials entered during configuration are correct.
 
-###### **Validation Resource Not Found**  
+### **Validation Resource Not Found**  
   
 
 The **Validation** status signifies the availability of endpoint host resources, perform the following check:
 
 - Check for the availability of endpoint host resources.
 
-###### **Microsoft Active Directory**
+### **Microsoft Active Directory**
 
 This section includes troubleshooting recommendations and procedures for diagnosing and fixing problems that may occur while establishing a connection with Active Directory.
 

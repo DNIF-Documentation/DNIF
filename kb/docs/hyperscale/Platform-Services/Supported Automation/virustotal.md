@@ -6,15 +6,15 @@ type: "epkb_post_type_1"
 
 VirusTotal's API lets you upload and scan files, submit and scan URLs, access finished scan reports and make automatic comments on URLs and samples without the need of using the HTML website interface.
 
-###### **Real-time updates**
+## **Real-time updates**
 
 Malware signatures are updated frequently by VirusTotal as they are distributed by antivirus companies, this ensures that our service uses the latest signature sets. As soon as a given contributor blacklists a URL it is immediately reflected in user-facing verdicts.
 
-###### **Detailed results**
+## **Detailed results**
 
 VirusTotal not only tells you whether a given antivirus solution detected a submitted file as malicious, but also displays each engine's detection label (e.g., I-Worm.Allaple.gen). The same is true for URL scanners, most of which will discriminate between malware sites, phishing sites, suspicious sites, etc. Some engines will provide additional information, stating explicitly whether a given URL belongs to a particular botnet, which brand is targeted by a given phishing site, and so on.
 
-###### **Pre-requisites**
+## **Pre-requisites**
 
 - Create an account on VirusTotal to obtain a new API key, sign up link: [https://www.virustotal.com/gui/join-us](https://www.virustotal.com/gui/join-us)
 
@@ -28,7 +28,7 @@ VirusTotal not only tells you whether a given antivirus solution detected a subm
       
     ![](./images-Virustotal/Virustotal-2.webp)
 
-##### **Configuration**
+## **Configuration**
 
 - Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).  
       
@@ -93,7 +93,7 @@ The Lookup call returns output in the following structure for available data
 | $Reputation | Number | Reputation of Domain |
 | $Status | text | Status of the request |
 
-###### **Retrieve Domain reports**
+## **Retrieve Domain reports**
 
 The domain for which you want to retrieve the report
 
@@ -136,7 +136,7 @@ The Lookup call returns output in the following structure for available data
 | $Reputation | Number | Reputation of Domain |
 | $Status | text | Status of the request |
 
-###### **Retrieve IP address details**
+## **Retrieve IP address details**
 
 Retrieve an IP address report
 

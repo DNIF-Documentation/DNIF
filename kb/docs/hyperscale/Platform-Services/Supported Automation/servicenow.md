@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 ServiceNow is a software as a service (SaaS) product for technical management support.
 
-###### **Configuration**
+## **Configuration**
 
 - In the **Configuration Box**, enter the **Configuration Name** to uniquely identify this configuration.
 

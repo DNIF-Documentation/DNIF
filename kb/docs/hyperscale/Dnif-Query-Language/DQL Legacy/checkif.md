@@ -30,7 +30,7 @@ The **\_checkif** directive allows you to:
 
 - Compare the result set of a **\_fetch** query function and an existing event store.
 
-###### **SYNTAX**
+## **SYNTAX**
 
 The generic syntax of the **\_checkif** directive is as shown below:
 
@@ -45,7 +45,7 @@ Here:
 **lookup:** Compares the result set of a **\_fetch** query function and an eventstore based on specified fields (keyword join) and the condition specified using the above functions.  
 **include/exclude:** Includes or excludes rows, from the result set, which satisfy the condition.
 
-###### **int\_compare**
+## **int\_compare**
 
 Used to compare integer values in a result set
 
@@ -73,11 +73,11 @@ As shown, only those rows where **count\_unique** is less than 3000 are includ
 Use the exclude keyword in the **\_checkif** directive to exclude from the result set the rows for which a condition is not satisfied.  
 When comparing integers: `**\>**` implies greater than `**<**` implies less than **\=** implies equal to **!=** implies not equal to `**\>=**` implies greater than or equal to `**<=**` implies less than or equal to
 
-###### **str\_compare**
+## **str\_compare**
 
 The **\_checkif** directive can be used to compare string values in a result set with a specified string (or regular expression) using the **str\_compare** keyword along with **eq/neq/substr/regex** keywords.
 
-##### **eq/neq**
+## **eq/neq**
 
 Result set are equal to or not equal to a specified string
 
@@ -102,7 +102,7 @@ In the pipelined query function, the **\_checkif** directive uses the keyword�
 IP addresses are stored as strings in the DNIF database.  
 When comparing strings: **eq** implies equal to **neq** implies not equal to.
 
-##### **substr**
+## **substr**
 
 Result set contain the specified string.
 
@@ -123,7 +123,7 @@ In the pipelined query function, the **\_checkif** directive uses the **str\_
 
 ![](./Images/Imagescheckif/checkif8.webp)
 
-##### **regex**
+## **regex**
 
 Result set satisfy a specified regular expression
 
@@ -146,7 +146,7 @@ In the pipelined query function, the **\_checkif** directive uses the **str\_
 
 Although the **\_fetch** result set returned two rows where **$SrcISP** contained the word **Cloud**, only one of the two cases begin with the word **Cloud** (as specified in the regular expression).Hence only one row is included in the final result set.
 
-###### **key\_exists**
+## **key\_exists**
 
 Used to filter rows where not value exists for specified field.
 
@@ -168,7 +168,7 @@ In the pipelined query function, the **\_checkif** directive uses the **key\_
 
 As shown, the 1 row where **$SrcCN** was blank (in the fetch result set) is included in the final result set.
 
-###### **lookup**
+## **lookup**
 
 The **\_checkif** directive, using the **lookup** keyword, can be used to **include/exclude** rows from the result set currently in the pipeline (result set of the query function preceding this **checkif** query function) by looking up to check whether these rows are present in the specified eventstore (created using the **\_store** directive). This **lookup/comparison** between the result set currently in the pipeline and the eventstore is performed on the fields specified in the **checkif** query function (using the **join** keyword). Additionally, another condition is also specified in the same query function using the above keywords **(int\_compare, str\_compare, or key\_exists).**
 

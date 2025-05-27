@@ -7,11 +7,11 @@ type: "epkb_post_type_1"
   
 Most logs by themselves are devoid of internal business context like HR details for a User or asset inventory details for a server and external intelligence like location and threat intel which could add a lot more context to monitored activities. DNIF provides real-time and customizable event data enrichment which reduces overall investigation times.
 
-###### **How Data Enrichment Works?**
+## **How Data Enrichment Works?**
 
 Data is enriched at the time of ingestion and enriched fields are stored alongside the raw log and parsed fields in the Datanode. Enrichment data is made available through Enrichment Buckets which are scheduled on a daily basis (midnight), these enrichment buckets are rebuilt every time an enrichment is enabled and on the scheduled time.
 
-###### **How does it help?**
+## **How does it help?**
 
 Data enrichment in SIEM involves monitoring user behavior to detect anomalies, this approach includes:
 
@@ -21,7 +21,7 @@ Data enrichment in SIEM involves monitoring user behavior to detect anomalies, t
 
 - **Leverage actionable threat intelligence:** Tapping into an expansive pool of indicators of compromise (IOCs) from multiple sources helps you learn from others mistakes and detect known threats rapidly, without much manual investigation. Enriched Data is used to validate threats and provide additional insight during incident investigation.
 
-###### **Get started with Examples**
+## **Get started with Examples**
 
 Listed below are few enrichment examples, these examples will help you to quickly get started with the enrichment process by demonstrating practical use cases.
 

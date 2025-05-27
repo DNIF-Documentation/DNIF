@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Trend Micro is a cloud-client content security infrastructure that delivers global threat intelligence to protect from online threats, such as data stealing malware, phishing attacks, and other web, email, and mobile threats. It helps to deliver continuously updated protection to stop phishing, ransomware, Business Email Compromise (BEC) scams, spam and other advanced email threats before they reach your network. It provides advanced protection for Microsoft™ Exchange Server, Microsoft Office 365, Google™ Gmail, and other cloud or on-premises email solutions.
 
-###### **Examples**
+## **Examples**
 
 Listed below are some of the examples to configure a Webhook connection for the following use cases:
 
@@ -20,7 +20,7 @@ Listed below are some of the examples to configure a Webhook connection for the 
 
 - TrendMicro XDR: Block FileHash
 
-###### **TrendMicro XDR: Block IP**
+## **TrendMicro XDR: Block IP**
 
 - In the **Configuration Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
@@ -70,7 +70,7 @@ In the above figure, a workbook named **Suspicious Remote Desktop Network Activ
 
 ![image 6-Dec-21-2023-09-05-19-9292-AM](./images-TrendMicro/TrendMicro-6.webp)
 
-###### **TrendMicro XDR: Block URL**
+## **TrendMicro XDR: Block URL**
 
 - In the **Configuration Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
@@ -116,7 +116,7 @@ In the above figure, a workbook named **Threat Malicious URL** is executed whi
 
 ![image 11-Dec-21-2023-09-26-59-9480-AM](./images-TrendMicro/TrendMicro-11.webp)
 
-###### **TrendMicro XDR: Block Domain**
+## **TrendMicro XDR: Block Domain**
 
 - In the **Configuration Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
@@ -167,7 +167,7 @@ In the above figure, a workbook named **Threat Malicious URL** is executed whi
 
 ![image 17-Dec-21-2023-09-57-26-0572-AM](./images-TrendMicro/TrendMicro-17.webp)
 
-###### **TrendMicro XDR: Block Email**
+## **TrendMicro XDR: Block Email**
 
 - In the **Configuration Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
@@ -213,7 +213,7 @@ In the above figure, a workbook named **Email Threats** is executed which cont
 
 ![image 22-2](./images-TrendMicro/TrendMicro-22.webp)
 
-###### **TrendMicro XDR: Block FileHash**
+## **TrendMicro XDR: Block FileHash**
 
 - In the **Configuration Box**, enter the **Configuration Name** to uniquely identify this configuration.
 

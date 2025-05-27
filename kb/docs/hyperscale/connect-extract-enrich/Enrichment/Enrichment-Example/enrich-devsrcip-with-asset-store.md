@@ -13,7 +13,7 @@ Let's consider an example, the event store **AssetStore** has data imported fr
   
 [asset\_store.csv](https://m.dnif.it/hubfs/asset_store.csv)
 
-###### **Upload a custom eventstore**
+## **Upload a custom eventstore**
 
 A custom event store called **AssetStore** can be created by uploading the .**csv** file containing source device data. The event store that you created will be listed as shown below:  
 
@@ -21,7 +21,7 @@ A custom event store called **AssetStore** can be created by uploading the .**
 
 An enrichment bucket for the field **$DevSrcIP** can be created to refer values from the **AssetStore** eventstore.
 
-###### **Define a custom Enrichment Bucket**
+## **Define a custom Enrichment Bucket**
 
 The enrichment bucket would identify the additional details of a specific `**$DevSrcIP**` in the log events coming from different sources.
 
@@ -40,7 +40,7 @@ bucket: IPv4fields:- DevSrcIPschema-version: 1.0source:- enr_key: `{$DevSrcIP}` 
 
 Save the enrichment bucket.
 
-###### **Run a Search**
+## **Run a Search**
 
 To check if enrichment has been added successfully, run a search on data to fetch enriched details. Enrichment will be applied to the field values mentioned in the enrichment bucket of yml file.  
 

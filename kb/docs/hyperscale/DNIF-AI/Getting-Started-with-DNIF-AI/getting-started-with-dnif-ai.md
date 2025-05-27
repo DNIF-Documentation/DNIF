@@ -6,12 +6,12 @@ type: "epkb_post_type_1"
 
 The DNIF AI features in DNIF v9.0 assist our customers and employees in providing an elevated user experience using the DNIF console. From automated extractor builders to chat assistants, analysts can leverage the GenAI capabilities to accelerate the way they currently perform their tasks. These features not only help in saving time but also provide insightful information for analysts to work with.
 
-###### **Prerequisites**
+## **Prerequisites**
 
   
 To optimize DNIF AI features, users should follow wizard instructions, notifications, and best practices. No prior AI/ML knowledge is needed, but console familiarity helps. Look for the DNIF AI labels to identify these features.
 
-###### **Privacy Statement**
+## **Privacy Statement**
 
   
 **Data Usage and Privacy Assurance:**
@@ -28,6 +28,6 @@ We are committed to ensuring the privacy and security of your data. Any log samp
 
 By following these practices, you can safely and efficiently utilize our DNIF AI features while maintaining privacy and data security.
 
-###### **Features**
+## **Features**
 
 1. [Extractor Generator](https://dnif.it/kb/dnif-ai/extractor-generator/extractor-generator-overview/)

@@ -4,7 +4,7 @@ date: 2025-01-23
 type: "epkb_post_type_1"
 ---
 
-###### **Case Listing Page**
+## **Case Listing Page**
 
 - On the left navigation bar, Click the Cases icon to view the cases listing page.
 
@@ -48,7 +48,7 @@ type: "epkb_post_type_1"
 - Global Cases provides a consolidated view of all cases across Tenants and Scopes, accessible to users with the appropriate permissions.  
      **Note**: Tenants were previously referred to as Clusters.
 
-### **View Case Details**
+## **View Case Details**
 
 - On the Case listing page, click on a case to view its details. The following screen is displayed.  
       

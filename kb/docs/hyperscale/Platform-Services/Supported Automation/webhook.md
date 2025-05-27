@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Webhook provides you with a simple interface to integrate DNIF with various third party application’s webhook/api. The Webhook plugin has a handy feature which allows you to use $Variables for substitution in the configuration. Check the Webhook example for Slack to understand its use case.
 
-##### **Pre-requisites**
+## **Pre-requisites**
 
 You need to provide the following data depending on the third party webhook/api they intend to use.
 
@@ -16,7 +16,7 @@ You need to provide the following data depending on the third party webhook/api 
 
 - Payload
 
-##### **Configuration**
+## **Configuration**
 
 1. Follow the initial configuration steps in [How to Configure Automation](https://dnif.it/kb/uncategorized/configuring-automation/).
 
@@ -38,7 +38,7 @@ Variable substitution is supported in the configuration viz; URL, Headers and Pa
 
 To associate webhook automation config with investigate panel - it must provide exactly one substitution parameter - either $User or $Host.
 
-##### Examples
+## Examples
 
 Listed below are few Webhook integration examples, these examples will help you to quickly get started with the configuration process by demonstrating practical use cases.
 

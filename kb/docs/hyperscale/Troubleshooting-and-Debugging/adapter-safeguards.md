@@ -8,12 +8,12 @@ Safeguards play a vital role in the system to protect against any possible risks
 
 DNIF has “Adapter Safeguards” that protects the Adapter from certain possible failures / dangers. They are listed as follows.
 
-###### **EPS Governor**
+## **EPS Governor**
 
   
 EPS Governor helps to monitor the EPS reaching its max limit and take decisions on it to prevent any abnormal functioning of processes that can affect the overall operation of the Adapter.
 
-###### **How it safeguards the Adapter?**
+## **How it safeguards the Adapter?**
 
 1. **EPS Governor** monitors the incoming EPS at the rate of per minute where the monitoring is performed on each of the log collectors.
 
@@ -31,12 +31,12 @@ EPS Governor helps to monitor the EPS reaching its max limit and take decisions 
 
 15. The ingestion does not get affected but after crossing the threshold, the EPS governor starts dropping off the events to prevent any failure of operations.
 
-###### **EVTMEM Cache Limits**
+## **EVTMEM Cache Limits**
 
   
 EVTMEM is used to store the data in the form of a queue and transfer further for processing of those events. In case of any irregularities it takes decisions to prevent from abnormal functioning in the Adapter
 
-###### **How it safeguards the Adapter?**
+## **How it safeguards the Adapter?**
 
 1. There is a mechanism for holding the data in the form of queues that stores the data for further processing and the queue is called as EVTMEM.
 
@@ -52,12 +52,12 @@ EVTMEM is used to store the data in the form of a queue and transfer further for
 
 13. The event is dropped to prevent the queue increasing in the EVTMEM which can thus hamper the operations on the Adapter.
 
-###### **Datanode Transfer Cache limits**
+## **Datanode Transfer Cache limits**
 
   
 On Adapter, the incoming data is parsed and enriched and the output received as data chunks are held in a transfer cache until written in the DataNode.
 
-###### **How it safeguards the Adapter?**
+## **How it safeguards the Adapter?**
 
 1. Data is cached and saved on the Adapter before indexing on to the Datanode.
 

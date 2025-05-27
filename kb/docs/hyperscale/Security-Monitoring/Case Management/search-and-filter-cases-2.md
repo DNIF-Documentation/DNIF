@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Searching and filtering cases allow users to quickly locate and focus on specific cases by applying relevant filters
 
-###### **Search Cases by name**
+## **Search Cases by name**
 
 - On the left navigation bar, Click the **Cases** icon  to view the following page.  
       
@@ -20,7 +20,7 @@ Searching and filtering cases allow users to quickly locate and focus on specifi
       
     
 
-###### **Filter Cases**  
+## **Filter Cases**  
 
 - On the left navigation bar, Click the **Cases** icon  to view the following page.  
       

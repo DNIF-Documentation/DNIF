@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 ClickSend is a multi channel business communications platform that offers SMS, MMS, Voice, Fax, Email, Post Letter and Postcard. This integration helps to send automated messages from apps when something happens.
 
-###### **Configuration**
+## **Configuration**
 
 - In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 

@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Creating a new case involves adding one or more signals into a case folder. Each case is focused on investigating a particular type of incident. By organizing cases in this manner, the security team can prioritize high-risk incidents, streamline investigations, and accelerate response times.
 
-###### **How to create a new case?**  
+### **How to create a new case?**  
   
 
 - New cases can be created from the signals listing page by selecting one or more signals.
@@ -16,27 +16,25 @@ Creating a new case involves adding one or more signals into a case folder. Each
     ![](./images-CreateaCase/Createasignal-1.png)  
     
 
-###### **Creating a case with one signal**  
+### **Creating a case with one signal**  
   
 
 - Click the icon next to the Signal for which a new case needs to be created.  
       
       
-    **![](./images-CreateaCase/Createasignal-2.png)  
-      
-    **
+    **![](./images-CreateaCase/Createasignal-2.png)**
 
-- On the side panel that appears, Click the **plus** icon shown below to create a new Case**.  
+- On the side panel that appears, Click the **plus** icon shown below to create a new Case.  
       
-    ![](./images-CreateaCase/Createasignal-3.png)**  
+    **![](./images-CreateaCase/Createasignal-3.png)**  
       
     
 
 - The following screen will be displayed.  
       
-    **  
-    ![](./images-CreateaCase/Createasignal-4.png)
-    **  
+    
+    **![](./images-CreateaCase/Createasignal-4.png)**
+     
     
 
 - Enter the following details**
@@ -50,7 +48,7 @@ Creating a new case involves adding one or more signals into a case folder. Each
 
 - Enter the above details and click **Save**. The new case will be saved and listed.
 
-###### **Creating a case with multiple signals**  
+### **Creating a case with multiple signals**  
   
 
 - Users can select the checkboxes next to the desired Signals, then click **Add to Case** to create a new Case or add them to an existing Case.  

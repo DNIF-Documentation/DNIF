@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 GreenSnow is a team consisting of the best specialists in computer security, who harvest a large number of IPs from different computers located around the world. GreenSnow is comparable with SpamHaus.org for attacks of any kind except for spam.
 
-###### **GreenSnow IP feeds**
+## **GreenSnow IP feeds**
 
 Attacks / bruteforce that are monitored are as follows:
 
@@ -27,7 +27,7 @@ Attacks / bruteforce that are monitored are as follows:
 - cPanel  
     
 
-###### **Configuration**
+## **Configuration**
 
 GreenSnow is a pre-configured integration in DNIF that stores its data as a dataset in an eventstore, this is a scheduled eventstore and can be used to fetch threat intel data for IP Addresses.
 
@@ -47,7 +47,7 @@ GreenSnow is a pre-configured integration in DNIF that stores its data as a data
 - Enter the above details and click **Save**.  
     
 
-###### **Dataset integrated with GreenSnow**
+## **Dataset integrated with GreenSnow**
 
 **Retrieve threat intel data**
 

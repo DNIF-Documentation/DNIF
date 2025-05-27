@@ -8,7 +8,7 @@ AlienVault Open Threat Exchange (OTX) is the world's most authoritative open thr
 
 OTX provides information on the reliability of threat information, reporter of the threat, and other details of threat investigations. OTX data can be used to enhance threat detection capabilities of security monitoring systems such as DNIF.
 
-###### **Pre-requisites**
+## **Pre-requisites**
 
 - You can sign up and set up an OTX account using your email address, or you can use your existing Twitter or Google+ account.
 
@@ -29,7 +29,7 @@ OTX provides information on the reliability of threat information, reporter of t
     ![avotx2](./images-AlienVault/AlienVault-2.webp)  
     
 
-###### **Configuration**
+## **Configuration**
 
 - Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).  
       
@@ -45,9 +45,9 @@ OTX provides information on the reliability of threat information, reporter of t
 - Enter the above details and click **Save**.  
     
 
-##### **Lookups integrated with AlienVault**
+## **Lookups integrated with AlienVault**
 
-###### **Retrieve Domain reports**
+### **Retrieve Domain reports**
 
 This function returns a complete report of all threat indicators for a given domain, including data from all the sub-reports.
 
@@ -93,7 +93,7 @@ The Lookup call returns output in the following structure for available data
 | $Org | text | text |
 | $Registrar | text | Name of the domain's official registrar |
 
-###### **Retrieve IP address details**
+### **Retrieve IP address details**
 
 This function returns a complete report of all threat indicators for a given IP address,
 
@@ -136,7 +136,7 @@ The Lookup call returns output in the following structure for available data
 | $ThreatScore | number | AlienVault Labs threat score for the given IP address |
 | $PulseCount | number | AlienVault pulse count |
 
-###### **Retrieve Host Details**
+## **Retrieve Host Details**
 
 This function returns a complete report of all threat indicators for a given hostname.
 
@@ -179,7 +179,7 @@ The Lookup call returns output in the following structure for available data
 | $PulseCount | number | Pulse count for the hostname |
 | $MalwareCount | number | Malware count for the hostname |
 
-###### **Retrieve URL scan reports**
+## **Retrieve URL scan reports**
 
 This function returns the following information for the given URL:
 
@@ -228,7 +228,7 @@ The Lookup call returns output in the following structure for available data
 | $PulseCount | number | AlienVault pulse count |
 | $Country | text | Country in which the given URL's hosting server is deployed |
 
-###### **Retrieve hash reports**
+## **Retrieve hash reports**
 
 This function returns the metadata about the file hash, as well as dynamic and static analysis of the given filehash. The SHA1 or SHA256 hashing algorithm (formats) are acceptable.
 

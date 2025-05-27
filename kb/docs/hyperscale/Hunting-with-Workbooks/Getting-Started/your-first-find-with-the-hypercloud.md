@@ -10,7 +10,7 @@ Welcome to DNIF HYPERCLOUD! Whether you're new or just getting started, we'll gu
   
 The HYPERCLOUD is a powerful tool for analyzing large volumes of data in real-time. We offer a user-friendly interface that allows you to quickly and easily find the information you need.
 
-### **Basic Search**
+## **Basic Search**
 
 After you log in, you will be redirected to the landing page. Click the search icon on the left sidebar to access the Search interface. You can create queries here using predefined directives, filters, functions, and more. You can search through the data set collated by HYPERCLOUD.
 
@@ -35,7 +35,7 @@ To get a feel for the Search interface, we'll start with a basic query by select
 
 Let's dive deeper into the power of the HYPERCLOUD search block by exploring a practical use case. By following along with the steps outlined below, you'll not only learn how to use the search block effectively but also see firsthand how it can be applied to real-world situations. So, let's get started!
 
-### **Discovering Blocked Traffic and Targeted Services**
+## **Discovering Blocked Traffic and Targeted Services**
 
 We'll explore a powerful use case that demonstrates how to discover targeted services from FIREWALL event logs. First, we'll identify traffic that's been blocked by your Firewall, including the source IP addresses and countries where the requests originate from.
 
@@ -51,7 +51,7 @@ By analyzing this information, we can see that a lot of blocked traffic comes fr
 
 And Voila, you have successfully found a list of targeted services along with suspected sources that have unusual or suspicious activity.
 
-### **Pinpointing Suspicious Authentication Attempts**
+## **Pinpointing Suspicious Authentication Attempts**
 
 Let's look at another example to identify  "Targeted Hosts/Servers through Failed Authentication Attempts" and create a report out of it in the HYPERCLOUD.
 

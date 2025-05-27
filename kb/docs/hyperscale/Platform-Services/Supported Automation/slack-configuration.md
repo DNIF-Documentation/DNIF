@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Slack is a messaging application for business. It transforms the way that organisations communicate by bringing people together to work as one unified team.
 
-###### **Configuration**
+## **Configuration**
 
 - In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 

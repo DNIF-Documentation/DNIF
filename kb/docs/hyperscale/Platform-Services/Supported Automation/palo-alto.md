@@ -14,7 +14,7 @@ This article lists examples demonstrating practical use cases for taking action 
 
 <!-- (add an internal link)(#Remove-host-from-group-palo-alto) -->
 
-###### **Add Host to Group (PaloAlto)**
+## **Add Host to Group (PaloAlto)**
 
 The below configuration allows user to connect to the Palo Alto host and run any command
 
@@ -34,7 +34,7 @@ In the above figure, a search query is executed that displays all the suspicious
 
 You need to apply the firewall rules to block the IP Addresses present in the group.
 
-###### **Remove Host from Group (Palo Alto)**
+## **Remove Host from Group (Palo Alto)**
 
 The below configuration allows you to connect to the Palo Alto host and run any command
 

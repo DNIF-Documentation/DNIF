@@ -6,11 +6,11 @@ type: "epkb_post_type_1"
 
 User Store integration is used to lookup on custom event stores uploaded to DNIF for various Users in an organization.
 
-###### **Pre-requisites**
+## **Pre-requisites**
 
 - The custom [event store](https://dnif.it/kb/operations/event-stores/) must contain a column named **$User** in the event store data.
 
-###### **Configuration**
+## **Configuration**
 
 - Follow the initial configuration steps in [How to](https://www.dnif.it/en/kb/configuring-automation) [Configure](https://dnif.it/kb/uncategorized/configuring-automation/) [Automation?](https://www.dnif.it/kb/configuring-automation).  
       
@@ -28,9 +28,9 @@ User Store integration is used to lookup on custom event stores uploaded to DNIF
 - Enter the above details and click **Save**.  
     
 
-###### **Lookup integrated with User Store**
+## **Lookup integrated with User Store**
 
-###### **Retrieve User Details**  
+### **Retrieve User Details**  
 
 The User for which you want to retrieve the details from the eventstore.
 

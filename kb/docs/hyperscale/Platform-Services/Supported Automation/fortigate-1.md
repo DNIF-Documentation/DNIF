@@ -12,7 +12,7 @@ This article lists examples demonstrating practical use cases for taking action 
 - Remove Host from Group
 <!-- (#Remove-Host-from-Group-Fortigate) -->
 
-###### **Add Host to Group (Fortigate)**
+## **Add Host to Group (Fortigate)**
 
 The below configuration allows you to connect to the FortiGate host and run any command
 
@@ -32,7 +32,7 @@ In the above figure, a search query is executed that displays all the suspicious
 
 You need to apply the firewall rules to block the IP Addresses present in the group.
 
-###### **Remove Host from Group (Fortigate)**
+## **Remove Host from Group (Fortigate)**
 
 The below configuration allows you to connect to the FortiGate host and run any command
 

@@ -10,7 +10,7 @@ Code Block also known as a Python Block is used to manipulate the data and gener
 - The output data from the DQL / Search block will be used as an input to the Python block to manipulate and generate an output.
 - It is a restrictive shell, no imports or invocations are allowed. Only standard pythonic functions and operations are allowed.
 
-### **How to add a Code Block?**
+## **How to add a Code Block?**
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
@@ -48,9 +48,7 @@ def transform(inward_array):
 
 - Click **Copy** icon, to copy the details to clipboard.
 
-## **Code Block Functions  
-  
-**
+## **Code Block Functions**
 
 | **Icons** | **Functionality** |
 | --- | --- |
@@ -61,9 +59,7 @@ def transform(inward_array):
 
 For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
 
-### **Usage of json\_parse and json\_stringify  
-  
-**
+## **Usage of json\_parse and json\_stringify**
 
 json\_parse is used for parsing data that is received as JSON; it deserializes a JSON string into a JavaScript object. json\_stringify on the other hand is used to create a JSON string out of an object or array; it serializes a JavaScript object into a JSON string.
 
@@ -75,35 +71,29 @@ Python code block is used to parse the above mentioned response into a json obje
 
 ![image 10-Dec-21-2023-05-05-02-4839-AM](./Images/ImagesCreateaCodeBlock/code-block-10.jpg)
 
-### **Usage of regexp\_extract**
+## **Usage of regexp\_extract**
 
 Extracts the first string in str that matches the regexp expression and corresponds to the regex group index.
 
-### **Syntax  
-  
-**
+## **Syntax **
 
 ```
 regexp_extract(pattern str, string str, group int=0)
 ```
 
-### **Arguments  
-  
-**
+## **Arguments**
 
 **pattern:** A STRING expression to be matched.  
 **string:** A STRING expression with a matching pattern.  
 **group:** An optional integral number expression greater or equal 0 with default 0.
 
-### **Returns**
+## **Returns**
 
 The REGEXP\_Extract function returns a string value.
 
 The regexp string must be a python regular expression. String literals are unescaped. For example, to match 'abc', a regular expression for regexp can be '^abc$'. regexp may contain multiple groups. group indicates which regex group to extract. An int of 0 means matching the entire regular expression.
 
-### **Example  
-  
-**
+## **Example **
 
 ```
 def transform(inward_array):
@@ -116,24 +106,22 @@ In the above example, the function **regexp\_extract("PACKET\_(w+)**) will ret
 
 ![image 11-Dec-21-2023-05-06-02-3634-AM](./Images/ImagesCreateaCodeBlock/code-block-11.jpg)
 
-### **Usage of regexp\_match**
+## **Usage of regexp\_match**
 
 Returns true if the target value exactly matches the regular expression pattern.
 
-### **Syntax  
-  
-**
+## **Syntax**
 
 ```
 regexp_match(pattern str, string str)
 ```
 
-### **Arguments**
+## **Arguments**
 
 **pattern:** A STRING expression to be matched.  
 **string:** A STRING expression with a matching pattern.
 
-### **Returns**
+## **Returns**
 
 The REGEXP\_MATCH function returns boolean values.
 
@@ -142,9 +130,7 @@ REGEXP\_MATCH attempts to match the entire string contained in pattern str. For 
 REGEXP\_MATCH(pattern str, 'A') returns false.  
 REGEXP\_MATCH(pattern str, 'A.\*') returns true.
 
-### **Example  
-  
-**
+## **Example**
 
 ```
 def transform(inward_array):
