@@ -24,11 +24,7 @@ type: "epkb_post_type_1"
 | Users  | Username of the user that performed the action |
 | Download Icon | Downloads the report in CSV format |
 
-<figure>
-  <video width="100%" height="auto" controls>
-    <source src="./video-OrgAuditTrail/OrgAuditTrail.mp4" type="video/mp4" />
-  </video>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uQ7raCGtfqk?si=YRVW0PSTWNPXUs_1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The following events will be captured:
 

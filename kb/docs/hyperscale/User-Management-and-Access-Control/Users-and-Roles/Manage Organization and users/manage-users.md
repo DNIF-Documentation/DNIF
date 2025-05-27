@@ -6,8 +6,7 @@ type: "epkb_post_type_1"
 
 User Management is the process of creating and maintaining a user store. User management establishes a user’s authorization to access secure resources, it also serves as a repository of identities and is the source of all identities in an organization. Access control is applied to regulate who can view or use resources in a particular environment.
 
-###### **  
-Cluster Administrator**
+###### **Cluster Administrator**
 
 - The user created at the First time UI stage will be the Cluster Administrator.
 - A Cluster Administrator is the Super Administrator and will manage all the scopes that fall under the Cluster.

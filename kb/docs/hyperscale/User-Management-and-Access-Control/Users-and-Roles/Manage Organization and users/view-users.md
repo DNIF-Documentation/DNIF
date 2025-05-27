@@ -10,6 +10,4 @@ type: "epkb_post_type_1"
 
 3. The Users view screen opens with the list of Users. 
         
-<video width="100%" height="auto" controls>
-  <source src="./video-ViewUsers/ViewUsers.mp4" type="video/mp4" />
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ah9V_OnfeCw?si=2H061J3kEgDeoxYD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

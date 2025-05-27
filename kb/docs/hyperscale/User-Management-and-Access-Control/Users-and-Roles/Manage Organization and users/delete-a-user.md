@@ -20,6 +20,4 @@ type: "epkb_post_type_1"
 7. On the confirmation box click on **Delete**. The selected user will be permanently deleted.  
     
 
-<video width="100%" height="auto" controls>
-  <source src="./video-DeleteUser/DeleteUser.mp4" type="video/mp4" />
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fQpAeZQHfac?si=AzsqOvwx-Gq4wfIR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
