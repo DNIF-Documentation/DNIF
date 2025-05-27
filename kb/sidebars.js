@@ -293,7 +293,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          id: 'documents/DNIF-AI/b.Extractor-Generator-Overview/extractor-generator-overview',
+          id: 'documents/DNIF-AI/Extractor-Generator-Overview/extractor-generator-overview',
           label: 'Extractor Generator Overview'
         }
       ]
