@@ -67,7 +67,7 @@ For many organizations, Slack is one of the most essential messaging apps used f
 
 The following are the configurations to forward Slack Connector logs to DNIF. HYPERCLOUD.
 
-![image1-Sep-26-2023-05-45-50-1123-AM](./Slack-img/Slack-2.webp)
+![image1-Sep-26-2023-05-45-50-1123-AM](./Slack-img/slack-2.webp)
 
 | **Field Name** | **Description** |
 | --- | --- |
