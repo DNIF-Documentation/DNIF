@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdnif_kb=self.webpackChunkdnif_kb||[]).push([[48158],{48158:(a,e,k)=>{k.r(e),k.d(e,{DocSearchModal:()=>c.a1});var c=k(55600)}}]);

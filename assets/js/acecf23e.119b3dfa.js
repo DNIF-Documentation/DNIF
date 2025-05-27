@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdnif_kb=self.webpackChunkdnif_kb||[]).push([[81903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/DNIF/blog","blogTitle":"Blog","authorsListPath":"/DNIF/blog/authors"}')}}]);

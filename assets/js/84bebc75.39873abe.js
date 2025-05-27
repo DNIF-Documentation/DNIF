@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdnif_kb=self.webpackChunkdnif_kb||[]).push([[53289],{80531:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/DNIF/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

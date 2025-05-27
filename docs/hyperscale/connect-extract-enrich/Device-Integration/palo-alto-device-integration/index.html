@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-hyperscale/connect-extract-enrich/Device-Integration/palo-alto-device-integration" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Palo Alto (Device Integration) | My Site</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://dnif-documentation.github.io/DNIF/img/dnif-logo.png"><meta data-rh="true" name="twitter:image" content="https://dnif-documentation.github.io/DNIF/img/dnif-logo.png"><meta data-rh="true" property="og:url" content="https://dnif-documentation.github.io/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/palo-alto-device-integration"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Palo Alto (Device Integration) | My Site"><meta data-rh="true" name="description" content="Palo Alto Networks provides a wide suite of enterprise-level next-generation firewalls, with a diverse range of security features for the network."><meta data-rh="true" property="og:description" content="Palo Alto Networks provides a wide suite of enterprise-level next-generation firewalls, with a diverse range of security features for the network."><link data-rh="true" rel="icon" href="/DNIF/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://dnif-documentation.github.io/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/palo-alto-device-integration"><link data-rh="true" rel="alternate" href="https://dnif-documentation.github.io/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/palo-alto-device-integration" hreflang="en"><link data-rh="true" rel="alternate" href="https://dnif-documentation.github.io/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/palo-alto-device-integration" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://YY0TIP6BF9-dsn.algolia.net" crossorigin="anonymous"><link rel="alternate" type="application/rss+xml" href="/DNIF/blog/rss.xml" title="My Site RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/DNIF/blog/atom.xml" title="My Site Atom Feed">
+
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" title="My Site" href="/DNIF/opensearch.xml"><link rel="stylesheet" href="/DNIF/assets/css/styles.5d9034bb.css">
+<script src="/DNIF/assets/js/runtime~main.e91a0209.js" defer="defer"></script>
+<script src="/DNIF/assets/js/main.2665bd49.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/DNIF/img/dnif-logo.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/DNIF/"><div class="navbar__logo"><img src="/DNIF/img/dnif-logo.png" alt="DNIF logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/DNIF/img/dnif-logo.png" alt="DNIF logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div></a><a class="navbar__item navbar__link" href="/DNIF/docs/documents/Welcome to DNIF/Quick Start Guide/quick-start-guide">Knowledge Base</a><a class="navbar__item navbar__link" href="/DNIF/docs/documents/Release-Notes/april-17-2025-content-update">Release Notes</a></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search (Command+K)"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"></span></button></div><a aria-current="page" class="navbar__item navbar__link navbar-hyperscale-btn navbar__link--active" href="/DNIF/docs/hyperscale/Welcome to DNIF/Quick Start Guide/quick-start-guide"> Switch to Hyperscale</a></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/DNIF/docs/hyperscale/Welcome to DNIF/Quick Start Guide/quick-start-guide">Welcome to On-Prem</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Welcome to DNIF/Quick Start Guide/quick-start-guide">Getting Started</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/CISCO/cisco-acs">Connect, Extract and Enrich</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/CISCO/cisco-acs">Device Integration</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/CISCO/cisco-acs">CISCO</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/FORTINET/fortigate">FORTINET</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/MICROSOFT/iis">MICROSOFT</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/SYSMANTEC/symantec-atp">SYSMANTEC</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/accops-hyworks">Accops Hyworks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/aruba-clearpass">Aruba ClearPass</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/barracuda-waf-syslog">Barracuda WAF Syslog</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/bluecoat-proxy">Bluecoat Proxy</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/checkpoint">CheckPoint</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/cyberark-pim">CyberArk PIM</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/darktrace">Darktrace</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/dell-cylance-endpoint">Dell Cylance Endpoint</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/f5-big-ip-asm">F5 BIG-IP ASM</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/fireeye">FireEye</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/forcepoint-websense">Forcepoint Websense</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/forescout-counteract">Forescout CounterACT</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/forwarding-f5-distributed-cloud-services-logs-to-dnif-over-tls">Forwarding F5 Distributed Cloud Services Logs to DNIF over TLS</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/imperva-waf">Imperva WAF</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/jira-cloud">JIRA CLOUD</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/juniper-cortex-threat">Juniper Cortex Threat</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/juniper-srx">Juniper SRX</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/knowledge-base-mcafee-web-gateway">McAfee Web Gateway</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/netscaler-waf">NetScaler WAF</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/palo-alto-device-integration">Palo Alto (Device Integration)</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/radware-waf">Radware-WAF</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/sophos-cyberoam-firewall">Sophos Cyberoam Firewall</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/sophos-endpoint">Sophos Endpoint</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/sophos">Sophos</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/trend-micro">Trend Micro</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/ubuntu">Ubuntu</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/zscaler">Zscaler</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Connectors/How to Add a Connector/how-to-add-a-connector">Connectors</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Data-Extraction/guidelines-for-sanitizing-log-samples">Data Extraction</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/connect-extract-enrich/Enrichment/Geo Enrichment/geo-enrichment">Enrichment</a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/add-parameters-to-workbook-2">Hunting with Workbooks</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Dnif-Query-Language/Schema-on-Read/">Dnif Query Language</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Security-Monitoring/Investigating Signals/add-multiple-signals-to-a-case">Security Monitoring</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/">User Management and Access Control</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Operations/Managing Streams/managing-streams">Operations</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Platform-Services/Supported Automation/active-directory">Platform Services</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Troubleshooting-and-Debugging/Troubleshooting Connectors/aws-s3-troubleshooting-procedure">Troubleshooting and Debugging</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/DNIF-AI/Getting-Started-with-DNIF-AI/">DNIF AI</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/License-Management-and-Billing/License-Management-and-Billing/Term-Based-Software-Subscription/">License Management and Billing</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/DNIF-Legal-and-Security-Compliance/DNIF End-user License Agreement/dnif-end-user-license-agreement">DNIF Legal and Security Compliance</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Policies/active-threat-content-synchronization">Policies</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/DNIF/docs/hyperscale/Best-Practices/advanced-telemetry-for-windows">Best Practices</a></div></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/DNIF/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Welcome to On-Prem</span><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Connect, Extract and Enrich</span><meta itemprop="position" content="2"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Device Integration</span><meta itemprop="position" content="3"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Palo Alto (Device Integration)</span><meta itemprop="position" content="4"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Palo Alto (Device Integration)</h1></header><p>Palo Alto Networks provides a wide suite of enterprise-level next-generation firewalls, with a diverse range of security features for the network.</p>
+<ol>
+<li>Configure Syslog</li>
+</ol>
+<ol start="3">
+<li>Configuring Syslog Format for Palo Alto Networks Devices</li>
+</ol>
+<ol start="5">
+<li>Configure TLS</li>
+</ol>
+<ol start="7">
+<li>Validate Logs</li>
+</ol>
+<p>To send log events from Palo Alto to DNIF HYPERCLOUD, complete the following steps:</p>
+<ul>
+<li>Configure a Syslog server profile</li>
+</ul>
+<ul>
+<li>
+<p>Configure syslog forwarding for Traffic, Threat, and WildFire Submission logs</p>
+</li>
+<li>
+<p>Configure syslog forwarding for System, Config, HIP Match, and Correlation logs</p>
+</li>
+</ul>
+<ul>
+<li>(Optional) Configure the header format of syslog messages</li>
+</ul>
+<ul>
+<li>Create a certificate to secure syslog communication over TLSv1.2</li>
+</ul>
+<ul>
+<li>Commit your changes and review the logs on the syslog server</li>
+</ul>
+<ul>
+<li>(Optional) Configure the firewall to terminate the connection to the syslog server upon FQDN refresh</li>
+</ul>
+<p><strong>Step I: Configure a Syslog server profile.</strong></p>
+<ul>
+<li>
+<p>Select Device Server Profiles Syslog..</p>
+</li>
+<li>
+<p>Click Add and enter a Name for the profile.</p>
+</li>
+<li>
+<p>If the firewall has more than one virtual system (vsys), select the Location (vsys or<br>
+<!-- -->Shared ) where this profile is available.</p>
+</li>
+<li>
+<p>For each syslog server, click Add and enter the information that the firewall requires to connect to it:</p>
+<ul>
+<li>
+<p>Name—Unique name for the server profile.</p>
+</li>
+<li>
+<p>Syslog Server—IP address or fully qualified domain name (FQDN) of the syslog server.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>If you configure an FQDN and use UDP  transport, if the firewall cannot resolve the FQDN, the firewall uses the existing IP address resolution for the FQDN as the Syslog Server address. </p>
+<ul>
+<li>
+<p>Transport—Select TCP,UDP, or SSL (TLS) as the protocol for communicating with the syslog server. For SL , the firewall supports only TLSv1.2.</p>
+</li>
+<li>
+<p>Port —The port number on which to send syslog messages (default is UDP on port 514); you must use the same port number on the firewall and the syslog server.</p>
+</li>
+<li>
+<p>Format—Select the syslog message format to use: BSD  (the default) or IETF. Traditionally, BSD format is over UDP and IETF  format is over TCP or SSL/TLS.</p>
+</li>
+<li>
+<p>Facility—Select a syslog standard value (default is LOG_USER) to calculate the priority (PRI) field in your syslog server implementation. Select the value that maps to how you use the PRI field to manage your syslog messages.</p>
+</li>
+<li>
+<p>(Optional) To customize the format of the syslog messages that the firewall sends, select the Custom Log Format  tab. For details on how to create custom formats for the various log types, refer to the <a href="https://docs.paloaltonetworks.com/resources/cef" target="_blank" rel="noopener noreferrer">Common Event Format Configuration Guide</a>.</p>
+</li>
+<li>
+<p>Click OK to save the server profile.</p>
+</li>
+</ul>
+<p>**Step II - Configure syslog forwarding for Traffic, Threat, and WildFire Submission logs.<br>
+<!-- -->**</p>
+<ul>
+<li>
+<p>Configure the firewall to forward logs. For more information, see Step <a href="https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-1/pan-os-admin/monitoring/configure-log-forwarding.html#id1443a62b-8a0b-41db-a08d-5df934bf0ffc_idd40c0d1a-7191-4616-9573-f02a99352eae" target="_blank" rel="noopener noreferrer">Create a Log Forwarding profile.</a></p>
+</li>
+<li>
+<p>Select Objects Log Forwarding, click Add, and enter a Name to identify the profile.</p>
+</li>
+<li>
+<p>For each log type and each severity level or WildFire verdict, select the Syslog server profile and click OK.</p>
+</li>
+<li>
+<p>Assign the log forwarding profile to a security policy to trigger log generation and forwarding. For more information, See Step <a href="https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-1/pan-os-admin/monitoring/configure-log-forwarding.html#id1443a62b-8a0b-41db-a08d-5df934bf0ffc_id6c337a4d-8869-498e-9d4f-630d2739b151" target="_blank" rel="noopener noreferrer">Assign the Log Forwarding profile to policy rules and network zones.</a></p>
+</li>
+<li>
+<p>Select Policies Security and select a policy rule.</p>
+</li>
+<li>
+<p>Select the Actions tab and select the Log Forwarding profile you created.</p>
+</li>
+<li>
+<p>For Traffic logs, select one or both of the Log at Session Start and Log At Session End<br>
+<!-- -->check boxes, and click OK</p>
+</li>
+<li>
+<p>For detailed information about configuring a log forwarding profile and assigning the profile to a policy rule, see <a href="https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-1/pan-os-admin/monitoring/configure-log-forwarding.html#id1443a62b-8a0b-41db-a08d-5df934bf0ffc" target="_blank" rel="noopener noreferrer">Configure Log Forwarding</a></p>
+</li>
+</ul>
+<p><strong>Step  III - Configure syslog forwarding for System, Config, HIP Match, and Correlation logs.</strong></p>
+<ul>
+<li>
+<p>Select Device &gt; Log Settings</p>
+</li>
+<li>
+<p>For System and Correlation logs, click each Severity level, select the<br>
+<!-- -->Syslog server profile, and click OK</p>
+</li>
+<li>
+<p>For Config, HIP Match, and Correlation logs, edit the section, select the<br>
+<!-- -->Syslog server profile, and click OK</p>
+</li>
+</ul>
+<p><strong>Step IV - (Optional) Configure the header format of syslog messages.</strong></p>
+<p>The log data includes the unique identifier of the firewall that generated the log. Choosing the header format provides more flexibility in filtering and reporting on the log data for some Security Information and Event Management (SIEM) servers.</p>
+<p>This is a global setting and applies to all Syslog server profiles configured on the firewall.</p>
+<ul>
+<li>
+<p>Select Device Setup Management and edit the Logging and Reporting Settings.</p>
+</li>
+<li>
+<p>Select the Log Export and Reporting tab and select the Syslog HOSTNAME Format:</p>
+<ul>
+<li>
+<p>FQDN (default)—Concatenates the hostname and domain name defined on the sending firewall.</p>
+</li>
+<li>
+<p>hostname—Uses the hostname defined on the sending firewall.</p>
+</li>
+<li>
+<p>ipv4-address—Uses the IPv4 address of the firewall interface used to send logs. By default, this is the MGT interface.</p>
+</li>
+<li>
+<p>ipv6-address—Uses the IPv6 address of the firewall interface used to send logs. By default, this is the MGT interface.</p>
+</li>
+<li>
+<p>none-Leaves the hostname field unconfigured on the firewall. There is no identifier for the firewall that sent the logs.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Click OK to save your changes.</p>
+</li>
+</ul>
+<p><strong>Step V - Create a certificate to secure syslog communication over TLSv1.2.</strong></p>
+<p>Required only if the syslog server uses client authentication. The syslog server uses the certificate to verify that the firewall is authorized to communicate with the syslog server.</p>
+<p>Ensure the following conditions are met:</p>
+<ul>
+<li>
+<p> The private key must be available on the sending firewall; the keys can&#x27;t reside on a Hardware Security Module (HSM).</p>
+</li>
+<li>
+<p>The subject and the issuer for the certificate must not be identical.</p>
+</li>
+<li>
+<p>The syslog server and the sending firewall must have certificates that the same trusted certificate authority (CA) signed. Alternatively, you can generate a self-signed certificate on the firewall, export the certificate from the firewall, and import it in to the syslog server.</p>
+</li>
+<li>
+<p>The connection to a Syslog server over TLS is validated using the Online Certificate Status Protocol (OCSP) or using Certificate Revocation Lists (CRL) so long as each certificate in the trust chain specifies one or both of these extensions. However, you cannot bypass OCSP or CRL failures so you must ensure that the certificate chain is valid and that you can verify each certificate using OCSP or CRL.</p>
+</li>
+<li>
+<p>Select Device &gt; Certificate Management &gt; Certificates &gt; Device Certificates<br>
+<!-- -->and click Generate.</p>
+</li>
+<li>
+<p>Enter a Name for the certificate.</p>
+</li>
+<li>
+<p>In the Common Name field, enter the IP address of the firewall sending logs to the syslog server.</p>
+</li>
+<li>
+<p>In Signed by, select the trusted CA or the self-signed CA that the syslog server and the sending firewall both trust. The certificate can&#x27;t be a Certificate Authority nor an External Authority (certificate signing request [CSR]).</p>
+</li>
+<li>
+<p>Click Generate. The firewall generates the certificate and key pair.</p>
+</li>
+<li>
+<p>Click the certificate Name to edit it, select the Certificate for Secure Syslog check box, and click OK</p>
+</li>
+</ul>
+<p><strong>Step VI - Commit your changes and review the logs on the syslog server</strong></p>
+<ul>
+<li>
+<p>Click Commit</p>
+</li>
+<li>
+<p>To review the logs, refer to the documentation of your syslog management software. You can also review the <a href="https://docs.paloaltonetworks.com/content/techdocs/en_US/pan-os/10-1/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions.html#ida7775ba5-a408-4239-bbba-6132050948bd" target="_blank" rel="noopener noreferrer">Syslog Field Descriptions</a>.</p>
+</li>
+</ul>
+<p><strong>Step VII - (Optional) Configure the firewall to terminate the connection to the syslog server upon FQDN refresh.</strong></p>
+<p>When you configure a syslog server profile using a FQDN, the firewall maintains its connection to the syslog server by default in the event of an FQDN name change.</p>
+<p>For example, you have replaced an existing syslog server with a new syslog server that uses a different FQDN name. If you want the firewall to connect to the new syslog server using a new FQDN name, you can configure the firewall to automatically terminate its connection to the old syslog server and establish a connection to the new syslog server using the new FQDN name.</p>
+<ul>
+<li>
+<p><a href="https://docs.paloaltonetworks.com/pan-os/10-1/pan-os-cli-quick-start/get-started-with-the-cli/access-the-cli.html" target="_blank" rel="noopener noreferrer">Log in to the firewall CLI</a>.</p>
+</li>
+<li>
+<p>Configure the firewall to terminate the connection to the syslog server upon FQDN refresh</p>
+</li>
+</ul>
+<p><strong>Configuring Syslog Format for Palo Alto Networks Devices</strong></p>
+<p><strong>Objective:</strong> Modify Syslog format on Palo Alto Networks devices to ensure log format compatibility.</p>
+<p><strong>Please Note:</strong> Palo Alto can send only one format to all Syslog devices. By modifying the Syslog format, any other device that requires Syslog must support that same format.</p>
+<p><strong>Procedure:</strong></p>
+<ul>
+<li>
+<p><strong>Log in to Palo Alto Networks:</strong></p>
+<ul>
+<li>Access the Palo Alto Networks device interface using authorized credentials.</li>
+</ul>
+</li>
+<li>
+<p><strong>Navigate to Server Profiles &gt; Syslog:</strong></p>
+<ul>
+<li>
+<p>On the Device tab, locate and click on &quot;Server Profiles.&quot;</p>
+</li>
+<li>
+<p>From the dropdown menu, select &quot;Syslog.&quot;</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Add Syslog Destination:</strong></p>
+<ul>
+<li>
+<p>Click on the &quot;Add&quot; button to create a new Syslog destination.</p>
+</li>
+<li>
+<p>In the Syslog Server Profile dialog box:</p>
+<ul>
+<li>
+<p>Click &quot;Add&quot; to specify a new destination.</p>
+</li>
+<li>
+<p>Enter the details:</p>
+<ul>
+<li>
+<p>Name: Specify a name for the Syslog server (e.g., DNIF).</p>
+</li>
+<li>
+<p>Server IP Address: Enter the IP address of DC PICO (DNIF).</p>
+</li>
+<li>
+<p>Port: 514 (UDP)</p>
+</li>
+<li>
+<p>Facility: Define the facility for the Syslog server.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><strong>Configure LEEF Events:</strong></strong> </p>
+<p><strong>Please note:</strong> Due to formatting issues, copy the text into a text editor, remove any carriage return or line feed characters, and then paste it into the appropriate field.</p>
+<ul>
+<li>
+<p>Switch to the &quot;Custom Log Format&quot; tab in the Syslog Server Profile dialog.</p>
+</li>
+<li>
+<p>Under &quot;Config Log Format&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$result|x7C|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|devTime=$cef-formatted-receive_time|src=$host|VirtualSystem=$vsys|msg=$cmd|usrName=$admin|client=$client|Result=$result|ConfigurationPath=$path|sequence=$seqno|ActionFlags=$actionflags|BeforeChangeDetail=$before-change-detail|AfterChangeDetail=$after-change-detail|DeviceGroupHierarchyL1=$dg_hier_level_1|DeviceGroupHierarchyL2=$dg_hier_level_2|DeviceGroupHierarchyL3=$dg_hier_level_3|DeviceGroupHierarchyL4=$dg_hier_level_4|vSrcName=$vsys_name|DeviceName=$device_name</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;System Log Format&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$eventid|x7C|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|Subtype=$subtype|devTime=$cef-formatted-receive_time|VirtualSystem=$vsys|Filename=$object|Module=$module|sev=$number-of-severity|Severity=$severity|msg=$opaque|sequence=$seqno|ActionFlags=$actionflags|DeviceGroupHierarchyL1=$dg_hier_level_1|DeviceGroupHierarchyL2=$dg_hier_level_2|DeviceGroupHierarchyL3=$dg_hier_level_3|DeviceGroupHierarchyL4=$dg_hier_level_4|vSrcName=$vsys_name|DeviceName=$device_name</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;Threat Log Format&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$threatid|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|ConfigVersion=$sender_sw_version|src=$src|dst=$dst|Rule=$rule|usrName=$srcuser|Application=$app|VirtualLocation=$vsys|FromZone=$from|ToZone=$to|InboundInterface=$inbound_if|OutboundInterface=$outbound_if|LogSetting=$logset|SessionID=$sessionid|RepeatCount=$repeatcnt|srcPort=$sport|dstPort=$dport|srcPostNATPort=$natsport|dstPostNATPort=$natdport|proto=$proto|Action=$action|FileName=$misc|VendorSeverity=$severity|DirectionOfAttack=$direction|SequenceNo=$seqno|SourceLocation=$srcloc|DestinationLocation=$dstloc|PacketID=$pcap_id|FileHash=$filedigest|ApplianceOrCloud=$cloud|URLCounter=$url_idx|FileType=$filetype|SenderEmail=$sender|EmailSubject=$subject|RecipientEmail=$recipient|ReportID=$reportid|DGHierarchyLevel1=$dg_hier_level_1|DGHierarchyLevel2=$dg_hier_level_2|DGHierarchyLevel3=$dg_hier_level_3|DGHierarchyLevel4=$dg_hier_level_4|VirtualSystemName=$vsys_name|DeviceName=$device_name|SourceUUID=$src_uuid|DestinationUUID=$dst_uuid|IMSI=$imsi|IMEI=$imei|ParentSessionID=$parent_session_id|ParentStarttime=$parent_start_time|Tunnel=$tunnel|ThreatCategory=$thr_category|ContentVersion=$contentver|SigFlags=$sig_flags|RuleUUID=$rule_uuid|</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">HTTP2Connection=$http2_connection|DynamicUserGroupName=$dynusergroup_name|X-Forwarded-ForIP=$xff_ip|SourceDeviceCategory=$src_category|SourceDeviceProfile=$src_profile|SourceDeviceModel=$src_model|SourceDeviceMac=$src_mac|DestinationDeviceCategory=$dst_category|DestinationDeviceProfile=$dst_profile|DestinationDeviceHost=$dst_host|DestinationDeviceMac=$dst_mac|SourceEDL=$src_edl|DestinationEDL=$dst_edl|HostID=$hostid|EndpointSerialNumber=$serialnumber|DomainEDL=$domain_edl|SourceDynamicAddressGroup=$src_dag|DestinationDynamicAddressGroup=$dst_dag|PartialHash=$partial_hash|TimeGeneratedHighResolution=$high_res_timestamp|NSSAINetworkSliceType=$nssai_sst|devTimeFormat=$cef-formatted-time_generated</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;Traffic Log Format&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$action|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|devTime=$cef-formatted-receive_time|src=$src|dst=$dst|Rule=$rule|usrName=$srcuser|Application=$app|FromZone=$from|ToZone=$to|LogSetting=$logset|SessionID=$sessionid|srcPort=$sport|dstPort=$dport|proto=$proto|Bytes=$bytes|srcBytes=$bytes_sent|dstBytes=$bytes_received|totalPackets=$packets|SessionStartTime=$start|SessionDuration=$elapsed|URLCategory=$category|SequenceNo=$seqno|SourceLocation=$srcloc|DestinationLocation=$dstloc|srcPackets=$pkts_sent|dstPackets=$pkts_received|SessionEndReason=$session_end_reason|VirtualSystemName=$vsys_name|DeviceName=$device_name|ActionSource=$action_source|SourceUUID=$src_uuid|DestinationUUID=$dst_uuid</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>For versions other than PAN-OS 3.0 - 6.1:</p>
+<ul>
+<li>
+<p>Click &quot;HIP Match&quot; and paste</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$matchname|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|ConfigVersion=$sender_sw_version|devTime=$cef-formatted-receive_time|usrName=$srcuser|VirtualLocation=$vsys|identHostName=$machinename|EndpointOSType=$os|iOSsrc=$src|CountOfRepeats=$repeatcnt|SequenceNo=$seqno|DGHierarchyLevel1=$dg_hier_level_1|DGHierarchyLevel2=$dg_hier_level_2|DGHierarchyLevel3=$dg_hier_level_3|DGHierarchyLevel4=$dg_hier_level_4|VirtualSystemName=$vsys_name|DeviceName=$device_name|VirtualSystemID=$vsys_id|SourceIPv6=$srcipv6|HostID=$hostid|EndpointSerialNumber=$serialnumber|SourceDeviceCategory=$reclassified|SourceDeviceModel=$matchtype|SourceDeviceMac=$mac|TimestampDeviceIdentification=$time_generated|TimeGeneratedHighResolution=$high_res_timestamp|devTimeFormat=$cef-formatted-time_generated</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Under &quot;URL FILTERING&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$threatid|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|devTime=$cef-formatted-receive_time|src=$src|dst=$dst|Rule=$rule|usrName=$srcuser|Application=$app|FromZone=$from|ToZone=$to|LogSetting=$logset|SessionID=$sessionid|srcPort=$sport|dstPort=$dport|proto=$proto|Action=$action|URL=$file_url|VendorSeverity=$severity|DirectionOfAttack=$direction|SequenceNo=$seqno|SourceLocation=$srcloc|DestinationLocation=$dstloc|ContentType=$contenttype|PacketID=$pcap_id|URLCounter=$url_idx|UserAgent=$user_agent|Referer=$referer|VirtualSystemName=$vsys_name|DeviceName=$device_name|SourceUUID=$src_uuid|DestinationUUID=$dst_uuid|HTTPMethod=$http_method|IMSI=$imsi|IMEI=$imei|ContentVersion=$contentver|SigFlags=$sig_flags|HTTPHeaders=$http_headers|URLCategoryList=$url_category_list|RuleUUID=$rule_uuid|HTTP2Connection=$http2_connection|DynamicUserGroupName=$dynusergroup_name|X-Forwarded-ForIP=$xff_ip|SourceDeviceCategory=$src_category|SourceDeviceProfile=$src_profile|SourceDeviceModel=$src_model|SourceDeviceVendor=$src_vendor|SourceDeviceOSFamily=$src_osfamily|SourceDeviceOSVersion=$src_osversion|SourceDeviceHost=$src_host|SourceDeviceMac=$src_mac|DestinationDeviceCategory=$dst_category|DestinationDeviceProfile=$dst_profile|DestinationDeviceModel=$dst_model|DestinationDeviceVendor=$dst_vendor|DestinationDeviceOSFamily=$dst_osfamily|DestinationDeviceOSVersion=$dst_osversion|DestinationDeviceHost=$dst_host|DestinationDeviceMac=$dst_mac|ContainerID=$container_id|ContainerNameSpace=$pod_namespace|ContainerName=$pod_name|SourceEDL=$src_edl|DestinationEDL=$dst_edl|HostID=$hostid|EndpointSerialNumber=$serialnumber|SourceDynamicAddressGroup=$src_dag|DestinationDynamicAddressGroup=$dst_dag|TimeGeneratedHighResolution=$high_res_timestamp|NSSAINetworkSliceType=$nssai_sst|devTimeFormat=$cef-formatted-time_generated</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;Wildfire&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$threatid|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|ConfigVersion=$sender_sw_version|devTime=$cef-formatted-receive_time|src=$src|dst=$dst|srcPostNAT=$natsrc|dstPostNAT=$natdst|Rule=$rule|usrName=$srcuser|DestinationUser=$dstuser|Application=$app|VirtualLocation=$vsys|FromZone=$from|ToZone=$to|InboundInterface=$inbound_if|OutboundInterface=$outbound_if|LogSetting=$logset|SessionID=$sessionid|RepeatCount=$repeatcnt|srcPort=$spor|dstPort=$dport|srcPostNATPort=$natsport|dstPostNATPort=$natdport|proto=$proto|Action=$action|FileName=$misc|VendorSeverity=$severity|DirectionOfAttack=$direction|SequenceNo=$seqno|SourceLocation=$srcloc|DestinationLocation=$dstloc|PacketID=$pcap_id|FileHash=$filedigest|ApplianceOrCloud=$cloud</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;Authentication&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$event|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|ConfigVersion=$sender_sw_version|devTime=$cef-formatted-receive_time|VirtualLocation=$vsys|src=$ip|User=$normalize_user|usrName=$user|Object=$object|object2AuthenticationPolicy=$authpolicy|CountOfRepeats=$repeatcnt|MFAAuthenticationID=-$authid|MFAVendor=$vendor|LogSetting=$logset|AuthServerProfile=$serverprofile|AuthenticationDescription=$desc|ClientType=$clienttype|AuthFactorNo=$factorno|SequenceNo=$seqno|DGHierarchyLevel1=$dg_hier_level_1|DGHierarchyLevel2=$dg_hier_level_2|DGHierarchyLevel3=$dg_hier_level_3|DGHierarchyLevel4=$dg_hier_level_4|VirtualSystemName=$vsys_name|DeviceName=$device_name|VirtualSystemID=$vsys_id|AuthenticationProtocol=$authproto|RuleMatchedUUID=$rule_uuid|TimeGeneratedHighResolution=$high_res_timestamp|SourceDeviceCategory=$src_category|SourceDeviceProfile=$src_profile|SourceDeviceModel=$src_model|SourceDeviceVendor=$src_vendor|SourceDeviceOSFamily=$src_osfamily|SourceDeviceOSVersion=$src_osversion|SourceDeviceHost=$src_host|SourceDeviceMac=s$src_mac|AuthCacheServiceRegion=$region|UserAgentString=$user_agent|SessionID=$sessionid|devTimeFormat=$cef-formatted-time_generated</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;User-ID&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$subtype|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|ConfigVersion=$sender_sw_version|devTime=$cef-formatted-receive_time|VirtualLocation=$vsys|src=$ip|usrName=$user|MappingDataSourceName=$datasourcename|EventIdName=$eventid|CountofRepeats=$repeatcnt|MappingTimeout=$timeout|srcPort=$beginport|dstPort=$endport|MappingDataSource=$datasource|MappingDataSourceType=$datasourcetype|SequenceNo=$seqno|DGHierarchyLevel1=$dg_hier_level_1|DGHierarchyLevel2=$dg_hier_level_2|DGHierarchyLevel3=$dg_hier_level_3|DGHierarchyLevel4=$dg_hier_level_4|VirtualSystemName=$vsys_name|DeviceName=$device_name|VirtualSystemID=$vsys_id|MFAFactorType=$factortype|AuthCompletionTime=$factorcompletiontime|AuthFactorNo=$factorno|UGFlags=$ugflags|UserIdentifiedBySource=$userbysource|Tag=$tag_name|TimeGeneratedHighResolution=$high_res_timestamp|devTimeFormat=$cef-formatted-time_generated</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;Tunnel Inspection&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$action|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|ConfigVersion=$sender_sw_version|devTime=$cef-formatted-receive_time|src=$src|dst=$dst|srcPostNAT=$natsrc|dstPostNAT=$natdst|Rule=$rule|usrName=$srcuser|DestinationUser=$dstuse|Application=$app|VirtualLocation=$vsys|FromZone=$from|ToZone=$to|InboundInterface=$inbound_if|OutboundInterface=$outbound_if|LogSetting=$logset|SessionID=$sessionid|RepeatCount=$repeatcnt|srcPort=$sport|dstPort=$dport|srcPostNATPort=$natsport|dstPostNATPort=$natdport|proto=$proto|SequenceNo=$seqno|SourceLocation=$srcloc|DestinationLocation=$dstloc|DGHierarchyLevel1=$dg_hier_level_1|DGHierarchyLevel2=$dg_hier_level_2|DGHierarchyLevel3=$dg_hier_level_3|DGHierarchyLevel4=$dg_hier_level_4|VirtualSystemName=$vsys_name|DeviceName=$device_name|ParentSessionID=$parent_session_id|ParentStarttime=$parent_start_time|Tunnel=$tunnel|Bytes=$bytes|srcBytes=$bytes_sent|dstBytes=$bytes_received|totalPackets=$packets|srcPackets=$pkts_sent|dstPackets=$pkts_received|TunnelSessionsCreated=$sessions_created|TunnelSessionsClosed=$sessions_closed|SessionEndReason=$session_end_reason|ActionSource=$action_source|startTime=$start|SessionDuration=$elapsed|RuleUUID=$rule_uuid|DynamicUserGroupName=$dynusergroup_name|ContainerID=$container_id|ContainerNameSpace=$pod_namespace|ContainerName=$pod_name|SourceEDL=$src_edl|DestinationEDL=$dst_edl|SourceDynamicAddressGroup=$src_dag|DestinationDynamicAddressGroup=dst_dag|TimeGeneratedHighResolution=$high_res_timestamp|NSSAINetworkSliceDifferentiator=$nssai_sd|NSSAINetworkSliceType=$nssai_sst|ProtocolDataUnitsessionID=$pdu_session_id|devTimeFormat=$cef-formatted-time_generated</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;GlobalProtect&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$result|x7C|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|devTime=$cef-formatted-receive_time|src=$host|VirtualSystem=$vsys|msg=$cmd|usrName=$admin|client=$client|Result=$result|ConfigurationPath=$path|sequence=$seqno|ActionFlags=$actionflags|BeforeChangeDetail=$before-change-detail|AfterChangeDetail=$after-change-detail|DeviceGroupHierarchyL1=$dg_hier_level_1|DeviceGroupHierarchyL2=$dg_hier_level_2|DeviceGroupHierarchyL3=$dg_hier_level_3|DeviceGroupHierarchyL4=$dg_hier_level_4|vSrcName=$vsys_name|DeviceName=$device_name</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;Decryption&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$eventid|x7C|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|Subtype=$subtype|devTime=$cef-formatted-receive_time|VirtualSystem=$vsys|Filename=$object|Module=$module|sev=$number-of-severity|Severity=$severity|msg=$opaque|sequence=$seqno|ActionFlags=$actionflags|DeviceGroupHierarchyL1=$dg_hier_level_1|DeviceGroupHierarchyL2=$dg_hier_level_2|DeviceGroupHierarchyL3=$dg_hier_level_3|DeviceGroupHierarchyL4=$dg_hier_level_4|vSrcName=$vsys_name|DeviceName=$device_name</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Under &quot;File Data&quot;:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LEEF:2.0|Palo Alto Networks|PAN-OS Syslog Integration|$sender_sw_version|$threatid|x7C|ProfileToken=$actionflags|TimeReceived=$receive_time|DeviceSN=$serial|cat=$type|SubType=$subtype|ConfigVersion=$sender_sw_version|src=$src|dst=$dst|Rule=$rule|usrName=$srcuser|Application=$app|VirtualLocation=$vsys|FromZone=$from|ToZone=$to|InboundInterface=$inbound_if|OutboundInterface=$outbound_if|LogSetting=$logset|SessionID=$sessionid|RepeatCount=$repeatcnt|srcPort=$sport|dstPort=$dport|srcPostNATPort=$natsport|dstPostNATPort=$natdport|proto=$proto|Action=$action|FileName=$misc|VendorSeverity=$severity|DirectionOfAttack=$direction|SequenceNo=$seqno|SourceLocation=$srcloc|DestinationLocation=$dstloc|PacketID=$pcap_id|FileHash=$filedigest|ApplianceOrCloud=$cloud|URLCounter=$url_idx|FileType=$filetype|SenderEmail=$sender|EmailSubject=$subject|RecipientEmail=$recipient|ReportID=$reportid|DGHierarchyLevel1=$dg_hier_level_1|DGHierarchyLevel2=$dg_hier_level_2|DGHierarchyLevel3=$dg_hier_level_3|DGHierarchyLevel4=$dg_hier_level_4|VirtualSystemName=$vsys_name|DeviceName=$device_name|SourceUUID=$src_uuid|DestinationUUID=$dst_uuid|IMSI=$imsi|IMEI=$imei|ParentSessionID=$parent_session_id|ParentStarttime=$parent_start_time|Tunnel=$tunnel|ThreatCategory=$thr_category|ContentVersion=$contentver|SigFlags=$sig_flags|RuleUUID=$rule_uuid|</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>
+<p><strong>Specify Severity of Events:</strong></p>
+<ul>
+<li>
+<p>Click on &quot;Log Settings&quot; to define the severity of events in Syslog messages.</p>
+</li>
+<li>
+<p>For each severity level:</p>
+<ul>
+<li>Click on the severity name and select the Syslog destination (DNIF) from the Syslog menu.</li>
+</ul>
+</li>
+<li>
+<p>Click &quot;OK&quot; to confirm.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Commit Changes:</strong></p>
+<ul>
+<li>Click on &quot;Commit&quot; to save and apply the configured Syslog settings.</li>
+</ul>
+</li>
+</ol>
+<h6 class="anchor anchorWithStickyNavbar_LWe7" id="tls-connector"><strong>TLS Connector</strong><a href="#tls-connector" class="hash-link" aria-label="Direct link to tls-connector" title="Direct link to tls-connector">​</a></h6>
+<p>TLS Connector can receive logs from various devices and log sources via TCP connection with SSL on any custom port</p>
+<p><strong>Pre-requisites</strong></p>
+<ul>
+<li>Certificate and key files OR default certificate and key</li>
+</ul>
+<p><strong>Certificate and Key Generation</strong></p>
+<p>The certificate and key are generated in pairs by the following command using openssl:</p>
+<p>openssl req -newkey rsa:2048 -nodes -keyout DNIF_TLS.key -x509 -days 365 -out DNIF_TLS.crt</p>
+<p>This certificate with -days parameter as 365 is valid for 365 days from date of generation.</p>
+<p>The command on execution prompts for organisational information:</p>
+<p><img decoding="async" loading="lazy" alt="image 1-Dec-04-2023-06-11-55-7845-AM" src="/DNIF/assets/images/palo-alto-1-b22468d9b633f356190cf92b3f56f62c.webp" width="607" height="249" class="img_ev3q"></p>
+<p>These are self signed certificate-key pair which are stored at the location &quot;/dnif/connectors/tls_connector/&quot;.</p>
+<p><strong>Ship certificates from other location</strong></p>
+<p>If there is a requirement of individual cert-key pair for every TLS Connector process or if you have your own cert-key pair (say org-x.crt and org-x.key ), then:</p>
+<ol>
+<li>
+<p>The files need to be moved to Host at the location<br>
+<!-- -->&quot;/DNIF/AD/connectors/tls_connector/org-x.crt&quot; and &quot;/DNIF/AD/connectors/tls_connector/org-x.key&quot;</p>
+</li>
+<li>
+<p>As the mount point of Host &quot;/DNIF/AD/&quot; is &quot;/dnif/&quot; inside the container, therefore the configuration of TLS Connector should have :</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>Certificate Path as &quot;/dnif/connectors/tls_connector/org-x.crt&quot;</p>
+</li>
+<li>
+<p>Key Path as &quot;/dnif/connectors/tls_connector/org-x.key&quot;</p>
+</li>
+</ul>
+<h6 class="anchor anchorWithStickyNavbar_LWe7" id="configuration"><strong>Configuration</strong><a href="#configuration" class="hash-link" aria-label="Direct link to configuration" title="Direct link to configuration">​</a></h6>
+<p>TLS Connector operates in two modes. The following settings need to be applied while spawning the TLS connector:</p>
+<p><img decoding="async" loading="lazy" alt="Image 2-Dec-04-2023-06-12-13-3030-AM" src="data:image/webp;base64,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" width="386" height="469" class="img_ev3q"></p>
+<p><strong>Mode 1: Client Authentication Enable set to True</strong></p>
+<p>Configuring the TLS connector in this mode requires the client to authenticate the server(TLS Listener) using the Certificate (.crt) file to start communication.</p>
+<p><strong>Configuration details:</strong></p>
+<table><thead><tr><th><strong>Configuration</strong></th><th><strong>Description</strong></th><th><strong>Value</strong></th></tr></thead><tbody><tr><td>Connector Name</td><td>Name assigned to connector shall be visible on console in Connector&#x27;s list. The name should therefore be unique to easier identification.</td><td>TLS</td></tr><tr><td>Connector Type</td><td>This is populated by default based on the connector that is added via the &#x27;+&#x27; icon when adding a connector. It must be a valid connector type.</td><td>TLS Connector</td></tr><tr><td>Listener Port</td><td>The port on which the TLS Listener shall listen for incoming data. The log sending on the client side should be configured to send data to this port. Multiple TLS Connectors can be spawned on different ports.</td><td>1514</td></tr><tr><td>Number of Processes</td><td>The number of processes spawned for the connector.</td><td>1</td></tr><tr><td>Client Authentication Enable</td><td>This must be set to True to operate TLS Connector to work in this mode. The client (TLS sender) should connect using the certificate(.crt) file to communicate with the server.(Default Value is True)</td><td>True</td></tr><tr><td>Certificate Path</td><td>The path to the certificate(.crt) file is to be entered here. DNIF TLS Connector is shipped with a default crt file [ DNIF_TLS.crt ].</td><td>The default path to this file is /dnif/connectors/tls_connector/DNIF_TLS.crt</td></tr><tr><td>Key Path</td><td>The path to the key(.key) file is to be entered here. DNIF TLS Connector is shipped with a default key file [ DNIF_TLS.key ].</td><td>The default path to this file is /dnif/connectors/tls_connector/DNIF_TLS.key</td></tr></tbody></table>
+<p><strong>Mode 2: Client Authentication Enable set to False</strong></p>
+<p>Configuring TLS connector in this mode can allow the client to communicate with server(TLS Listener) without using the Certificate (.crt) file.</p>
+<p><strong>Configuration details:</strong></p>
+<table><thead><tr><th><strong>Configuration</strong></th><th><strong>Description</strong></th><th><strong>Value</strong></th></tr></thead><tbody><tr><td>Connector Name</td><td>Name assigned to connector shall be visible on console in Connector&#x27;s list. The name should therefore be unique to easier identification.</td><td>TLS</td></tr><tr><td>Connector Type</td><td>This is populated by default based on the connector that is added via the &#x27;+&#x27; icon when adding a connector. It must be a valid connector type.</td><td>TLS Connector</td></tr><tr><td>Listener Port</td><td>The port on which the TLS Listener shall listen for incoming data. The log sending on the client side should be configured to send data to this port. Multiple TLS Connectors can be spawned on different ports.</td><td>1514</td></tr><tr><td>Number of Processes</td><td>The number of processes spawned for the connector.</td><td>1</td></tr><tr><td>Client Authentication Enable</td><td>This must be set to False to operate TLS Connector to work in this mode. The client (TLS sender) does not require the certificate(.crt) file to communicate with the server.</td><td>False</td></tr><tr><td>Certificate Path</td><td>The path to the certificate(.crt) file is to be entered here. DNIF TLS Connector is shipped with a default crt file [ DNIF_TLS.crt ].</td><td>The default path to this file is /dnif/connectors/tls_connector/DNIF_TLS.crt</td></tr><tr><td>Key Path</td><td>The path to the key(.key) file is to be entered here. DNIF TLS Connector is shipped with a default key file [ DNIF_TLS.key ].</td><td>The default path to this file is /dnif/connectors/tls_connector/DNIF_TLS.key</td></tr></tbody></table>
+<ul>
+<li>
+<p>Click <strong>Save</strong> after entering all the required details and click <strong>Test Connection</strong>, to test the configuration.</p>
+</li>
+<li>
+<p>A <strong>Connection successful</strong> message will be displayed on screen along with the time stamp.</p>
+</li>
+<li>
+<p>If the connection is not successful an error message will be displayed. Refer <a href="https://dnif.it/kb/troubleshooting-and-debugging/troubleshooting-connector-validations/" target="_blank" rel="noopener noreferrer">Troubleshooting Connector Validations</a> for more details on the error message.</p>
+</li>
+</ul>
+<p>Once the connector is configured, validate if the connector is listed under <a href="https://dnif.it/kb/operations/collection-status/" target="_blank" rel="noopener noreferrer">Collection Status</a> screen with status as <strong>Active</strong>. This signifies the connector is configured successfully and data is ready to ingest.</p>
+<h6 class="anchor anchorWithStickyNavbar_LWe7" id="validate-logs"><strong>Validate Logs</strong><a href="#validate-logs" class="hash-link" aria-label="Direct link to validate-logs" title="Direct link to validate-logs">​</a></h6>
+<p>From the <a href="https://dnif.it/kb/operations/collection-status/" target="_blank" rel="noopener noreferrer">collection status</a> page, check the stream in which the logs of the particular device are allocated.</p>
+<p>Now go to the <a href="https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-search-block-2/" target="_blank" rel="noopener noreferrer">search block</a> and check the log details for the specific stream in this case Firewall.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;_fetch * from event where $Duration=5m AND $DevSrcIP=&#x27;Palo-Alto_IP&#x27; limit 100&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hyperscale/connect-extract-enrich/Device-Integration/palo-alto-device-integration.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/netscaler-waf"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">NetScaler WAF</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/DNIF/docs/hyperscale/connect-extract-enrich/Device-Integration/radware-waf"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Radware-WAF</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
