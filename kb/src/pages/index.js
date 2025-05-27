@@ -43,7 +43,7 @@ const filteredCards = cardData.filter(card =>
             <header className={styles.hero}>
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>How can we help?</h1>
-          <div className={styles.searchBar}>
+          {/* <div className={styles.searchBar}>
             <input
               type="text"
               placeholder="Search Docs, Tutorials, etc."
@@ -51,7 +51,7 @@ const filteredCards = cardData.filter(card =>
               onChange={(e) => setSearchTerm(e.target.value)}
             />
             <button className={styles.searchButton}>Search</button>
-          </div>
+          </div> */}
         </div>
       </header>
 
