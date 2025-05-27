@@ -133,9 +133,9 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       colorMode: {
-        defaultMode: 'light',
-        disableSwitch: true,
-        respectPrefersColorScheme: false,
+        defaultMode: 'light',               // You can change to 'dark' if preferred
+        disableSwitch: false,               // ✅ Allow toggle switch
+        respectPrefersColorScheme: true,    // ✅ Automatically follow user's system preference
       },
 
       prism: {
