@@ -11,12 +11,13 @@ export default function Home() {
   
 
   const cardData = [
-    // { title: "Getting Started", emoji: "🚀", animation: "zoom", link: encodeURI("/docs/DOCS_ONPREM/1.Getting Started/getting-started") },
+    { title: "Welcome to DNIF", emoji: "🚀", animation: "zoom", link:"docs/documents/Welcome to DNIF/Quick Start Guide" },
     { title: "Connect, Extract, and Enrich", emoji: "🔌", animation: "pulse", link: "/docs/documents/Connect,Extract-and-Enrich/Device-Integration/palo-alto-device-integration" },
     { title: "Hunting with Workbooks", emoji: "🕵️", animation: "wiggle", link: "/docs/documents/Hunting-with-Workbooks/Getting-Started/your-first-find-with-the-hypercloud" },
     { title: "Dnif Query Language", emoji: "💻", animation: "glow", link: "/docs/documents/Dnif-Query-Language/Schema-on-Read/" },
     { title: "Security Monitoring", emoji: "🛡️", animation: "bounce", link: "/docs/documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging" },
-    { title: "User Management and Access Control", emoji: "👥", animation: "float", link: "/docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/" },
+    { title: "User Management and Access Control", emoji: "👥", animation: "float", link: "/docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/" },    
+    { title: "Solution Design", emoji: "🧩", animation: "zoom", link: "docs/documents/Solution-Design/scaling-datanodes" },
     { title: "Operations", emoji: "⚙️", animation: "rotate", link: "/docs/documents/Operations/Collection Status/collection-status" },
     { title: "Platform Services", emoji: "🔧", animation: "shake", link: "/docs/documents/Platform-Services/Supported%20Automation/active-directory" },
     { title: "Troubleshooting and Debugging", emoji: "🛠️", animation: "rock", link: "docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations" },
