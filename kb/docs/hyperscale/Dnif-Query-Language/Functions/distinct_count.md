@@ -23,4 +23,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall, retrieve the total count of rows that match the specific destination ip address, select and group it as per the destination country.
 
-![](./Images/images%20Distinct_count/image-23.webp)
+![](./Images/imagesDistinct_count/distinctcount.webp)

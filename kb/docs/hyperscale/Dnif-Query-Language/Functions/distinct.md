@@ -23,4 +23,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall, the DISTINCT clause kept only the distinct destination IP Address and removed all the duplicate values.The output is shown as below:
 
-![image 1-Dec-06-2023-04-30-18-6020-AM](./Images/Images%20distinct/image201-Dec-06-2023-04-30-18-6020-AM.webp)
+![image 1-Dec-06-2023-04-30-18-6020-AM](./Images/Imagesdistinct/distinct.webp)

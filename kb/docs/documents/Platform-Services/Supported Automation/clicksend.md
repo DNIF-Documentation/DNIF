@@ -29,12 +29,12 @@ Below is the template to add more than one mobile number:
 {   "messages":[      {         "source": "DNIF",         "from": "DNIF",         "body": "Alert from DNIF - Found Suspicious Remote Desktop Activity on host $DstIP",         "to": "+91898xxxxxx5"      },	  {         "source": "DNIF",         "from": "DNIF",         "body": "Alert from DNIF - Found Suspicious Remote Desktop Activity on host $DstIP",         "to": "+91898xxxxxx6"      },	  {         "source": "DNIF",         "from": "DNIF",         "body": "Alert from DNIF - Found Suspicious Remote Desktop Activity on host $DstIP",         "to": "+91898xxxxxx7"      },	  {         "source": "DNIF",         "from": "DNIF",         "body": "Alert from DNIF - Found Suspicious Remote Desktop Activity on host $DstIP",         "to": "+91898xxxxxx8"      }   ]}
 ```
 
-<!-- ![image 1-Dec-22-2023-12-18-10-5137-PM](images/image201-Dec-22-2023-12-18-10-5137-PM.jpg) -->
+![image 1-Dec-22-2023-12-18-10-5137-PM](./Images/click-send-1.jpg)
 
 ClickSend, delivers an SMS based on the text mentioned in the **Payload**.
 
-<!-- TODO: Fix broken image link below. Original path: images/image202-Dec-22-2023-12-18-25-5926-PM.jpg -->
-<!-- ![image 2-Dec-22-2023-12-18-25-5926-PM](images/image202-Dec-22-2023-12-18-25-5926-PM.jpg) -->
+
+ ![image 2-Dec-22-2023-12-18-25-5926-PM](./Images/click-send-2.jpg)
 
 In the above figure, a workbook named **Suspicious Remote Desktop Network Activity** is executed which contains the following blocks:
 
@@ -44,7 +44,7 @@ In the above figure, a workbook named **Suspicious Remote Desktop Network Activ
 
 - **DQL Block with \_trigger query:** Using **Webhook integration for ClickSend**, an alert will be sent to the mobile with the message mentioned in payload as displayed below:  
       
-    <!-- TODO: Fix broken image link below. Original path: images/image%203-Dec-22-2023-12-18-38-0120-PM.jpg -->
-    <!-- ![image 3-Dec-22-2023-12-18-38-0120-PM](images/image%203-Dec-22-2023-12-18-38-0120-PM.jpg) -->
+    
+    ![image 3-Dec-22-2023-12-18-38-0120-PM](./Images/click-send-3.jpg)
 
 **Authentication:** Basic Authentication

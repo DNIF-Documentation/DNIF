@@ -34,7 +34,7 @@ Here,
 
 The above query should retrieve all fields for each event where the stream is a firewall, retrieve all records for one day (i.e. specified duration) and group it as per the destination port and source country as shown below:
 
-![image 1-Dec-05-2023-12-00-23-9534-PM](./images/Images%20Duration/image201-Dec-05-2023-12-00-23-9534-PM.webp)
+![image 1-Dec-05-2023-12-00-23-9534-PM](./images/ImagesDuration/duration1.webp)
 
 ```
 stream=firewall where srcip='10.35.38.1' | duration from 2021-05-20T00:00:00 to 2022-05-22T23:59:00
@@ -42,4 +42,4 @@ stream=firewall where srcip='10.35.38.1' | duration from 2021-05-20T00:00:00 to 
 
 In the second example, Duration from field specifies the start date and time and end date and time for which the records should be retrieved.
 
-![image 2-Dec-05-2023-12-00-39-5568-PM](./images/Images%20Duration/image202-Dec-05-2023-12-00-39-5568-PM.webp)
+![image 2-Dec-05-2023-12-00-39-5568-PM](./images/ImagesDuration/duration2.webp)

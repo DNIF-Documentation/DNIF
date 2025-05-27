@@ -21,7 +21,7 @@ Take a look at the example given below:
 stream=firewall where srcip='172.26.10.238' | duration 1h | timeslice 1h | limit 100
 ```
 
-![image 1-Dec-05-2023-12-08-41-6423-PM](./images/Images%20timeslice/image201-Dec-05-2023-12-08-41-6423-PM.webp)
+![image 1-Dec-05-2023-12-08-41-6423-PM](./images/Imagestimeslice/timeslice.webp)
 
 This query retrieves all fields for each event where the result set is grouped into buckets of 1 hour intervals on $CNAMTime along with the count for each interval. By default, the result set is sorted such that the oldest (earliest) time interval appears first.
 

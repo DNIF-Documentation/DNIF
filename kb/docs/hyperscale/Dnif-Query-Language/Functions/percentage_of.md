@@ -23,4 +23,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall; it retrieves the percentage value in each group. The output is shown as below:
 
-![image 1-Dec-06-2023-04-48-39-6412-AM](./Images/images%20Percentage_of/image201-Dec-06-2023-04-48-39-6412-AM.webp)
+![image 1-Dec-06-2023-04-48-39-6412-AM](./Images/imagesPercentage_of/percentageof.webp)

@@ -15,4 +15,4 @@ stream=cloudtrail where useragent like "%amazonaws%"
 
 The above query will return all the fields that have **amazonaws** in the cloudtrail stream. The output is shown as below:
 
-![image 1-Dec-06-2023-04-32-39-5519-AM](./Images/Images%20Wildcard/image201-Dec-06-2023-04-32-39-5519-AM.webp)
+![image 1-Dec-06-2023-04-32-39-5519-AM](./Images/ImagesWildcard/wildcard.webp)

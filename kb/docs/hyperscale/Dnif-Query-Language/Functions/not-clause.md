@@ -15,4 +15,4 @@ stream=cloudtrail where sourcename='AWS-CLOUDTRAIL' and not srcip='11.71.11.11'
 
 The above query will retrieve all the fields from stream cloudtrail where the sourcename is AWS-CLOUDTRAIL and srcip is not 11.71.11.11. The output is shown as below:
 
-![image 1-Dec-06-2023-04-22-06-7896-AM](./Images/Images%20Not%20Clause/image201-Dec-06-2023-04-22-06-7896-AM.webp)
+![image 1-Dec-06-2023-04-22-06-7896-AM](./Images/ImagesNotClause/notclause.webp)

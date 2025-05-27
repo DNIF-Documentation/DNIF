@@ -6,9 +6,13 @@ type: "epkb_post_type_1"
 
 The Export feature simplifies downloading case information, enabling users to access detailed case data and notes for selected cases. The users can perform the following activities:
 
-1. [Export case list](#caselistexport)
+1. Export case list
 
-3. [Export case data for  selected cases](#caseexportselected)
+<!-- (ADD INTERNAL LINK HERE)(#caselistexport) -->
+
+3. Export case data for  selected cases
+
+<!-- (ADD INTERNAL LINK HERE)(#caseexportselected) -->
 
 ## **Steps to export case list**
 

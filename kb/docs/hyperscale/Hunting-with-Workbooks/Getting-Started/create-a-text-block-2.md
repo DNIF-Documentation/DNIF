@@ -11,18 +11,18 @@ Text Block explains the use, description of the particular workbook, you can inc
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-05-2023-07-27-03-4461-AM](./Images/Images%20Create%20a%20Text%20Block/image201-Dec-05-2023-07-27-03-4461-AM.webp)
+![image 1-Dec-05-2023-07-27-03-4461-AM](./Images/ImagesCreateaTextBlock/CreateaTextBlock1.webp)
 
 - Click the **plus** icon on the Workbook page and select **Text Block** from the list. The following screen is displayed:
 
-![image 2-Dec-05-2023-07-27-23-6002-AM](./Images/Images%20Create%20a%20Text%20Block/image202-Dec-05-2023-07-27-23-6002-AM.webp)
+![image 2-Dec-05-2023-07-27-23-6002-AM](./Images/ImagesCreateaTextBlock/CreateaTextBlock2.webp)
 
 - Enter the required information in the Markdown Editor
 
-![image 3-Dec-05-2023-07-27-39-6263-AM](./Images/Images%20Create%20a%20Text%20Block/image203-Dec-05-2023-07-27-39-6263-AM.webp)
+![image 3-Dec-05-2023-07-27-39-6263-AM](./Images/ImagesCreateaTextBlock/CreateaTextBlock3.webp)
 
 - Click anywhere outside the **Text Block**, to preview the Text Block as displayed below.
 
-![image 4-Dec-05-2023-07-27-56-5915-AM](./Images/Images%20Create%20a%20Text%20Block/image204-Dec-05-2023-07-27-56-5915-AM.webp)
+![image 4-Dec-05-2023-07-27-56-5915-AM](./Images/ImagesCreateaTextBlock/CreateaTextBlock4.webp)
 
 For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).

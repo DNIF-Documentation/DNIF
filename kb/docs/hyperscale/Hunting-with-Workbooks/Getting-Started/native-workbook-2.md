@@ -11,7 +11,7 @@ Native workbooks are workbooks authored by Community and DNIF, the native tag wi
 
 To clone a native workbook, open a workbook and click Save, a pop up window with multiple options is displayed.
 
-![image 1-Dec-07-2023-10-32-25-0348-AM](./Images/Images%20Native%20Workbook/image201-Dec-07-2023-10-32-25-0348-AM.webp)
+![image 1-Dec-07-2023-10-32-25-0348-AM](./Images/ImagesNativeWorkbook/nativeworkbook1.webp)
 
 The following options are displayed
 
@@ -27,6 +27,6 @@ Click **Save**, this will save a new version of the current native workbook and
 
 - You can also disable or enable workbooks from the list page. To enable or disable, select a particular workbook and the following bar will be displayed.
 
-![image 2-Dec-07-2023-10-33-29-5873-AM](./Images/Images%20Native%20Workbook/image202-Dec-07-2023-10-33-29-5873-AM.webp)
+![image 2-Dec-07-2023-10-33-29-5873-AM](./Images/ImagesNativeWorkbook/nativeworkbook2.webp)
 
 - In this case when you disable a workbook only the invoke is stopped and the cron is maintained so when you enable the workbook again, it will be enabled again along with the cron.

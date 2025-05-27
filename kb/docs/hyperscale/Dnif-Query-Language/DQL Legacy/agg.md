@@ -17,11 +17,11 @@ Here:
 
 1. The \_fetch directive retrieves all fields for each event where $PStatus is PAD. We limit the result set to the 5 latest events satisfying the where clause. The output is as shown below:
 
-![image 1-Dec-06-2023-12-05-24-0454-PM](./Images/Images%20agg/image201-Dec-06-2023-12-05-24-0454-PM.webp)
+![image 1-Dec-06-2023-12-05-24-0454-PM](./Images/Imagesagg/agg-1.webp)
 
 1. In the pipelined query function, the \_agg directive uses the count keyword to count the rows in the result set returned by \_fetch.
 
-![image 2-Dec-06-2023-12-05-35-3351-PM](./Images/Images%20agg/image202-Dec-06-2023-12-05-35-3351-PM.webp)
+![image 2-Dec-06-2023-12-05-35-3351-PM](./Images/Imagesagg/agg-2.webp)
 
 The \_agg query directive lets you:
 
@@ -67,13 +67,13 @@ Here:
 
 1. The \_fetch directive retrieves all fields for each event where $PStatus is PAD. We limit the result set to the 100 latest events that satisfy the where clause. The output is as shown below:
 
-![image 3-Dec-06-2023-12-05-53-4607-PM](./Images/Images%20agg/image203-Dec-06-2023-12-05-53-4607-PM.webp)
+![image 3-Dec-06-2023-12-05-53-4607-PM](./Images/Imagesagg/agg-3.webp)
 
 The outputs shown in the screenshot may only be partial outputs in many cases.
 
 1. In the pipelined query function, the \_agg directive uses the stat\_unique keyword to aggregate and group unique $DstPort (destination port) values and give the maximum $EvtLen (event length) for each group (using the keyword max). The output is as shown below:
 
-![image 4-Dec-06-2023-12-06-04-0140-PM](./Images/Images%20agg/image204-Dec-06-2023-12-06-04-0140-PM.webp)
+![image 4-Dec-06-2023-12-06-04-0140-PM](./Images/Imagesagg/agg-4.webp)
 
 In the result set returned by the \_fetch query function, amongst all rows (events) with the destination port 53, the maximum value of event length was 645. This is highlighted in the image above.
 
@@ -92,11 +92,11 @@ Here:
 
 1. The \_fetch directive retrieves the $SrcIP, $DstPort, and $EvtLen fields for each event where $PStatus is PAD. We limit the result set to the 100 latest events satisfying the where clause. The output is as shown below:
 
-![image 5-Dec-06-2023-12-06-16-2214-PM](./Images/Images%20agg/image205-Dec-06-2023-12-06-16-2214-PM.webp)
+![image 5-Dec-06-2023-12-06-16-2214-PM](./Images/Imagesagg/agg-5.webp)
 
 1. In the pipelined query function, the \_agg directive uses the stat\_unique keyword to aggregate combinations of the $SrcIP (source IP) and $DstPort (destination port) values and give the maximum $EvtLen (event length) for each group using the keyword max. The output is as shown below:
 
-![image 6-Dec-06-2023-12-06-28-3901-PM](./Images/Images%20agg/image206-Dec-06-2023-12-06-28-3901-PM.webp)
+![image 6-Dec-06-2023-12-06-28-3901-PM](./Images/Imagesagg/agg-6.webp)
 
 The destination port 8080 has events in the first combination group of destination port and source IP are such that the maximum length is 517.
 
@@ -112,7 +112,7 @@ Example 1:
 _fetch * from event where $Stream=FIREWALL limit 10>> _agg stat_unique $SrcIP count_distinct $DstIP
 ```
 
-![image 7-Dec-06-2023-12-06-41-4130-PM](./Images/Images%20agg/image207-Dec-06-2023-12-06-41-4130-PM.webp)
+![image 7-Dec-06-2023-12-06-41-4130-PM](./Images/Imagesagg/agg-7.webp)
 
 In the above example, the \_fetch directive retrieves all fields for each event where $Stream is FIREWALL. We limit the result set to the 10 latest events that satisfy the where clause.  
 In the pipelined query function, the \_agg directive uses the stat\_unique keyword to aggregate and group unique $SrcIP (Source ip) values and give the counting of distinct values of $DstIP (Destination ip) for each group (using the keyword count\_distinct).
@@ -123,7 +123,7 @@ Example 2:
 _fetch * from event where $Stream=FIREWALL limit 10>> _agg stat_unique $SrcIP, $DstIP count_distinct $SrcCN
 ```
 
-![image 8-Dec-06-2023-12-06-54-1965-PM](./Images/Images%20agg/image208-Dec-06-2023-12-06-54-1965-PM.webp)
+![image 8-Dec-06-2023-12-06-54-1965-PM](./Images/Imagesagg/agg-8.webp)
 
 In the above example, the \_fetch directive retrieves all fields for each event where $Stream is FIREWALL. We limit the result set to the 10 latest events that satisfy the where clause.  
 In the pipelined query function, the \_agg directive uses the stat\_unique keyword to aggregate and group unique $SrcIP (Source ip) and $DstIP (Destination ip) values and give the counting of distinct values of $SrcCN (Source Country) for each group (using the keyword count\_distinct).

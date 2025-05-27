@@ -19,11 +19,11 @@ stream=signals| groupby detectionname, firstseen, lastseen
 
 - The stream=signals directive will retrieve all fields for each event where **Stream** is **Signals**. The result set is grouped by unique values of detectionname, firstseen and lastseen. The result set is sorted in the descending order of **count\_unique** (by default). The query results will be displayed as follows.  
       
-    ![](./images-Availability%20Timeline/Availability-Timeline-1.webp)
+    ![](./images-AvailabilityTimeline/Availability-Timeline-1.webp)
 
 - Now add a visual block,and enter the following details in the field provided.  
       
-    ![](./images-Availability%20Timeline/Availability-Timeline-2.webp)  
+    ![](./images-AvailabilityTimeline/Availability-Timeline-2.webp)  
       
     
 
@@ -36,6 +36,6 @@ stream=signals| groupby detectionname, firstseen, lastseen
 
 - The availability time chart is displayed  
       
-    ![](./images-Availability%20Timeline/Availability-Timeline-3.webp)
+    ![](./images-AvailabilityTimeline/Availability-Timeline-3.webp)
 
 - Hover on the bar to view the exact duration.

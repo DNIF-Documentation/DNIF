@@ -17,17 +17,17 @@ DNIF supports query processing and analysis with SQL. You can interpret the data
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-21-2023-04-47-07-9790-AM](./Images/Images%20Create%20an%20SQL%20Block/image201-Dec-21-2023-04-47-07-9790-AM.webp)
+![image 1-Dec-21-2023-04-47-07-9790-AM](./Images/ImagesCreateanSQLBlock/createansqlblock1.webp)
 
 - Click the **plus** icon on the Workbook page and select SQL Block from the list, the following screen will be displayed.
 
 ### **SQL Block**
 
-![image 2-Dec-21-2023-04-47-20-6977-AM](./Images/Images%20Create%20an%20SQL%20Block/image202-Dec-21-2023-04-47-20-6977-AM.webp)
+![image 2-Dec-21-2023-04-47-20-6977-AM](./Images/ImagesCreateanSQLBlock/createansqlblock2.webp)
 
 - Enter the query and click **Run** to execute the query, the result dataset will be displayed.
 
-![image 3-Dec-21-2023-04-47-31-1170-AM](./Images/Images%20Create%20an%20SQL%20Block/image203-Dec-21-2023-04-47-31-1170-AM.webp)
+![image 3-Dec-21-2023-04-47-31-1170-AM](./Images/ImagesCreateanSQLBlock/createansqlblock3.webp)
 
 **Example SQL Query**
 
@@ -39,17 +39,16 @@ In the above example, the query result is displaying all the details of Stream= 
 
 - Click **Information** icon, to view log details. You can view the log details in JSON and TABLE format.
 
-![image 4-Dec-21-2023-04-47-44-3936-AM](./Images/Images%20Create%20an%20SQL%20Block/image204-Dec-21-2023-04-47-44-3936-AM.webp)
+![image 4-Dec-21-2023-04-47-44-3936-AM](./Images/ImagesCreateanSQLBlock/createansqlblock4.webp)
 
 - Click **Copy** icon, to copy the details to clipboard.
 
-### **SQL Block Functions  
-**
+### **SQL Block Functions**
 
 | **Icons** | **Functionality** |
 | --- | --- |
-| ![image 5-Dec-21-2023-04-48-02-7426-AM](./Images/Images%20Create%20an%20SQL%20Block/image%205-Dec-21-2023-04-48-02-7426-AM.webp) | Used to filter the query result based on your requirement. |
-| ![image 6-Dec-21-2023-04-48-09-9072-AM](./Images/Images%20Create%20an%20SQL%20Block/image%206-Dec-21-2023-04-48-09-9072-AM.webp) | User to delete the block |
-| ![image 7-Dec-21-2023-04-48-16-3726-AM](./Images/Images%20Create%20an%20SQL%20Block/image%207-Dec-21-2023-04-48-16-3726-AM.webp) | Used to export logs in CSV format |
+| ![image 5-Dec-21-2023-04-48-02-7426-AM](./Images/ImagesCreateanSQLBlock/createansqlblock5.webp) | Used to filter the query result based on your requirement. |
+| ![image 6-Dec-21-2023-04-48-09-9072-AM](./Images/ImagesCreateanSQLBlock/createansqlblock6.webp) | User to delete the block |
+| ![image 7-Dec-21-2023-04-48-16-3726-AM](./Images/ImagesCreateanSQLBlock/createansqlblock7.webp) | Used to export logs in CSV format |
 
 For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).

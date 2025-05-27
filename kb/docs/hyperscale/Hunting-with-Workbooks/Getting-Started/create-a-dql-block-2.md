@@ -11,25 +11,25 @@ DNIF uses its own Query Language known as DQL, a primary form of interaction wit
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-21-2023-04-36-33-2550-AM](./Images/Images%20Create%20a%20DQL%20Block/image201-Dec-21-2023-04-36-33-2550-AM.webp)
+![image 1-Dec-21-2023-04-36-33-2550-AM](./Images/ImagesCreateaDQLBlock/createacodeblock1.webp)
 
 - Click the **plus** icon at the top right corner of the Workbooks list page or click the find icon on the navigation bar to create a new workbook, the following screen is displayed.
 
-![image 2-Dec-21-2023-04-36-46-4206-AM](./Images/Images%20Create%20a%20DQL%20Block/image202-Dec-21-2023-04-36-46-4206-AM.webp)
+![image 2-Dec-21-2023-04-36-46-4206-AM](./Images/ImagesCreateaDQLBlock/createacodeblock2.webp)
 
 - Click the **plus** icon on the Workbook page and select DQL Block from the list.
 
 ### **DQL Block**
 
-![image 3-Dec-21-2023-04-37-17-4167-AM](./Images/Images%20Create%20a%20DQL%20Block/image203-Dec-21-2023-04-37-17-4167-AM.webp)
+![image 3-Dec-21-2023-04-37-17-4167-AM](./Images/ImagesCreateaDQLBlock/createacodeblock3.webp)
 
 - Enter the required query and click **Run**, a progress bar will be displayed showing that the query is being processed.
 
-![image 4-Dec-21-2023-04-37-37-0705-AM](./Images/Images%20Create%20a%20DQL%20Block/image204-Dec-21-2023-04-37-37-0705-AM.webp)
+![image 4-Dec-21-2023-04-37-37-0705-AM](./Images/ImagesCreateaDQLBlock/createacodeblock4.webp)
 
 - Once the query is successfully processed, the results will be displayed as below.
 
-![image 5-Dec-21-2023-04-39-34-5841-AM](./Images/Images%20Create%20a%20DQL%20Block/image205-Dec-21-2023-04-39-34-5841-AM.webp)
+![image 5-Dec-21-2023-04-39-34-5841-AM](./Images/ImagesCreateaDQLBlock/createacodeblock5.webp)
 
 - To edit the workbook name click **/drafts/ Untitled Workbook** and enter a name of your preference.
 
@@ -37,7 +37,7 @@ DNIF uses its own Query Language known as DQL, a primary form of interaction wit
 
 - Click **Information** icon, to view log details. You can view the log details in JSON and TABLE format.
 
-![image 6-Dec-21-2023-04-40-20-1248-AM](./Images/Images%20Create%20a%20DQL%20Block/image206-Dec-21-2023-04-40-20-1248-AM.webp)
+![image 6-Dec-21-2023-04-40-20-1248-AM](./Images/ImagesCreateaDQLBlock/createacodeblock6.webp)
 
 - Click **Copy** icon, to copy the details to clipboard.
 
@@ -46,8 +46,8 @@ DNIF uses its own Query Language known as DQL, a primary form of interaction wit
 
 | **Icons** | **Functionality** |
 | --- | --- |
-| ![image 7-Dec-21-2023-04-40-40-1593-AM](./Images/Images%20Create%20a%20DQL%20Block/image%207-Dec-21-2023-04-40-40-1593-AM.webp) | Used to filter the query result based on your requirement. |
-| ![image 8-Dec-21-2023-04-40-47-4588-AM](./Images/Images%20Create%20a%20DQL%20Block/image%208-Dec-21-2023-04-40-47-4588-AM.webp) | Used to delete a block |
-| ![image 9-Dec-21-2023-04-40-53-9987-AM](./Images/Images%20Create%20a%20DQL%20Block/image%209-Dec-21-2023-04-40-53-9987-AM.webp) | Used to export logs in CSV format |
+| ![image 7-Dec-21-2023-04-40-40-1593-AM](./Images/ImagesCreateaDQLBlock/createacodeblock7.webp) | Used to filter the query result based on your requirement. |
+| ![image 8-Dec-21-2023-04-40-47-4588-AM](./Images/ImagesCreateaDQLBlock/createacodeblock8.webp) | Used to delete a block |
+| ![image 9-Dec-21-2023-04-40-53-9987-AM](./Images/ImagesCreateaDQLBlock/createacodeblock9.webp) | Used to export logs in CSV format |
 
 For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).

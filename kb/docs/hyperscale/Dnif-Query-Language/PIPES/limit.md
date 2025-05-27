@@ -25,4 +25,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall. It will group the result as per the destination port, country. However, we limit the result set (limit 10) to only 10 latest events which satisfy the where condition as shown below:
 
-![image 1-Dec-05-2023-12-30-36-6449-PM](./images/Images%20limit/image201-Dec-05-2023-12-30-36-6449-PM.webp)
+![image 1-Dec-05-2023-12-30-36-6449-PM](./images/Imageslimit/limit.webp)

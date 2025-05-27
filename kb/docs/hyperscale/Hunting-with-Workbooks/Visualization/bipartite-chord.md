@@ -23,7 +23,7 @@ stream=firewall| groupby srccn, dstcn
 
 - Now add a visual block,and enter the following details in the field provided.
 
-![](./Images/Images%20bipartite%20chord/image-png-Dec-09-2022-08-01-59-0488-AM.webp)
+![](./Images/Imagesbipartitechord/bipartitechord1.webp)
 
 | **Field** | **Description** |
 | --- | --- |
@@ -32,6 +32,6 @@ stream=firewall| groupby srccn, dstcn
 | Primary | Select the primary value for the chart to be created |
 | Secondary | Selected the secondary value for the chart to be created.    **Note:** You can add multiple secondary values as per requirement.  |
 
-![](./Images/Images%20bipartite%20chord/image-png-Dec-09-2022-08-03-36-2623-AM.webp)
+![](./Images/Imagesbipartitechord/bipartitechord2.webp)
 
 - Hover on the country code to view the exact **count.**

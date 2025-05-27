@@ -29,4 +29,4 @@ Here,
 
 The above query will retrieve all fields for each event where the stream is a firewall; it retrieves the percentage value of the group(s) as shown below:
 
-![image 1-Dec-05-2023-12-04-15-1768-PM](./images/Images%20having%20clause/image201-Dec-05-2023-12-04-15-1768-PM.webp)
+![image 1-Dec-05-2023-12-04-15-1768-PM](./images/Imageshavingclause/havingclause.webp)

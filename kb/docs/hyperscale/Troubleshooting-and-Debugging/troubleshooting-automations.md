@@ -8,19 +8,33 @@ On [Configuring Automations](https://dnif.it/kb/uncategorized/configuring-autom
 
 The following is the list of **Validation** status that would be displayed based on the configurations:
 
-- [**Not Validated**](#Not-Validated)
+- **Not Validated**
 
-- [**Validation in Progress**](#Validation-in-progress)
+<!-- (add an internal link)(#Not-Validated) -->
 
-- [**Validated**](#VALIDATED)
+- **Validation in Progress**
 
-- [**Validation Forbidden**](#Validation-forbidden)
+<!-- (add an internal link)(#Validation-in-progress) -->
 
-- [**Credentials not Authorized**](#Credentials-not-authorized)
+- **Validated**
 
-- [**Validation Failed**](#Validation-failed)
+<!-- (add an internal link)(#VALIDATED) -->
 
-- [**Validation Resource not found**](#Validation-Resource-Not-Found)
+-**Validation Forbidden**
+
+<!-- (add an internal link)(#Validation-forbidden) -->
+
+- **Credentials not Authorized**
+
+<!-- (add an internal link)(#Credentials-not-authorized) -->
+
+- **Validation Failed**
+
+<!-- (add an internal link)(#Validation-failed) -->
+
+- **Validation Resource not found**
+
+<!-- (add an internal link)(#Validation-Resource-Not-Found) -->
 
 ###### **Not Validated**  
   

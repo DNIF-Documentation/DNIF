@@ -21,23 +21,23 @@ The objective of Streamed Workbooks is to enable continuous threat detection wit
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-07-2023-12-09-45-0842-PM](./Images/Images%20Schedule%20a%20Workbook/image201-Dec-07-2023-12-09-45-0842-PM.webp)
+![image 1-Dec-07-2023-12-09-45-0842-PM](./Images/ImagesScheduleaWorkbook/scheduleaworkbook1.webp)
 
 - Click the **plus** icon on the Workbook page and then add a DQL /Search / Code / AI Block.
 
 - Enter the required query and click **Run**, to view the query result.
 
-![image 2-Dec-07-2023-12-10-02-3598-PM](./Images/Images%20Schedule%20a%20Workbook/image202-Dec-07-2023-12-10-02-3598-PM.webp)
+![image 2-Dec-07-2023-12-10-02-3598-PM](./Images/ImagesScheduleaWorkbook/scheduleaworkbook2.webp)
 
 - Once you have added all the required blocks in the Workbook. Click **Save**, to save your Workbook.
 
 - The **Schedule** icon is displayed, once you save the Workbook.
 
-![image 3-Dec-07-2023-12-10-14-2577-PM](./Images/Images%20Schedule%20a%20Workbook/image203-Dec-07-2023-12-10-14-2577-PM.webp)
+![image 3-Dec-07-2023-12-10-14-2577-PM](./Images/ImagesScheduleaWorkbook/scheduleaworkbook3.webp)
 
 - Click **Schedule** icon on the top right corner of the screen to schedule a Workbook
 
-![image 4-Dec-07-2023-12-10-22-9318-PM](./Images/Images%20Schedule%20a%20Workbook/image204-Dec-07-2023-12-10-22-9318-PM.webp)
+![image 4-Dec-07-2023-12-10-22-9318-PM](./Images/ImagesScheduleaWorkbook/scheduleaworkbook4.webp)
 
 Workbooks can be either be:
 
@@ -66,7 +66,7 @@ For more examples refer the following table:
 | Minute | Hour | Date of the Month | Month | Day of the Week | Result |
 | --- | --- | --- | --- | --- | --- |
 | 21 | 4 | * | 2 | * | The scheduler will run at 4:21 on 1st February, 2021 (Monday) |
-| 21 | 4 | * | 2 | 3 | The scheduler will at 4:21 on 3rd February, 2021 (Wednesday |
+| 21 | 4 | * | 2 | 3 | The scheduler will at 4:21 on 3rd February, 2021 (Wednesday) |
 
 - If the value is left as . * * * * * then the cron will be scheduled to run after every minute.
 

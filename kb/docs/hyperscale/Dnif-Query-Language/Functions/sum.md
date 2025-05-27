@@ -23,4 +23,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall, retrieve the total sum of all or distinct values in an expression, select and group it as per the destination country. The output is shown as below:
 
-![image 1-Dec-06-2023-04-12-29-9062-AM](./Images/Images%20sum/image201-Dec-06-2023-04-12-29-9062-AM.webp)
+![image 1-Dec-06-2023-04-12-29-9062-AM](./Images/Imagessum/sum.webp)

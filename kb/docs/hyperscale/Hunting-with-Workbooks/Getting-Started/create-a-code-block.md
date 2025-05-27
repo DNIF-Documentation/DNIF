@@ -14,13 +14,13 @@ Code Block also known as a Python Block is used to manipulate the data and gener
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-21-2023-04-52-56-9211-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-1.jpg)
+![image 1-Dec-21-2023-04-52-56-9211-AM](./Images/ImagesCreateaCodeBlock/code-block-1.jpg)
 
 - Click the **plus** icon on the Workbook page and select **Code Block** from the list, the following screen will be displayed.
 
 The python block should be added in the following format:
 
-![image 2-Dec-21-2023-04-53-42-5781-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-2.jpg)
+![image 2-Dec-21-2023-04-53-42-5781-AM](./Images/ImagesCreateaCodeBlock/code-block-2.jpg)
 
 ```
 def transform(inward_array):
@@ -40,11 +40,11 @@ def transform(inward_array):
 
 - Enter the query and click **Run** to execute the query, the result dataset will be displayed.
 
-![image 3-Dec-21-2023-04-56-02-3895-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-3%20.webp)
+![image 3-Dec-21-2023-04-56-02-3895-AM](./Images/ImagesCreateaCodeBlock/code-block-3.webp)
 
 - Click **Information** icon, to view log details. You can view the log details in JSON and TABLE format.
 
-![image 4-Dec-21-2023-04-56-40-9373-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-4.jpg)
+![image 4-Dec-21-2023-04-56-40-9373-AM](./Images/ImagesCreateaCodeBlock/code-block-4.jpg)
 
 - Click **Copy** icon, to copy the details to clipboard.
 
@@ -54,10 +54,10 @@ def transform(inward_array):
 
 | **Icons** | **Functionality** |
 | --- | --- |
-| ![image 5-Dec-21-2023-04-57-09-4974-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-5.jpg) | Used to execute the query |
-| ![image 6-Dec-21-2023-04-57-15-8666-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-6.jpg) | Used to revoke the executed query. |
-| ![image 7-Dec-21-2023-04-57-21-4347-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-7.jpg) | Used to filter the query result based on your requirement. |
-| ![image 8-Dec-21-2023-04-57-29-2367-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-8.jpg) | Used to delete a block |
+| ![image 5-Dec-21-2023-04-57-09-4974-AM](./Images/ImagesCreateaCodeBlock/code-block-5.jpg) | Used to execute the query |
+| ![image 6-Dec-21-2023-04-57-15-8666-AM](./Images/ImagesCreateaCodeBlock/code-block-6.jpg) | Used to revoke the executed query. |
+| ![image 7-Dec-21-2023-04-57-21-4347-AM](./Images/ImagesCreateaCodeBlock/code-block-7.jpg) | Used to filter the query result based on your requirement. |
+| ![image 8-Dec-21-2023-04-57-29-2367-AM](./Images/ImagesCreateaCodeBlock/code-block-8.jpg) | Used to delete a block |
 
 For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
 
@@ -69,11 +69,11 @@ json\_parse is used for parsing data that is received as JSON; it deserializes a
 
 In the below example, a webhook plugin is run, it returns $WebhookResponse in stringified json format.
 
-![image 9-Dec-21-2023-05-01-51-2829-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-9.jpg)
+![image 9-Dec-21-2023-05-01-51-2829-AM](./Images/ImagesCreateaCodeBlock/code-block-9.jpg)
 
 Python code block is used to parse the above mentioned response into a json object and extract the required fields to create a new json object, and json\_stringify is used to store it in $NewPayload field
 
-![image 10-Dec-21-2023-05-05-02-4839-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-10.jpg)
+![image 10-Dec-21-2023-05-05-02-4839-AM](./Images/ImagesCreateaCodeBlock/code-block-10.jpg)
 
 ### **Usage of regexp\_extract**
 
@@ -112,9 +112,9 @@ def transform(inward_array):
 	return inward_array
 ```
 
-In the above example, the function **regexp\_extract("PACKET\_(w+)** will return all the matching values of **PACKET\_** from the group viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and the new extracted value is displayed in the **$PacketAction** column as shown below:
+In the above example, the function **regexp\_extract("PACKET\_(w+)**) will return all the matching values of **PACKET\_** from the group viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and the new extracted value is displayed in the **$PacketAction** column as shown below:
 
-![image 11-Dec-21-2023-05-06-02-3634-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-11.jpg)
+![image 11-Dec-21-2023-05-06-02-3634-AM](./Images/ImagesCreateaCodeBlock/code-block-11.jpg)
 
 ### **Usage of regexp\_match**
 
@@ -153,6 +153,6 @@ def transform(inward_array):
 	return inward_array
 ```
 
-In the above example, the function **str(regexp\_match("PACKET\_(w+)** will return all the matching values of **PACKET\_** viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and will also return a boolean value corresponding to the string if a substring of the specified string matches the regular expression pattern as shown below:
+In the above example, the function **str(regexp\_match)("PACKET\_(w+)**) will return all the matching values of **PACKET\_** viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and will also return a boolean value corresponding to the string if a substring of the specified string matches the regular expression pattern as shown below:
 
-![image 12-Dec-21-2023-05-08-20-2667-AM](./Images/Images%20Create%20a%20Code%20Block/code-block-12.jpg)
+![image 12-Dec-21-2023-05-08-20-2667-AM](./Images/ImagesCreateaCodeBlock/code-block-12.jpg)

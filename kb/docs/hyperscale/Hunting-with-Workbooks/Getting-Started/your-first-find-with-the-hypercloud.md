@@ -14,9 +14,9 @@ The HYPERCLOUD is a powerful tool for analyzing large volumes of data in real-ti
 
 After you log in, you will be redirected to the landing page. Click the search icon on the left sidebar to access the Search interface. You can create queries here using predefined directives, filters, functions, and more. You can search through the data set collated by HYPERCLOUD.
 
-![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Basic-Search-1%20(1).png)
+![](./Images/ImagesYourfirstFINDwiththeHYPERCLOUD/YourfirstFINDwiththeHYPERCLOUD1.png)
 
-![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Basic-Search-2%20(1).png)
+![](./Images/ImagesYourfirstFINDwiththeHYPERCLOUD/YourfirstFINDwiththeHYPERCLOUD2.png)
 
 The Search block has different elements, and here is what they mean:
 
@@ -31,7 +31,7 @@ The Search block has different elements, and here is what they mean:
 
 To get a feel for the Search interface, we'll start with a basic query by selecting **$Stream** as FIREWALL. This query will only return output if you've ingested **FIREWALL** event logs.
 
-![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Basic-Search-3%20(1).png)
+![](./Images/ImagesYourfirstFINDwiththeHYPERCLOUD/YourfirstFINDwiththeHYPERCLOUD3.png)
 
 Let's dive deeper into the power of the HYPERCLOUD search block by exploring a practical use case. By following along with the steps outlined below, you'll not only learn how to use the search block effectively but also see firsthand how it can be applied to real-world situations. So, let's get started!
 
@@ -39,7 +39,7 @@ Let's dive deeper into the power of the HYPERCLOUD search block by exploring a p
 
 We'll explore a powerful use case that demonstrates how to discover targeted services from FIREWALL event logs. First, we'll identify traffic that's been blocked by your Firewall, including the source IP addresses and countries where the requests originate from.
 
-![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Basic-Search-5%20(1).png)
+![](./Images/ImagesYourfirstFINDwiththeHYPERCLOUD/YourfirstFINDwiththeHYPERCLOUD4.png)
 
 Next, we'll uncover the destination hosts and ports that these requests were trying to reach.
 
@@ -47,7 +47,7 @@ Next, we'll uncover the destination hosts and ports that these requests were try
 
 By analyzing this information, we can see that a lot of blocked traffic comes from China and Taiwan, targeting ports 1433, 445 and 23. These ports are running Microsoft SQL, Server Message Block (SMB) and TELNET, respectively. To make it easier to understand, we'll create a bar chart for quick reference.
 
-![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Basic-Search-6%20(1).png)
+![](./Images/ImagesYourfirstFINDwiththeHYPERCLOUD/YourfirstFINDwiththeHYPERCLOUD5.png)
 
 And Voila, you have successfully found a list of targeted services along with suspected sources that have unusual or suspicious activity.
 
@@ -57,11 +57,11 @@ Let's look at another example to identify  "Targeted Hosts/Servers through Faile
 
 Let's start off by identifying failed AUTHENTICATION events along with the source IP Addresses:
 
-![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Basic-Search-6%20(1).png)
+![](./Images/ImagesYourfirstFINDwiththeHYPERCLOUD/YourfirstFINDwiththeHYPERCLOUD6.png)
 
 Now, let's see the target system on which the authentication attempts were made:
 
-![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Firewall-4%20(1).png)
+<!-- ![](./Images/Images%20Your%20first%20FIND%20with%20the%20HYPERCLOUD/Firewall-4%20(1).png) -->
 
 Let's save this workbook and create a report:
 

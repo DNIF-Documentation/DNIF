@@ -12,13 +12,21 @@ DNIF library has extractors ready to ingest data from all types of devices. It a
 
 The following actions can be performed in the Collection Status page:  
 
-1. [View Collection Status](#how_to_view_collection_status?)
+1. View Collection Status
 
-3. [Add or Edit Description for a source](#add_or_edit_description)
+<!-- (add an internal link here)(#how_to_view_collection_status?) -->
 
-5. [Manually override and rollback an extractor](#manually_override_and_rollback)
+3. Add or Edit Description for a source
 
-7. [Delete an Inactive device](#delete_an_inactive_device)
+<!-- (add an internal link here)(#add_or_edit_description) -->
+
+5. Manually override and rollback an extractor
+
+<!-- (add an internal link here)(#manually_override_and_rollback) -->
+
+7. Delete an Inactive device
+
+<!-- (add an internal link here)(#delete_an_inactive_device) -->
 
 ## **How to view Collection Status?**
 

@@ -15,21 +15,21 @@ Visual Block will help you to interact through a visual interface to give a clea
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-21-2023-05-51-17-4512-AM](./Images/Images%20Create%20an%20visual%20Block/image201-Dec-21-2023-05-51-17-4512-AM.webp)
+![image 1-Dec-21-2023-05-51-17-4512-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock1.webp)
 
 - Click the **plus** icon at the top right corner , the following **Search GUI** screen will be displayed.
 
-![image 2-Dec-21-2023-05-52-50-4077-AM](./Images/Images%20Create%20an%20visual%20Block/image202-Dec-21-2023-05-52-50-4077-AM.webp)
+![image 2-Dec-21-2023-05-52-50-4077-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock2.webp)
 
 - You can now select streams while building a query using the search block. Select the stream, filters, and set the duration to fetch details
 
 - Select/Enter the required fields to build your query and click **Run**, the following screen is displayed.
 
-![image 3-Dec-21-2023-05-53-04-0187-AM](./Images/Images%20Create%20an%20visual%20Block/image203-Dec-21-2023-05-53-04-0187-AM.webp)
+![image 3-Dec-21-2023-05-53-04-0187-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock3.webp)
 
 - Click the **plus** icon on the Workbook page and select **Visualization** from the list, the following screen will be displayed.
 
-![image 4-Dec-21-2023-06-07-26-4295-AM](./Images/Images%20Create%20an%20visual%20Block/image204-Dec-21-2023-06-07-26-4295-AM.webp)
+![image 4-Dec-21-2023-06-07-26-4295-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock4.webp)
 
 - You can set the graphical view in a pie chart, line chart and column chart as per your requirement.
 
@@ -48,11 +48,11 @@ Pie charts are a simple and effective way to visualize data. DNIF offers pie cha
 
 - Displayed below is the default pie chart
 
-![image 5-Dec-21-2023-06-07-43-5624-AM](./Images/Images%20Create%20an%20visual%20Block/image205-Dec-21-2023-06-07-43-5624-AM.webp)
+![image 5-Dec-21-2023-06-07-43-5624-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock5.webp)
 
 - Displayed below is a donut chart
 
-![image 6-Dec-21-2023-06-08-26-0956-AM](./Images/Images%20Create%20an%20visual%20Block/image206-Dec-21-2023-06-08-26-0956-AM.webp)
+![image 6-Dec-21-2023-06-08-26-0956-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock6.webp)
 
 ### **Line Chart**
 
@@ -68,7 +68,7 @@ Select the following parameters to create a line chart.
 
 - Select all the above fields and a line chart will be displayed.
 
-![image 7-Dec-21-2023-06-08-07-8418-AM](./Images/Images%20Create%20an%20visual%20Block/image207-Dec-21-2023-06-08-07-8418-AM.webp)
+![image 7-Dec-21-2023-06-08-07-8418-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock7.webp)
 
 - The above chart displays a line chart, hover to view the fields captured.
 
@@ -87,11 +87,11 @@ Column charts are typically used to compare several items in a specific range of
 
 - Displayed below is the default column chart.
 
-![image 8-Dec-21-2023-06-11-13-1837-AM](./Images/Images%20Create%20an%20visual%20Block/image208-Dec-21-2023-06-11-13-1837-AM.webp)
+![image 8-Dec-21-2023-06-11-13-1837-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock8.webp)
 
 - Displayed below is the stacked column chart.
 
-![image 9-Dec-21-2023-06-11-25-8192-AM](./Images/Images%20Create%20an%20visual%20Block/image209-Dec-21-2023-06-11-25-8192-AM.webp)
+![image 9-Dec-21-2023-06-11-25-8192-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock9.webp)
 
 - Similarly, you can generate group column chart
 
@@ -112,11 +112,11 @@ Bar charts are typically used to compare several items between different groups 
 
 - Displayed below is a group bar chart
 
-![image 10-Dec-21-2023-06-12-07-0368-AM](./Images/Images%20Create%20an%20visual%20Block/image2010-Dec-21-2023-06-12-07-0368-AM.webp)
+![image 10-Dec-21-2023-06-12-07-0368-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock10.webp)
 
 - Displayed below is the basic bar chart
 
-![image 11-Dec-21-2023-06-12-20-9996-AM](./Images/Images%20Create%20an%20visual%20Block/image2011-Dec-21-2023-06-12-20-9996-AM.webp)
+![image 11-Dec-21-2023-06-12-20-9996-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock11.webp)
 
 - Similarly, you can generate stacked bar chart.
 
@@ -135,7 +135,7 @@ Select the following parameters to create a radial bar chart.
 
 - Displayed below is the default radial bar chart.
 
-![image 12-Dec-21-2023-06-13-01-4325-AM](./Images/Images%20Create%20an%20visual%20Block/image2012-Dec-21-2023-06-13-01-4325-AM.webp)
+![image 12-Dec-21-2023-06-13-01-4325-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock12.webp)
 
 - Similarly, you can generate stacked radial chart.
 
@@ -153,7 +153,7 @@ Area charts are typically used to compare change in one or more quantities over 
 
 - Displayed below is the area chart.
 
-![image 13-Dec-21-2023-06-16-19-7515-AM](./Images/Images%20Create%20an%20visual%20Block/image2013-Dec-21-2023-06-16-19-7515-AM.webp)
+![image 13-Dec-21-2023-06-16-19-7515-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock13.webp)
 
 ### **Timeline Chart**
 
@@ -169,7 +169,7 @@ A timeline chart is an effective way to visualize a process using chronological 
 
 - Displayed below is the timeline chart.
 
-![image 14-Dec-21-2023-06-16-57-2145-AM](./Images/Images%20Create%20an%20visual%20Block/image2014-Dec-21-2023-06-16-57-2145-AM.webp)
+![image 14-Dec-21-2023-06-16-57-2145-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock14.webp)
 
 ### **Metric Chart**
 
@@ -184,7 +184,7 @@ Metrics are numbers that tell you important information about a process under qu
 
 - Displayed below is the metric chart.
 
-![image 15-Dec-21-2023-06-17-30-1268-AM](./Images/Images%20Create%20an%20visual%20Block/image2015-Dec-21-2023-06-17-30-1268-AM.webp)
+![image 15-Dec-21-2023-06-17-30-1268-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock15.webp)
 
 ### **Geomap**
 
@@ -201,7 +201,7 @@ A geomap is a map of a country, continent, or region with colors and values assi
 
 - Displayed below is the word-cloud chart.
 
-![image 16-Dec-21-2023-06-17-47-3287-AM](./Images/Images%20Create%20an%20visual%20Block/image2016-Dec-21-2023-06-17-47-3287-AM.webp)
+![image 16-Dec-21-2023-06-17-47-3287-AM](./Images/ImagesCreateanvisuaBlock/createanvisualblock16.webp)
 
 ### **Word-Cloud**
 
@@ -217,6 +217,6 @@ Word clouds are graphical representations of word frequency that give greater pr
 
 - Displayed below is the word-cloud chart.
 
-![image 17-4](./Images/Images%20Create%20an%20visual%20Block/image2017-4.webp)
+![image 17-4](./Images/ImagesCreateanvisuaBlock/createanvisualblock17.webp)
 
 For more details on details on Workbooks, refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/) .

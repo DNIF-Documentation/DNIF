@@ -2,6 +2,8 @@
 title: "Advanced Telemetry for Windows"
 date: 2025-01-20
 type: "epkb_post_type_1"
+aliases:
+  - /DNIF/docs/hyperscale/Best-Practices/advanced-telemetry-for-windows
 ---
 
 ## **Introduction**
@@ -53,7 +55,7 @@ _Note: This configuration is optional and applies only to environments with Acti
     
     - Advanced Audit Policy Configuration
     
-    - Audit Policies![](./AdvancedTelemetryforWindows4.webp)
+    - Audit Policies
 
 - Configure the following settings:
     - Account Logon: Set both success and failure auditing for all subcategories.
@@ -127,7 +129,7 @@ _Note: This configuration is optional and applies only to environments with Acti
 - The Audit Policy lists all of its sub-policies in the right panel, as shown in the figure below.  
        
       
-    [](https://www.manageengine.com/products/active-directory-audit/how-to/images/how-to-audit-windows-registry-changes-1.png)
+   ![](./AdvancedTelemetryforWindows4.webp) 
 
 - Under **Audit Policy**, turn auditing on for Success and failure events of **Audit Object Access** policy.
 

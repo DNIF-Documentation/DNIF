@@ -6,9 +6,13 @@ type: "epkb_post_type_1"
 
 This article lists examples demonstrating practical use cases for taking action on Palo Alto servers.
 
-- [Add Host to Group](#Add-host-to-group-palo-alto)
+- Add Host to Group
 
-- [Remove Host from Group](#Remove-host-from-group-palo-alto)
+<!-- (ADD INTERNAL LINK HERE)(#Add-host-to-group-palo-alto) -->
+
+- [Remove Host from Group]
+
+<!-- (ADD INTERNAL LINK HERE)(#Remove-host-from-group-palo-alto) -->
 
 ## **Add Host to Group (PaloAlto)**
 

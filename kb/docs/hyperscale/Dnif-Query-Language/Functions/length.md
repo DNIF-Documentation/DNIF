@@ -23,4 +23,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where stream is Authentication; it retrieves the length of the field value. The output is shown as below:
 
-![](./Images/images%20Length/image-24.webp)
+![](./Images/imagesLength/length.webp)

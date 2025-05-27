@@ -6,9 +6,11 @@ type: "epkb_post_type_1"
 
 This article lists examples demonstrating practical use cases for taking action on Fortigate servers
 
-- [Add Host to Group](#Add-Host-to-Group-Fortigate)
+- Add Host to Group
+<!-- (Internal link to be added)(#Add-Host-to-Group-Fortigate) -->
 
-- [Remove Host from Group](#Remove-Host-from-Group-Fortigate)
+- Remove Host from Group
+<!-- (#Remove-Host-from-Group-Fortigate) -->
 
 ###### **Add Host to Group (Fortigate)**
 

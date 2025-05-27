@@ -15,4 +15,4 @@ stream=firewall | groupby dstport, dstcn |last 2
 
 This query retrieves two fields: destination port and destination country. However, we limit the result set (last 2) to only 2 newest events which satisfy the where condition. The result set is sorted in the ascending order.
 
-![image 1-Dec-05-2023-12-12-33-8700-PM](./images/Images%20last/image201-Dec-05-2023-12-12-33-8700-PM.webp)
+![image 1-Dec-05-2023-12-12-33-8700-PM](./images/Imageslast/last.webp)

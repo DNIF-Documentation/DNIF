@@ -6,9 +6,13 @@ type: "epkb_post_type_1"
 
 DNIF provides SAML Authentication for the following:
 
-1. [OKTA](#samlwithokta)
+1. OKTA
 
-3. [Google Workspace](#steps_to_setup_saml_integration_on_google)
+<!-- (ADD INTERNAL LINK HERE)(#samlwithokta) -->
+
+3. Google Workspace
+
+<!-- (ADD INTERNAL LINK HERE)(#steps_to_setup_saml_integration_on_google) -->
 
 ## Steps to set SAML Auth for OKTA on DNIF Console
 

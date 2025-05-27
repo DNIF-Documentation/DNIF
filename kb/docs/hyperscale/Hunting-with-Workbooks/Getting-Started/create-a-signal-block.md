@@ -13,21 +13,21 @@ For example, if there is a "Brute Force" attack on a client's website's login sc
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-05-2023-07-00-54-2470-AM](./Images/Images%20Create%20a%20Signal%20Block/signal-block-1.jpg)
+![image 1-Dec-05-2023-07-00-54-2470-AM](./Images/ImagesCreateaSignalBlock/signal-block-1.jpg)
 
 - Click **plus** icon on the Workbook page and then add a DQL /Search / Code / AI Block before you add a Signal Block.
 
-![image 2-Dec-05-2023-07-01-20-1408-AM](./Images/Images%20Create%20a%20Signal%20Block/signal-block-2.jpg)
+![image 2-Dec-05-2023-07-01-20-1408-AM](./Images/ImagesCreateaSignalBlock/signal-block-2.jpg)
 
 It is mandatory to add a DQL /Search / Code / AI Block before you add a Signal Block.
 
 - Once the query results of DQL /Search / Code / AI Block are displayed as in the below screen, you can add a signal block based on this particular query result.
 
-![image 3-Dec-05-2023-07-02-03-1509-AM](./Images/Images%20Create%20a%20Signal%20Block/signal-block-3.jpg)
+![image 3-Dec-05-2023-07-02-03-1509-AM](./Images/ImagesCreateaSignalBlock/signal-block-3.jpg)
 
 - Click the **plus** icon on the Workbook page and select Signal Block from the list, the following section will be added to the Workbook page.
 
-![image 4-Dec-05-2023-07-02-19-8015-AM](./Images/Images%20Create%20a%20Signal%20Block/signal-block-4.jpg)
+![image 4-Dec-05-2023-07-02-19-8015-AM](./Images/ImagesCreateaSignalBlock/signal-block-4.jpg)
 
   
 On the above screen, you will have to enter the following fields:
@@ -60,10 +60,10 @@ _fetch * from event where $Stream=SIGNALS limit 10
 
 | Icons | Functionality |
 | --- | --- |
-| ![](./Images/Images%20Create%20a%20Signal%20Block/signal-block-5.jpg) | Used to execute the query |
-| ![](./Images/Images%20Create%20a%20Signal%20Block/signal-block-6.jpg) | Click this to revoke the executed query. |
-| ![](./Images/Images%20Create%20a%20Signal%20Block/signal-block-7.jpg) | Used to filter the query result based on your requirement. |
-| ![](./Images/Images%20Create%20a%20Signal%20Block/signal-block-8.jpg) | Delete a block |
+| ![](./Images/ImagesCreateaSignalBlock/signal-block-5.jpg) | Used to execute the query |
+| ![](./Images/ImagesCreateaSignalBlock/signal-block-6.jpg) | Click this to revoke the executed query. |
+| ![](./Images/ImagesCreateaSignalBlock/signal-block-7.jpg) | Used to filter the query result based on your requirement. |
+| ![](./Images/ImagesCreateaSignalBlock/signal-block-8.jpg) | Delete a block |
 
 For more details on details on Workbooks, refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/)
 

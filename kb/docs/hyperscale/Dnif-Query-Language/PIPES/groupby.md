@@ -15,4 +15,4 @@ stream=firewall | groupby dstcn
 
 The above query will group the results as per destination country for each event where the stream is firewall as shown below:
 
-![image 1-Dec-05-2023-12-34-56-5094-PM](./images/Images%20groupby/image201-Dec-05-2023-12-34-56-5094-PM.webp)
+![image 1-Dec-05-2023-12-34-56-5094-PM](./images/Imagesgroupby/groupby.webp)

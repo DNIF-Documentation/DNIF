@@ -22,4 +22,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall; it retrieves the ratio value in each group. The output is shown as below:
 
-![image 1-Dec-05-2023-12-47-17-7912-PM](./Images/images%20ratio_of/image201-Dec-05-2023-12-47-17-7912-PM.webp)
+![image 1-Dec-05-2023-12-47-17-7912-PM](./Images/imagesratio_of/ratioof.webp)

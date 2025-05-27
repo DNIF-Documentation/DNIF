@@ -23,4 +23,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is firewall, it retrieves the maximum value in each group. The output is shown as below:
 
-![image 1-Dec-05-2023-01-04-12-4443-PM](./Images/images%20max/image201-Dec-05-2023-01-04-12-4443-PM.webp)
+![image 1-Dec-05-2023-01-04-12-4443-PM](./Images/imagesmax/max.webp)

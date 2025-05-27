@@ -23,4 +23,4 @@ Here,
 
 In this case, on execution it should retrieve all fields for each event where the stream is a firewall; it retrieves the average value in each group. The output is shown as below:
 
-![image 1-Dec-05-2023-12-52-06-5077-PM](./Images/Images%20Avg/image201-Dec-05-2023-12-52-06-5077-PM.webp)
+![image 1-Dec-05-2023-12-52-06-5077-PM](./Images/ImagesAvg/avg.webp)

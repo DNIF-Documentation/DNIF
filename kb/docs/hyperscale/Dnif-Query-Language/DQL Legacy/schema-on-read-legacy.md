@@ -26,7 +26,7 @@ _fetch @userIdentity.type from event where $Stream=CLOUDTRAIL group timeslice 1m
 
 This query will retrieve all the UserIdentity.type fields for each event where $Stream=CLOUDTRAIL in the last one minute. The output will be displayed as below.
 
-![image 1-Dec-06-2023-09-17-05-7852-AM](./Images/Images%20Schema%20on%20Read%20Legacy/image201-Dec-06-2023-09-17-05-7852-AM.webp)
+![image 1-Dec-06-2023-09-17-05-7852-AM](./Images/ImagesSchemaonReadLegacy/schemaonreadlegacy1.webp)
 
 **Example 2**
 
@@ -36,7 +36,7 @@ _fetch * from event where $Stream=CLOUDTRAIL group count_unique @requestParamete
 
 This query will retrieve all the Requestparameters.Filterset.Items.Name fields for each event where $Stream=CLOUDTRAIL. The result set is grouped by unique values of **RequestparametersFiltersetItems0Name** along with a count (count\_unique) for each.The output will be displayed as below:
 
-![image 2-Dec-06-2023-09-17-18-6804-AM](./Images/Images%20Schema%20on%20Read%20Legacy/image202-Dec-06-2023-09-17-18-6804-AM.webp)
+![image 2-Dec-06-2023-09-17-18-6804-AM](./Images/ImagesSchemaonReadLegacy/schemaonreadlegacy2.webp)
 
 ### **Key Value**
 
@@ -48,4 +48,4 @@ _fetch * from event where $Stream=FIREWALL AND $Duration=5m AND $SourceName=FORT
 
 This query will retrieve all the $Devname and $srcip where $Stream is Firewall and $Sourcename is Fortigate. The output will be displayed as below.
 
-![image 3-Dec-06-2023-09-17-30-0098-AM](./Images/Images%20Schema%20on%20Read%20Legacy/image203-Dec-06-2023-09-17-30-0098-AM.webp)
+![image 3-Dec-06-2023-09-17-30-0098-AM](./Images/ImagesSchemaonReadLegacy/schemaonreadlegacy3.webp)

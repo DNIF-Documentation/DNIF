@@ -6,11 +6,17 @@ type: "epkb_post_type_1"
 
 This article lists few examples, these examples will help you to quickly get started with the configuration process by demonstrating practical use cases.
 
-- [Terminate active sessions](#Terminate-active-sessions)
+- Terminate active sessions
 
-- [Reset Password](#Reset-Password)
+<!-- (add an internal link)(#Terminate-active-sessions) -->
 
-- [Kill a suspicious process](#Kill-a-suspicious-process)
+- Reset Password
+
+<!-- (add an internal link)(#Reset-Password) -->
+
+- Kill a suspicious process
+
+<!-- (add an internal link)(#Kill-a-suspicious-process) -->
 
 ###### **Terminate active sessions**
 

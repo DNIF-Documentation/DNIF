@@ -19,7 +19,7 @@ A bubble chart is a chart in which the data points are displayed as bubbles, and
 
 - The stream=firewall directive retrieves all fields for each event where **Stream** is **FIREWALL**. The result set is grouped by unique values of **app , dstcn, and rxlen** along with a count for each group. The result set is sorted in the descending order of **count** (by default).  The output is displayed as follows.  
       
-    ![](./images-Bubble%20Chart/Bubble-Chart-1.webp)  
+    ![](./images-BubbleChart/Bubble-Chart-1.webp)  
       
     
 
@@ -36,12 +36,12 @@ A bubble chart is a chart in which the data points are displayed as bubbles, and
   
 **Default Bubble Chart**
 
-![](./images-Bubble%20Chart/Bubble-Chart-2.webp)
+![](./images-BubbleChart/Bubble-Chart-2.webp)
 
   
 **Stacked Bubble Chart**
 
-![](./images-Bubble%20Chart/Bubble-Chart-3.webp)
+![](./images-BubbleChart/Bubble-Chart-3.webp)
 
   
 Hover on the bubble to to view more details

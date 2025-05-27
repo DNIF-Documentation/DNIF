@@ -22,4 +22,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall, it retrieves the total count of events against the appropriate destination ip address, The output is shown as below:
 
-![](./Images/Images%20Count_if/image-12.webp)
+![](./Images/ImagesCount_if/image-12.webp)

@@ -23,4 +23,4 @@ Here,
 
 In this example, on execution it should retrieve all fields for each event where the stream is a firewall; it retrieves the minimum value in each group. The output is shown as below:
 
-![image 1-Dec-05-2023-01-01-46-1520-PM](./Images/Images%20min/image201-Dec-05-2023-01-01-46-1520-PM.webp)
+![image 1-Dec-05-2023-01-01-46-1520-PM](./Images/Imagesmin/min.webp)
