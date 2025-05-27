@@ -1,15 +1,7 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI BUILD
 on:
   push:
     branches:
-      - main # Change this to your default branch if it's different
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+      - main
 
 jobs:
   deploy:
@@ -17,26 +9,23 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v2
         with:
           node-version: 18
 
-      - name: Build Docusaurus site
-        run: |
-          cd "kb"
-          export NODE_OPTIONS="--max-old-space-size=8192"
-          npm install
-          npm run build
-          
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: "./kb/build"
-      
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./kb
+
+      - name: Build site
+        run: npm run build
+        working-directory: ./kb
+
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./kb/build
