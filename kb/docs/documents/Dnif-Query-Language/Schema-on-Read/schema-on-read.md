@@ -26,7 +26,7 @@ stream=cloudtrail | select @type,@userIdentity.type
 
 This query will retrieve all the UserIdentity.type fields for each event where Stream is CLOUDTRAIL. The output will be displayed as below.
 
-![image 1-Dec-05-2023-11-04-20-9351-AM](./images-Schema%20on%20Read/Schema-on-Read-1.png)
+![image 1-Dec-05-2023-11-04-20-9351-AM](./images-SchemaonRead/Schema-on-Read-1.png)
 
 ###### **Key Value**
 
@@ -46,6 +46,6 @@ Here,
 
 - The sum ( ) function returns the total sum of a numeric column i.e, Eventlength
 
-![image 2-Dec-05-2023-11-04-34-2686-AM](./images-Schema%20on%20Read/Schema-on-Read-2.png)
+![image 2-Dec-05-2023-11-04-34-2686-AM](./images-SchemaonRead/Schema-on-Read-2.png)
 
 The above query should retrieve the total sum of all values in the expression, select and group it as per the source and destination IP Address for each event where the stream is a firewall and Sourcename is Fortigate.

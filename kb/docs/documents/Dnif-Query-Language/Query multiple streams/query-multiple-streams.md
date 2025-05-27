@@ -7,7 +7,7 @@ type: "epkb_post_type_1"
   
 The DNIF Query Language lets you query multiple streams separated by a comma.
 
-###### **Syntax**
+## **Syntax**
 
 The syntax for querying multiple streams is as follows:
 
@@ -23,26 +23,14 @@ stream\_name1, stream\_name2, and stream\_name3 are the names of the streams fro
 
 The above DQL query retrieves all fields for each event in the FIREWALL, AUTHENTICATION, and THREAT streams.
 
-###### **Querying multiple streams in DQL Block**
+## **Querying multiple streams in DQL Block**
 
 <figure>
 
-<video width="100%" height="auto" controls>
-  <source src="./images-Query multiple streams/Query-multiple-streams-1.mp4" />
-  Your browser does not support the video tag.
-</video> 
-
-<figcaption>
-
-  
-
-</figcaption>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kr0t4vNdZeI?si=3xTEuRxxAQp7MqzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </figure>
 
-###### **Querying multiple streams in Search Block**
+## **Querying multiple streams in Search Block**
 
-<video width="100%" height="auto" controls>
-  <source src="./images-Query multiple streams/Query-multiple-streams-2.mp4" />
-  Your browser does not support the video tag.
-</video> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8PkNQ2dNZiM?si=8L0WlPzIz4hTrZr7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

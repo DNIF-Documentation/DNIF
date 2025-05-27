@@ -21,7 +21,7 @@ Navigate to the Blocks Section:
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder-wise view of existing workbooks in the tenant (previously known as cluster).  
       
-    ![](./images-Create%20a%20Return%20Block/Create-a-Return-Block-1.png)  
+    ![](./images-CreateaReturnBlock/Create-a-Return-Block-1.png)  
       
     
 
@@ -29,7 +29,7 @@ Navigate to the Blocks Section:
 
 - Within the **Return Block** select the workbook that you want to call.  
       
-    ![](./images-Create%20a%20Return%20Block/Create-a-Return-Block-2.png)  
+    ![](./images-CreateaReturnBlock/Create-a-Return-Block-3.png)  
       
     
 
@@ -42,4 +42,4 @@ Navigate to the Blocks Section:
 
 - In the **Workbook** page, click on **Plus icon**. This will take you to a list of available blocks then select the **Return Block** from the list.   
       
-    ![](./images-Create%20a%20Return%20Block/Create-a-Return-Block-3.png)
+    ![](./images-CreateaReturnBlock/Create-a-Return-Block-2.png)

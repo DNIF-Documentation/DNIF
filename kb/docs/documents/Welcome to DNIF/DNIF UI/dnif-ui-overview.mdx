@@ -1,0 +1,55 @@
+---
+title: DNIF UI Overview
+slug: /dnif-ui-overview
+---
+
+import styles from '@site/src/components/DnifUiCards.module.css';
+
+# Explore the DNIF UI
+
+DNIF offers a modern, intuitive user interface designed to help analysts, engineers, and SOC teams seamlessly monitor, detect, and respond to threats. Below is an overview of the key modules in the UI.
+
+<div className={styles.cardGrid}>
+
+<div className={styles.card}>
+  <h3>Dashboard</h3>
+  <p>Visual summary of key metrics like event volume, active threats, and system health. Highly customizable with widgets.</p>
+  <a href="https://dnif.it/kb/manage-dashboards/create-a-dashboard/">Learn more →</a>
+</div>
+
+<div className={styles.card}>
+  <h3>Event Stream</h3>
+  <p>Live log ingestion view with filters by device, tags, anomaly score, and detection context. Enables quick pivoting.</p>
+  <a href="https://dnif.it/kb/security-monitoring/streamline-alert-analysis-with-signal-tagging/">View in action →</a>
+</div>
+
+<div className={styles.card}>
+  <h3>Investigations</h3>
+  <p>Timeline-based investigation with linked entities and evidence graph. SOCs can easily document findings.</p>
+  <a href="https://dnif.it/kb/security-monitoring/investigate-signals/what-are-signals/">Start Investigating →</a>
+</div>
+
+<div className={styles.card}>
+  <h3>Queries & Pipelines</h3>
+  <p>Run UDM queries, schedule reports, and automate logic flows using drag-drop pipelines.</p>
+  <a href="https://dnif.it/kb/dnif-query-language-dql-language/query-multiple-streams/query-multiple-streams/">Explore Pipelines →</a>
+</div>
+
+<div className={styles.card}>
+  <h3>Configuration</h3>
+  <p>Manage user roles, data sources, alerting rules, and system settings. Role-based access control included.</p>
+  <a href="https://dnif.it/kb/user-management-access-control/manage-organization-and-users/password-policy/">Learn more →</a>
+</div>
+
+</div>
+
+
+
+## Explore Key UI Modules
+<DnifUiCards />
+
+import DnifIntroBox from '@site/src/components/DnifIntroBox';
+import DnifUiCards from '@site/src/components/DnifUiCards';
+
+<DnifIntroBox />
+

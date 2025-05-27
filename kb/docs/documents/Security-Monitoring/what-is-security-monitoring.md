@@ -4,14 +4,9 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-**Security monitoring** is the process that continuously monitors and flags all the vulnerabilities, new and existing security problems and measures. It effectively analyzes using the various features, so that the mean time to resolution is extremely low, indicating that an entity or service can be repaired quickly and, consequently, any IT issues associated with it will probably have a reduced impact on the business.
+**Security monitoring** is the process that continuously monitors and flags all the vulnerabilities, new and existing security problems and measures. It effectively analyzes using the various features, so that the mean time to resolution is extremely low, indicating that an entity or service can be repaired quickly and, consequently, any IT issues associated with it will probably have a reduced impact on the business.
 
-## **What is Security Monitoring**
-
-<!-- TODO: Fix broken image link below. Original path: ./image/security-monitoring-1.jpg -->
-<!-- ![Security monitoring](./image/security-monitoring-1.jpg) -->
-
-Security monitoring is the process of continuously observing and analyzing computer systems, networks, and data for signs of security threats or vulnerabilities. Security monitoring can help organizations detect and respond to security incidents quickly, reduce the impact of cyberattacks, and comply with regulations and standards.
+![Security monitoring](./gif/security-monitoring-1.jpg)
 
 ## **Features of Security Monitoring**  
   

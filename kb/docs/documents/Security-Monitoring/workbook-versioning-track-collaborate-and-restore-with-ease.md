@@ -25,7 +25,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 ## **Working with Workbook Versioning**  
   
 
-### **Step 1: Accessing Workbook Versioning**  
+## **Step 1: Accessing Workbook Versioning**  
   
 
 - Log in to your DNIF HYPERCLOUD account.
@@ -36,7 +36,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 ![](./gif/Accessing%20a%20Workbook.gif)
 
-### **Step 2: Viewing Workbook Versions**  
+## **Step 2: Viewing Workbook Versions**  
   
 
 - Next to the workbook name, you will see a version number.
@@ -45,7 +45,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 ![](./gif/Exploring%20Versioning-1.gif)
 
-### **Step 3: Exploring Version Details**  
+## **Step 3: Exploring Version Details**  
   
 
 - In the version history side panel, you can view the date/time of each version, the author who made the changes, and the commit message describing the modifications.
@@ -54,7 +54,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 ![](./gif/Exploring%20Versioning.gif)
 
-### **Step 4: Restoring an Earlier Version**  
+## **Step 4: Restoring an Earlier Version**  
   
 
 - If you need to revert to an older version of the workbook, select the desired version from the version history side panel.
@@ -64,7 +64,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 ![](./gif/Restoring%20a%20version.gif)
 
-### **Step 5: Working with Restored Versions**  
+## **Step 5: Working with Restored Versions**  
   
 
 - After restoring an earlier version, you can continue working with the restored workbook as usual.

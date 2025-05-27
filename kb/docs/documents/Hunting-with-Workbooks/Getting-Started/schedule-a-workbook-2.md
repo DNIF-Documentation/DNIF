@@ -21,23 +21,23 @@ The objective of Streamed Workbooks is to enable continuous threat detection wit
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-07-2023-12-09-45-0842-PM](./images-Schedule%20a%20Workbook/Schedule-a-Workbook-1.png)
+![image 1-Dec-07-2023-12-09-45-0842-PM](./images-ScheduleaWorkbook/Schedule-a-Workbook-1.png)
 
 - Click the **plus** icon on the Workbook page and then add a DQL /Search / Code / AI Block.
 
 - Enter the required query and click **Run**, to view the query result.
 
-![image 2-Dec-07-2023-12-10-02-3598-PM](./images-Schedule%20a%20Workbook/Schedule-a-Workbook-2.png)
+![image 2-Dec-07-2023-12-10-02-3598-PM](./images-ScheduleaWorkbook/Schedule-a-Workbook-2.png)
 
 - Once you have added all the required blocks in the Workbook. Click **Save**, to save your Workbook.
 
 - The **Schedule** icon is displayed, once you save the Workbook.
 
-![image 3-Dec-07-2023-12-10-14-2577-PM](./images-Schedule%20a%20Workbook/Schedule-a-Workbook-3.png)
+![image 3-Dec-07-2023-12-10-14-2577-PM](./images-ScheduleaWorkbook/Schedule-a-Workbook-3.png)
 
 - Click **Schedule** icon on the top right corner of the screen to schedule a Workbook
 
-![image 4-Dec-07-2023-12-10-22-9318-PM](./images-Schedule%20a%20Workbook/Schedule-a-Workbook-4.png)
+![image 4-Dec-07-2023-12-10-22-9318-PM](./images-ScheduleaWorkbook/Schedule-a-Workbook-4.png)
 
 Workbooks can be either be:
 
@@ -66,7 +66,7 @@ For more examples refer the following table:
 | Minute | Hour | Date of the Month | Month | Day of the Week | Result |
 | --- | --- | --- | --- | --- | --- |
 | 21 | 4 | \* | 2 | \* | The scheduler will run at 4:21 on 1st February, 2021 (Monday) |
-| 21 | 4 | \* | 2 | 3 | The scheduler will at 4:21 on 3rd February, 2021 (Wednesday |
+| 21 | 4 | \* | 2 | 3 | The scheduler will at 4:21 on 3rd February, 2021 (Wednesday) |
 
 - If the value is left as . \* \* \* \* \* then the cron will be scheduled to run after every minute.
 

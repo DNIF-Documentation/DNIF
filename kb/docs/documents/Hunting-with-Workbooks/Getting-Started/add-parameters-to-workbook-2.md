@@ -11,11 +11,11 @@ Workbook parameters can be referred to as the input to conditions that are used 
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-04-2023-08-24-55-8042-AM](./images-Add%20Parameters%20to%20Workbook/Add-Parameters-to-Workbook-1.png)
+![image 1-Dec-04-2023-08-24-55-8042-AM](./images-AddParameterstoWorkbook/Add-Parameters-to-Workbook-1.png)
 
 - Click the **plus** icon at the top right corner of the Workbooks list page to create a new workbook, the following screen is displayed.
 
-![image 2-Dec-04-2023-08-25-19-9559-AM](./images-Add%20Parameters%20to%20Workbook/Add-Parameters-to-Workbook-2.png)
+![image 2-Dec-04-2023-08-25-19-9559-AM](./images-AddParameterstoWorkbook/Add-Parameters-to-Workbook-2.png)
 
   
 
@@ -27,12 +27,12 @@ Workbook parameters can be referred to as the input to conditions that are used 
 
 - Click **Parameters** icon on the top right corner of the screen to add parameters to a Workbook.
 
-![image 3-Dec-04-2023-08-28-36-8876-AM](./images-Add%20Parameters%20to%20Workbook/Add-Parameters-to-Workbook-3.png)
+![image 3-Dec-04-2023-08-28-36-8876-AM](./images-AddParameterstoWorkbook/Add-Parameters-to-Workbook-3.png)
 
   
 **Add parameters** bar is added, click this to define parameters for the Workbook.
 
-![image 4-Dec-04-2023-08-35-07-9256-AM](./images-Add%20Parameters%20to%20Workbook/Add-Parameters-to-Workbook-4.png)
+![image 4-Dec-04-2023-08-35-07-9256-AM](./images-AddParameterstoWorkbook/Add-Parameters-to-Workbook-4.png)
 
   
 
@@ -44,7 +44,7 @@ Workbook parameters can be referred to as the input to conditions that are used 
 
 Click the **Save** icon to save the details, the parameter value added will be displayed above the query section of the workbook.
 
-![image 5-Dec-04-2023-08-36-04-7495-AM](./images-Add%20Parameters%20to%20Workbook/Add-Parameters-to-Workbook-5.png)
+![image 5-Dec-04-2023-08-36-04-7495-AM](./images-AddParameterstoWorkbook/Add-Parameters-to-Workbook-5.png)
 
   
 Now, you can apply this paramater anywhere in query in the following format  

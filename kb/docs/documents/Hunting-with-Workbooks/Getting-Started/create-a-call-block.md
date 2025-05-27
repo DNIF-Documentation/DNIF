@@ -14,7 +14,7 @@ Call block works on the principle of Reusability (Create once and Use Anywhere).
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder-wise view of existing workbooks in the tenant (previously known as cluster).  
       
-    ![](./images-Create%20a%20Call%20Block/Create-a-Call-Block-1.png)  
+    ![](./images-CreateaCallBlock/Create-a-Call-Block-1.png)  
       
     
 
@@ -24,16 +24,16 @@ Call block works on the principle of Reusability (Create once and Use Anywhere).
 
 - Call Block is an independent block. It may be used independently in a workbook or with other blocks.  
       
-    ![](./images-Create%20a%20Call%20Block/Create-a-Call-Block-2.png)  
+    ![](./images-CreateaCallBlock/Create-a-Call-Block-2.png)  
       
       
-    ![](./images-Create%20a%20Call%20Block/Create-a-Call-Block-3.png)  
+    ![](./images-CreateaCallBlock/Create-a-Call-Block-3.png)  
       
     
 
 - Within the **Call Block** select the workbook that you want to call.  
       
-    ![](./images-Create%20a%20Call%20Block/Create-a-Call-Block-4.png)  
+    ![](./images-CreateaCallBlock/Create-a-Call-Block-4.png)  
       
     
 
@@ -45,6 +45,6 @@ Call block works on the principle of Reusability (Create once and Use Anywhere).
 
 - E.g. You can use the Call Block to call a Notification Workbook that can send notifications.  
       
-    ![](./images-Create%20a%20Call%20Block/Create-a-Call-Block-5.png)  
+    ![](./images-CreateaCallBlock/Create-a-Call-Block-5.png)  
       
     **Important Note**: Use the call block for scenarios where data is not modified, i.e. Data is not returned by the called workbook.

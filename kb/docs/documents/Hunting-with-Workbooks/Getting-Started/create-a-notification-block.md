@@ -12,20 +12,20 @@ The Notification block can send data as a consolidated email or as individual em
 ## **How to create a Notification Block?**
 
 - Hover on the Workbook icon on the left navigation bar, it will display the folder-wise view of the existing workbook in the tenant (previously known as cluster).  
-    **  
-    ![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-1.png)**  
+    
+    ![](./images-CreateaNotificationBlock/Create-a-Notification-Block-1.png) 
       
     
 
 - To create a new workbook, click the plus icon at the top right corner of the Workbook list page or click the find icon on the navigation bar.  
-    **  
-    ![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-2.png)**  
+    
+    ![](./images-CreateaNotificationBlock/Create-a-Notification-Block-2.png) 
       
     
 
 - Click the plus icon on the workbook page and select Notification Block from the list, the following screen will be displayed  
       
-    ![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-3.png)
+    ![](./images-CreateaNotificationBlock/Create-a-Notification-Block-3.png)
 
 ### 1.**Notification in a consolidated email**
 
@@ -51,11 +51,11 @@ f. When using this option, the notification block supports only absolute email a
 
 g. Example 1 -  Sending All rows and All columns
 
-![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-4.png)
+![](./images-CreateaNotificationBlock/Create-a-Notification-Block-4.png)
 
 h. Example 2 - Sending a specified number of rows and chosen columns.
 
-![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-5.webp)
+![](./images-CreateaNotificationBlock/Create-a-Notification-Block-5.webp)
 
   
 
@@ -75,7 +75,7 @@ h. Example 2 - Sending a specified number of rows and chosen columns.
 | Subject | A title of the email's content. This may also contain fields from the resultset. E.g. DNIF Signal raised: $SignalId |
 | Message | Email Message. This may also contain fields from the resultset. |
 
-![](./images-Create%20a%20Notification%20Block/Create-a-Notification-Block-6.webp)
+![](./images-CreateaNotificationBlock/Create-a-Notification-Block-6.webp)
 
   
 Note: The Notification Blocks can also be reused across workbooks using the call block functionality.

@@ -8,29 +8,33 @@ DNIF HYPERCLOUD Console's latest update, released on July 30th, 2024.
 
 ## **What’s New?**
 
-- ### **DNIF AI Extractor Generator**
-    - **Automates Extractor Generation  
-        **Automates complex extractor building process to save time and effort for security engineers
+-  ### **DNIF AI Extractor Generator**
+
+    - **Automates Extractor Generation**  
+        Automates complex extractor building process to save time and effort for security engineers
     
     - **Analyzes log event sources**   
         Provides valuable information on the type of device emitting the log sources along with the vendor information.
     
-    - **Categorizes log samples  
-        **Identifies different types of log events emitted by the log source.
+    - **Categorizes log samples**  
+        Identifies different types of log events emitted by the log source.
     
-    - **Guides field parsing  
-        **Highlights important fields to parse with detailed justification.
+    - **Guides field parsing**  
+        Highlights important fields to parse with detailed justification.
     
-    - **Suggests DNIF streams** Recommends relevant streams from the DNIF Data Model to parse log events. 
+    - **Suggests DNIF streams** 
+    Recommends relevant streams from the DNIF Data Model to parse log events. 
     
-    - **Recommends MITRE Techniques & Provides Sample DQL Queries  
-        **Suggest relevant MITRE techniques to investigate with sample DQL queries  
+    - **Recommends MITRE Techniques & Provides Sample DQL Queries**  
+        Suggest relevant MITRE techniques to investigate with sample DQL queries  
            
         [Know more](https://dnif.it/kb/dnif-ai/extractor-generator/extractor-generator-overview/) about the feature.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pEEd5IUKH-c?si=Iz9brk_OJl7MStmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-<!-- https://videopress.com/v/dt146WwG?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true -->
 
-- ### **Extractor Validator**
+
+
+
+-  ### **Extractor Validator**
     - **Validates Extractor syntax**  
         Enhances workflow with syntax validations, reducing debugging time.
     
@@ -43,8 +47,8 @@ DNIF HYPERCLOUD Console's latest update, released on July 30th, 2024.
     - **Verifies primary log sources and log events**  
         Verify whether the given extractor parses the provided log samples.
     
-    - **Uniqueness of Log Samples & Extractors  
-        **Verifies the uniqueness of provided log samples against existing extractors.  
+    - **Uniqueness of Log Samples & Extractors**  
+        Verifies the uniqueness of provided log samples against existing extractors.  
         Also ensures that the given extractor uniquely parses only the provided log samples.  
           
         [Know more](https://dnif.it/kb/data-ingestion/extractors/extractor-validator/) about the feature.

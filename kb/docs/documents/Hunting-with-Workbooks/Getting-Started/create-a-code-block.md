@@ -14,13 +14,13 @@ Code Block also known as a Python Block is used to manipulate the data and gener
 
 - Hover on the **Workbooks** icon on the left navigation bar, it will display the folder wise view of existing workbooks in the tenant (previously known as cluster).
 
-![image 1-Dec-21-2023-04-52-56-9211-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-1.png)
+![image 1-Dec-21-2023-04-52-56-9211-AM](./images-CreateaCodeBlock/Create-a-Code-Block-1.png)
 
 - Click the **plus** icon on the Workbook page and select **Code Block** from the list, the following screen will be displayed.
 
 The python block should be added in the following format:
 
-![image 2-Dec-21-2023-04-53-42-5781-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-2.png)
+![image 2-Dec-21-2023-04-53-42-5781-AM](./images-CreateaCodeBlock/Create-a-Code-Block-2.png)
 
 ```
 def transform(inward_array):
@@ -40,56 +40,49 @@ def transform(inward_array):
 
 - Enter the query and click **Run** to execute the query, the result dataset will be displayed.
 
-![image 3-Dec-21-2023-04-56-02-3895-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-3.png)
+![image 3-Dec-21-2023-04-56-02-3895-AM](./images-CreateaCodeBlock/Create-a-Code-Block-3.png)
 
 - Click **Information** icon, to view log details. You can view the log details in JSON and TABLE format.
 
-![image 4-Dec-21-2023-04-56-40-9373-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-4.png)
+![image 4-Dec-21-2023-04-56-40-9373-AM](./images-CreateaCodeBlock/Create-a-Code-Block-4.png)
 
 - Click **Copy** icon, to copy the details to clipboard.
 
-## **Code Block Functions  
+## **Code Block Functions**
   
-**
 
 | **Icons** | **Functionality** |
 | --- | --- |
-| ![image 5-Dec-21-2023-04-57-09-4974-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-5.webp) | Used to execute the query |
-| ![image 6-Dec-21-2023-04-57-15-8666-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-6.webp) | Used to revoke the executed query. |
-| ![image 7-Dec-21-2023-04-57-21-4347-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-7.webp) | Used to filter the query result based on your requirement. |
-| ![image 8-Dec-21-2023-04-57-29-2367-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-8.webp) | Used to delete a block |
+| ![image 5-Dec-21-2023-04-57-09-4974-AM](./images-CreateaCodeBlock/Create-a-Code-Block-5.webp) | Used to execute the query |
+| ![image 6-Dec-21-2023-04-57-15-8666-AM](./images-CreateaCodeBlock/Create-a-Code-Block-6.webp) | Used to revoke the executed query. |
+| ![image 7-Dec-21-2023-04-57-21-4347-AM](./images-CreateaCodeBlock/Create-a-Code-Block-7.webp) | Used to filter the query result based on your requirement. |
+| ![image 8-Dec-21-2023-04-57-29-2367-AM](./images-CreateaCodeBlock/Create-a-Code-Block-8.webp) | Used to delete a block |
 
 For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
 
-## **Usage of json\_parse and json\_stringify  
-  
-**
+## **Usage of json\_parse and json\_stringify**
 
 json\_parse is used for parsing data that is received as JSON; it deserializes a JSON string into a JavaScript object. json\_stringify on the other hand is used to create a JSON string out of an object or array; it serializes a JavaScript object into a JSON string.
 
 In the below example, a webhook plugin is run, it returns $WebhookResponse in stringified json format.
 
-![image 9-Dec-21-2023-05-01-51-2829-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-9.png)
+![image 9-Dec-21-2023-05-01-51-2829-AM](./images-CreateaCodeBlock/Create-a-Code-Block-9.png)
 
 Python code block is used to parse the above mentioned response into a json object and extract the required fields to create a new json object, and json\_stringify is used to store it in $NewPayload field
 
-![image 10-Dec-21-2023-05-05-02-4839-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-10.webp)
+![image 10-Dec-21-2023-05-05-02-4839-AM](./images-CreateaCodeBlock/Create-a-Code-Block-10.webp)
 
 ## **Usage of regexp\_extract**
 
 Extracts the first string in str that matches the regexp expression and corresponds to the regex group index.
 
-### **Syntax  
-  
-**
+### **Syntax**
 
 ```
 regexp_extract(pattern str, string str, group int=0)
 ```
 
-### **Arguments  
-  
-**
+### **Arguments**
 
 **pattern:** A STRING expression to be matched.  
 **string:** A STRING expression with a matching pattern.  
@@ -101,9 +94,7 @@ The REGEXP\_Extract function returns a string value.
 
 The regexp string must be a python regular expression. String literals are unescaped. For example, to match 'abc', a regular expression for regexp can be '^abc$'. regexp may contain multiple groups. group indicates which regex group to extract. An int of 0 means matching the entire regular expression.
 
-### **Example  
-  
-**
+### **Example**
 
 ```
 def transform(inward_array):
@@ -112,17 +103,15 @@ def transform(inward_array):
 	return inward_array
 ```
 
-In the above example, the function **regexp\_extract("PACKET\_(w+)** will return all the matching values of **PACKET\_** from the group viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and the new extracted value is displayed in the **$PacketAction** column as shown below:
+In the above example, the function **regexp\_extract("PACKET\_(w+)**) will return all the matching values of **PACKET\_** from the group viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and the new extracted value is displayed in the **$PacketAction** column as shown below:
 
-![image 11-Dec-21-2023-05-06-02-3634-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-11.webp)
+![image 11-Dec-21-2023-05-06-02-3634-AM](./images-CreateaCodeBlock/Create-a-Code-Block-11.webp)
 
 ## **Usage of regexp\_match**
 
 Returns true if the target value exactly matches the regular expression pattern.
 
-### **Syntax  
-  
-**
+### **Syntax**
 
 ```
 regexp_match(pattern str, string str)
@@ -142,9 +131,7 @@ REGEXP\_MATCH attempts to match the entire string contained in pattern str. For 
 REGEXP\_MATCH(pattern str, 'A') returns false.  
 REGEXP\_MATCH(pattern str, 'A.\*') returns true.
 
-###S **Example  
-  
-**
+## **Example**
 
 ```
 def transform(inward_array):
@@ -153,6 +140,6 @@ def transform(inward_array):
 	return inward_array
 ```
 
-In the above example, the function **str(regexp\_match("PACKET\_(w+)** will return all the matching values of **PACKET\_** viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and will also return a boolean value corresponding to the string if a substring of the specified string matches the regular expression pattern as shown below:
+In the above example, the function **str(regexp\_match)("PACKET\_(w+)**) will return all the matching values of **PACKET\_** viz. **PACKET\_ALLOWED**, **PACKET\_BLOCKED** and will also return a boolean value corresponding to the string if a substring of the specified string matches the regular expression pattern as shown below:
 
-![image 12-Dec-21-2023-05-08-20-2667-AM](./images-%20Create%20a%20Code%20Block/Create-a-Code-Block-12.webp)
+![image 12-Dec-21-2023-05-08-20-2667-AM](./images-CreateaCodeBlock/Create-a-Code-Block-12.webp)

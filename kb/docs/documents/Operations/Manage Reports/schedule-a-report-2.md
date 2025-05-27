@@ -4,10 +4,7 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-<video width="100%" height="auto" controls>
-  <source src="./schedule-a-report-image/schedule-a-report.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vq9MlvZbbiE?si=m5rGfKeFdIaT-U2K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The following are the steps to schedule a report:
 

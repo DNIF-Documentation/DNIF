@@ -1,5 +1,5 @@
 ---
-title: "Suspect &amp; Target"
+title: "Suspect & Target"
 date: 2025-01-17
 type: "epkb_post_type_1"
 ---
@@ -8,8 +8,8 @@ Every Signal will have a suspect and a target. Suspect is the one responsible fo
 
 The following screen displays the unique detections for the selected duration
 
-![](./image/Suspect-1.jpg)
+![](./suspectandtarget/suspectandtarget1.png)
 
 Highlighted in the below screen are the the top (most recent) detections in the selected duration
 
-![](./image/Suspect-2.jpg)
+![](./suspectandtarget/suspectandtarget2.png)

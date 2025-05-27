@@ -29,4 +29,4 @@ stream=cloudtrail where rlike(useragent,”console.*”)
 
 The above query searches for all the values of useragent that match the specified regular expression pattern. The output is shown below:
 
-![image 1-Dec-06-2023-04-28-16-3521-AM](./images-Regex%20Match/Regex-Match-1.png)
+![image 1-Dec-06-2023-04-28-16-3521-AM](./images-RegexMatch/Regex-Match-1.png)

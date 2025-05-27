@@ -8,8 +8,7 @@ DNIF HYPERCLOUD Console's latest update, released on August 27th, 2024.
 
 ## **What’s Fixed?**
 
-**  
-This fix updates and resolves edge cases in the Extractor Validator**  
+**This fix updates and resolves edge cases in the Extractor Validator**  
   
 In a few cases, the Extractor Validator will work without log samples.  
 Some edge cases affect customers using existing extractors that need to be modified. The Extractor Validator would not expect log samples in the following cases:

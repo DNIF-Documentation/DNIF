@@ -116,7 +116,8 @@ stream=signals where detectionseverity="High" or detectionseverity="Medium" or d
 Please refer to the link below to include the Priority ID in the code block:  
 [https://developer.pagerduty.com/api-reference/0fa9ad52bf2d2-list-priorities](https://developer.pagerduty.com/api-reference/0fa9ad52bf2d2-list-priorities)
 
-### 3. **DQL block with trigger query:** Using Webhook integration for PagerDuty, an alert will be sent to the PagerDuty account.
+### 3. **DQL block with trigger query:** 
+Using Webhook integration for PagerDuty, an alert will be sent to the PagerDuty account.
 
 _trigger api generic_webhook send_alert '&lt;&gt;'
 

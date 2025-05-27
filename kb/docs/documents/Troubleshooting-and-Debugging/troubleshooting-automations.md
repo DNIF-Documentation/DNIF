@@ -8,19 +8,34 @@ On [Configuring Automations](https://dnif.it/kb/uncategorized/configuring-autom
 
 The following is the list of **Validation** status that would be displayed based on the configurations:
 
-- [**Not Validated**](#Not-Validated)
+- **Not Validated**
 
-- [**Validation in Progress**](#Validation-in-progress)
+<!-- (ADD INTERNAL LINK HERE)(#Not-Validated) -->
 
-- [**Validated**](#VALIDATED)
+- **Validation in Progress**
 
-- [**Validation Forbidden**](#Validation-forbidden)
+<!-- (ADD INTERNAL LINK HERE)(#Validation-in-progress) -->
 
-- [**Credentials not Authorized**](#Credentials-not-authorized)
+- **Validated**
 
-- [**Validation Failed**](#Validation-failed)
+<!-- (ADD INTERNAL LINK HERE)(#VALIDATED) -->
 
-- [**Validation Resource not found**](#Validation-Resource-Not-Found)
+- **Validation Forbidden**
+
+<!-- (ADD INTERNAL LINK HERE)(#Validation-forbidden) -->
+
+
+- **Credentials not Authorized**
+
+<!-- (ADD INTERNAL LINK HERE)(#Credentials-not-authorized) -->
+
+- **Validation Failed**
+
+<!-- (ADD INTERNAL LINK HERE)(#Validation-failed) -->
+
+- **Validation Resource not found**
+
+<!-- (ADD INTERNAL LINK HERE)(#Validation-Resource-Not-Found) -->
 
 ## **Not Validated**  
   
@@ -85,7 +100,7 @@ This section includes troubleshooting recommendations and procedures for diagnos
 telnet <AD_HOST> <AD_port>
 ```
 
-1. Now, **[install and configure an LDAP client](https://dnif.it/kb/operations/ldap-authentication/) on the host** which is connecting to LDAP server.
+1. Now, **[install and configure an LDAP client](https://dnif.it/kb/operations/ldap-authentication/)** on the host which is connecting to LDAP server.
 
 3. On setting up LDAP client on host, check the connection to the LDAP server using the following command:
 

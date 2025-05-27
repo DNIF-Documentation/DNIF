@@ -40,8 +40,8 @@ Dashboard allows you to add and arrange multiple widgets to analyze up-to-date i
 
 - Displayed below is a dashboard view after rendering multiple workbooks.
 
-<!-- TODO: Fix broken image link below. Original path: images/image205-Dec-08-2023-10-40-02-4451-AM.jpg -->
-<!-- ![image 5-Dec-08-2023-10-40-02-4451-AM](images/image205-Dec-08-2023-10-40-02-4451-AM.jpg) -->
+
+![image 5-Dec-08-2023-10-40-02-4451-AM](./image/create-a-dashboard-5.png)
 
 The following icons are displayed on every individual widget on the dashboard.
 

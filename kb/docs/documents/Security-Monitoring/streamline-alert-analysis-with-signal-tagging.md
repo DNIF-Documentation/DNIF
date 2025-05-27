@@ -12,7 +12,7 @@ Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to catego
 ## **Benefits of Signal Tagging**  
   
 
-- Improved Organization: Users can categorize signals based on their nature, severity, source, threat actor/campaigns, or any other relevant attribute. This helps in creating a well-organized alert management system.
+- **Improved Organization:** Users can categorize signals based on their nature, severity, source, threat actor/campaigns, or any other relevant attribute. This helps in creating a well-organized alert management system.
 
 - **Streamlined Analysis**: With tagged signals, users can quickly filter and focus on specific categories of alerts, enabling more efficient and targeted analysis. This saves time and effort in navigating through a large volume of signals.
 
@@ -23,7 +23,7 @@ Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to catego
 ## **Working with Signal Tagging**  
   
 
-### **Step 1: Accessing the Signal Tagging Feature**  
+## **Step 1: Accessing the Signal Tagging Feature**  
   
 
 - Log in to your DNIF HYPERCLOUD account.
@@ -34,7 +34,7 @@ Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to catego
 
 ![Accessing the signal tagging feature](./gif/Streamline-Alert-Analysis-with-Signal-Tagging-1.webp)
 
-### **Step 2: Adding Tags to Signals**  
+## **Step 2: Adding Tags to Signals**  
   
 
 - Look for the "Tag" or "Add Tag" option in the interface and click on it.
@@ -43,7 +43,7 @@ Signal Tagging is a powerful feature that allows DNIF HYPERCLOUD users to catego
 
 ![Adding Tags to signals](./gif/Streamline-Alert-Analysis-with-Signal-Tagging-2.webp)
 
-### **Step 3: Searching and Filtering Signals by Tags**  
+## **Step 3: Searching and Filtering Signals by Tags**  
   
 
 - To search for signals with specific tags, use the filter functionality within the Signals page.

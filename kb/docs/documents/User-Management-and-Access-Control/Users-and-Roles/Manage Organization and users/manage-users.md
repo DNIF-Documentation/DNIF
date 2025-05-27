@@ -21,8 +21,7 @@ User Management is the process of creating and maintaining a user store. User ma
 
 Hover on the Administrator (lock) icon on the left navigation panel and select Manage Users, the following page will be displayed.
 
-<!-- TODO: Fix broken image link below. Original path: images/image%201-Dec-01-2023-10-33-59-3410-AM.jpg -->
-<!-- ![image 1-Dec-01-2023-10-33-59-3410-AM](images/image%201-Dec-01-2023-10-33-59-3410-AM.jpg) -->
+ ![image 1-Dec-01-2023-10-33-59-3410-AM](./manage-user-img/ManageUsers.png) 
 
 The above page displays the following details.
 

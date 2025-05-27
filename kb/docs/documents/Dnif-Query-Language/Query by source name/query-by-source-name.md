@@ -23,17 +23,11 @@ If data from ZSCALER is written into the FIREWALL, AUTHENTICATION, and THREAT st
 
 ## **Querying by source name in DQL Block**
 
-<video width="100%" height="auto" controls>
-  <source src="./image-Query by source name/Query-by-source-name-1.mp4" />
-  Your browser does not support the video tag.
-</video> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_rsDp1Exans?si=VRpUSIW-2hUT86qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Querying by source name in Search Block**
 
-<video width="100%" height="auto" controls>
-  <source src="./image-Query by source name/Query-by-source-name-2.mp4" />
-  Your browser does not support the video tag.
-</video> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C7vuHNGR7PU?si=1d24tz-7tFpLTpoP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## **Disclaimer:**
 
