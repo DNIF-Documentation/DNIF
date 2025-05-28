@@ -10,7 +10,7 @@ This page will help you understand the step by step procedure to view the detail
 
 - Hover on the **System** icon on the left navigation bar of the Home screen and select **Enrichment**, the following page will be displayed.  
       
-    ![](./images-View%20Enrichment/View%20Enrichment.webp)
+    ![](./images-ViewEnrichment/view-enrichment.png)
 
 The above page displays the following details.
 
