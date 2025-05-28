@@ -3,9 +3,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'KB for Seamless Security ',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cropped-DNIF-Emblem-Small-Transparent.ico',
 
   url: 'https://dnif-documentation.github.io',
   baseUrl: '/DNIF/',
