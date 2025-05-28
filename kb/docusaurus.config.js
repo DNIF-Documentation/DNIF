@@ -58,6 +58,7 @@ const config = {
         logo: {
           alt: 'DNIF logo',
           src: 'img/dnif-logo.png',
+          srcDark: 'img/DNIF-Logoset-Reversed-Small-Transparent.png',
         },
         items: [
           {

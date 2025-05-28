@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+[data-theme='dark'] .hero {
+  border-bottom: 4px solid #000;
+}
+
 .heroContent {
   max-width: 800px;
   margin: 0 auto;
@@ -269,4 +273,27 @@
   padding: 0.5rem;
   color: #999;
   font-style: italic;
+}
+
+[data-theme='dark'] .cardsSection {
+  background-color: #181824;
+}
+
+[data-theme='dark'] .sectionTitle {
+  color: #e0c3fc;
+}
+
+[data-theme='dark'] .card {
+  background-color: #232336;
+  color: #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+[data-theme='dark'] .cardTitle {
+  color: #e0c3fc;
+}
+
+[data-theme='dark'] .cardDescription,
+[data-theme='dark'] .cardFooter {
+  color: #b0b0b0;
 }
