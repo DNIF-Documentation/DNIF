@@ -21,7 +21,7 @@ DNIF is a cloud-native cybersecurity analytics platform that combines SIEM, User
 <div style={{ flex: '1 1 45%', border: '1px solid #eee', padding: '24px', borderRadius: '12px', backgroundColor: '#f8f9fa' }}>
   <a href="https://dnif.it/kb/getting-started/quick-start-guide/" style={{ textDecoration: 'none' }}>
     <h2 style={{ color: '#1a73e8' }}>Quick Start Guide</h2>
-    <p>Sign up for DNIF HYPERCLOUD and get started in minutes with our step-by-step guide.</p>
+    <p>Sign up for DNIF HYPERSCALE and get started in minutes with our step-by-step guide.</p>
   </a>
 </div>
 
