@@ -10,7 +10,7 @@ const config = {
   url: 'https://dnif.it',
   baseUrl: '/DNIF/',
 
-  organizationName: 'dnif-documentation',
+  organizationName: 'dnif.it',
   projectName: 'DNIF',
 
   onBrokenLinks: 'throw',
@@ -61,103 +61,86 @@ const config = {
           srcDark: 'img/DNIF-Logoset-Reversed-Small-Transparent.png',
         },
         items: [
-          {
-            label: 'Knowledge Base',
-            position: 'left',
-            to: '#',
-            type: 'dropdown',
-            items:[
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                docid: 'documents/Welcome-to-DNIF/welcome-to-dnif',
-                label: 'Welcome to DNIF',
-          
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                docid: 'documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration',
-                label: 'Connect, Extract, and Enrich',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Hunting with Workbooks',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'DNIF Query Language',
-              
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Security Monitoring',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'User Management and Access Control',
-            },
-            {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Solution Design',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Operations',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Platform Services',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Troubleshooting and Debugging',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'DNIF AI',
-               
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'License Management and Billing',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'DNIF Legal and Security and Compliance',
-                
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Policies',
-               
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'sidebar',
-                label: 'Best Practices',
-                
-              },
+         {
+  label: 'Knowledge Base',
+  position: 'left',
+  type: 'dropdown',
+  items: [
+    {
+      type: 'link',
+      label: 'Welcome to DNIF',
+      to: 'documents/Welcome-to-DNIF/welcome-to-dnif',
+    },
+    {
+      type: 'link',
+      label: 'Connect, Extract, and Enrich',
+      to: 'documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration',
+    },
+    {
+      type: 'link',
+      label: 'Hunting with Workbooks',
+      to: '/docs/documents/Hunting-with-Workbooks/introduction',
+    },
+    {
+      type: 'link',
+      label: 'DNIF Query Language',
+      to: '/docs/documents/DNIF-Query-Language/overview',
+    },
+    {
+      type: 'link',
+      label: 'Security Monitoring',
+      to: '/docs/documents/Security-Monitoring/overview',
+    },
+    {
+      type: 'link',
+      label: 'User Management and Access Control',
+      to: '/docs/documents/User-Management-and-Access-Control/overview',
+    },
+    {
+      type: 'link',
+      label: 'Solution Design',
+      to: '/docs/documents/Solution-Design/overview',
+    },
+    {
+      type: 'link',
+      label: 'Operations',
+      to: '/docs/documents/Operations/overview',
+    },
+    {
+      type: 'link',
+      label: 'Platform Services',
+      to: '/docs/documents/Platform-Services/overview',
+    },
+    {
+      type: 'link',
+      label: 'Troubleshooting and Debugging',
+      to: '/docs/documents/Troubleshooting-and-Debugging/overview',
+    },
+    {
+      type: 'link',
+      label: 'DNIF AI',
+      to: '/docs/documents/DNIF-AI/overview',
+    },
+    {
+      type: 'link',
+      label: 'License Management and Billing',
+      to: '/docs/documents/License-Management-and-Billing/overview',
+    },
+    {
+      type: 'link',
+      label: 'DNIF Legal and Security and Compliance',
+      to: '/docs/documents/DNIF-Legal-and-Security-and-Compliance/overview',
+    },
+    {
+      type: 'link',
+      label: 'Policies',
+      to: '/docs/documents/Policies/overview',
+    },
+    {
+      type: 'link',
+      label: 'Best Practices',
+      to: '/docs/documents/Best-Practices/best-practices-overview',
+    },
             ]
           },
           {
@@ -172,7 +155,7 @@ const config = {
           },
 
           {
-            label: ' Switch to Hyperscale',
+            label: ' DNIF Hyperscale',
             to: '#',
             position: 'right',
             type: 'docSidebar',
@@ -182,7 +165,7 @@ const config = {
 
 
            {
-            label: ' Switch to Hypercloud',
+            label: ' DNIF Hypercloud',
             to: '#',
             position: 'right',
             type: 'docSidebar',
@@ -194,6 +177,7 @@ const config = {
             position: 'right',
             to: '#',
             type: 'dropdown',
+            className: 'navbar-support-btn',
             items:[{
                 label: 'Contact Us',
                 to: 'https://dnif.it/contact/',
