@@ -7,7 +7,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/cropped-DNIF-Emblem-Small-Transparent.ico',
 
-  url: 'https://dnif-documentation.github.io',
+  url: 'https://dnif.it',
   baseUrl: '/DNIF/',
 
   organizationName: 'dnif-documentation',
@@ -70,14 +70,14 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'sidebar',
-                docId: 'documents/Welcome-to-DNIF',
+                docid: 'documents/Welcome-to-DNIF/welcome-to-dnif',
                 label: 'Welcome to DNIF',
           
               },
               {
                 type: 'docSidebar',
                 sidebarId: 'sidebar',
-                docId: 'documents/connect-extract-enrich',
+                docid: 'documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration',
                 label: 'Connect, Extract, and Enrich',
                 
               },
@@ -189,7 +189,22 @@ const config = {
             sidebarId: 'sidebar',
             className: 'navbar-hypercloud-btn',
           },
-          
+          {
+            label: 'Support',
+            position: 'right',
+            to: '#',
+            type: 'dropdown',
+            items:[{
+                label: 'Contact Us',
+                to: 'https://dnif.it/contact/',
+                
+              },
+              {
+                label: 'Schedule a Demo',
+                to: 'https://dnif.it/dnif-hypercloud-product-tour/',
+              
+              },
+            ]}
         ],
       },
       footer: {
@@ -235,7 +250,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}  NETMONASTERY SYSTEMS INC. All rights reserved.`,
       },
       colorMode: {
         defaultMode: 'light',               // You can change to 'dark' if preferred
