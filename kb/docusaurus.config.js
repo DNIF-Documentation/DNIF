@@ -62,10 +62,103 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'sidebar',
-            position: 'left',
             label: 'Knowledge Base',
+            position: 'left',
+            to: '#',
+            type: 'dropdown',
+            items:[
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                docId: 'documents/Welcome-to-DNIF',
+                label: 'Welcome to DNIF',
+          
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                docId: 'documents/connect-extract-enrich',
+                label: 'Connect, Extract, and Enrich',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Hunting with Workbooks',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF Query Language',
+              
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Security Monitoring',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'User Management and Access Control',
+            },
+            {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Solution Design',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Operations',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Platform Services',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Troubleshooting and Debugging',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF AI',
+               
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'License Management and Billing',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF Legal and Security and Compliance',
+                
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Policies',
+               
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Best Practices',
+                
+              },
+            ]
           },
           {
             type: 'doc',
@@ -75,7 +168,7 @@ const config = {
           },
           {
             type: 'search',
-            position: 'right',
+            position: 'left',
           },
 
           {
@@ -86,6 +179,17 @@ const config = {
             sidebarId: 'sidebarForOnPrem',
             className: 'navbar-hyperscale-btn',
           },
+
+
+           {
+            label: ' Switch to Hypercloud',
+            to: '#',
+            position: 'right',
+            type: 'docSidebar',
+            sidebarId: 'sidebar',
+            className: 'navbar-hypercloud-btn',
+          },
+          
         ],
       },
       footer: {
