@@ -8,10 +8,9 @@ Active Directory (AD) is a directory service that Microsoft developed for Window
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).  
+<!-- - Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).   -->
       
-      
-    ![image 1-Dec-26-2023-05-15-47-8509-AM](./images-ActiveDirectory/Active-Directory-1.webp)
+ ![image 1-Dec-26-2023-05-15-47-8509-AM](./images-ActiveDirectory/Active-Directory-1.webp)
 
 - Click the edit icon to add details.
 

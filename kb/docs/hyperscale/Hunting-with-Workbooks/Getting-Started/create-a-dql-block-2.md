@@ -50,4 +50,4 @@ DNIF uses its own Query Language known as DQL, a primary form of interaction wit
 | ![image 8-Dec-21-2023-04-40-47-4588-AM](./Images/ImagesCreateaDQLBlock/createacodeblock8.webp) | Used to delete a block |
 | ![image 9-Dec-21-2023-04-40-53-9987-AM](./Images/ImagesCreateaDQLBlock/createacodeblock9.webp) | Used to export logs in CSV format |
 
-For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
+For more details on Workbooks refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2).

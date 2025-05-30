@@ -57,7 +57,7 @@ def transform(inward_array):
 | ![image 7-Dec-21-2023-04-57-21-4347-AM](./Images/ImagesCreateaCodeBlock/code-block-7.jpg) | Used to filter the query result based on your requirement. |
 | ![image 8-Dec-21-2023-04-57-29-2367-AM](./Images/ImagesCreateaCodeBlock/code-block-8.jpg) | Used to delete a block |
 
-For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
+For more details on Workbooks refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2).
 
 ## **Usage of json\_parse and json\_stringify**
 
@@ -75,7 +75,7 @@ Python code block is used to parse the above mentioned response into a json obje
 
 Extracts the first string in str that matches the regexp expression and corresponds to the regex group index.
 
-## **Syntax **
+## **Syntax**
 
 ```
 regexp_extract(pattern str, string str, group int=0)
@@ -93,7 +93,7 @@ The REGEXP\_Extract function returns a string value.
 
 The regexp string must be a python regular expression. String literals are unescaped. For example, to match 'abc', a regular expression for regexp can be '^abc$'. regexp may contain multiple groups. group indicates which regex group to extract. An int of 0 means matching the entire regular expression.
 
-## **Example **
+## **Example**
 
 ```
 def transform(inward_array):

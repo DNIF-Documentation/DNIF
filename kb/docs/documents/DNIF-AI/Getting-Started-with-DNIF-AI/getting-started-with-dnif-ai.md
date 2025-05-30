@@ -16,11 +16,11 @@ To optimize DNIF AI features, users should follow wizard instructions, notificat
   
 **Data Usage and Privacy Assurance:**
 
-The DNIF AI features are powered by powered by OpenAI (GPT-4 Omni). It is important to note that no customer data is used for training the models. Nevertheless, users are advised to familiarize themselves with the recommended best practices to ensure the utmost safety and security of their data when utilizing these features. This includes providing [sanitized or pseudonymized information](https://dnif.it/kb/data-ingestion/extractors/guidelines-for-sanitizing-log-samples/) when necessary to protect sensitive data.
+The DNIF AI features are powered by powered by OpenAI (GPT-4 Omni). It is important to note that no customer data is used for training the models. Nevertheless, users are advised to familiarize themselves with the recommended best practices to ensure the utmost safety and security of their data when utilizing these features. This includes providing [sanitized or pseudonymized information](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Extraction/guidelines-for-sanitizing-log-samples) when necessary to protect sensitive data.
 
 We are committed to ensuring the privacy and security of your data. Any log samples you provide will not be used for training or improving the OpenAI model. These samples are solely used for generating extractors and related functionalities within our product. All data remains within the scope of the intended analysis and validation. Here is how we handle your data:
 
-- **Sanitized Data:** Ensure your log samples are [sanitized](https://dnif.it/kb/data-ingestion/extractors/guidelines-for-sanitizing-log-samples/) to exclude any sensitive information as per our guidelines.
+- **Sanitized Data:** Ensure your log samples are [sanitized](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Extraction/guidelines-for-sanitizing-log-samples) to exclude any sensitive information as per our guidelines.
 
 - **No Retention for Training:** Log samples are processed in real-time and are not stored or retained for model training purposes.
 
@@ -30,4 +30,4 @@ By following these practices, you can safely and efficiently utilize our DNIF AI
 
 ## **Features**
 
-1. [Extractor Generator](https://dnif.it/kb/dnif-ai/extractor-generator/extractor-generator-overview/)
+1. [Extractor Generator](https://dnif-documentation.github.io/DNIF/docs/documents/DNIF-AI/Extractor-Generator-Overview/)

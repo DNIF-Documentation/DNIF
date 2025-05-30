@@ -17,8 +17,8 @@ Access Structured Data in your logs without Extraction. With DQL, you can now ac
 ###### **JSON**
 
 For JSON logs you can add @ prefix i.e. @fieldname to extract the field details of that particular column.  
-**  
-Example 1**
+
+**Example 1**
 
 ```
 stream=cloudtrail | select @type,@userIdentity.type

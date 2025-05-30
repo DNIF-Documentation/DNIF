@@ -25,4 +25,4 @@ Text Block explains the use, description of the particular workbook, you can inc
 
 ![image 4-Dec-05-2023-07-27-56-5915-AM](./Images/ImagesCreateaTextBlock/CreateaTextBlock4.webp)
 
-For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
+For more details on Workbooks refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2).

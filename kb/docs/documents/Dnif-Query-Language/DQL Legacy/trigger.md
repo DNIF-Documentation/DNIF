@@ -15,13 +15,13 @@ _trigger api <plugin_name> <function_name> <‘configuration name’>
 
 The \_trigger directive uses the api keyword to trigger a function in an installed plugin to make an (external) API call to perform an action.
 
-Ensure your desired responder integration is [configured](https://dnif.it/kb/uncategorized/configuring-automation/).
+<!-- Ensure your desired responder integration is [configured](https://dnif.it/kb/uncategorized/configuring-automation/). -->
 
 ###### **Example**
 
 Take a look at the example given below:
 
-Below is the configured **[Palo Alto integration](https://dnif.it/kb/device-integration/palo-alto-device-integration/)**
+Below is the configured **[Palo Alto integration](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration)**
 
 ![image 1-Dec-06-2023-05-43-25-7495-AM](./images-_trigger/_trigger-1.webp)
 
