@@ -91,7 +91,7 @@ _fetch * from event where $Duration=6h AND $Stream=FIREWALL group count_unique $
 ```
 
 Here:  
-The **\_fetch** directive retrieves all fields for each event that have been received (stored) in the last 6 hours (Stream\*\* as **FIREWALL**. The result set is grouped by unique values of **$SrcIP**(source IP) along with with a count (**count\_unique**) for each group. The result set is sorted in the descending order of **count\_unique** (by default). It is then limited to 10 rows. The output is as shown below:
+The **\_fetch** directive retrieves all fields for each event that have been received (stored) in the last 6 hours (Stream\*\* as **FIREWALL**). The result set is grouped by unique values of **$SrcIP**(source IP) along with with a count (**count\_unique**) for each group. The result set is sorted in the descending order of **count\_unique** (by default). It is then limited to 10 rows. The output is as shown below:
 
 ![](./images-_checkif/_checkif-5.png)
 
@@ -115,7 +115,7 @@ _fetch * from event where $Duration=6h AND $Stream=FIREWALL limit 10>>_checkif s
 
 Here:
 
-The **\_fetch** directive retrieves all fields for each event that have been received (stored) in the last 6 hours (Stream\*\* as **FIREWALL**. The output is as shown below:  
+The **\_fetch** directive retrieves all fields for each event that have been received (stored) in the last 6 hours (Stream\*\* as **FIREWALL**). The output is as shown below:  
 
 ![](./images-_checkif/_checkif-7.png)
 
@@ -136,7 +136,7 @@ _fetch * from event where $Duration=6h AND $Stream=FIREWALL limit 10_checkif str
 
 Here:
 
-The **\_fetch** directive retrieves all fields for each event that have been received (stored) in the last 6 hours (Stream\*\* as **FIREWALL**. The output is as shown below:
+The **\_fetch** directive retrieves all fields for each event that have been received (stored) in the last 6 hours (Stream\*\* as **FIREWALL**). The output is as shown below:
 
 ![](./images-_checkif/_checkif-9.png)
 
@@ -201,7 +201,7 @@ The **\_fetch** directive retrieves all fields for each event. The result set 
 
 ![](./images-_checkif/_checkif-14.png)
 
-1. In the pipelined query function, the **\_checkif** directive uses the **lookup** keyword to check whether the destination ports (**DstPort**, is present in the store (condition 1). For such rows, additionally, we check (using the **int\_compare** keyword) whether the value of **count\_unique** of a row in the **\_fetch** result set is the same as the value of **count\_unique** in the corresponding row of the eventstore which satisfied condition 1 (condition 2). Only rows, where condition 2 is satisfied, are are included.  
+1. In the pipelined query function, the **\_checkif** directive uses the **lookup** keyword to check whether the destination ports **DstPort**, is present in the store (condition 1). For such rows, additionally, we check (using the **int\_compare** keyword) whether the value of **count\_unique** of a row in the **\_fetch** result set is the same as the value of **count\_unique** in the corresponding row of the eventstore which satisfied condition 1 (condition 2). Only rows, where condition 2 is satisfied, are are included.  
     
 
 ![](./images-_checkif/_checkif-15.png)

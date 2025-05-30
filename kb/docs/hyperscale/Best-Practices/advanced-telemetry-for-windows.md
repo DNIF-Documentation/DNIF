@@ -189,6 +189,6 @@ In addition to the default logging options provided by Windows, we now have adva
 
 For Windows-related integrations that focus on less comprehensive logging, please visit the following pages:
 
-1. [Windows Event Logs](https://dnif.it/kb/data-ingestion/windows-event-logs/)
+1. [Windows Event Logs](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Ingestion/windows-event-logs)
 
-3. [Internet Information Services](https://dnif.it/kb/device-integration/microsoft/iis/)
+3. [Internet Information Services](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Device-Integration/MICROSOFT/iis)

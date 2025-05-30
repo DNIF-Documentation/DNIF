@@ -131,7 +131,7 @@ The key\_replace keyword modifies the existing test\_ibruk\_store\_ipcount event
 _retrieve test_ibruk_store_ipcount
 ```
 
-To view the event store, we use the \_retrieve directive. The $SrcIP(s) (keys) for which count\_unique (value) has changed (from our earlier example) now have updated counts. In this example, it is the first 3 IP addresses. These SrcIP-count\_unique) are appended at the end of the event store.
+To view the event store, we use the \_retrieve directive. The $SrcIP(s) (keys) for which count\_unique (value) has changed (from our earlier example) now have updated counts. In this example, it is the first 3 IP addresses. These (SrcIP-count\_unique) are appended at the end of the event store.
 
 ###### **stack\_append**
 
