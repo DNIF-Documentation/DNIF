@@ -65,7 +65,96 @@ const config = {
   label: 'Knowledge Base',
   position: 'left',
   type: 'dropdown',
-  items: [
+  items: [{
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Welcome to DNIF',
+                icon: 'rocket',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Connect, Extract, and Enrich',
+                icon: 'settings',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Hunting with Workbooks',
+                icon: 'article',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF Query Language',
+                icon: 'grid_view',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Security Monitoring',
+                icon: 'security',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'User Management and Access Control',
+                icon: 'manage_accounts',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Solution Design',
+                icon: 'dashboard',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Operations',
+                icon: 'notifications',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Platform Services',
+                icon: 'stacked_line_chart',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Troubleshooting and Debugging',
+                icon: 'stacked_line_chart',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF AI',
+                icon: 'speed',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId:'sidebar',
+                label: 'License Management and Billing',
+                icon: 'settings_suggest',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF Legal and Security Compliance',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Policies',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Best Practices',
+                icon: 'account_tree',
+              },
     
             ]
           },
