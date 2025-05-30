@@ -164,10 +164,10 @@ const config = {
             position: 'left',
             label: 'Release Notes'
           },
-          {
-            type: 'search',
-            position: 'left',
-          },
+          // {
+          //   type: 'search',
+          //   position: 'left',
+          // },
 
           {
             label: ' DNIF Hyperscale',
