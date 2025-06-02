@@ -164,13 +164,13 @@ const config = {
             position: 'left',
             label: 'Release Notes'
           },
-          // {
-          //   type: 'search',
-          //   position: 'left',
-          // },
+          {
+            type: 'search',
+            position: 'left',
+          },
 
           {
-            label: ' DNIF Hyperscale',
+            label: ' DNIF HYPERSCALE',
             to: '#',
             position: 'right',
             type: 'docSidebar',
@@ -180,7 +180,7 @@ const config = {
 
 
            {
-            label: ' DNIF Hypercloud',
+            label: ' DNIF HYPERCLOUD',
             to: '#',
             position: 'right',
             type: 'docSidebar',

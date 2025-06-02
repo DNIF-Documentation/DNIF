@@ -45,13 +45,13 @@ const filteredCards = cardData.filter(card =>
       {/* Hero Section */}
       <header className={styles.hero}>
         <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>How can we help you?</h1>
+          <h1 className={styles.heroTitle}>Hello. How can we help you?</h1>
 
           {/* Custom Search Bar triggering Algolia Modal */}
           <div className={styles.searchBar}>
   <input
     type="text"
-    placeholder="Search documentation..."
+    placeholder="Search..."
     className={styles.searchInput}
     onFocus={() => setIsOpen(true)}
     readOnly
