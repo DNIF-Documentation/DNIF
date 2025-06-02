@@ -13,10 +13,10 @@ export default function Home() {
   
 
   const cardData = [
-    { title: "Welcome to DNIF", emoji: "🚀", link:"docs/documents/Welcome-to-DNIF" },
+    { title: "Welcome to DNIF", Svg: ('static/img/logo.svg'), link:"docs/documents/Welcome-to-DNIF" },
     { title: "Connect, Extract, and Enrich", emoji: "🔌", animation: "pulse", link: "docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration" },
     { title: "Hunting with Workbooks", emoji: "🕵️", animation: "wiggle", link: "docs/documents/Hunting-with-Workbooks/GETTING-STARTED/your-first-find-with-the-hypercloud" },
-    { title: "DNIF Query Language", emoji: "💻", animation: "glow", link: "docs/documents/DNIF-QUERY-LANGUAGE/Schema-on-Read/" },
+    { title: "DNIF Query Language", emoji: "💻", animation: "glow", link: "docs/documents/DNIF-Query-Language/Schema-on-Read" },
     { title: "Security Monitoring", emoji: "🛡️", animation: "bounce", link: "docs/documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging" },
     { title: "User Management and Access Control", emoji: "👥", animation: "float", link: "docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/" },    
     { title: "Solution Design", emoji: "🧩", animation: "zoom", link: "docs/documents/Solution-Design/scaling-datanodes" },
