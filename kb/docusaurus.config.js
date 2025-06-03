@@ -7,10 +7,10 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/cropped-DNIF-Emblem-Small-Transparent.ico',
 
-  url: 'https://dnif-documentation.github.io',
+  url: 'https://dnif.it',
   baseUrl: '/DNIF/',
 
-  organizationName: 'dnif-documentation',
+  organizationName: 'dnif.it',
   projectName: 'DNIF',
 
   onBrokenLinks: 'throw',
@@ -61,11 +61,102 @@ const config = {
           srcDark: 'img/DNIF-Logoset-Reversed-Small-Transparent.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'sidebar',
-            position: 'left',
-            label: 'Knowledge Base',
+         {
+  label: 'Knowledge Base',
+  position: 'left',
+  type: 'dropdown',
+  items: [{
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Welcome to DNIF',
+                icon: 'rocket',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Connect, Extract, and Enrich',
+                icon: 'settings',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Hunting with Workbooks',
+                icon: 'article',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF Query Language',
+                icon: 'grid_view',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Security Monitoring',
+                icon: 'security',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'User Management and Access Control',
+                icon: 'manage_accounts',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Solution Design',
+                icon: 'dashboard',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Operations',
+                icon: 'notifications',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Platform Services',
+                icon: 'stacked_line_chart',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Troubleshooting and Debugging',
+                icon: 'stacked_line_chart',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF AI',
+                icon: 'speed',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId:'sidebar',
+                label: 'License Management and Billing',
+                icon: 'settings_suggest',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'DNIF Legal and Security Compliance',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Policies',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Best Practices',
+                icon: 'account_tree',
+              },
+    
+            ]
           },
           {
             type: 'doc',
@@ -75,17 +166,44 @@ const config = {
           },
           {
             type: 'search',
-            position: 'right',
+            position: 'left',
           },
 
           {
-            label: ' Switch to Hyperscale',
+            label: ' DNIF HYPERSCALE',
             to: '#',
             position: 'right',
             type: 'docSidebar',
             sidebarId: 'sidebarForOnPrem',
             className: 'navbar-hyperscale-btn',
           },
+
+
+           {
+            label: ' DNIF HYPERCLOUD',
+            to: '#',
+            position: 'right',
+            type: 'docSidebar',
+            sidebarId: 'sidebar',
+            className: 'navbar-hypercloud-btn',
+          },
+          {
+            label: 'Support',
+            position: 'right',
+            to: '#',
+            type: 'dropdown',
+            className: 'navbar-support-btn',
+            items:[{
+                label: 'Contact Us',
+                to: 'https://dnif.it/contact/',
+                
+              },
+              {
+                label: 'Schedule a Demo',
+                to: 'https://dnif.it/dnif-hypercloud-product-tour/',
+              
+              },
+            ]}
         ],
       },
       footer: {
@@ -131,7 +249,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}  NETMONASTERY SYSTEMS INC. All rights reserved.`,
       },
       colorMode: {
         defaultMode: 'light',               // You can change to 'dark' if preferred

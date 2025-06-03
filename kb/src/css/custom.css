@@ -32,6 +32,21 @@
 
 /* custom.css */
 .navbar-hyperscale-btn {
+  background-color: #FFC000;
+  color: black !important;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-hyperscale-btn:hover {
+  background-color: #FFC000;
+  transform: scale(1.05);
+}
+.navbar-hypercloud-btn {
   background-color: #cc0066;
   color: white !important;
   padding: 5px 14px;
@@ -42,10 +57,26 @@
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.navbar-hyperscale-btn:hover {
+.navbar-hypercloud-btn:hover {
   background-color: #a3005d;
   transform: scale(1.05);
 }
+.navbar-support-btn {
+  background-color: #cc0066;
+  color: white !important;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-support-btn:hover {
+  background-color: #a3005d;
+  transform: scale(1.05);
+}
+
 
 
 /* Additional styles for Release Notes page */
@@ -273,9 +304,57 @@
   transform: translateY(-2px);
   box-shadow: 0 2px 5px rgba(51, 0, 102, 0.2);
 }
+.navbar-hypercloud-btn {
+  border: 1px solid #330066;
+  background-color: white;
+  color: #330066 !important;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
+.navbar-hyperscloud-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(51, 0, 102, 0.2);
+}
+.navbar-support-btn {
+  border: 1px solid #330066;
+  background-color: white;
+  color: #330066 !important;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navbar-support-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(51, 0, 102, 0.2);}
 /* custom.css */
 .navbar-hyperscale-btn {
+  border: 1px solid #FFC000;
+  background-color: white;
+  color: #FFC000 !important;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-hyperscale-btn:hover {
+  background-color: #FFC000;
+  color: black !important;
+  box-shadow: 0 2px 8px rgba(204, 0, 102, 0.3);
+  transform: translateY(-2px);
+}
+.navbar-hypercloud-btn {
   border: 1px solid #cc0066;
   background-color: white;
   color: #cc0066 !important;
@@ -287,9 +366,27 @@
   transition: all 0.3s ease;
 }
 
-.navbar-hyperscale-btn:hover {
+.navbar-hypercloud-btn:hover {
   background-color: #cc0066;
-  color: white !important;
+  color: black !important;
+  box-shadow: 0 2px 8px rgba(204, 0, 102, 0.3);
+  transform: translateY(-2px);
+}
+.navbar-support-btn {
+  border: 1px solid #cc0066;
+  background-color: white;
+  color: #cc0066 !important;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-support-btn:hover {
+  background-color: #cc0066;
+  color: black !important;
   box-shadow: 0 2px 8px rgba(204, 0, 102, 0.3);
   transform: translateY(-2px);
 }

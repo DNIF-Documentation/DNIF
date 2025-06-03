@@ -65,7 +65,7 @@ _fetch * from event where $Stream=SIGNALS limit 10
 | ![](./images-CreateaSignalBlock/Create-a-Signal-Block-7.webp) | Used to filter the query result based on your requirement. |
 | ![](./images-CreateaSignalBlock/Create-a-Signal-Block-8.webp) | Delete a block |
 
-For more details on details on Workbooks, refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/)
+For more details on details on Workbooks, refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/documents/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2)
 
 ### **Parameterised Signals**
 

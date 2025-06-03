@@ -58,7 +58,7 @@ def transform(inward_array):
 | ![image 7-Dec-21-2023-04-57-21-4347-AM](./images-CreateaCodeBlock/Create-a-Code-Block-7.webp) | Used to filter the query result based on your requirement. |
 | ![image 8-Dec-21-2023-04-57-29-2367-AM](./images-CreateaCodeBlock/Create-a-Code-Block-8.webp) | Used to delete a block |
 
-For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
+For more details on Workbooks refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/documents/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2).
 
 ## **Usage of json\_parse and json\_stringify**
 

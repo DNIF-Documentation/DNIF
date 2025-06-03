@@ -51,4 +51,4 @@ In the above example, the query result is displaying all the details of Stream= 
 | ![image 6-Dec-21-2023-04-48-09-9072-AM](./Images/ImagesCreateanSQLBlock/createansqlblock6.webp) | User to delete the block |
 | ![image 7-Dec-21-2023-04-48-16-3726-AM](./Images/ImagesCreateanSQLBlock/createansqlblock7.webp) | Used to export logs in CSV format |
 
-For more details on Workbooks refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
+For more details on Workbooks refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2).

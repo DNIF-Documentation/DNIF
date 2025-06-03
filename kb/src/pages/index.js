@@ -1,20 +1,22 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Link from '@docusaurus/Link';
 import styles from './index.module.css';
+import '@docsearch/react/style'; // Algolia styling
+import { DocSearchModal } from '@docsearch/react';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+  const [isOpen, setIsOpen] = useState(false);
 
 
   
 
   const cardData = [
-    { title: "Welcome to DNIF", emoji: "🚀", animation: "zoom", link:"docs/documents/Welcome-to-DNIF" },
+    { title: "Welcome to DNIF", Svg: ('static/img/logo.svg'), link:"docs/documents/Welcome-to-DNIF" },
     { title: "Connect, Extract, and Enrich", emoji: "🔌", animation: "pulse", link: "docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration" },
     { title: "Hunting with Workbooks", emoji: "🕵️", animation: "wiggle", link: "docs/documents/Hunting-with-Workbooks/GETTING-STARTED/your-first-find-with-the-hypercloud" },
-    { title: "Dnif Query Language", emoji: "💻", animation: "glow", link: "docs/documents/DNIF-QUERY-LANGUAGE/Schema-on-Read/" },
+    { title: "DNIF Query Language", emoji: "💻", animation: "glow", link: "docs/documents/DNIF-Query-Language/Schema-on-Read" },
     { title: "Security Monitoring", emoji: "🛡️", animation: "bounce", link: "docs/documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging" },
     { title: "User Management and Access Control", emoji: "👥", animation: "float", link: "docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/" },    
     { title: "Solution Design", emoji: "🧩", animation: "zoom", link: "docs/documents/Solution-Design/scaling-datanodes" },
@@ -41,24 +43,44 @@ const filteredCards = cardData.filter(card =>
       description="Search documentation, tutorials, and more!"
     >
       {/* Hero Section */}
-            <header className={styles.hero}>
+      <header className={styles.hero}>
         <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>How can we help you?</h1>
-          {/* <div className={styles.searchBar}>
-            <input
-              type="text"
-              placeholder="Search Docs, Tutorials, etc."
-              className={styles.searchInput}
-              onChange={(e) => setSearchTerm(e.target.value)}
+          <h1 className={styles.heroTitle}>Hello. How can we help you?</h1>
+
+          {/* Custom Search Bar triggering Algolia Modal */}
+          <div className={styles.searchBar}>
+  <input
+    type="text"
+    placeholder="Search..."
+    className={styles.searchInput}
+    onFocus={() => setIsOpen(true)}
+    readOnly
+  />
+  <button
+    type="button"
+    className={styles.searchButton}
+    onClick={() => setIsOpen(true)}
+  >
+    Search
+  </button>
+</div>
+
+
+          {/* Algolia Modal */}
+          {isOpen && (
+            <DocSearchModal
+              appId="YY0TIP6BF9"
+              indexName="dnif-umentationio"
+              apiKey="201e3bd2346e3a0caf9868f6f16d3bbb"
+              onClose={() => setIsOpen(false)}
             />
-            <button className={styles.searchButton}>Search</button>
-          </div> */}
+          )}
         </div>
       </header>
 
       {/* Cards Section */}
       <section className={styles.cardsSection}>
-        <h2 className={styles.sectionTitle}>Knowledge Base</h2>
+        {/* <h2 className={styles.sectionTitle}></h2> */}
         <div className={styles.cardsGrid}>
           {filteredCards.map((card, i) => (
             <a href={card.link} className={styles.card} key={i}>
