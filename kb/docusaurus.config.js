@@ -249,7 +249,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()}  NETMONASTERY SYSTEMS INC. All rights reserved.`,
+        copyright: ` © ${new Date().getFullYear()}  NETMONASTERY SYSTEMS INC. All rights reserved.`,
       },
       colorMode: {
         defaultMode: 'light',               // You can change to 'dark' if preferred
