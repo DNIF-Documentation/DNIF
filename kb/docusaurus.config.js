@@ -152,6 +152,18 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'sidebar',
+                label: 'PICO',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Security Bulletins',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
                 label: 'Best Practices',
                 icon: 'account_tree',
               },
