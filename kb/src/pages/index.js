@@ -27,6 +27,8 @@ export default function Home() {
     { title: "License Management and Billing", emoji: "💳", animation: "tilt", link: "docs/documents/License-Management-and-Billing/Term-Based-Software-Subscription" },
     { title: "DNIF Legal and Security Compliance", emoji: "📜", animation: "roll", link: "docs/documents/DNIF-Legal-and-Security-Compliance/Data-Privacy-Policy" },
     { title: "Policies", emoji: "📘", animation: "flip", link: "docs/documents/Policies/the-dnif-hyperscale-lifecycle-and-release-cadence" },
+    { title: "PICO",  animation: "twinkle", link: "docs/documents/PICO/notification-for-pico-events" },
+    { title: "Security Bulletins",  animation: "twinkle", link: "docs/documents/Security-Bulletins/apache-log4j-cve-2021-44228" },
     { title: "Best Practices", emoji: "🌟", animation: "twinkle", link: "docs/documents/Best-Practices/advanced-telemetry-for-windows" },
     { title: "Release Notes", emoji: "📝", animation: "bounce", link: "docs/documents/Release-Notes/april-17-2025-content-update" },
   ];

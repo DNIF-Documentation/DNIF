@@ -188,7 +188,7 @@ const config = {
             className: 'navbar-hypercloud-btn',
           },
           {
-            label: 'Support',
+            label: 'SUPPORT',
             position: 'right',
             to: '#',
             type: 'dropdown',
