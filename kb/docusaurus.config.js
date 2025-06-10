@@ -152,6 +152,18 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'sidebar',
+                label: 'PICO',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
+                label: 'Security Bulletins',
+                icon: 'account_tree',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'sidebar',
                 label: 'Best Practices',
                 icon: 'account_tree',
               },
@@ -188,7 +200,7 @@ const config = {
             className: 'navbar-hypercloud-btn',
           },
           {
-            label: 'Support',
+            label: 'SUPPORT',
             position: 'right',
             to: '#',
             type: 'dropdown',
@@ -249,7 +261,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()}  NETMONASTERY SYSTEMS INC. All rights reserved.`,
+        copyright: ` © ${new Date().getFullYear()}  NETMONASTERY SYSTEMS INC. All rights reserved.`,
       },
       colorMode: {
         defaultMode: 'light',               // You can change to 'dark' if preferred
