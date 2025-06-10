@@ -5,41 +5,53 @@ import styles from './index.module.css';
 import '@docsearch/react/style'; // Algolia styling
 import { DocSearchModal } from '@docsearch/react';
 
+// Import the SVG as a React component
+import WelcomeSvg from '@site/static/img/card-01-welcome.svg';
+import CEE from '@site/static/img/card-02-cee.svg';
+import Huntingwithworkbbok from '@site/static/img/card-03-hunting-w-wb.svg';
+import DQL from '@site/static/img/card-04-dql.svg';
+import SecurityMonitoring from '@site/static/img/card-05-security-monitoring.svg';
+import Usermanagement from '@site/static/img/card-06-usr-mgmt.svg';
+import SolutionDesign from '@site/static/img/card-07-solution-design.svg';
+import Operation from '@site/static/img/card-08-ops.svg';
+import Platform from '@site/static/img/card-09-platform.svg';
+import Troubleshooting from '@site/static/img/card-10-troubleshooting.svg';
+import DNIFAI from '@site/static/img/card-11-ai.svg';
+import LicenseManagement from '@site/static/img/card-12-license-mgmt.svg';
+import DNIFlegal from '@site/static/img/card-13-legal-compliance.svg';
+import Policies from '@site/static/img/card-14-policies.svg';
+import Bestpractices from '@site/static/img/card-15-best-practices.svg';
+import Releasenote from '@site/static/img/card-16-release-notes.svg';
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   const [isOpen, setIsOpen] = useState(false);
 
-
-  
-
   const cardData = [
-    { title: "Welcome to DNIF", Svg: ('static/img/logo.svg'), link:"docs/documents/Welcome-to-DNIF" },
-    { title: "Connect, Extract, and Enrich", emoji: "🔌", animation: "pulse", link: "docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration" },
-    { title: "Hunting with Workbooks", emoji: "🕵️", animation: "wiggle", link: "docs/documents/Hunting-with-Workbooks/GETTING-STARTED/your-first-find-with-the-hypercloud" },
-    { title: "DNIF Query Language", emoji: "💻", animation: "glow", link: "docs/documents/DNIF-Query-Language/Schema-on-Read" },
-    { title: "Security Monitoring", emoji: "🛡️", animation: "bounce", link: "docs/documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging" },
-    { title: "User Management and Access Control", emoji: "👥", animation: "float", link: "docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/" },    
-    { title: "Solution Design", emoji: "🧩", animation: "zoom", link: "docs/documents/Solution-Design/scaling-datanodes" },
-     { title: "Operations", emoji: "⚙️", animation: "rotate", link: "docs/documents/Operations/Collection Status/collection-status" },
-    { title: "Platform Services", emoji: "🔧", animation: "shake", link: "docs/documents/Platform-Services/automation" },
-    { title: "Troubleshooting and Debugging", emoji: "🛠️", animation: "rock", link: "docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations" },
-    { title: "DNIF AI", emoji: "🤖", animation: "pulse", link: "docs/documents/DNIF-AI/Getting-Started-with-DNIF-AI/" },
-    { title: "License Management and Billing", emoji: "💳", animation: "tilt", link: "docs/documents/License-Management-and-Billing/Term-Based-Software-Subscription" },
-    { title: "DNIF Legal and Security Compliance", emoji: "📜", animation: "roll", link: "docs/documents/DNIF-Legal-and-Security-Compliance/Data-Privacy-Policy" },
-    { title: "Policies", emoji: "📘", animation: "flip", link: "docs/documents/Policies/the-dnif-hyperscale-lifecycle-and-release-cadence" },
-    { title: "PICO",  animation: "twinkle", link: "docs/documents/PICO/notification-for-pico-events" },
-    { title: "Security Bulletins",  animation: "twinkle", link: "docs/documents/Security-Bulletins/apache-log4j-cve-2021-44228" },
-    { title: "Best Practices", emoji: "🌟", animation: "twinkle", link: "docs/documents/Best-Practices/advanced-telemetry-for-windows" },
-    { title: "Release Notes", emoji: "📝", animation: "bounce", link: "docs/documents/Release-Notes/april-17-2025-content-update" },
+    { title: "Welcome to DNIF", Svg: WelcomeSvg, link: "docs/documents/Welcome-to-DNIF" },
+    { title: "Connect, Extract, and Enrich", Svg: CEE, animation: "pulse", link: "docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration" },
+    { title: "Hunting with Workbooks", Svg: Huntingwithworkbbok, link: "docs/documents/Hunting-with-Workbooks/GETTING-STARTED/your-first-find-with-the-hypercloud" },
+    { title: "DNIF Query Language", Svg: DQL, link: "docs/documents/DNIF-Query-Language/Schema-on-Read" },
+    { title: "Security Monitoring", Svg: SecurityMonitoring, link: "docs/documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging" },
+    { title: "User Management and Access Control", Svg: Usermanagement, link: "docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/" },
+    { title: "Solution Design", Svg: SolutionDesign, link: "docs/documents/Solution-Design/scaling-datanodes" },
+    { title: "Operations", Svg: Operation, link: "docs/documents/Operations/Collection Status/collection-status" },
+    { title: "Platform Services", Svg: Platform, link: "docs/documents/Platform-Services/automation" },
+    { title: "Troubleshooting and Debugging",Svg: Troubleshooting, link: "docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations" },
+    { title: "DNIF AI", Svg: DNIFAI, link: "docs/documents/DNIF-AI/Getting-Started-with-DNIF-AI/" },
+    { title: "License Management and Billing", Svg: LicenseManagement, link: "docs/documents/License-Management-and-Billing/Term-Based-Software-Subscription" },
+    { title: "DNIF Legal and Security Compliance", Svg: DNIFlegal, link: "docs/documents/DNIF-Legal-and-Security-Compliance/Data-Privacy-Policy" },
+    { title: "Policies", Svg: Policies, link: "docs/documents/Policies/the-dnif-hyperscale-lifecycle-and-release-cadence" },
+    { title: "Best Practices", Svg:Bestpractices, link: "docs/documents/Best-Practices/advanced-telemetry-for-windows" },
+    { title: "Release Notes", Svg: Releasenote, link: "docs/documents/Release-Notes/april-17-2025-content-update" },
   ];
+
   const [searchTerm, setSearchTerm] = useState("");
+  const filteredCards = cardData.filter(card =>
+    card.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
-const filteredCards = cardData.filter(card =>
-  card.title.toLowerCase().includes(searchTerm.toLowerCase())
-);
-
-
- return (
+  return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
       description="Search documentation, tutorials, and more!"
@@ -48,27 +60,22 @@ const filteredCards = cardData.filter(card =>
       <header className={styles.hero}>
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>Hello. How can we help you?</h1>
-
-          {/* Custom Search Bar triggering Algolia Modal */}
           <div className={styles.searchBar}>
-  <input
-    type="text"
-    placeholder="Search..."
-    className={styles.searchInput}
-    onFocus={() => setIsOpen(true)}
-    readOnly
-  />
-  <button
-    type="button"
-    className={styles.searchButton}
-    onClick={() => setIsOpen(true)}
-  >
-    Search
-  </button>
-</div>
-
-
-          {/* Algolia Modal */}
+            <input
+              type="text"
+              placeholder="Search..."
+              className={styles.searchInput}
+              onFocus={() => setIsOpen(true)}
+              readOnly
+            />
+            <button
+              type="button"
+              className={styles.searchButton}
+              onClick={() => setIsOpen(true)}
+            >
+              Search
+            </button>
+          </div>
           {isOpen && (
             <DocSearchModal
               appId="YY0TIP6BF9"
@@ -82,12 +89,11 @@ const filteredCards = cardData.filter(card =>
 
       {/* Cards Section */}
       <section className={styles.cardsSection}>
-        {/* <h2 className={styles.sectionTitle}></h2> */}
         <div className={styles.cardsGrid}>
           {filteredCards.map((card, i) => (
             <a href={card.link} className={styles.card} key={i}>
               <div className={`${styles.cardIcon} ${styles.animatedEmoji}`}>
-                {card.emoji}
+                {card.Svg ? <card.Svg className={styles.svgIcon} /> : card.emoji}
               </div>
               <h3 className={styles.cardTitle}>{card.title}</h3>
             </a>
