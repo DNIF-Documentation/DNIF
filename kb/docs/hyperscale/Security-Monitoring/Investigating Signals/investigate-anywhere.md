@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 DNIF helps in accelerating threat detection and empowering your IT team to analyze log data. With Investigate Anywhere you can dig deep into security event logs and investigate incidents faster. During an investigation, additional information may emerge that justifies broadening the scope of the investigation beyond the initial allegations. You can click on a suspicious entity and start investigating the details and make decisions at that point in time. The security team can take all the necessary actions if new and different allegations are discovered during the course of the investigation. An effective plan can be laid out to eliminate all the blind spots between detection and remediation. The goal is to minimize damage, root out entrenched attackers and block similar future attacks.
 
-###### **Investigate Anywhere Panel**  
+## **Investigate Anywhere Panel**  
   
 
 Investigate Anywhere, this will allow you to investigate the entity with a single click anywhere across the application and the investigate panel will be displayed.  

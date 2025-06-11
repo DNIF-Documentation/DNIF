@@ -8,7 +8,7 @@ type: "epkb_post_type_1"
 
 ![](./images-WhatisSecurityMonitoring/What-is-security-monitoring.png)
 
-###### **Features of Security Monitoring**  
+## **Features of Security Monitoring**  
   
 
 - **Case management:** Case management is grouping signals of similar context and background into a case so that investigations are streamlined, provides proactive incident response, and facilitate process compliance, making it easier to close more security alerts in less time. 

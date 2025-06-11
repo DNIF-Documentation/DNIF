@@ -42,6 +42,8 @@ const config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -199,6 +201,7 @@ const config = {
             sidebarId: 'sidebar',
             className: 'navbar-hypercloud-btn',
           },
+          
           {
             label: 'SUPPORT',
             position: 'right',
@@ -266,7 +269,7 @@ const config = {
       colorMode: {
         defaultMode: 'light',               // You can change to 'dark' if preferred
         disableSwitch: false,               // ✅ Allow toggle switch
-        respectPrefersColorScheme: true,    // ✅ Automatically follow user's system preference
+        // respectPrefersColorScheme: true,    // ✅ Automatically follow user's system preference
       },
 
       prism: {

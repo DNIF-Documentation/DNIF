@@ -10,7 +10,7 @@ Signal Suppression Rules can be created from the following pages:
 
 - Signals listing page
 
-###### **Creating Signal Suppression Rules from Signal Suppression Rules Listing page**  
+## **Creating Signal Suppression Rules from Signal Suppression Rules Listing page**  
   
 
 <!-- https://videopress.com/v/VrFwXpfv?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true -->
@@ -45,7 +45,7 @@ Signal Suppression Rules can be created from the following pages:
 
 15. Click **Save**. Once a suppression rule is created, signals that satisfy these conditions will be suppressed.
 
-###### **Creating Signal Suppression Rules from the Signals Listing Page:**     
+## **Creating Signal Suppression Rules from the Signals Listing Page:**     
   
 
 <!-- https://videopress.com/v/g3aEDQJd?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true -->
@@ -64,6 +64,6 @@ Signal Suppression Rules can be created from the following pages:
 
 5. Click **Save** to create a suppression rule for the selected signal. Alerts that satisfy the conditions specified in the rule will be suppressed.
 
-###### **Important Notes:**
+## **Important Notes:**
 
 - For a workbook, there can be several Signal Suppression rules defined. Whenever a signal is generated for a workbook, the system checks all the Signal Suppression rules assigned to that workbook until either a matching rule is found or all rules are examined.

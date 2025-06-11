@@ -61,6 +61,17 @@
   background-color: #a3005d;
   transform: scale(1.05);
 }
+.navbar-hyperscale-btn.active {
+  background-color: #FFC000;   /* yellow */
+  color: #000 !important;
+  border-color: #FFC000;
+}
+
+.navbar-hypercloud-btn.active {
+  background-color: #cc0066;   /* pink */
+  color: #fff !important;
+  border-color: #cc0066;
+}
 .navbar-support-btn {
   background-color: #cc0066;
   color: white !important;
@@ -368,7 +379,7 @@
 
 .navbar-hypercloud-btn:hover {
   background-color: #cc0066;
-  color: black !important;
+  color: white !important;
   box-shadow: 0 2px 8px rgba(204, 0, 102, 0.3);
   transform: translateY(-2px);
 }

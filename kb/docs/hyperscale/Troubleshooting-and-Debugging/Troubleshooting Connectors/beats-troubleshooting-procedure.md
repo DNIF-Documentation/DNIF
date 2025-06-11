@@ -52,7 +52,7 @@ netstat  -auntp | grep <port>
     
     - The status of the metricbeat service
 
-**Proceed with the following steps, only if all the above checks are met.**
+## **Proceed with the following steps, only if all the above checks are met.**
 
 1. Logs are received on tcpdump of Adapter.
 

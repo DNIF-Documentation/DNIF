@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 Signal is an individual event that would be indicating any suspicious or malicious event, but by itself it is not an incident. A Collection of signals or a single signal with the highest severity is considered as an incident. Analysts do not have to investigate every single alert, the alerts generated are delegated to signal. Each signal has a name indicating the gist of the incident.
 
-###### **How to add a Signal to a Case?**  
+## **How to add a Signal to a Case?**  
   
 
 - Click the **Signals** icon on the left navigation bar of the Home screen, the following screen will be displayed.

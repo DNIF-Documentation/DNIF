@@ -6,7 +6,7 @@ type: "epkb_post_type_1"
 
 In any environment, during the process of collecting, processing and analyzing data, outliers can come from many sources and hide in many dimensions. Detecting outliers is of major importance for the success and survival of organizations. The rule based correlation, on-demand outlier detection and anomaly models along with automated analysis through graph analytics and threat intelligence ensures to lighten the load on Analysts by adding contexts to everything that demands attention. You can have a detailed understanding of every signal raised and at the same place, visualize and diagnose all the connected anomalies and compromises that happened, a summary of all the observations are generated.
 
-###### **How to View Connected Graph?**
+## **How to View Connected Graph?**
 
 - Click the Signals icon on the left navigation bar of the Home screen, the following screen will be displayed.  
       

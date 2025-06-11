@@ -16,8 +16,7 @@ The signals icon on the left navigation bar will allow you to view all the signa
 
 ![](./images-RaiseandViewSignals/Raise-and-View-Signals-2.png)
 
-######   
-**Duration**  
+##  **Duration**  
   
 
 You can always view signals based on the duration when it was raised.

@@ -8,7 +8,7 @@ Signal Context details help you understand all the multiple entities that are re
 
 This page will help you understand the step by step procedure to view the context details of a particular signal.
 
-######  **How to view Signal Context Details**  
+##  **How to view Signal Context Details**  
   
 
 - Click the **Signals** icon on the left navigation bar of the Home screen, the following screen will be displayed.  

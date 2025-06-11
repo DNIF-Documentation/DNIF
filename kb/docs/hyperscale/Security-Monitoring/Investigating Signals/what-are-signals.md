@@ -4,7 +4,7 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-###### **Overview**  
+## **Overview**  
   
 
 A signal is a possibility to a potential threat, it's not an incident by itself depending on different confidence levels, you could easily identify it to be an actual incident or not. We would also have the ability to link together different signals and search through patterns against them to figure out if an actual incident happened. We have this real-time correlation happening because of which the signal is listed,
@@ -17,7 +17,7 @@ The Signals screen displays all the signals that were raised from the workbook. 
 
 On each refresh the page is updated with real-time correlation so that you have a clear understanding of the ongoing events.
 
-###### **Key Aspects**  
+## **Key Aspects**  
   
 
 - Automatically track and analyse the incidents that been identified  
