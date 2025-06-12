@@ -300,38 +300,47 @@
 
 /* custom.css */
 .navbar-hyperscale-btn {
-  border: 1px solid #330066;
+  border: 1px solid #FFC000;
   background-color: white;
-  color: #330066 !important;
-  padding: 5px 14px;
-  border-radius: 20px;
+  color: #FFC000 !important;
+  padding: 6px 16px;
+  border-radius: 999px;
   font-size: 13px;
   font-weight: 500;
   text-transform: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar-hyperscale-btn:hover {
+  background-color: #FFC000;
+  color: black !important;
+  box-shadow: 0 2px 8px rgba(204, 0, 102, 0.3);
   transform: translateY(-2px);
-  box-shadow: 0 2px 5px rgba(51, 0, 102, 0.2);
 }
+
 .navbar-hypercloud-btn {
-  border: 1px solid #330066;
+  border: 1px solid #cc0066;
   background-color: white;
-  color: #330066 !important;
-  padding: 5px 14px;
-  border-radius: 20px;
+  color: #cc0066 !important;
+  padding: 6px 16px;
+  border-radius: 999px;
   font-size: 13px;
   font-weight: 500;
   text-transform: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: all 0.3s ease;
 }
 
-.navbar-hyperscloud-btn:hover {
+.navbar-hypercloud-btn:hover {
+  background-color: #cc0066;
+  color: white !important;
+  box-shadow: 0 2px 8px rgba(204, 0, 102, 0.3);
   transform: translateY(-2px);
-  box-shadow: 0 2px 5px rgba(51, 0, 102, 0.2);
 }
-.navbar-support-btn {
+
+/* Add this new rule */
+.navbar__items .navbar__item + .navbar__item {
+  margin-left: 10px; /* Creates gap between buttons */
+}.navbar-support-btn {
   border: 1px solid #330066;
   background-color: white;
   color: #330066 !important;
