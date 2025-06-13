@@ -1,0 +1,37 @@
+name: Pull Request Review
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  require-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if christy-dnif is assigned as reviewer
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const reviewers = await github.rest.pulls.listRequestedReviewers({
+              owner: 'DNIF-Documentation',
+              repo: 'DNIF',
+              pull_number: context.payload.pull_request.number
+            });
+
+            const hasReviewer = reviewers.data.users.some(user => user.login === 'christy-dnif');
+            
+            if (!hasReviewer) {
+              await github.rest.pulls.requestReviewers({
+                owner: 'DNIF-Documentation',
+                repo: 'DNIF',
+                pull_number: context.payload.pull_request.number,
+                reviewers: ['christy-dnif']
+              });
+            }
+
+      - name: Block merge without approval
+        if: github.event.pull_request.mergeable_state != 'clean'
+        run: |
+          echo "Pull request cannot be merged until approved by christy-dnif and all checks pass"
+          exit 1
