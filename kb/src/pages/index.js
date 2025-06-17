@@ -29,7 +29,7 @@ export default function Home() {
 
   const cardData = [
     { title: "Welcome to DNIF", Svg: WelcomeSvg, link: "docs/documents/Welcome-to-DNIF" },
-    { title: "Connect, Extract, and Enrich", Svg: CEE, animation: "pulse", link: "docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration" },
+    { title: "Connect, Extract, and Enrich", Svg: CEE, animation: "pulse", link: "docs/documents/connect-extract-enrich/Intro_Connectors_extract_enrich" },
     { title: "Hunting with Workbooks", Svg: Huntingwithworkbbok, link: "docs/documents/Hunting-with-Workbooks/GETTING-STARTED/your-first-find-with-the-hypercloud" },
     { title: "DNIF Query Language", Svg: DQL, link: "docs/documents/DNIF-Query-Language/Schema-on-Read" },
     { title: "Security Monitoring", Svg: SecurityMonitoring, link: "docs/documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging" },
