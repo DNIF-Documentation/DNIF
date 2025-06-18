@@ -164,6 +164,11 @@ module.exports = {
           items: [
             {
               type: 'doc',
+              id: 'documents/Security-Monitoring/Security-monitoring',
+              label: 'Security Monitoring',
+            },
+            {
+              type: 'doc',
               id: 'documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging',
               label: 'Streamline Alert Analysis with Signal Tagging',
             },
@@ -215,6 +220,12 @@ module.exports = {
           type: 'category',
           label: 'User Management and Access Control',
           items: [
+            {
+              type: 'doc',
+              id: 'documents/User-Management-and-Access-Control/User-Management-in-DNIF',
+              label: 'User Management in DNIF',
+            },
+
             {
               type: 'category',
               label: 'Users and Roles',
