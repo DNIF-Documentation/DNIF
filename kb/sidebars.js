@@ -101,6 +101,11 @@ module.exports = {
           type: 'category',
           label: 'DNIF Query Language',
           items: [
+             {
+              type: 'doc',
+              id: 'documents/Dnif-Query-Language/DQL_Intro',
+              label: "Introduction to DQL"
+            },
             {
               type: 'category',
               label: 'Schema On Read',
