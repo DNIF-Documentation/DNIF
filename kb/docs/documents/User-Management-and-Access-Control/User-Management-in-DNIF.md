@@ -10,7 +10,7 @@ To support regulatory compliance and internal policy enforcement, **DNIF HYPERCL
 
 Additionally, DNIF HYPERCLOUD enhances access control by integrating with threat intelligence feeds and User and Entity Behavior Analytics (UEBA) models. These capabilities enable continuous monitoring of user behavior, helping to detect anomalies and strengthen overall security posture. Together, these features make DNIF HYPERCLOUD a trusted and comprehensive solution for enterprises aiming to streamline user management while maintaining strict access controls across their cybersecurity operations.
 
-##      **User Management in DNIF**
+## **Overview of User Management in DNIF**
 
 User management in DNIF HYPERCLOUD involves creating, maintaining, and managing a centralized user store to establish authorization for accessing secure resources. It serves as the single source of truth for identities within an organization. The platform offers a comprehensive set of tools to manage user accounts, profiles, roles, and permissions, ensuring secure and streamlined access to its features.
 

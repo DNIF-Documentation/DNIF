@@ -279,7 +279,7 @@ module.exports = {
          {
               type: 'doc',
               id: 'documents/Solution-Design/Solution-Design',
-              label: 'Solution-Design',
+              label: 'Solution Design',
             },
         {
           type: 'category',

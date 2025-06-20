@@ -1,5 +1,5 @@
 ---
-title: "Solution-Design"
+title: "Solution Design"
 date: 2025-06-17
 type: "epkb_post_type_1"
 ---
