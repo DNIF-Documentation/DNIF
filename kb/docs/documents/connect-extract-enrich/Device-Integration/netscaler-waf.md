@@ -14,6 +14,6 @@ $ set appfw settings CEFLogging on
 
 In GUI, you can enable this parameter from the engine settings dialogue.
 
-![](./images-NetScaler%20WAF/NetScaler-WAF-1.webp)
+<!-- ![NetScaler WAF](images-NetScaler%20WAF/NetScaler-WAF-1.webp) -->
 
 [Official Documentation](https://support.citrix.com/article/CTX136146)

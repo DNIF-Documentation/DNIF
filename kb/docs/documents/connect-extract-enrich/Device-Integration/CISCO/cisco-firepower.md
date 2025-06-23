@@ -14,21 +14,13 @@ This article describes the steps to configure log forwarding for Cisco FirePOWER
 
 7. Click **Advanced Settings**.
 
-9. Locate **Syslog Alerting** in the list and set it to **Enabled**.  
-      
-    ![](./images-Cisco%20FirePOWER/Cisco-FirePOWER-1.webp)
-      
-      
-    
+9. Locate **Syslog Alerting** in the list and set it to **Enabled**.
 
 11. Click **Policy Information** near the top left of this screen.
 
 13. Click **Commit Changes**.
 
-15. Reapply your **Intrusion Policy**.  
-      
-    ![](./images-Cisco%20FirePOWER/Cisco-FirePOWER-2.webp)
-    
+15. Reapply your **Intrusion Policy**.
 
 9. Click **Edit** next to the right of Syslog Alerting.
 

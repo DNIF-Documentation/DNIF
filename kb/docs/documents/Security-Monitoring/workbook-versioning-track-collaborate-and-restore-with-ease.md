@@ -34,7 +34,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 - Identify the workbook for which you want to view the version history.
 
-![](./gif/Accessing%20a%20Workbook.gif)
+<!-- ![Accessing a Workbook](gif/Accessing%20a%20Workbook.gif) -->
 
 ## **Step 2: Viewing Workbook Versions**  
   
@@ -43,7 +43,7 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 - Click on the workbook name to open the side panel displaying all available versions of the workbook.
 
-![](./gif/Exploring%20Versioning-1.gif)
+<!-- ![Exploring Versioning](gif/Exploring%20Versioning.gif) -->
 
 ## **Step 3: Exploring Version Details**  
   
@@ -52,7 +52,9 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 - Review the details to understand the evolution of your workbook and the context behind each revision.
 
-![](./gif/Exploring%20Versioning.gif)
+<!-- ![Exploring Versioning](gif/Exploring%20Versioning-1.gif) -->
+<!-- ![Exploring Versioning](gif/Exploring%20Versioning-2.gif) -->
+<!-- ![Exploring Versioning](gif/Exploring%20Versioning-3.gif) -->
 
 ## **Step 4: Restoring an Earlier Version**  
   
@@ -62,7 +64,10 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 - Click on the "Restore" button to restore the workbook to the selected version.  
     Confirm the restoration if prompted.
 
-![](./gif/Restoring%20a%20version.gif)
+<!-- ![Restoring a version](gif/Restoring%20a%20version.gif) -->
+<!-- ![Restoring a version](gif/Restoring%20a%20version-1.gif) -->
+<!-- ![Restoring a version](gif/Restoring%20a%20version-2.gif) -->
+<!-- ![Restoring a version](gif/Restoring%20a%20version-3.gif) -->
 
 ## **Step 5: Working with Restored Versions**  
   
@@ -73,4 +78,4 @@ Welcome to the "How-To" guide for Workbook Versioning in DNIF HYPERCLOUD! Workbo
 
 - Save the workbook with a commit message describing the modifications performed.
 
-![](./gif/Working%20with%20restored%20version.gif)
+<!-- ![Working with restored version](./gif/Working%20with%20restored%20version.gif) -->

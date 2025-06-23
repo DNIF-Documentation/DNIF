@@ -15,7 +15,7 @@ type: "epkb_post_type_1"
 - Select from the available options and modify the configurations.  
     
 
-![](./images-Juniper%20Cortex%20Threat/Juniper-Cortex-Threat-1.webp)
+<!-- ![Juniper Cortex Threat](images-Juniper%20Cortex%20Threat/Juniper-Cortex-Threat-1.webp) -->
 
 ## **Alert notification configuration options**
 

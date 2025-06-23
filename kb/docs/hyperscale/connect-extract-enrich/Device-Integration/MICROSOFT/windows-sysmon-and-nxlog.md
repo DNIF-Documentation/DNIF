@@ -53,7 +53,7 @@ Two basic options are offered:
 
 Reference
 
-![](./IMAGES-Windows%20Sysmon%20and%20NXLog/Windows-Sysmon-and-NXLog-1.webp)
+<!-- ![Windows Sysmon and NXLog](IMAGES-Windows%20Sysmon%20and%20NXLog/Windows-Sysmon-and-NXLog-1.webp) -->
 
 - Save the xml file.
 
@@ -87,7 +87,7 @@ After installation, locate the **nxlog.conf** file in the **C:\\Program Files (x
 In **32 bit** Windows machines, look in the **C:\\Program Files\\nxlog\\conf** folder,  
   
 
-![](./IMAGES-Windows%20Sysmon%20and%20NXLog/Windows-Sysmon-and-NXLog-2.webp)
+<!-- ![](./IMAGES-Windows%20Sysmon%20and%20NXLog/Windows-Sysmon-and-NXLog-2.webp) -->
 
 - Open the **nxlog.conf** file using a text editor. Replace the entire configuration by copy-pasting the text given for your Windows version.
 

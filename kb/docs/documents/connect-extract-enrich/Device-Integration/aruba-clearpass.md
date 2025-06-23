@@ -18,7 +18,7 @@ To integrate ClearPass with DNIF, you need to configure DNIF as a Syslog target.
 
 **Here**: Host Address can be the DNIF Receiver's IP Address.
 
-![](./images-Aruba%20ClearPass/Aruba-ClearPass-1.png)
+<!-- ![Aruba ClearPass](images-Aruba%20ClearPass/Aruba-ClearPass-1.png) -->
 
 | **Add Syslog Target** |  |
 | --- | --- |
@@ -29,7 +29,7 @@ To integrate ClearPass with DNIF, you need to configure DNIF as a Syslog target.
 
  **Note:** In order to receive log over the DNIF Platform, need to configure [Syslog Connector](https://dnif.it/kb/connectors/supported-connectors/syslog/) on DNIF Console.
 
-Once the syslog connector is configured, you’re all set to start receiving logs.  
+Once the syslog connector is configured, you're all set to start receiving logs.  
 After completing the configuration, save the settings and verify that the logs are appearing in the DNIF Console.  
 To confirm successful integration:
 
@@ -41,6 +41,6 @@ To confirm successful integration:
 
  **stream=\* where devsrcip='Aruba\_ClearPass\_IP' | duration 1h**
 
-![](./images-Aruba%20ClearPass/Aruba-ClearPass-2.png)
+<!-- ![Aruba ClearPass](images-Aruba%20ClearPass/Aruba-ClearPass-2.png) -->
 
 These steps ensure that ClearPass is properly integrated with DNIF and logs are being forwarded as expected.

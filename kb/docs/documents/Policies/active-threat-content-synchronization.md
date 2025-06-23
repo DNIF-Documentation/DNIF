@@ -46,7 +46,7 @@ All the native content which is ' **Authored**' by DNIF, including following:
 
 -  The above steps should be repeated for every modified native extractor. It should be ensured that duplicate extractors for any particular device do not exist, as it might impact the events not getting extracted as desired
 
-- As a measure to handle conflicting extractor id’s, DNIF reserves extractor-id up to 10000. Any custom parser should add an extractor-id greater than 10000 and maintain their own record of extractor-id’s.
+- As a measure to handle conflicting extractor id's, DNIF reserves extractor-id up to 10000. Any custom parser should add an extractor-id greater than 10000 and maintain their own record of extractor-id's.
 
 - For end users who have modified the OOTB Detection rules, Dashboards, Reports etc, then they must:
     1. Make a copy of the workbook and keep the DNIF authored workbook intact.
@@ -58,7 +58,7 @@ All the native content which is ' **Authored**' by DNIF, including following:
   
 Native Workbooks display the flag of " **New**" and " **Updated**" for 24 hours post Synchronization
 
-![](./images-Active%20Threat%20Content%20Synchronization/Active-Threat-Content-Synchronization-1.webp)
+// ![](./images-Active-Threat-Content-Synchronization/Active-Threat-Content-Synchronization-1.webp)
 
   
 DNIF maintains absolute transparency to all our users through DNIF's [Github repository](https://github.com/dnif/content). We encourage our users to make active use of Content repository for understanding new and improved detection content.
