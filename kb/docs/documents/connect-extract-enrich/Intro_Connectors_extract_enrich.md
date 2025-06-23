@@ -6,7 +6,8 @@ type: "epkb_post_type_1"
 
 **DNIF HYPERCLOUD** offers a comprehensive approach to device integration, connectors, data ingestion, and enrichment—making it a powerful platform for modern cybersecurity operations. With support for over 100 enterprise event sources, scalable connectors, petabyte-scale data ingestion, and enrichment powered by contextual and threat intelligence, DNIF HYPERCLOUD delivers unmatched visibility and efficiency in threat detection and response. By leveraging advanced analytics, machine learning, and automation, it empowers security teams to stay ahead of evolving cyber threats.
 
-For more information or to explore DNIF HYPERCLOUD’s capabilities, request a personalized \[demo\](https://dnif.it/dnif-hypercloud-product-tour/).
+For more information or to explore DNIF HYPERCLOUD’s capabilities, request a personalized <a href="https://dnif.it/dnif-hypercloud-product-tour/"><u>demo</u></a>.
+
 
 ## **Device Integration**
 
