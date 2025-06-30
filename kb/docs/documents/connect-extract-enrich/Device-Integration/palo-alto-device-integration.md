@@ -396,12 +396,14 @@ Configuring TLS connector in this mode can allow the client to communicate with 
 
 - A **Connection successful** message will be displayed on screen along with the time stamp.
 
-- If the connection is not successful an error message will be displayed. Refer [Troubleshooting Connector Validations](https://dnif.it/kb/troubleshooting-and-debugging/troubleshooting-connector-validations/) for more details on the error message.
+- If the connection is not successful an error message will be displayed. Refer[Troubleshooting Connector Validations](/docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations.md)
+ for more details on the error message.
 
-Once the connector is configured, validate if the connector is listed under [Collection Status](https://dnif.it/kb/operations/collection-status/) screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
+Once the connector is configured, validate if the connector is listed under[Collection Status](/docs/documents/Operations/Collection-Status/collection-status.md)
+ screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
 
 ## **Validate Logs**
 
-From the [collection status](https://dnif.it/kb/operations/collection-status/) page, check the stream in which the logs of the particular device are allocated.
+From the [Collection Status](/docs/documents/Operations/Collection-Status/collection-status.md) page, check the stream in which the logs of the particular device are allocated.
 
-Now go to the [search block](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-search-block-2/) and check the log details for the specific stream in this case Firewall.
+Now go to the [search block](/docs/documents/Hunting-with-Workbooks/Getting-Started/create-a-search-block-2.md) and check the log details for the specific stream in this case Firewall.

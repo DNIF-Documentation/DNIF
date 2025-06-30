@@ -16,7 +16,8 @@ DomainTools collects Open Source Intelligence (OSINT) data from many sources, al
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to Configure Automation](https://dnif.it/kb/uncategorized/configuring-automation/)?  
+- Follow the initial configuration steps in [How to Configure Automation?](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md)
+
       
     ![image 1-Dec-22-2023-12-27-05-8935-PM](./Domain-tool-img/Domain-tool-1.jpg)  
     

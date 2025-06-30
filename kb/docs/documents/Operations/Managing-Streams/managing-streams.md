@@ -66,4 +66,5 @@ You can also apply the following filters to the above grid view
 
 - Modify the required configuration details and Click **Save**, to save the configuration.
 
-- You can click **Collection Status** to view more details about the source streams from where logs are collected. Refer [Device Collection Status](https://dnif-documentation.github.io/DNIF/docs/documents/Operations/Collection%20Status/collection-status).
+- You can click **Collection Status** to view more details about the source streams from where logs are collected. Refer [Device Collection Status](/docs/documents/Operations/Collection-Status/collection-status.md).
+

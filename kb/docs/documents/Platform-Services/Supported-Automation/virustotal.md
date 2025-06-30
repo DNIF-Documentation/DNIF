@@ -30,7 +30,7 @@ VirusTotal not only tells you whether a given antivirus solution detected a subm
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).  
+- Follow the initial configuration steps in [How to Configure Automation?](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md).
       
     ![image 1-Dec-26-2023-09-01-56-2300-AM](./Virustotal-img/Virustotal-3.jpg)  
     

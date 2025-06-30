@@ -11,7 +11,8 @@ This document has been written for integration with 32 bit and 64 bit Windows ma
 
 To configure NXLog to send Microsoft SQL logs to DNIF Adapter.
 
-If you want to integrate Apache WAMP access logs as well as Windows event logs, please refer our help guide: [Integrating Windows Event Logs.](https://dnif.it/kb/data-ingestion/windows-event-logs/)
+If you want to integrate Apache WAMP access logs as well as Windows event logs, please refer our help guide: [Integrating Windows Event Logs.](/docs/documents/connect-extract-enrich/Data-Ingestion/windows-event-logs.md)
+
 
 ### **Download and Install NXLog**
 

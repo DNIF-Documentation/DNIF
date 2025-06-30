@@ -26,11 +26,13 @@ helps to manually create new extractors using the "Extraction" interface
 
  helps in duplicating or modifying an existing native extractor
 
-Also, the [extractor validator](https://dnif.it/kb/data-ingestion/extractors/extractor-validator/) is a valuable feature that assists users in writing more effective extractors by providing immediate feedback and helping them avoid errors.
+Also, the [extractor validator](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md)
+ is a valuable feature that assists users in writing more effective extractors by providing immediate feedback and helping them avoid errors.
 
 ## **DNIF AI**
 
-The Extractor Generator assists the security analyst in auto-generating a custom extractor using the power of generative artificial intelligence. By analyzing the structure and content of the provided log samples. DNIF AI suggests a starting point for your extractors, effectively reducing the effort and complexity involved in manual creation. [Click here](https://dnif.it/kb/dnif-ai/extractor-generator/extractor-generator-overview/) to learn more about it.
+The Extractor Generator assists the security analyst in auto-generating a custom extractor using the power of generative artificial intelligence. By analyzing the structure and content of the provided log samples. DNIF AI suggests a starting point for your extractors, effectively reducing the effort and complexity involved in manual creation. [Click here](/docs/documents/DNIF-AI/Extractor-Generator-Overview/extractor-generator-overview.md)
+ to learn more about it.
 
 ## **Manual Method**
 
@@ -98,7 +100,7 @@ In this method, you have the option to create a custom extractor by duplicating 
       
     **Note:**  The existing extractor will always be disabled by default to ensure that only one extractor is active at any given time. If a user attempts to enable both simultaneously, an error message will be displayed.
 
-9. The New Cloned Extractor will open in edit mode and the validation process will begin.(For Extractor validation click [here](https://dnif.it/kb/data-ingestion/extractors/extractor-validator/).)
+9. The New Cloned Extractor will open in edit mode and the validation process will begin.(For Extractor validation click [here](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md).)
 
 11. If any of the checks fail, the extractor is saved in draft mode.
 

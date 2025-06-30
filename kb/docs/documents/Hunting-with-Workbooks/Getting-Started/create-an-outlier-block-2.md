@@ -40,6 +40,6 @@ By default, Firewall as stream and SRCIP as value will be selected. You can sele
 
 - The list of anomalies detected are listed in the grid. It will display all the anomalies along with all the features that were selected for the particular outlier entity and the same anomalies will be indicated as a red dot in the scatterplot.
 
-- The anomalies detected can be considered as a security incident and you can raise a signal. To raise a signal refer to the steps in the [Create a Signal Block](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-signal-block/) document.
+- The anomalies detected can be considered as a security incident and you can raise a signal. To raise a signal refer to the steps in the [Create a Signal Block](/docs/documents/Hunting-with-Workbooks/Getting-Started/create-a-signal-block.md) document.
 
-- For more details on details on Workbooks, refer [Create a Workbook](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/how-to-create-a-workbook-2/).
+- For more details on details on Workbooks, refer [Create a Workbook](/docs/documents/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2.md)

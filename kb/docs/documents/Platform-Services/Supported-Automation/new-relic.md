@@ -8,7 +8,7 @@ New Relic webhook connections allows you to send alert results to New Relic as a
 
 ## **Configuration**
 
-- In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
+- In the **[ Configurtion](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
 - Identify the content of [headers and payload](https://docs.newrelic.com/docs/telemetry-data-platform/ingest-apis/introduction-event-api/) that you need to provide in the Configuration Box.  
     

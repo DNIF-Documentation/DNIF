@@ -4,7 +4,7 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-DNIF a unified security solution the system, should meet the recommended minimum requirements for an optimal experience. To [get started](https://dnif.it/kb/getting-started/before-you-begin/) with DNIF, one needs three nodes, each node represents a DNIF component.
+DNIF a unified security solution the system, should meet the recommended minimum requirements for an optimal experience. To [get started](/docs/documents/Welcome-to-DNIF/Before-You-Begin/before-you-begin.md) with DNIF, one needs three nodes, each node represents a DNIF component.
 
 Each component should be installed/configured separately on three different servers, and should be configured in the following sequence.
 

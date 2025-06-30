@@ -18,7 +18,7 @@ You need to provide the following data depending on the third party webhook/api 
 
 ## **Configuration**
 
-1. Follow the initial configuration steps in [How to Configure Automation](https://dnif.it/kb/uncategorized/configuring-automation/).
+1. Follow the initial configuration steps in [How to Configure Automation](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md).
 
 ![image 1-Dec-26-2023-10-44-12-9919-AM](./Images/webhook.webp)
 
@@ -42,20 +42,28 @@ To associate webhook automation config with investigate panel - it must provide 
 
 Listed below are few Webhook integration examples, these examples will help you to quickly get started with the configuration process by demonstrating practical use cases.
 
-- [Sl](https://dnif.it/kb/connectors/supported-connectors/slack/)[a](https://dnif.it/kb/automation/supported-automation/slack-configuration/)[ck](https://dnif.it/kb/connectors/supported-connectors/slack/)
+- [Slack Connector](/docs/documents/connect-extract-enrich/Connectors/SUPPORTED-CONNECTORS/slack.md)
 
-- [Microsoft Teams Channel](https://dnif.it/kb/automation/supported-automation/microsoft-teams-channel/)
 
-- [ClickSend](https://dnif.it/kb/automation/supported-automation/clicksend/)
+- [Microsoft Teams Channel](/docs/documents/Platform-Services/Supported-Automation/microsoft-teams-channel.md)
 
-- [PagerDuty](https://dnif.it/kb/automation/supported-automation/pagerduty/)
 
-- [JiraServiceDesk](https://dnif.it/kb/automation/supported-automation/jiraservicedesk/)
+- [ClickSend](/docs/documents/Platform-Services/Supported-Automation/clicksend.md)
 
-- [ServiceNow](https://dnif.it/kb/automation/supported-automation/servicenow/)
 
-- [New Relic](https://dnif.it/kb/automation/supported-automation/new-relic/)
+- [PagerDuty](/docs/documents/Platform-Services/Supported-Automation/pagerduty.md)
 
-- [Opsgenie](https://dnif.it/kb/automation/supported-automation/opsgenie/)
 
-- [TrendMicro](https://dnif.it/kb/automation/supported-automation/trendmicro/)
+- [Jira Service Desk](/docs/documents/Platform-Services/Supported-Automation/jiraservicedesk.md)
+
+- [ServiceNow](/docs/documents/Platform-Services/Supported-Automation/servicenow.md)
+
+
+- [New Relic](/docs/documents/Platform-Services/Supported-Automation/new-relic.md)
+
+
+- [Opsgenie](/docs/documents/Platform-Services/Supported-Automation/opsgenie.md)
+
+
+- [Trend Micro](/docs/documents/Platform-Services/Supported-Automation/trendmicro.md)
+

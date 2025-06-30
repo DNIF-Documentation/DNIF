@@ -66,7 +66,7 @@ Search is the query builder that will assist you in forming queries even if you 
 
 Follow the steps below to build a query using search block.
 
-- On [adding a search block](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-search-block-2/), the following screen will be displayed.  
+- On [adding a search block](/docs/documents/Hunting-with-Workbooks/Getting-Started/create-a-search-block-2.md), the following screen will be displayed.  
       
    ![](./images-CreateaSearchBlock/Create-a-Search-Block-13.webp)
 
@@ -75,7 +75,7 @@ On the above screen, the duration last 5 minutes an $Stream=FIREWALL and LIMIT 1
 ![](./images-CreateaSearchBlock/Create-a-Search-Block-14.webp)
 
   
-You can customize the query as per your requirement by changing the duration and adding [filters](https://www.dnif.it/en/kb/create-a-search-block#filters).
+You can customize the query as per your requirement by changing the duration and adding [filters](/docs/documents/Hunting-with-Workbooks/Getting-Started/create-a-search-block-2.md).
 
 ## **Wildcard Search using the Search block**
 

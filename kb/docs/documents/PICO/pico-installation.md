@@ -7,7 +7,7 @@ type: "epkb_post_type_1"
 ## **Prerequistes**  
   
 
-- Ensure all the conditions mentioned in **[Before your Begin](https://dnif.it/kb/getting-started/before-you-begin/)** are met before proceeding with Installation.
+- Ensure all the conditions mentioned in **[Before your Begin](/docs/documents/Welcome-to-DNIF/Before-You-Begin/before-you-begin.md)** are met before proceeding with Installation.
 
 It is mandatory for PICO to have a VPN connectivity to Core private interface i.e. the CORE\_IP mentioned while bringing up the component.
 

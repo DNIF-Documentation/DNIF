@@ -10,7 +10,8 @@ F5® Distributed Cloud Services are SaaS-based solutions offering security, netw
 
 - A valid F5 Account with the ability to configure the Global Log Receiver.
 
-- A TLS connector enabled on the DNIF side. Click here for [configuration details](https://www.dnif.it/en/kb/tls).
+- A TLS connector enabled on the DNIF side. Click here for [configuration details](/docs/documents/connect-extract-enrich/Connectors/SUPPORTED-CONNECTORS/tls.md)
+
 
 - Add the following IP ranges to your firewall's allow list:
     - 193.16.236.68/32

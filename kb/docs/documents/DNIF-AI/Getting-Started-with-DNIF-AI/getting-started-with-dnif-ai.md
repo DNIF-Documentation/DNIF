@@ -30,4 +30,4 @@ By following these practices, you can safely and efficiently utilize our DNIF AI
 
 ## **Features**
 
-1. [Extractor Generator](https://dnif-documentation.github.io/DNIF/docs/documents/DNIF-AI/Extractor-Generator-Overview/)
+1. [Extractor Generator](/docs/documents/DNIF-AI/Extractor-Generator-Overview/extractor-generator-overview.md)

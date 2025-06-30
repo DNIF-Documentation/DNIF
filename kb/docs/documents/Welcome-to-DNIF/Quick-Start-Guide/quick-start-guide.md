@@ -38,7 +38,7 @@ We will use a standard DNIF deployment (D0) template for this setup, with the fo
 
 Some notes before we start
 
-- All the conditions mentioned in **[Before your Begin](https://dnif.it/kb/getting-started/before-you-begin/)** and [**Minimum Requirements**](https://dnif.it/kb/solution-design/minimum-requirements/) should be met before proceeding with Installation.
+- All the conditions mentioned in [**Before you Begin**](/docs/documents/Welcome-to-DNIF/Before-You-Begin/before-you-begin.md) and [**Minimum Requirements**](/docs/documents/Solution-Design/minimum-requirements.md) should be met before proceeding with Installation.
 
 - You will need a license key to initiate the cluster, you can get one by contacting your DNIF Account Manager.
 

@@ -84,6 +84,6 @@ Jira connector uses the pull method to fetch audit logs using the Jira Cloud pla
 
 - A **Connection successful** message and the time stamp will be displayed on a screen.
 
-- If the connection is not successful an error message will be displayed. Refer to [Troubleshooting Connector Validations](https://dnif.it/kb/troubleshooting-and-debugging/troubleshooting-connector-validations/) for more details on the error message.
+- If the connection is not successful an error message will be displayed. Refer [Troubleshooting Connector Validations](/docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations.md) for more details on the error message.
 
-Once the connector is configured, validate if the connector is listed under [**Collection Status**](https://www.dnif.it/en/kb/collection-status) screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
+Once the connector is configured, validate if the connector is listed under [**Collection Status**](/docs/documents/Operations/Collection-Status/collection-status.md)  screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.

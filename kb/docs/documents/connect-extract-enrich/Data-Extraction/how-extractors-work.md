@@ -11,7 +11,7 @@ On adding a new extractor, DNIF performs the following functions to extract rele
 
 - First, the master filter is validated and if a match is found the extractor is identified and applied to the incoming log source.
 
-- The event is passed on to the first match. If the first match is found, then the event is routed to the appropriate event key for appropriate annotation and translation. Here, the event is annotated to a particular stream based on the event type, and relevant fields are extracted to the standard [DNIF Data Model](https://dnif.it/kb/data-ingestion/extractors/extractor-validator/). The event is tagged as PAD (Parsed as desired).
+- The event is passed on to the first match. If the first match is found, then the event is routed to the appropriate event key for appropriate annotation and translation. Here, the event is annotated to a particular stream based on the event type, and relevant fields are extracted to the standard [DNIF Data Model](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md). The event is tagged as PAD (Parsed as desired).
 
 - If the event doesn’t match the master filter, then it will not be parsed and will be tagged as NLF (No Log Found ).
 

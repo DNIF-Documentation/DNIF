@@ -30,5 +30,5 @@ The Selected Signal screen displays the signal context details of the entity as 
 | --- | --- |
 | Overview | This section gives a brief overview of all the raw log events fetched in the Raw Events section for a particular entity.Lets consider ten raw log events are fetched for a particular entity in the **Raw Events, then in the Overview section,** the numbers displayed next to the entities indicate that there are multiple entities involved and the number denotes the number of times each entity is repeated throughout the logs.   Also, If there is only one entity that is repeated throughout all the logs, then there won't be a number indicator next to the entity. |
 | Raw Events | Displays all the the raw logs fetched for a particular entity |
-| ![](./Images/view-signal-context-details-3.webp) | Use this icon to [Add Signal to Case](https://dnif.it/kb/security-monitoring/investigate-signals/how-to-add-a-signal-to-a-case/) |
+| ![](./Images/view-signal-context-details-3.webp) | Use this icon to [Add Signal to Case](/docs/documents/Security-Monitoring/Investigating-Signals/how-to-add-a-signal-to-a-case.md) |
 | ![](./Images/View-Signal-Context-DEtails-4.png) | Use this icon to view the workbook where the signal was added |

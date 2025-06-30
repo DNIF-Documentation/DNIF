@@ -5,7 +5,7 @@ type: "epkb_post_type_1"
 ---
 
   
-The extractor validator is a valuable feature that assists users in validating the extractors developed ( [AI-generated extractors](https://dnif.it/kb/dnif-ai/extractor-generator/extractor-generator-overview/)) and ensuring that the newly created extractors effectively parse the log samples. The ingested log samples are parsed and normalized using extractors that comply with the DNIF Data Model (DDM). Out-of-the-box (OOTB) native extractors are included with DNIF, enabling users to maximize the platform's functionality and parse their log events.  Users can easily create custom extractors in YAML format to meet their needs. 
+The extractor validator is a valuable feature that assists users in validating the extractors developed ( [AI-generated extractors](/docs/documents/DNIF-AI/Extractor-Generator-Overview/extractor-generator-overview.md)) and ensuring that the newly created extractors effectively parse the log samples. The ingested log samples are parsed and normalized using extractors that comply with the DNIF Data Model (DDM). Out-of-the-box (OOTB) native extractors are included with DNIF, enabling users to maximize the platform's functionality and parse their log events.  Users can easily create custom extractors in YAML format to meet their needs. 
 
 ## **Validating syntax**  
 

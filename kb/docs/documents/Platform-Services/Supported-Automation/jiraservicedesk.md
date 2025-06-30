@@ -8,7 +8,7 @@ JiraServiceDesk integration helps you to create Jira issues in Jira Service Desk
 
 ## **Configuration**
 
-- In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
+- In the **[Configuration](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
 - Identify the content of [headers and payload](https://developer.atlassian.com/server/jira/platform/jira-rest-api-examples/) that you need to provide in the Configuration Box.  
     

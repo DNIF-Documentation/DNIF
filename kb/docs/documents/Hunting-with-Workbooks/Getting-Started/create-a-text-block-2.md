@@ -25,4 +25,5 @@ Text Block explains the use, description of the particular workbook, you can inc
 
 ![image 4-Dec-05-2023-07-27-56-5915-AM](./images-CreateaTextBlock/Create-a-Text-Block-4.png)
 
-For more details on Workbooks refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/documents/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2).
+For more details on Workbooks refer [Create a Workbook](/docs/documents/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2.md)
+

@@ -17,7 +17,7 @@ Ensure you have the following details before using the DNIF Search API
 
 - API Token
 
-The API Token can be generated from the DNIF Console. To generate the token you can visit [Manage Token](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Operations/Manage%20Token/manage-token).
+The API Token can be generated from the DNIF Console. To generate the token you can visit [Manage Token](/docs/documents/Operations/Manage-Token/manage-token.md)
 
 ## **API Overview**
 

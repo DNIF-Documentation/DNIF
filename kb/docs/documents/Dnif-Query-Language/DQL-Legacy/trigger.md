@@ -21,7 +21,8 @@ The \_trigger directive uses the api keyword to trigger a function in an install
 
 Take a look at the example given below:
 
-Below is the configured **[Palo Alto integration](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration)**
+Below is the configured **[Palo Alto integration](/docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration.md)**
+
 
 ![image 1-Dec-06-2023-05-43-25-7495-AM](./images-_trigger/_trigger-1.webp)
 

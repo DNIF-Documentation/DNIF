@@ -27,7 +27,8 @@ To integrate ClearPass with DNIF, you need to configure DNIF as a Syslog target.
 | Description: | Short description of the Syslog server |
 | Server Port: | The default port number is 514; change if necessary.    |
 
- **Note:** In order to receive log over the DNIF Platform, need to configure [Syslog Connector](https://dnif.it/kb/connectors/supported-connectors/syslog/) on DNIF Console.
+ **Note:** In order to receive log over the DNIF Platform, need to configure [**Syslog Connector**](/docs/documents/connect-extract-enrich/Connectors/SUPPORTED-CONNECTORS/syslog.md)
+ on DNIF Console.
 
 Once the syslog connector is configured, you're all set to start receiving logs.  
 After completing the configuration, save the settings and verify that the logs are appearing in the DNIF Console.  

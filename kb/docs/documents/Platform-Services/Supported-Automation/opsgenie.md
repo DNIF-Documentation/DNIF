@@ -8,7 +8,7 @@ DNIF can send webhook alerts to Opsgenie that acts as a dispatcher and determine
 
 ## **Configuration**
 
-1. In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
+1. In the **[ Configurtion](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
 3. Identify the [**content of headers and payload**](https://docs.opsgenie.com/docs/incident-api) that you need to provide in the Configuration Box.
 

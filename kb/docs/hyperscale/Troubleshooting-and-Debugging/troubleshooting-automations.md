@@ -4,7 +4,7 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-On [Configuring Automations](https://dnif.it/kb/uncategorized/configuring-automation/), the status for **Validation** field will be modified and the updated **Validation** status will be indicated according to the configuration saved.
+On **[Configuring Automations](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md)**, the status for **Validation** field will be modified and the updated **Validation** status will be indicated according to the configuration saved.
 
 The following is the list of **Validation** status that would be displayed based on the configurations:
 
@@ -99,7 +99,7 @@ This section includes troubleshooting recommendations and procedures for diagnos
 telnet <AD_HOST> <AD_port>
 ```
 
-1. Now, **[install and configure an LDAP client](https://dnif.it/kb/operations/ldap-authentication/) on the host** which is connecting to LDAP server.
+1. Now, **[install and configure an LDAP client](/docs/documents/User-Management-and-Access-Control/Authentication/LDAP-Authentication/ldap-authentication.md) on the host** which is connecting to LDAP server.
 
 3. On setting up LDAP client on host, check the connection to the LDAP server using the following command:
 

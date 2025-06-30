@@ -141,4 +141,4 @@ The following are the configurations to forward AWS S3 Connector logs to DNIF.�
 
 - If the connection is not successful an error message will be displayed. Refer [Troubleshooting Connector Validations](https://dnif.it/kb/troubleshooting-and-debugging/troubleshooting-connector-validations/) for more details on the error message.
 
-Once the connector is configured, validate if the connector is listed under **[Collection Status](https://dnif.it/kb/operations/collection-status/)** screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
+Once the connector is configured, validate if the connector is listed under [**Collection Status**](/docs/documents/Operations/Collection-Status/collection-status.md) screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.

@@ -16,7 +16,7 @@ We have a lot of experience in pricing schemes and we think charging by volume o
 
 The pricing scheme is designed in a way that you are able to predict your budget and not have to pay for overage on minor or even major deviations. More information on overage calculation is available in a detailed post below.
 
-[Calculating overage](https://dnif-documentation.github.io/DNIF/docs/documents/License-Management-and-Billing/Calculating-overage/calculating-overage-2)
+[Calculating overage](ocs/documents/License-Management-and-Billing/Calculating-overage/calculating-overage-2.md)
 
 ## **Arriving from the GB / Day price**
 

@@ -35,7 +35,7 @@ To use the Extractor Generator feature, follow these steps:
       
     
 
-9. Paste [sanitized log samples](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Extraction/guidelines-for-sanitizing-log-samples) (preferably 3 to 4 unique log samples with a total character limit of 10,000 characters) and click the "**Generate**" button. Providing unique log events helps in improving the quality of the generated extractor. Ensure that each unique log sample is written on separate lines without using the ‘\\n’ line separator between the log samples.  
+9. Paste [sanitized log samples](/docs/documents/connect-extract-enrich/Data-Extraction/guidelines-for-sanitizing-log-samples.md) (preferably 3 to 4 unique log samples with a total character limit of 10,000 characters) and click the "**Generate**" button. Providing unique log events helps in improving the quality of the generated extractor. Ensure that each unique log sample is written on separate lines without using the ‘\\n’ line separator between the log samples.  
     **Note** that the log samples must be from the same log source.
 
 11. The process may take a few minutes to generate the extractor and provide the analysis. If there are any **errors**, you will be prompted to regenerate the extractor.
@@ -46,7 +46,8 @@ To use the Extractor Generator feature, follow these steps:
       
     
 
-15. Once the process is completed, the user can see the output of the generated extractor in the “**Extractor**” pane while the provided log samples will be visible in the “**Log Samples**'' pane. Here, the user can add more log samples (not exceeding a total of 500 log samples where each log sample does not exceed 10000 characters in length. To know more, refer to the [extractor validator](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator) best practices).  
+15. Once the process is completed, the user can see the output of the generated extractor in the “**Extractor**” pane while the provided log samples will be visible in the “**Log Samples**'' pane. Here, the user can add more log samples (not exceeding a total of 500 log samples where each log sample does not exceed 10000 characters in length. To know more, refer to the [extractor validator](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md)
+best practices).  
       
     ![](./Images/Extractor-generator-overview-4.jpg)  
       
@@ -102,7 +103,7 @@ To use the Extractor Generator feature, follow these steps:
 
   
 
-13. If any of the checks fail, the extractor is saved in draft mode and the analyst can reach out to DNIF’s support team for further guidance. (For Extractor validation click [here](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator) .)  
+13. If any of the checks fail, the extractor is saved in draft mode and the analyst can reach out to DNIF’s support team for further guidance. (For Extractor validation click [here](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md).)  
       
     
 
@@ -122,4 +123,4 @@ During the extractor generation process, users may encounter the following error
 
 - **Problem Generating Extractor**: In case you encounter an issue while generating the extractor, simply click on **"Generate"** to try again. If the problem persists, don't hesitate to contact our support team for assistance.
 
-- **Extractor Syntax Errors**: Errors related to extractor syntax may occur, such as missing fields, duplicate streams, new field, and streams, or issues with the master filter and first match. To troubleshoot these errors, refer to the documentation on [extractor validators](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator) and best practices for building extractors. If you still encounter difficulties, our support team is always available to help. See the images attached below for more information.
+- **Extractor Syntax Errors**: Errors related to extractor syntax may occur, such as missing fields, duplicate streams, new field, and streams, or issues with the master filter and first match. To troubleshoot these errors, refer to the documentation on [extractor validators](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md) and best practices for building extractors. If you still encounter difficulties, our support team is always available to help. See the images attached below for more information.

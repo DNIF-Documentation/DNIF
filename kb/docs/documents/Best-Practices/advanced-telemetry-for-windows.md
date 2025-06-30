@@ -23,7 +23,6 @@ Open the **Local Group Policy Editor** and navigate to **Computer Configurati
 ![Windows Powershell Logging Policy](./AdvancedTelemetryforWindows1.webp)
 
 ![Enable Powershell script block logging](./AdvancedTelemetryforWindows2.webp)
-
   
 Select the checkbox to log start and stop events. Similarly configure for **Turn on PowerShell Transcription** policy setting, this lets you capture the input and output of PowerShell commands into text-based transcripts.  
 
@@ -189,6 +188,7 @@ In addition to the default logging options provided by Windows, we now have adva
 
 For Windows-related integrations that focus on less comprehensive logging, please visit the following pages:
 
-1. [Windows Event Logs](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Data-Ingestion/windows-event-logs)
 
-3. [Internet Information Services](https://dnif-documentation.github.io/DNIF/docs/documents/connect-extract-enrich/Device-Integration/MICROSOFT/iis)
+1. [Windows Event Logs](/docs/documents/connect-extract-enrich/Data-Ingestion/windows-event-logs.md)
+
+3. [Internet Information Services](/docs/documents/connect-extract-enrich/Device-Integration/MICROSOFT/iis.md)

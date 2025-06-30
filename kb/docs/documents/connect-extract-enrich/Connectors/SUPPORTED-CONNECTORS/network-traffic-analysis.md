@@ -44,4 +44,4 @@ The following are the configurations to fetch Network Traffic logs on DNIF.‌
 
 5. Enter the above details and click **Save**.
 
-Once the connector is configured, validate if the connector is listed under **[Collection Status](https://dnif.it/kb/operations/collection-status/)** screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
+Once the connector is configured, validate if the connector is listed under [**Collection Status**](/docs/documents/Operations/Collection-Status/collection-status.md) screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.

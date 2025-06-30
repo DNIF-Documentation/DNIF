@@ -31,7 +31,8 @@ OTX provides information on the reliability of threat information, reporter of t
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).  
+- Follow the initial configuration steps in [How to Configure Automation?](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md)
+.  
       
     ![image 1-Dec-21-2023-10-57-44-3999-AM](./images-AlienVault/AlienVault-3.webp)  
     

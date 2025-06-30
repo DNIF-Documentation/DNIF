@@ -13,7 +13,7 @@ Supports integration with 32 bit and 64 bit Windows machines.
 
 To configure NXLog to send IIS Webserver access logs to DNIF Adapter.
 
-If you want to integrate IIS Webserver access logs as well as Windows event logs, refer [Integrating Windows Event Logs](https://www.dnif.it/en/kb/windows-event-logs).
+If you want to integrate IIS Webserver access logs as well as Windows event logs, refer [Integrating Windows Event Logs](/docs/hyperscale/connect-extract-enrich/Data-Ingestion/windows-event-logs.md)
 
 ### **Download and install Nxlog**
 

@@ -8,11 +8,11 @@ User Store integration is used to lookup on custom event stores uploaded to DNIF
 
 ## **Pre-requisites**
 
-- The custom [event store](https://dnif.it/kb/operations/event-stores/) must contain a column named **$User** in the event store data.
+- The custom [event store](/docs/documents/Operations/Event-Stores/event-stores.md) must contain a column named **$User** in the event store data.
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to](https://www.dnif.it/en/kb/configuring-automation) [Configure](https://dnif.it/kb/uncategorized/configuring-automation/) [Automation?](https://www.dnif.it/kb/configuring-automation).  
+- Follow the initial configuration steps in [How to configuring-automation?](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md)
       
     ![image1-3](./User-Store-img/user-store-1.jpg)  
       

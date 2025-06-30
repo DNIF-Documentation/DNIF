@@ -8,7 +8,8 @@ SSH, or Secure Shell, integration is used to establish a secure connection to a 
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/)  
+- Follow the initial configuration steps in [How to Configure Automation](/docs/documents/Platform-Services/Supported-Automation/Configuring-Automation.md).
+
       
     ![image 1-Dec-21-2023-12-00-59-3678-PM](./image/configuration-1.webp)
 
@@ -42,9 +43,10 @@ _trigger api ssh execute_command ‘<CONFIG_NAME>’
 
 Listed below are few examples, these examples will help you to quickly get started with the configuration process by demonstrating practical use cases.
 
-- [How to secure a compromised user account?](https://dnif.it/kb/automation/supported-automation-ssh/secure-compromised-user-account/)
+- [How to secure a compromised user account?](/docs/documents/Platform-Services/Supported-Automation-SSH/secure-compromised-user-account.md)
+
 
 - Taking action on Firewall Servers
-    - [Fortigate (Add/Remove Host)](https://dnif.it/kb/automation/supported-automation/fortigate-1/)
-    
-    - [PaloAlto (Add/Remove Host)](https://dnif.it/kb/automation/supported-automation/palo-alto/)
+    - [Fortigate (Add/Remove Host)](/docs/documents/connect-extract-enrich/Device-Integration/FORTINET/fortigate.md)
+
+    - [PaloAlto (Add/Remove Host)](/docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration.md)
