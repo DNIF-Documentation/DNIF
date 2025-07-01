@@ -8,13 +8,15 @@ Asset Store integration is used to lookup on custom event stores uploaded to DNI
 
 ## **Pre-requisites**
 
-- The custom [event store](https://dnif.it/kb/operations/event-stores/) must contain a column named **$Host** in the event store data.
+- The custom [event store](/docs/hyperscale/Operations/Event-Stores/event-stores.md)
+ must contain a column named **$Host** in the event store data.
 
 ## **Configuration**
 
 The following configuration should be done for Asset Store.
 
-- Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/).  
+- Follow the initial configuration steps in [How to Configure Automation?](/docs/hyperscale/Platform-Services/Supported-Automation-SSH/ssh-configuration).
+  
       
     ![image 1-Dec-26-2023-04-48-27-7903-AM](./images-AssetStore/Asset-Store-1.webp)  
     

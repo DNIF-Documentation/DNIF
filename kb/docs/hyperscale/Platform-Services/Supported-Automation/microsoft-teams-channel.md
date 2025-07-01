@@ -10,7 +10,7 @@ Microsoft Teams is a collaborative workspace within Microsoft 365/Office 365 tha
 
 - In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
-- [Create a webhook](https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams%2Cdotnet) for a Microsoft Teams channel in your account.
+- [Create a webhook](/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2.md). for a Microsoft Teams channel in your account.
 
 - [Identify the content of headers and payload](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-using) that you need to provide in the Configuration Box.
 

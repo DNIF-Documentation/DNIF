@@ -45,6 +45,7 @@ Listed below are few examples, these examples will help you to quickly get start
 - [How to secure a compromised user account?](https://dnif.it/kb/automation/supported-automation-ssh/secure-compromised-user-account/)
 
 - Taking action on Firewall Servers
-    - [Fortigate (Add/Remove Host)](https://dnif.it/kb/automation/supported-automation/fortigate-1/)
-    
-    - [PaloAlto (Add/Remove Host)](https://dnif.it/kb/automation/supported-automation/palo-alto/)
+    - [Fortigate (Add/Remove Host)](/docs/hyperscale/Platform-Services/Supported-Automation/fortigate-1.md)
+
+    - [PaloAlto (Add/Remove Host)](/docs/hyperscale/Platform-Services/Supported-Automation/palo-alto.md)
+

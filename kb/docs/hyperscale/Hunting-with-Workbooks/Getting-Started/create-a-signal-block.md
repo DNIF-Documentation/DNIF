@@ -65,8 +65,7 @@ _fetch * from event where $Stream=SIGNALS limit 10
 | ![](./Images/ImagesCreateaSignalBlock/signal-block-7.jpg) | Used to filter the query result based on your requirement. |
 | ![](./Images/ImagesCreateaSignalBlock/signal-block-8.jpg) | Delete a block |
 
-For more details on details on Workbooks, refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2)
-
+For more details on details on Workbooks, refer [Create a Workbook](/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2.md)
 ## **Parameterised Signals**
 
 Enter a signal name for the signal you are about to create. Signal name has been **parameterized**, users can enter multiple field values with _ (underscore) and this will be displayed as a detection name on raising a signal.

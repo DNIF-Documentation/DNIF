@@ -25,10 +25,12 @@ Data enrichment in SIEM involves monitoring user behavior to detect anomalies, t
 
 Listed below are few enrichment examples, these examples will help you to quickly get started with the enrichment process by demonstrating practical use cases.
 
-- **Example 1**: [UBA: Coalescing User Identities](https://dnif.it/kb/data-ingestion/enrichment-examples/uba-coalescing-user-identities/)
+- **Example 1**: [UBA: Coalescing User Identities](/docs/hyperscale/connect-extract-enrich/Enrichment/Enrichment-Example/uba-coalescing-user-identities.md)
 
-- **Example 2**: [Enrich DevSrcIP with Asset Store](https://dnif.it/kb/data-ingestion/enrichment-examples/enrich-devsrcip-with-asset-store/)
+- **Example 2**: [Enrich DevSrcIP with Asset Store](/docs/hyperscale/connect-extract-enrich/Enrichment/Enrichment-Example/enrich-devsrcip-with-asset-store.md)
 
-- **Example 3**: [Flag Risky User Activities](https://dnif.it/kb/data-ingestion/enrichment-examples/flag-risky-user-activities/)
 
-- **Example 4**: [Flag matches with Greensnow ThreatIntel](https://dnif.it/kb/data-ingestion/enrichment-examples/flag-matches-with-greensnow-threatintel/)
+- **Example 3**: [Flag Risky User Activities](/docs/hyperscale/connect-extract-enrich/Enrichment/Enrichment-Example/flag-risky-user-activities.md)
+
+
+- **Example 4**: [Flag matches with Greensnow ThreatIntel](/docs/hyperscale/connect-extract-enrich/Enrichment/Enrichment-Example/flag-matches-with-greensnow-threatintel.md)

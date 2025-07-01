@@ -4,7 +4,8 @@ date: 2025-01-30
 type: "epkb_post_type_1"
 ---
 
-PagerDuty webhook connections allow you to send alert results as a PagerDuty notification. You can learn more about [PagerDuty webhooks](https://developer.pagerduty.com/docs/webhooks/v2-overview/).
+PagerDuty webhook connections allow you to send alert results as a PagerDuty notification. You can learn more about [PagerDuty webhooks](/docs/hyperscale/Platform-Services/Supported-Automation/pagerduty.md)
+.
 
 ## **Configuration**
 

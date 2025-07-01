@@ -20,4 +20,4 @@ An error triangle indicating the error will be displayed in the connector list a
 
 ![image 1-Jan-23-2024-12-25-12-7840-PM](./images-ConnectorValidation/Connector-Validation-3.png)
 
-You can try to self-diagnose and mitigate the errors by referring [Troubleshooting Connector Validations](https://www.dnif.it/en/kb/troubleshooting-connector-validations) document.
+You can try to self-diagnose and mitigate the errors by referring [Troubleshooting Connector Validations](/docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations.md) document.

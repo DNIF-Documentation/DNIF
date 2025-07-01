@@ -51,6 +51,6 @@ Netskope One is a cloud-based platform that provides integrated security and net
 - Click **Save** after entering all the required details and click **Test Connection**, to test the configuration.
 
 - A **Connection successful** message and the time stamp will be displayed on a screen.  
-    If the connection is not successful an error message will be displayed.Refer to [Troubleshooting Connector Validations](https://dnif.it/kb/troubleshooting-and-debugging/troubleshooting-connector-validations/) for more details on the error message.
+    If the connection is not successful an error message will be displayed.Refer to [Troubleshooting Connector Validations](/docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations.md) for more details on the error message.
 
 Once the connector is configured, validate if the connector is listed under **[Collection Status](https://dnif.it/kb/operations/collection-status/)** screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.

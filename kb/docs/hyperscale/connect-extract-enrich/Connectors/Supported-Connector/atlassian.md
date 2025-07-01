@@ -46,4 +46,4 @@ Atlassian provides team collaboration software that helps teams organize, discus
 
 - A **Connection successful** message will be displayed on the screen along with the time stamp.
 
-- If the connection is not successful an error message will be displayed. Refer to [Troubleshooting Connector Validations](https://dnif.it/kb/troubleshooting-and-debugging/troubleshooting-connector-validations/) for more details on the error message.
+- If the connection is not successful an error message will be displayed. Refer to [Troubleshooting Connector Validations](/docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations.md) for more details on the error message.

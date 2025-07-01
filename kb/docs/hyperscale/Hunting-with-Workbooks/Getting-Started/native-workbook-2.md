@@ -17,7 +17,8 @@ The following options are displayed
 
 - **Disable existing workbook:** This option is enabled by default. On enabling this option the original workbook is disabled and the new clone of the workbook will be enabled. You can modify the required changes in the cloned workbook.
 
-- **Retain the schedule:** A native workbook can be a standard/Scheduled/Streamed workbook. Enabling this option will create the new workbook as per the existing schedule and disabling this option will create a standard workbook. To create a new schedule, refer [Schedule a workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/native-workbook-2)
+- **Retain the schedule:** A native workbook can be a standard/Scheduled/Streamed workbook. Enabling this option will create the new workbook as per the existing schedule and disabling this option will create a standard workbook. To create a new schedule, refer [Schedule a workbook](/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/schedule-a-workbook-2.md).
+
 
 - **Workbook Name:** Workbook name for the cloned workbook is automatically generated and custom is added to the existing name by default.You can also edit the name and provide a name as per your requirement.
 

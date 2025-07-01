@@ -8,7 +8,8 @@ User Store integration is used to lookup on custom event stores uploaded to DNIF
 
 ## **Pre-requisites**
 
-- The custom [event store](https://dnif.it/kb/operations/event-stores/) must contain a column named **$User** in the event store data.
+- The custom [event store](/docs/hyperscale/Operations/Event-Stores/event-stores.md)
+ must contain a column named **$User** in the event store data.
 
 ## **Configuration**
 

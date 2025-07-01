@@ -80,4 +80,4 @@ For more examples refer the following table:
 
 - All the workbooks scheduled will be executed based on Local timezone
 
-- For more details on Workbooks refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2).
+- For more details on Workbooks refer [Create a Workbook](/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2.md).

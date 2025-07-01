@@ -10,7 +10,7 @@ Slack is a messaging application for business. It transforms the way that organi
 
 - In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
 
-- [Create a webhook](https://dnif.it/kb/automation/supported-automation/webhook/) for a slack channel in your account.
+- [Create a webhook](/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2.md).for a slack channel in your account.
 
 - [Identify the content of headers and payload](https://api.slack.com/messaging/webhooks#posting_with_webhooks) that you need to provide in the Configuration Box.
 

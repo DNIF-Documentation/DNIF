@@ -44,18 +44,24 @@ Listed below are few Webhook integration examples, these examples will help you 
 
 - [Sl](https://dnif.it/kb/connectors/supported-connectors/slack/)[a](https://dnif.it/kb/automation/supported-automation/slack-configuration/)[ck](https://dnif.it/kb/connectors/supported-connectors/slack/)
 
-- [Microsoft Teams Channel](https://dnif.it/kb/automation/supported-automation/microsoft-teams-channel/)
+- [Microsoft Teams Channel](/docs/hyperscale/Platform-Services/Supported-Automation/microsoft-teams-channel.md)
 
-- [ClickSend](https://dnif.it/kb/automation/supported-automation/clicksend/)
 
-- [PagerDuty](https://dnif.it/kb/automation/supported-automation/pagerduty/)
+- [ClickSend](/docs/hyperscale/Platform-Services/Supported-Automation/clicksend.md)
 
-- [JiraServiceDesk](https://dnif.it/kb/automation/supported-automation/jiraservicedesk/)
 
-- [ServiceNow](https://dnif.it/kb/automation/supported-automation/servicenow/)
+- [PagerDuty](/docs/hyperscale/Platform-Services/Supported-Automation/pagerduty.md)
 
-- [New Relic](https://dnif.it/kb/automation/supported-automation/new-relic/)
 
-- [Opsgenie](https://dnif.it/kb/automation/supported-automation/opsgenie/)
+- [JiraServiceDesk](/docs/hyperscale/Platform-Services/Supported-Automation/jiraservicedesk.md)
 
-- [TrendMicro](https://dnif.it/kb/automation/supported-automation/trendmicro/)
+
+- [ServiceNow](/docs/hyperscale/Platform-Services/Supported-Automation/servicenow.md)
+
+
+- [New Relic](/docs/hyperscale/Platform-Services/Supported-Automation/new-relic.md)
+
+- [Opsgenie](/docs/hyperscale/Platform-Services/Supported-Automation/opsgenie.md)
+
+- [TrendMicro](/docs/hyperscale/Platform-Services/Supported-Automation/trendmicro.md)
+

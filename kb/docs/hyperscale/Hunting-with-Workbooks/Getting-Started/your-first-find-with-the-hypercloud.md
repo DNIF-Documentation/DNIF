@@ -69,10 +69,11 @@ Let's save this workbook and create a report:
 
 With the above two use cases, we have completed the journey to see the basic features of the HYPERCLOUD and how simple it is to use the interface, you can explore more advanced features of the console, such as Workbooks, Reports, Dashboards, and Signals. To learn more about these features, check out our comprehensive guides:
 
-- [Getting Started with DQL](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Dnif-Query-Language/DQL%20Right%20from%20Start/dql-right-from-the-start/)
+- [Getting Started with DQL](/docs/hyperscale/Dnif-Query-Language/DQL-Right-from-Start/dql-right-from-the-start.md)
+
 
 <!-- - [Create a Report](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Operations/Manage%20Reports/create-a-report-2) -->
 
-- [What are Signals?](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Security-Monitoring/Investigating%20Signals/what-are-signals)
+- [What are Signals?](/docs/hyperscale/Security-Monitoring/Investigating-Signals/what-are-signals.md)
 
 These guides will provide you with the knowledge you need to take full advantage of the platform's capabilities and gain deeper insights into your data.

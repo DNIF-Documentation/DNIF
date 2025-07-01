@@ -194,8 +194,8 @@ With the release of DNIF v9.1.1, we have introduced Schema on Read as a new feat
 
 With this update, DNIF Support will not be making any modifications to the extractor provided and customers are encouraged to leverage the above capability for the same. Details of the new new version release and the new feature can be found below
 
-[Release Notes v9.3.0](https://dnif.it/kb/release-notes/november-29-2022-application-update-release-notes-v9-3-0/)  
-[Schema on Read](https://dnif.it/kb/dnif-query-language-dql-language/schema-on-read/schema-on-read/)
+[Release Notes v9.3.0](/docs/documents/Release-Notes/november-29-2022-application-update-release-notes-v9-3-0.md)
+[Schema on Read](/docs/hyperscale/Dnif-Query-Language/Schema-on-Read/schema-on-read.md)
 
 ## **Scenarios not covered in Support**
 

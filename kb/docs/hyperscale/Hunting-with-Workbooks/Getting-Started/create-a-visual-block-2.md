@@ -219,4 +219,4 @@ Word clouds are graphical representations of word frequency that give greater pr
 
 ![image 17-4](./Images/ImagesCreateanvisuaBlock/createanvisualblock17.webp)
 
-For more details on details on Workbooks, refer [Create a Workbook](https://dnif-documentation.github.io/DNIF/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2) .
+For more details on details on Workbooks, refer [Create a Workbook](/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/how-to-create-a-workbook-2.md) .
