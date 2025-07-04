@@ -35,7 +35,7 @@ export default function Home() {
     { title: "Security Monitoring", Svg: SecurityMonitoring, link: "docs/documents/Security-Monitoring" },
     { title: "User Management and Access Control", Svg: Usermanagement, link: "docs/documents/User-Management-and-Access-Control/User-Management-in-DNIF" },
     { title: "Solution Design", Svg: SolutionDesign, link: "docs/documents/Solution-Design/" },
-    { title: "Operations", Svg: Operation, link: "docs/documents/Operations/Collection Status/collection-status" },
+    { title: "Operations", Svg: Operation, link: "docs/documents/Operations/Collection-Status/"},
     { title: "Platform Services", Svg: Platform, link: "docs/documents/Platform-Services/automation" },
     { title: "Troubleshooting and Debugging",Svg: Troubleshooting, link: "docs/documents/Troubleshooting-and-Debugging/" },
     { title: "DNIF AI", Svg: DNIFAI, link: "docs/documents/DNIF-AI/Getting-Started-with-DNIF-AI/" },
@@ -43,7 +43,7 @@ export default function Home() {
     { title: "DNIF Legal and Security Compliance", Svg: DNIFlegal, link: "docs/documents/DNIF-Legal-and-Security-Compliance/Data-Privacy-Policy" },
     { title: "Policies", Svg: Policies, link: "docs/documents/Policies/the-dnif-hyperscale-lifecycle-and-release-cadence" },
     { title: "Best Practices", Svg:Bestpractices, link: "docs/documents/Best-Practices/advanced-telemetry-for-windows" },
-    { title: "Release Notes", Svg: Releasenote, link: "docs/documents/Release-Notes/april-17-2025-content-update" },
+    { title: "Release Notes", Svg: Releasenote, link: "docs/documents/Release-Notes/June-13-2025-Content-Update" },
   ];
 
   const [searchTerm, setSearchTerm] = useState("");

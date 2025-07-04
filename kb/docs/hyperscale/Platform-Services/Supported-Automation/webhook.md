@@ -18,8 +18,6 @@ You need to provide the following data depending on the third party webhook/api 
 
 ## **Configuration**
 
-1. Follow the initial configuration steps in [How to Configure Automation](https://dnif.it/kb/uncategorized/configuring-automation/).
-
 ![image 1-Dec-26-2023-10-44-12-9919-AM](./images-Webhook/Webhook-1.webp)
 
 - Click the edit icon to add details.
@@ -42,7 +40,7 @@ To associate webhook automation config with investigate panel - it must provide 
 
 Listed below are few Webhook integration examples, these examples will help you to quickly get started with the configuration process by demonstrating practical use cases.
 
-- [Sl](https://dnif.it/kb/connectors/supported-connectors/slack/)[a](https://dnif.it/kb/automation/supported-automation/slack-configuration/)[ck](https://dnif.it/kb/connectors/supported-connectors/slack/)
+- [Slack](/docs/hyperscale/Platform-Services/Supported-Automation/slack-configuration.md)
 
 - [Microsoft Teams Channel](/docs/hyperscale/Platform-Services/Supported-Automation/microsoft-teams-channel.md)
 

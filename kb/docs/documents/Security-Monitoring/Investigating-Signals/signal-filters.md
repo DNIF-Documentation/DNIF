@@ -12,7 +12,7 @@ You can use the following options to filter the Signals
 
 - **Pending Review:** All the signals that are yet to be investigated will be displayed
 
-- **Triaged Signals:** All the signals that are already under investigation will be displayed, while investigating the signals you can create a case of all connected signals. Refer [Case Management](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/case-management-overview-2/)
+- **Triaged Signals:** All the signals that are already under investigation will be displayed, while investigating the signals you can create a case of all connected signals. Refer [Case Management](/docs/documents/Security-Monitoring/Case-Management/case-management-overview.md)
 
 - **All Signals:** A collective list of all signals will be displayed, the ones under investigation and the ones that are yet to be investigated.
 

@@ -22,9 +22,10 @@ To collect logs for Zscaler, perform these steps, detailed in the following sect
 
 To collect logs for Zscaler DNS, Zscaler Firewall and Zscaler Web Secuity, do the following in DNIF
 
-1. Configure an [Installed Connector](https://dnif.it/kb/connectors/supported-connectors/tcp/).
+1. Configure an [Installed Connector](/docs/hyperscale/connect-extract-enrich/Connectors/Supported-Connector/tcp.md).
 
-3. Use [TCP Connector](https://dnif.it/kb/connectors/supported-connectors/tcp/)
+3. Use [TCP Connector](/docs/hyperscale/connect-extract-enrich/Connectors/Supported-Connector/tcp.md)
+
 
 The Port number, as you will need this to configure Zscaler NSS. Also, when you configure the Syslog Source, we recommend that you use the Source Category security_zscaler.
 

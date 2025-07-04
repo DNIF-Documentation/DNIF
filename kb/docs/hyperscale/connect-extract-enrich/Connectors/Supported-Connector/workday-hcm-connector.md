@@ -153,7 +153,6 @@ The following are the configurations to forward Workday HCM connector logs to DN
 
 - If the connection is not successful an error message will be displayed. Refer [Troubleshooting Connector Validations](/docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations.md) for more details on the error message.
 
-Once the connector is configured, validate if the connector is listed under **[Collection Status](https://dnif.it/kb/operations/collection-status/)** screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
 
 1. Fill in all the required information as per the screenshot given below:
 

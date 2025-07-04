@@ -85,7 +85,7 @@ type: "epkb_post_type_1"
     
     - The different anomalies detected - Authentication anomalies / User location anomalies.
 
-- The **Artifacts** tab displays the evidence gathered in Signals associated with the case i.e. all the Suspect and Target objects, identified in Signals associated with the case, that should be investigated. For further investigation refer to the [Investigate Anywhere](https://dnif.it/kb/security-monitoring/investigate-signals/investigate-anywhere/) doc.  
+- The **Artifacts** tab displays the evidence gathered in Signals associated with the case i.e. all the Suspect and Target objects, identified in Signals associated with the case, that should be investigated. For further investigation refer to the [Investigate Anywhere](/docs/hyperscale/Security-Monitoring/Investigating-Signals/investigate-anywhere.md) doc.  
       
       
     ![](./images-ViewCases/View-Cases-5.png)  

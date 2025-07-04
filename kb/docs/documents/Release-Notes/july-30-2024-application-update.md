@@ -28,7 +28,8 @@ DNIF HYPERCLOUD Console's latest update, released on July 30th, 2024.
     - **Recommends MITRE Techniques & Provides Sample DQL Queries**  
         Suggest relevant MITRE techniques to investigate with sample DQL queries  
            
-        [Know more](https://dnif.it/kb/dnif-ai/extractor-generator/extractor-generator-overview/) about the feature.
+        [Know more](/docs/documents/DNIF-AI/Extractor-Generator-Overview/extractor-generator-overview.mdEdit OrganizationEdit Organization)
+ about the feature.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pEEd5IUKH-c?si=Iz9brk_OJl7MStmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 
@@ -51,7 +52,7 @@ DNIF HYPERCLOUD Console's latest update, released on July 30th, 2024.
         Verifies the uniqueness of provided log samples against existing extractors.  
         Also ensures that the given extractor uniquely parses only the provided log samples.  
           
-        [Know more](https://dnif.it/kb/data-ingestion/extractors/extractor-validator/) about the feature.
+        [Know more](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md) about the feature.
 
 Stay tuned for more updates and improvements to the DNIF HYPERCLOUD Console.
 

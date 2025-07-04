@@ -11,13 +11,13 @@ The extractor validator is a valuable feature that assists users in validating t
 
 This section provides validation on syntax issues and the presence of certain key fields.
 
-![](./images-Extractorvalidator/Extractor-validator-1.webp)
+ 
+![](./images-Extractorvalidator/Extractor-validator-1.webp) 
 
 ### 1. **Syntax: Extractor in invalid YAML format**  
     Highlight any Yaml format issues, if any.  
       
-    ![](./images-Extractorvalidator/Extractor-validator-2.webp)  
-      
+![](./images-Extractorvalidator/Extractor-validator-2.webp)  
     
 
 ### 2. **Syntax: Missing keys: source-type**  
@@ -275,7 +275,7 @@ The "Play" button allows you to preview the parsed output created using the extr
 
 ![](./images-Extractorvalidator/Extractor-validator-31.webp)
 
-To determine the parsing status, we can view **PStatus** ([PAD, PER, and NLF](https://dnif.it/kb/data-ingestion/extractors/how-extractors-work/)).
+To determine the parsing status, we can view **PStatus** ([PAD, PER, and NLF](/docs/documents/connect-extract-enrich/Data-Extraction/how-extractors-work.md)).
 
 ## **Note on Best Practices of Extractor Validator:**  
 

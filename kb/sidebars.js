@@ -593,8 +593,13 @@ module.exports = {
             },
             {
               type: 'doc',
-              id: 'documents/Release-Notes/november-29-2022-application-update-release-notes-v9-3-0',
-              label: 'November 29, 2022 - Application Update (Release Notes v9.3.0)',
+              id: 'documents/Release-Notes/May-21-2025-Content-Update',
+              label: 'May 21, 2025 -Content Update',
+            },
+            {
+              type: 'doc',
+              id: 'documents/Release-Notes/June-13-2025-Content-Update',
+              label: 'June 13, 2025 -Content Update',
             },
           ]
         }

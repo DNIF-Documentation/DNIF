@@ -14,7 +14,8 @@ We are excited to announce a new update driven by valuable customer feedback. Th
 
 - Decoupling User lifecycle management from Role-Based Access Control. The Organization Administrator handles user lifecycle management, and the tenant administrator manages access to Tenant capability.
 
-For more information refer to the [User Management & Access Control](https://dnif.it/kb/user-management-access-control/dnif-entities/) documentation on KB.
+For more information refer to the [User Management & Access Control](/docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/dnif-entities.md)
+ documentation on KB.
 
 ## **ENHANCEMENTS**
 

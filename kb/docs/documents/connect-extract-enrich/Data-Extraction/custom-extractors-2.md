@@ -64,7 +64,8 @@ The Extractor Generator assists the security analyst in auto-generating a custom
       
     
 
-9. It will start validating the extractor and show errors if any. Check for the Extractor validation [here](https://dnif.it/kb/data-ingestion/extractors/extractor-validator/).
+9. It will start validating the extractor and show errors if any. Check for the Extractor validation [here](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md)
+.
 
 11. If any of the checks fail, the extractor is saved in draft mode.
 

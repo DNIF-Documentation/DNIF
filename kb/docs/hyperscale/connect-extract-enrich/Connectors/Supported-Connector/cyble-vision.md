@@ -62,4 +62,4 @@ The following are the configurations to forward Cyble Vision logs to DNIF.‌
 
 - If the connection is not successful an error message will be displayed. Refer to [Troubleshooting Connector Validations](/docs/documents/Troubleshooting-and-Debugging/troubleshooting-connector-validations.md)for more details on the error message.
 
-Once the connector is configured, validate if the connector is listed under the **[Collection Status](https://dnif.it/kb/operations/collection-status/)** screen with the status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
+

@@ -4,7 +4,7 @@ date: 2025-01-17
 type: "epkb_post_type_1"
 ---
 
-You can raise a signal from the workbook by adding a [Signal block](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-signal-block/).
+You can raise a signal from the workbook by adding a [Signal block](/docs/hyperscale/Hunting-with-Workbooks/Getting-Started/create-a-signal-block.md).
 
 ![](./images-RaiseandViewSignals/Raise-and-View-Signals-1.webp)
 

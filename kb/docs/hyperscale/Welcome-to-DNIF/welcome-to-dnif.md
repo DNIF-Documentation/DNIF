@@ -97,5 +97,3 @@ DNIF is a cloud-native cybersecurity analytics platform that combines SIEM, User
   </a>
   <p>Review lifecycle practices and threat content updates.</p>
 </div>
-
-

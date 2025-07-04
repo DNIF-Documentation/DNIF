@@ -77,7 +77,8 @@ Users should be manually added to the organization 
 
 - Password Reset is not allowed for any LDAP users.
 
-- On the [Manage Users](https://dnif.it/kb/user-management-access-control/manage-organization-and-users/manage-users/) page, an icon is added next to the username indicating that the user is an LDAP connected user.
+- On the [Manage Users](/docs/documents/User-Management-and-Access-Control/User-Management-in-DNIF.md)
+ page, an icon is added next to the username indicating that the user is an LDAP connected user.
 
 ![image 7-Dec-01-2023-09-06-03-0309-AM](./img/LDAP-7.jpg)
 

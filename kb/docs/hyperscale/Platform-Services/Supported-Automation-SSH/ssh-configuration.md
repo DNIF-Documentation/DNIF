@@ -8,8 +8,6 @@ SSH, or Secure Shell, integration is used to establish a secure connection to a 
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/)  
-      
     ![image 1-Dec-21-2023-12-00-59-3678-PM](./images-SSHConfiguration/SSHConfiguration-1.webp)
 
 - Click the edit icon to add details.
@@ -42,7 +40,8 @@ _trigger api ssh execute_command ‘<CONFIG_NAME>’
 
 Listed below are few examples, these examples will help you to quickly get started with the configuration process by demonstrating practical use cases.
 
-- [How to secure a compromised user account?](https://dnif.it/kb/automation/supported-automation-ssh/secure-compromised-user-account/)
+- [How to secure a compromised user account?](/docs/hyperscale/Platform-Services/Supported-Automation-SSH/secure-compromised-user-account.md)
+
 
 - Taking action on Firewall Servers
     - [Fortigate (Add/Remove Host)](/docs/hyperscale/Platform-Services/Supported-Automation/fortigate-1.md)

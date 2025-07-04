@@ -15,8 +15,6 @@ DomainTools collects Open Source Intelligence (OSINT) data from many sources, al
 - DomainTools typically provides access to obtain the API credentials by creating an account for the primary point of contact in your organization. For more information, visit [https://www.domaintools.com/](https://www.domaintools.com/)
 
 ## **Configuration**
-
-- Follow the initial configuration steps in [How to Configure Automation](https://dnif.it/kb/uncategorized/configuring-automation/)?  
       
     ![image 1-Dec-22-2023-12-27-05-8935-PM](./images-DomainTools/DomainTools-1.webp)  
     

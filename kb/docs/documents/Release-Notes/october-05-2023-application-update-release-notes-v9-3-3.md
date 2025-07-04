@@ -25,7 +25,7 @@ Explore the following enhancements in the DNIF HYPERCLOUD v9.3.3:
 
 5. Geo enrichment of IP data at _Lookup_ on the _Search_ Interface can be carried out using IPData.
 
-> Visit the section [**Geo Enrichment**](https://dnif.it/kb/operations/geo-enrichment/) for additional information.
+> Visit the section [**Geo Enrichment**](/docs/documents/connect-extract-enrich/Enrichment/Geo-Enrichment/geo-enrichment.md) for additional information.
 
 ## **Fixes**
 
@@ -39,4 +39,4 @@ While creating the _Signal Suppression Rules_, the _Target_ field is now rest
 
 - Port
 
-> Visit the section [**Signal Suppression Rules**](https://dnif.it/kb/security-monitoring/signal-suppression-rule/) for additional information.
+> Visit the section [**Signal Suppression Rules**](/docs/documents/Security-Monitoring/signal-suppression-rule.md) for additional information.

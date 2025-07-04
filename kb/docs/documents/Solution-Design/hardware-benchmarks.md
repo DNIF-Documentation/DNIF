@@ -12,7 +12,7 @@ This document discusses standard hardware testing and benchmarking tools that ca
 
 When to test, how to ensure consistent performance.
 
-1. Test and benchmark your hardware before you install, to ensure the underlying hardware fulfils expecations. Initial results must satisfy or exceed the performance benchmarks indicated in [scaling datanodes](https://dnif.it/kb/solution-design/scaling-datanodes/) or your custom solution design document.
+1. Test and benchmark your hardware before you install, to ensure the underlying hardware fulfils expecations. Initial results must satisfy or exceed the performance benchmarks indicated in [scaling datanodes](/docs/documents/Solution-Design/scaling-datanodes.md)or your custom solution design document.
 
 3. Repeat tests if you find performance related issues while in operations and compare the results with the initial benchmarking.
 

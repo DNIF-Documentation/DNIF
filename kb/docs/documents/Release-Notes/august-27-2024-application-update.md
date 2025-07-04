@@ -27,6 +27,6 @@ The Extractor Validator expects log samples in the following cases:
 
 - Enabling an existing disabled custom extractor that was previously in the draft stage.
 
-[Know more](https://dnif.it/kb/data-ingestion/extractors/extractor-validator/) about the feature.
+[Know more](/docs/documents/connect-extract-enrich/Data-Extraction/extractor-validator.md) about the feature.
 
 Stay tuned for more updates and improvements to the DNIF HYPERCLOUD Console.

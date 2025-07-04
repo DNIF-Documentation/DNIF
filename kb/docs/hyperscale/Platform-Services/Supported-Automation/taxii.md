@@ -10,7 +10,6 @@ It is designed specifically to support STIX information, which it does by defini
 
 ## **Configuration**
 
-- Follow the initial configuration steps in [How to Configure Soar Integrations?](https://dnif.it/kb/uncategorized/configuring-automation/)  
       
     ![image 1-Dec-21-2023-10-36-56-9820-AM](./images-TAXII/TAXII-1.webp)  
       

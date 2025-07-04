@@ -297,7 +297,16 @@
 .comment-container button:hover {
   background: #e60073;
 }
+.boxWrapper {
+  display: flex;
+  gap: 1rem;
+}
 
+.smallbox {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
 /* custom.css */
 .navbar-hyperscale-btn {
   border: 1px solid #FFC000;

@@ -8,6 +8,7 @@ Source streams are the log sources on your network. The source streams are categ
 
 ![](./image-SourceStream/SourceStream-1.webp)
 
-For more details on Streams refer [Managing Streams](https://dnif.it/kb/operations/managing-streams/)
+For more details on Streams refer [Managing Streams](/docs/hyperscale/Operations/Managing-Streams/managing-streams.md)
+
 
 ![](./image-SourceStream/SourceStream-2.png)

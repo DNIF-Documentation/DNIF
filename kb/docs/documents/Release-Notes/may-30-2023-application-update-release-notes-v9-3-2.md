@@ -71,9 +71,11 @@ We hope these new features will help you work more effectively and efficiently, 
 
 Additional Readings:
 
-1. [Streamline Alert Analysis with Signal Tagging](https://dnif.it/kb/security-monitoring/streamline-alert-analysis-with-signal-tagging/)
+1. [Streamline Alert Analysis with Signal Tagging](/docs/documents/Security-Monitoring/streamline-alert-analysis-with-signal-tagging.md)
 
-3. [Workbook Versioning: Track, Collaborate, and Restore with Ease](https://dnif.it/kb/security-monitoring/workbook-versioning-track-collaborate-and-restore-with-ease/)
 
-5. [Setup SAML Auth with OKTA](https://dnif.it/kb/operations/saml-authentication-support/#samlwithokta)
+3. [Workbook Versioning: Track, Collaborate, and Restore with Ease](/docs/documents/Security-Monitoring/Investigating-Signals/workbook-versioning-track-collaborate-and-restore-with-ease.md)
+
+5. [Setup SAML Auth with OKTA](/docs/documents/User-Management-and-Access-Control/Authentication/SAML-Authentication/saml-authentication-support.md)
+
 

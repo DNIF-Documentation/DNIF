@@ -224,4 +224,4 @@ The following are the configurations to forward **Azure Event Hub Connector** 
 
 Click **Save**, to forward **Azure Event Hub Connector** logs to DNIF.‌
 
-Once the connector is configured, validate if the connector is listed under **[Collection Status](https://dnif.it/kb/operations/collection-status/)** screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
+

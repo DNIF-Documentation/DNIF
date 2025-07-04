@@ -6,9 +6,6 @@ type: "epkb_post_type_1"
 
 We are happy to introduce new features and enhancements to improve your experience with our platform. Here’s what’s included in this release:
 
-## **What’s New**
-
-- [Log Source integration - Cloudflare](https://dnif.it/kb/connectors/supported-connectors/cloudflare-logpull-connector-setup-guide/)
 
 ## **Enhancements**
 

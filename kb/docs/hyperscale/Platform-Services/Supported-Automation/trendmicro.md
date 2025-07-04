@@ -26,7 +26,6 @@ Listed below are some of the examples to configure a Webhook connection for the 
 
 - Identify the [content of headers and payload](https://automation.trendmicro.com/xdr/api-v2#tag/Common/paths/~1v2.0~1xdr~1response~1block/post) that you need to provide in the Configuration Box.
 
-- Ensure you enable the integration, once it is [configured and validated](https://dnif.it/kb/uncategorized/configuring-automation/).
 
 Below is an example on how you can leverage this integration to block an IP using TrendMicro
 
@@ -76,7 +75,6 @@ In the above figure, a workbook named **Suspicious Remote Desktop Network Activ
 
 - Identify the [content of headers and payload](https://automation.trendmicro.com/xdr/api-v2#tag/Common/paths/~1v2.0~1xdr~1response~1block/post) that you need to provide in the Configuration Box.
 
-- Ensure you enable the integration, once it is [configured and validated](https://dnif.it/kb/uncategorized/configuring-automation/).
 
 Below is an example on how you can leverage this integration to block an URL using TrendMicro.
 
@@ -122,7 +120,6 @@ In the above figure, a workbook named **Threat Malicious URL** is executed whi
 
 - Identify the [content of headers and payloads](https://automation.trendmicro.com/xdr/api-v2#tag/Common/paths/~1v2.0~1xdr~1response~1block/post) that you need to provide in the Configuration Box.
 
-- Ensure you enable the integration, once it is [configured and validated](https://dnif.it/kb/uncategorized/configuring-automation/).
 
 Below is an example on how you can leverage this integration to block an domain using TrendMicro
 
@@ -173,8 +170,6 @@ In the above figure, a workbook named **Threat Malicious URL** is executed whi
 
 - Identify the [content of headers and payload](https://automation.trendmicro.com/xdr/api-v2#tag/Common/paths/~1v2.0~1xdr~1response~1block/post) that you need to provide in the Configuration Box.
 
-- Ensure you enable the integration, once it is [configured and validated](https://dnif.it/kb/uncategorized/configuring-automation/).
-
 Below is an example on how you can leverage this integration to block an Email using TrendMicro
 
 **URL**
@@ -219,7 +214,6 @@ In the above figure, a workbook named **Email Threats** is executed which cont
 
 - Identify the content of [headers and payload](https://automation.trendmicro.com/xdr/api-v2#tag/Common/paths/~1v2.0~1xdr~1response~1block/post) that you need to provide in the Configuration Box.
 
-- Ensure you enable the integration, once it is [configured and validated](https://dnif.it/kb/uncategorized/configuring-automation/).
 
 Below is an example on how you can leverage this integration to block an File Hash SHA1 using TrendMicro.
 

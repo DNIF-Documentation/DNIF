@@ -29,9 +29,7 @@ Attacks / bruteforce that are monitored are as follows:
 
 ## **Configuration**
 
-GreenSnow is a pre-configured integration in DNIF that stores its data as a dataset in an eventstore, this is a scheduled eventstore and can be used to fetch threat intel data for IP Addresses.
-
-- Follow the initial configuration steps in [How to Configure Automation?](https://dnif.it/kb/uncategorized/configuring-automation/)  
+GreenSnow is a pre-configured integration in DNIF that stores its data as a dataset in an eventstore, this is a scheduled eventstore and can be used to fetch threat intel data for IP Addresses. 
       
     ![image 1-Dec-21-2023-07-19-14-8660-AM](./images-GreenSnow/GreenSnow-1.webp)  
       

@@ -12,7 +12,7 @@ We are happy to introduce new features and enhancements to improve your experien
       
     **Swiftly mark multiple cases are closed**  
       
-    Users can select and close multiple cases at once, streamlining case management and improving efficiency. [Know More](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/manage-cases-2/).  
+    Users can select and close multiple cases at once, streamlining case management and improving efficiency. [Know More](/docs/documents/Security-Monitoring/Case-Management/case-management-overview.md).  
     
 
 <figure>
@@ -35,7 +35,8 @@ Users can now manage and monitor cases more effectively with the introduction of
 
 - **On Hold**: This status is used for cases that are temporarily paused due to dependencies, lack of information, or other reasons. It ensures that paused cases are not forgotten and can be revisited when conditions are favourable.
 
-By utilizing these statuses, teams can prioritize tasks more effectively, avoid unnecessary duplication of effort, and maintain an organized approach to incident management. The enhanced tracking capabilities also contribute to improved response times, better resource allocation, and overall operational efficiency. [Know More.](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/case-lifecycle-2/)
+By utilizing these statuses, teams can prioritize tasks more effectively, avoid unnecessary duplication of effort, and maintain an organized approach to incident management. The enhanced tracking capabilities also contribute to improved response times, better resource allocation, and overall operational efficiency. [Know More.](/docs/documents/Security-Monitoring/Case-Management/case-lifecycle.md)
+
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hXnuY_sbdjM?si=XBONddXKpNS_hyXH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -50,7 +51,8 @@ By utilizing these statuses, teams can prioritize tasks more effectively, avoid 
 </figure>
 
 ### **Focused Analysis: Date range filters for case listing page** 
-Users can now streamline their case search process with the newly introduced Date Time filter, allowing them to narrow down cases to a specific timeframe. This feature makes it easier to locate and analyze relevant cases without sifting through unnecessary data. Additionally, the statistics panel on the case listing page dynamically updates based on the filters applied, providing an accurate and focused summary of case distribution by severity, status, and other key metrics. [Know More](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/search-and-filter-cases-2/)
+Users can now streamline their case search process with the newly introduced Date Time filter, allowing them to narrow down cases to a specific timeframe. This feature makes it easier to locate and analyze relevant cases without sifting through unnecessary data. Additionally, the statistics panel on the case listing page dynamically updates based on the filters applied, providing an accurate and focused summary of case distribution by severity, status, and other key metrics. [Know More](/docs/documents/Security-Monitoring/Case-Management/search-and-filter-cases-2.md)
+
 
 **Note:** By default, the case listing page will now display cases created in the last 24 hours.
 
@@ -68,7 +70,7 @@ Users can now streamline their case search process with the newly introduced Dat
 
 ### **Enhanced case list export with filters and metrics**
 
-The exported case list now includes filter criteria, ensuring the report accurately reflects the selected subset of cases. Additionally, key performance metrics like MTTA (Mean Time to Acknowledge) and MTTR (Mean Time to Resolve) are included, providing valuable insights into response and resolution times. This added context allows teams to analyze case trends, evaluate performance metrics, and make informed decisions more effectively. [Know More](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/export-case-data/#caselistexport)
+The exported case list now includes filter criteria, ensuring the report accurately reflects the selected subset of cases. Additionally, key performance metrics like MTTA (Mean Time to Acknowledge) and MTTR (Mean Time to Resolve) are included, providing valuable insights into response and resolution times. This added context allows teams to analyze case trends, evaluate performance metrics, and make informed decisions more effectively. [Know More](/docs/documents/Security-Monitoring/Case-Management/export-case-data.md)
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hQqwdwCFvU?si=QzrBP6NlvrTVhpU5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -84,7 +86,7 @@ The exported case list now includes filter criteria, ensuring the report accurat
 
 ## **Exporting case details**  
   
-Users can now export case data, including associated case notes, for up to 50 selected cases in CSV format. This feature allows for easy sharing and analysis of case details outside the platform. By exporting the data in a structured CSV format, users can review, archive, or present the information as needed. [Know More](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/export-case-data/#caseexportselected).
+Users can now export case data, including associated case notes, for up to 50 selected cases in CSV format. This feature allows for easy sharing and analysis of case details outside the platform. By exporting the data in a structured CSV format, users can review, archive, or present the information as needed. [Know More](/docs/documents/Security-Monitoring/Case-Management/export-case-data.md)
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lvcl7vvJMVg?si=GiJmnORQ0RIIaMGf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -123,7 +125,8 @@ Users can now export case data, including associated case notes, for up to 50 se
 
 - ### **Streamlined Access: SAML Support for Google Workspace**  
       
-    Users can now seamlessly log into the DNIF console using their Google credentials. [Know More](https://dnif.it/kb/operations/saml-authentication-support/#steps_to_setup_saml_integration_on_google)
+    Users can now seamlessly log into the DNIF console using their Google credentials. [Know More](/docs/documents/User-Management-and-Access-Control/Authentication/SAML-Authentication/saml-authentication-support.md)
+
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BStEwAWzfp4?si=CxC03ndPwVcZMU7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -145,8 +148,7 @@ Users can now export case data, including associated case notes, for up to 50 se
 ## **Enhancements**
 
 - ### **Collection Status page**  
-    Users can now add descriptions to the Collection Status page, allowing them to include additional details and insights about the Source for better context and clarity. [Know More.](https://dnif.it/kb/operations/collection-status/#add_or_edit_description)  
-    
+    Users can now add descriptions to the Collection Status page, allowing them to include additional details and insights about the Source for better context and clarity. [Know More.](/docs/documents/Operations/Collection-Status/collection-status.md)
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tHCNx0-EUE?si=1raP2qk_4zHSuuJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

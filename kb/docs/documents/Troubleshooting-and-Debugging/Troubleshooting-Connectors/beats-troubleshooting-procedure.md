@@ -21,8 +21,8 @@ netstat  -auntp | grep <port>
 ```
 
 1. Checks for Auditbeat:
-    - The version installed is as per the [configuration](https://dnif.it/kb/connectors/supported-connectors/beats/) document.
-    
+    - The version installed is as per the [configuration](/docs/documents/connect-extract-enrich/Connectors/SUPPORTED-CONNECTORS/beats.md) document.
+     
     - The contents of the auditbeat.yml file
     
     - Username and password
@@ -37,7 +37,7 @@ netstat  -auntp | grep <port>
     - Verify if winbeat service is enabled.
 
 5. Checks for Filebeat:
-    - The version installed is as per the [configuration](https://dnif.it/kb/connectors/supported-connectors/beats/) document.
+    - The version installed is as per the [configuration](/docs/documents/connect-extract-enrich/Connectors/SUPPORTED-CONNECTORS/beats.md) document.
     
     - Verify the configuration set in filebeat.yml file.
     
@@ -46,7 +46,7 @@ netstat  -auntp | grep <port>
     - Check the status of the filebeat service.
 
 7. Checks for Metricbeat:
-    - The version installed is as per the [configuration](https://dnif.it/kb/connectors/supported-connectors/beats/) document.
+    - The version installed is as per the [configuration](/docs/documents/connect-extract-enrich/Connectors/SUPPORTED-CONNECTORS/beats.md) document.
     
     - The configuration of metricbeat.yml file
     

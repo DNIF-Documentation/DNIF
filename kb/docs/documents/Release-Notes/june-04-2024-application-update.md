@@ -12,7 +12,7 @@ We are happy to introduce several enhancements, fixes, and updates developed to 
 
 Organization administrators can now configure web session inactivity timeouts, enhancing flexibility and security in user session management. The session inactivity timeout period can range between 30 minutes - 7200 minutes ( 5 days ).
 
-You can read more on the organization management [here](https://dnif.it/kb/user-management-access-control/manage-organization-and-users/edit-organization/).
+You can read more on the organization management [here](/docs/documents/User-Management-and-Access-Control/Users-and-Roles/Manage-Organization-and-users/edit-organization.md).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/reTC0CLYnps?si=MEhFNlJofyJ71oEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
 <!-- https://videopress.com/v/UWbBJAkf?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true -->
 
@@ -20,7 +20,8 @@ You can read more on the organization management [here](https://dnif.it/kb/user
 
 -  **Geo DB Enrichment Support for IPv6**  
     We've expanded our Geo DB enrichment to support IPv6 addresses, providing more comprehensive data for improved insights and analysis.  
-    You can read more on Geo Enrichment [here.](https://dnif.it/kb/operations/geo-enrichment/)
+    You can read more on Geo Enrichment [here.](/docs/documents/connect-extract-enrich/Enrichment/Geo-Enrichment/geo-enrichment.md)
+
 
 - **Cases on Hover Display Exact Time of Case Creation**  
     Hovering over cases now shows their exact creation time, giving users precise information for better workflow management.

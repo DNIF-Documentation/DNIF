@@ -8,8 +8,6 @@ ClickSend is a multi channel business communications platform that offers SMS, M
 
 ## **Configuration**
 
-- In the **[Configuration](https://dnif.it/kb/uncategorized/configuring-automation/) Box**, enter the **Configuration Name** to uniquely identify this configuration.
-
 - Identify the content of [headers and payload](https://developers.clicksend.com/docs/rest/v3/?shell#ClickSend-v3-API-SMS) that you need to provide in the Configuration Box.  
     
 

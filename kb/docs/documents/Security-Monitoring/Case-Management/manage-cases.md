@@ -34,7 +34,7 @@ Managing Cases allows users to effectively handle and update existing Cases to e
         
 
 - **Change the Status of a Case**
-    - Users can update the **status (Open, In-Progress, On-Hold, Close)** of an existing Case within the case details page. [Know more](https://dnif.it/kb/security-monitoring/case-management-security-monitoring/case-lifecycle-2/) about the DNIF Case lifecycle.  
+    - Users can update the **status (Open, In-Progress, On-Hold, Close)** of an existing Case within the case details page. [Know more](/docs/documents/Security-Monitoring/Case-Management/case-lifecycle.md) about the DNIF Case lifecycle.  
           
           
         ![](./Manage-Cases-img/Manage-Cases-4.webp)  

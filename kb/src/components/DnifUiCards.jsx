@@ -23,4 +23,4 @@ const DnifUiCards = () => {
   );
 };
 
-export default DnifUiCards;
+export default DnifUiCards; 

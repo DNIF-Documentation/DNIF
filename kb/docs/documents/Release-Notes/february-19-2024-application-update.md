@@ -24,9 +24,10 @@ We are excited to announce new feature updates on our DNIF Console. Explore the 
 
 - This reduces workbook development time and facilitates ease of change of content. Also, reusable workbooks are more reliable as the content is already tested.
 
-- Use the Call block for scenarios where data is not modified e.g. for calling Notification workbooks. [Know more](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-call-block/).
+- Use the Call block for scenarios where data is not modified e.g. for calling Notification workbooks. [Know more](/docs/documents/Hunting-with-Workbooks/Getting-Started/create-a-call-block.md).
 
-- Use the Return block for seamless incorporation of changes back into the calling workbook e.g. for calling Enrichment workbooks. [Know more](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-return-block/) 
+- Use the Return block for seamless incorporation of changes back into the calling workbook e.g. for calling Enrichment workbooks. [Know more](/docs/documents/Hunting-with-Workbooks/Getting-Started/create-a-return-block.md)
+
 
 ## **EFFORTLESSLY SEND NOTIFICATIONS: INTRODUCING NOTIFICATION BLOCKS IN WORKBOOK** 
 
@@ -36,7 +37,7 @@ We are excited to announce new feature updates on our DNIF Console. Explore the 
 
 - Users can create Notification blocks as a mechanism for essential communication.
 
-- Notification blocks can integrate seamlessly with other blocks in a workbook. These can also be reused across workbooks using the Call block functionality. [Know more.](https://dnif.it/kb/hunting-with-workbooks/getting-started-hunting-with-workbooks/create-a-notification-block/)
+- Notification blocks can integrate seamlessly with other blocks in a workbook. These can also be reused across workbooks using the Call block functionality. [Know more.](/docs/documents/Hunting-with-Workbooks/Getting-Started/create-a-notification-block.md)
 
 - The future releases will see integration with other platforms such as Slack, Jira, etc. 
 

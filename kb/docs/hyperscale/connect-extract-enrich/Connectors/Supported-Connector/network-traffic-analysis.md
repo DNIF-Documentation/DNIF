@@ -33,7 +33,8 @@ NTA by itself does not pull logs from any other host systems, it ingests the log
 
 The following are the configurations to fetch Network Traffic logs on DNIF.‌
 
-1. Follow the initial configuration steps in [Connector Configurations](https://dnif.it/kb/connectors/how-to-configure-connectors/)  
+1. Follow the initial configuration steps in [Connector Configurations](/docs/hyperscale/connect-extract-enrich/Connectors/How-to-Configure-Connectors/how-to-configure-connectors.md)
+
       
     ![image 1-Nov-16-2023-09-44-10-5159-AM](./Network-Traffic-img/Network-Traffic-1.webp)  
       
@@ -44,4 +45,4 @@ The following are the configurations to fetch Network Traffic logs on DNIF.‌
 
 5. Enter the above details and click **Save**.
 
-Once the connector is configured, validate if the connector is listed under **[Collection Status](https://dnif.it/kb/operations/collection-status/)** screen with status as **Active**. This signifies the connector is configured successfully and data is ready to ingest.
+
