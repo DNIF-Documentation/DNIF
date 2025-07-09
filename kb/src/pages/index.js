@@ -28,7 +28,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   const cardData = [
-    { title: "Welcome to DNIF", Svg: WelcomeSvg, link: "docs/documents/Welcome-to-DNIF" },
+    { title: "Welcome to DNIF", Svg: WelcomeSvg, link: "docs/get-started" },
     { title: "Connect, Extract, and Enrich", Svg: CEE, animation: "pulse", link: "docs/documents/connect-extract-enrich/Intro_Connectors_extract_enrich" },
     { title: "Hunting with Workbooks", Svg: Huntingwithworkbbok, link: "docs/documents/Hunting-with-Workbooks/GETTING-STARTED/your-first-find-with-the-hypercloud" },
     { title: "DNIF Query Language", Svg: DQL, link: "docs/documents/DNIF-Query-Language/DQL_Intro" },

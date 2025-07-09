@@ -19,7 +19,7 @@ DNIF is a cloud-native cybersecurity analytics platform that combines SIEM, User
 ##  Get Started with DNIF
 
 - 🔗 [Quick Start Guide](/docs/documents/Welcome-to-DNIF/Quick-Start-Guide/quick-start-guide.md)
-  Sign up for DNIF HYPERSCALE and get started in minutes with our step-by-step guide.
+  Sign up for DNIF HYPERCLOUD and get started in minutes with our step-by-step guide.
 
 - 🔗 [Platform Overview](/docs/documents/Dnif-Query-Language/Overview/overview.md)
  Learn about DNIF's key features, architecture, and how it can transform your security operations.
