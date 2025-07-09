@@ -1,10 +1,11 @@
 ---
+slug: /get-started
 title: Welcome to DNIF
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Welcome to DNIF HYPERCLOUD
+# Welcome to DNIF HYPERSCALE
 
 DNIF is a cloud-native cybersecurity analytics platform that combines SIEM, User Analytics, and Automation to help you discover threat campaigns and reduce analyst overhead. Our platform provides:
 
@@ -13,25 +14,18 @@ DNIF is a cloud-native cybersecurity analytics platform that combines SIEM, User
 - Advanced threat detection powered by cognitive machine learning and graph analytics
 - Seamless integration with 100+ enterprise security tools and cloud services
 
-## Get Started with DNIF
+---
 
-<div style={{ display: 'flex', flexWrap: 'wrap', gap: '24px', justifyContent: 'space-between', marginBottom: '48px' }}>
+##  Get Started with DNIF
 
-<div style={{ flex: '1 1 45%', border: '1px solid #eee', padding: '24px', borderRadius: '12px', backgroundColor: '#f8f9fa' }}>
-  <a href="https://dnif.it/kb/getting-started/quick-start-guide/" style={{ textDecoration: 'none' }}>
-    <h2 style={{ color: '#1a73e8' }}>Quick Start Guide</h2>
-    <p>Sign up for DNIF HYPERCLOUD and get started in minutes with our step-by-step guide.</p>
-  </a>
-</div>
+- 🔗 [Quick Start Guide](/docs/documents/Welcome-to-DNIF/Quick-Start-Guide/quick-start-guide.md)
+  Sign up for DNIF HYPERSCALE and get started in minutes with our step-by-step guide.
 
-<div style={{ flex: '1 1 45%', border: '1px solid #eee', padding: '24px', borderRadius: '12px', backgroundColor: '#f8f9fa' }}>
-  <a href="https://dnif.it/kb/dnif-query-language-dql-language/overview/overview/" style={{ textDecoration: 'none' }}>
-    <h2 style={{ color: '#1a73e8' }}>Platform Overview</h2>
-    <p>Learn about DNIF's key features, architecture, and how it can transform your security operations.</p>
-  </a>
-</div>
+- 🔗 [Platform Overview](/docs/documents/Dnif-Query-Language/Overview/overview.md)
+ Learn about DNIF's key features, architecture, and how it can transform your security operations.
 
-</div>
+---
+
 
 ## Core Capabilities
 
@@ -66,35 +60,18 @@ DNIF is a cloud-native cybersecurity analytics platform that combines SIEM, User
 
 </div>
 
-## Essential Resources
+---
 
-<div style={{ flex: '1 1 30%', border: '1px solid #eee', padding: '16px', borderRadius: '8px', textAlign: 'center' }}>
-  <a href="https://dnif.it/kb/device-integration/palo-alto-device-integration/">
-    <h2>Integrations</h2>
-  </a>
-  <p>Connect DNIF with your security tools and cloud services.</p>
-</div>
+##  Essential Resources
 
-<div style={{ flex: '1 1 30%', border: '1px solid #eee', padding: '16px', borderRadius: '8px', textAlign: 'center' }}>
-  <a href="https://dnif.it/kb/getting-started/quick-start-guide/">
-    <h2>System Requirements</h2>
-  </a>
-  <p>Technical prerequisites and supported environments.</p>
-</div>
+- 🔗 [Integrations](/docs/documents/connect-extract-enrich/Device-Integration/palo-alto-device-integration.md)
+Connect DNIF with your security tools and cloud services.
 
-<div style={{ flex: '1 1 30%', border: '1px solid #eee', padding: '16px', borderRadius: '8px', textAlign: 'center' }}>
-  <a href="https://dnif.it/kb/user-management-access-control/dnif-entities/">
-    <h2>Account Settings</h2>
-  </a>
-  <p>Manage your account preferences and credentials.</p>
-</div>
+- 🔗 [System Requirements](/docs/documents/Welcome-to-DNIF/Quick-Start-Guide/quick-start-guide.md)
+   Technical prerequisites and supported environments.
 
+- 🔗 [Account Settings](/docs/documents/User-Management-and-Access-Control/Users-and-Roles/DNIF-Entities/dnif-entities.md)
+Manage your account preferences and credentials.
 
-<div style={{ flex: '1 1 30%', border: '1px solid #eee', padding: '16px', borderRadius: '8px', textAlign: 'center' }}>
-  <a href="https://dnif.it/kb/policies/the-dnif-hyperscale-lifecycle-and-release-cadence/">
-    <h2>Policies</h2>
-  </a>
-  <p>Review lifecycle practices and threat content updates.</p>
-</div>
-
-
+- 🔗 [Policies](/docs/documents/Policies/the-dnif-hyperscale-lifecycle-and-release-cadence.md)
+Review lifecycle practices and threat content updates.

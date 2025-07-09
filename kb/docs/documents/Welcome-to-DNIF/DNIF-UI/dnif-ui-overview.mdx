@@ -5,54 +5,39 @@ title: DNIF UI Overview
 
 import styles from '@site/src/components/DnifUiCards.module.css';
 
+
 # Explore the DNIF UI
 
-DNIF offers a modern, intuitive user interface designed to help analysts, engineers, and SOC teams seamlessly monitor, detect, and respond to threats. Below is an overview of the key modules in the UI.
+DNIF offers a modern, intuitive user interface designed to help analysts, engineers, and SOC teams seamlessly monitor, detect, and respond to threats. Below is an overview of the key modules in the UI:
 
-<div className={styles.cardGrid}>
+---
 
-<div className={styles.card}>
-  <h3>Dashboard</h3>
-  <p>Visual summary of key metrics like event volume, active threats, and system health. Highly customizable with widgets.</p>
-  <a href="/docs/documents/Operations/Manage-Dashboard/create-a-dashboard.md">Learn more →</a>
-</div>
+### 🔹 [Dashboard](/docs/documents/Operations/Manage-Dashboard/create-a-dashboard.md)
 
-<div className={styles.card}>
-  <h3>Event Stream</h3>
-  <p>Live log ingestion view with filters by device, tags, anomaly score, and detection context. Enables quick pivoting.</p>
-  <a href="/docs/documents/Operations/Event-Stores/event-stores">View in action →</a>
-</div>
+Visual summary of key metrics like event volume, active threats, and system health. Highly customizable with widgets.
 
-<div className={styles.card}>
-  <h3>Investigations</h3>
-  <p>Timeline-based investigation with linked entities and evidence graph. SOCs can easily document findings.</p>
-  <a href="/docs/documents/Security-Monitoring/Investigating-Signals/what-are-signals.md">Start Investigating →</a>
-</div>
+---
 
+### 🔹 [Event Stream](/docs/documents/Operations/Event-Stores/event-stores.md)
 
+Live log ingestion view with filters by device, tags, anomaly score, and detection context. Enables quick pivoting.
 
-<div className={styles.card}>
-  <h3>Queries & Pipelines</h3>
-  <p>Run UDM queries, schedule reports, and automate logic flows using drag-drop pipelines.</p>
-  <a href="/docs/documents/Dnif-Query-Language/Query-multiple-streams/query-multiple-streams.md">Explore Pipelines →</a>
-</div>
+---
 
+### 🔹 [Investigations](/docs/documents/Security-Monitoring/Investigating-Signals/what-are-signals.md)
 
-<div className={styles.card}>
-  <h3>Configuration</h3>
-  <p>Manage user roles, data sources, alerting rules, and system settings. Role-based access control included.</p>
-  <a href="/docs/documents/User-Management-and-Access-Control/Users-and-Roles/Manage-Organization-and-users/password-policy.md">Learn more →</a>
-</div>
+Timeline-based investigation with linked entities and evidence graph. SOCs can easily document findings.
 
-</div>
+---
 
+### 🔹 [Queries & Pipelines](/docs/documents/Dnif-Query-Language/Query-multiple-streams/query-multiple-streams.md)
 
+Run UDM queries, schedule reports, and automate logic flows using drag-drop pipelines.
 
-## Explore Key UI Modules
-<DnifUiCards />
+---
 
-import DnifIntroBox from '@site/src/components/DnifIntroBox';
-import DnifUiCards from '@site/src/components/DnifUiCards';
+### 🔹 [Configuration](/docs/documents/User-Management-and-Access-Control/Users-and-Roles/Manage-Organization-and-users/password-policy.md)
 
-<DnifIntroBox />
+Manage user roles, data sources, alerting rules, and system settings. Role-based access control included.
 
+---
