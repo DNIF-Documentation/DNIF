@@ -5,7 +5,7 @@ title: Welcome to DNIF
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Welcome to DNIF HYPERSCALE
+# Welcome to DNIF HYPERCLOUD
 
 DNIF is a cloud-native cybersecurity analytics platform that combines SIEM, User Analytics, and Automation to help you discover threat campaigns and reduce analyst overhead. Our platform provides:
 
