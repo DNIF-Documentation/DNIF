@@ -1,5 +1,5 @@
 ---
-slug: /get-started
+slug: /documents/get-started
 title: Welcome to DNIF
 ---
 

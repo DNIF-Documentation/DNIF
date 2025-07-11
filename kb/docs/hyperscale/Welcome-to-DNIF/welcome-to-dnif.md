@@ -1,5 +1,5 @@
 ---
-slug: /get-started
+slug: /hyperscale/get-started
 title: Welcome to DNIF
 ---
 
